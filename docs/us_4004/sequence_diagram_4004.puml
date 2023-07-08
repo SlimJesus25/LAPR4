@@ -1,0 +1,40 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+actor User as user
+participant ListMeetingParticipantsUI as ui <<presentation>>
+participant ListUserMeetingsService as svc <<application>>
+participant ListMeetingParticipantsController as ctrl <<application>>
+database MeetingParticipation as repo <<persistence>>
+
+activate user
+user -> ui : asks to view a list of participants in a meeting that he owns/participates
+activate ui
+ui -> svc : List<MeetingDTO> userMeetings = listUserMeetings()
+activate svc
+note right
+the user is obtained through session
+end note
+svc -> repo : List<Meeting> userMeetings = listAllMeetingsByUser(user)
+activate repo
+repo --> svc
+deactivate repo
+svc --> ui
+deactivate svc
+ui --> user : presents all the user meetings and asks to select one
+deactivate ui
+user -> ui : selects one meeting
+activate ui
+ui -> ctrl : List<MeetingParticipationDTO> meetingParticipants = listMeetingParticipants(meetingID)
+activate ctrl
+ctrl -> repo : listMeetingParticipants(meetingID)
+activate repo
+repo --> ctrl
+deactivate repo
+ctrl --> ui
+deactivate ctrl
+ui --> user : presents meeting participants and their respective status (accept, reject or no answer)
+deactivate ui
+deactivate user
+
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+class TakeExamUI{}
+class GetCoursesExamsService{}
+class ExportExamService{}
+class ImportExamService{}
+class Exam{}
+class CourseEnrollment{}
+class Student{}
+TakeExamUI--> GetCoursesExamsService : uses
+TakeExamUI--> ExportExamService : uses
+TakeExamUI--> ImportExamService : uses
+GetCoursesExamsService--> Exam : uses
+GetCoursesExamsService--> CourseEnrollment : uses
+GetCoursesExamsService--> Student : uses
+
+@enduml

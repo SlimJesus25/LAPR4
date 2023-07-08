@@ -1,0 +1,33 @@
+@startuml
+title  Get and Show Teacher Schedule
+autonumber
+actor Student as S
+participant "CreateLectureUI" as UI <<presentation>>
+participant "ListTeacherAppliedCoursesService" as ListTeacherCourses <<application>>
+participant "GetTeacherScheduleService" as GetSchedule <<application>>
+participant "TeacherAvailableWeekDaysService" as TeacherAvailableWeekDays <<application>>
+participant "ListTeacherAvailableWeekDaysService" as ListAvailableWeekDays <<domain>>
+database "TeacherRepository" as TeacherRepo <<persistence>>
+database "TeamElementRepository" as TeamElemRepo <<persistence>>
+database "LectureRepository" as LectureRepo <<persistence>>
+S -> UI : wishes to create lecture
+UI -> ListTeacherCourses : get teacher's courses
+ListTeacherCourses -> TeacherRepo : get logged teacher
+TeacherRepo -> ListTeacherCourses : return teacher
+ListTeacherCourses -> TeamElemRepo : get logged teacher's courses
+TeamElemRepo -> ListTeacherCourses : return teacher's courses
+ListTeacherCourses -> UI : return teacher's courses
+UI-> S : asks for course of lecture
+S -> UI : selects course
+UI -> GetSchedule : get teacher's lectures
+GetSchedule -> TeacherRepo : get logged teacher
+TeacherRepo -> GetSchedule : return teacher
+GetSchedule -> LectureRepo : get logged teacher's lectures
+LectureRepo -> GetSchedule : return teacher's lectures
+GetSchedule -> UI : return teacher's lectures
+UI->TeacherAvailableWeekDays : get teacher's weekdays which he is available
+TeacherAvailableWeekDays->ListAvailableWeekDays : get teacher's weekdays which he is available
+ListAvailableWeekDays->TeacherAvailableWeekDays : return teacher's available weekdays
+TeacherAvailableWeekDays->UI : return teacher's available weekdays
+UI->S : shows schedule
+@enduml

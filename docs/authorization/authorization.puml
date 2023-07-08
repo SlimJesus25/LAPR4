@@ -1,0 +1,18 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+participant Controller as ctrl <<controller>>
+participant AuthorizationService as authz <<service>>
+
+autonumber
+
+ctrl -> authz : ensureAuthenticatedUserHasAnyOf(ADMINISTRATOR, POWER_USER)
+alt user has insufficient privileges
+    authz -> ctrl : Insufficient Privileges
+else user has sufficient privileges
+    authz -> ctrl : Sufficient Privileges
+end
+
+deactivate ctrl
+
+@enduml

@@ -1,0 +1,77 @@
+@startuml
+
+actor User as user
+participant ArchiveBoardUI as ui <<presentation>>
+participant ListOwnedSharedBoardsService as service1 <<application>>
+participant SendRequestService as service2 <<application>>
+participant SendArchiveSharedBoardRequestService as service3 <<application>>
+participant Server as server <<server>>
+participant ArchiveBoardController as ctrl <<application>>
+participant ArchiveBoardService as svc <<service>>
+participant SharedBoard as board <<domain>>
+database SharedBoardRepository as repo <<persistence>>
+
+activate user
+user -> ui : asks to archive a board he/she owns
+activate ui
+ui -> service1 : List<SharedBoardDTO> ownedSharedBoards = listOwnedAndActiveSharedBoards()
+activate service1
+note right
+the user is obtained through session
+end note
+service1 -> repo : List<SharedBoard> ownedSharedBoards = listOwnedAndActiveSharedBoards(user)
+activate repo
+repo --> service1 :
+deactivate repo
+service1 --> ui :
+deactivate service1
+ui --> user : asks to select one shared board to archive
+deactivate ui
+user -> ui : selects one shared board
+activate ui
+ui -> service2 : String feedback = sendArchiveBoardRequest(sharedBoardTitle)
+activate service2
+service2 -> server : establishes TCP connection
+activate server
+server --> service2 : accepts the request
+deactivate server
+service2 -> service3 : sendServerArchiveBoardRequest(sharedBoardTitle, username, socketIn, socketOut)
+activate service3
+service3 -> server : sends related shared-board data
+
+activate server
+server -> server : creats a new thread to attend the client request
+server -> ctrl : String feedback = archiveBoard(sharedBoardTitle, username)
+activate ctrl
+ctrl -> svc : String feedback = archiveSharedBoard(sharedBoardTitle, username)
+activate svc
+svc -> repo : SharedBoard theSharedBoard = findSharedBoardByTitle(sharedBoardTitle)
+activate repo
+repo --> svc
+deactivate repo
+
+alt user isn't the owner of the board
+svc --> ctrl : throws IllegalArgumentException and aborts the process
+end alt
+svc -> board : archiveBoard() (throws IllegalArgumentException if already archived)
+activate board
+board --> svc
+deactivate board
+svc -> repo : theSharedBoard = save(sharedBoard)
+activate repo
+repo --> svc
+deactivate repo
+svc --> ctrl
+deactivate svc
+ctrl --> server
+deactivate ctrl
+server --> service3 : answers with the operation success and respective message
+deactivate server
+service3 --> service2
+deactivate svc
+service2 --> ui
+deactivate ctrl
+ui --> user : shows the success of the operation
+deactivate ui
+deactivate user
+@enduml

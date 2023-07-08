@@ -1,0 +1,60 @@
+@startuml
+
+class MakeCourseEnrollmentApplicationUI{
+}
+
+class OpenEnrollmentCoursesAvailableToEnrollStudentSessionService{
+    + allOpenEnrollmentCoursesAvailableToEnrollStudentSessionService(Optional<UserSession> session)
+}
+
+class ListOpenEnrollmentCoursesAvailableToEnrollStudentSessionService{
+    + findCourseByCourseCode(String courseCode)
+    + allOpenEnrollmentCoursesAvailableToEnrollStudentSessionService(Optional<UserSession> user)
+    + findStudentByUsername(Username userName)
+    + allOpenEnrollmentCourses()
+}
+class FindStudentByUsernameService{
+    + findStudentByUsername(Username userName)
+}
+class FindCourseByCourseCodeService{
+    + findCourseByCourseCode(String courseCode)
+}
+class CreateCourseEnrollmentController{
+    + createCourseEnrollment(CourseDTO selectedCourse, Optional<UserSession> session, StudentEnrollmentState studentEnrollmentState) {
+    + createCourseEnrollment(Course course, Student student, CourseEnrollmentDate courseEnrollmentDate,StudentEnrollmentState studentEnrollmentState)
+}
+class CourseEnrollmentBuilder{
+    + buildOrThrow()
+    + build()
+    + withStudent(Student student)
+    + withCourse(Course course)
+    + withCourseEnrollmentState(StudentEnrollmentState studentEnrollmentState)
+    + withCourseEnrollmentDate(LocalDate courseEnrollmentDate)
+}
+class CourseEnrollment{
+    + CourseEnrollment(LocalDate courseEnrollmentDate, StudentEnrollmentState studentEnrollmentState,
+}
+class StudentRepository{
++ findStudentByUsername(Username userName)
+
+}
+class CourseRepository{
++ findCourseByCourseCode(String courseCode)
+
+}
+class CourseEnrollmentRepository{
++ checkIfStudentEnrolledInCourse(Course course, Student student)
+}
+MakeCourseEnrollmentApplicationUI--> OpenEnrollmentCoursesAvailableToEnrollStudentSessionService : uses
+OpenEnrollmentCoursesAvailableToEnrollStudentSessionService--> ListOpenEnrollmentCoursesAvailableToEnrollStudentSessionService : uses
+ListOpenEnrollmentCoursesAvailableToEnrollStudentSessionService--> CourseEnrollmentRepository : uses
+ListOpenEnrollmentCoursesAvailableToEnrollStudentSessionService--> CourseRepository : uses
+ListOpenEnrollmentCoursesAvailableToEnrollStudentSessionService--> StudentRepository : uses
+CreateCourseEnrollmentController--> CourseEnrollmentBuilder : uses
+CourseEnrollmentBuilder--> CourseEnrollment : uses
+CreateCourseEnrollmentController--> CourseEnrollmentRepository : uses
+CreateCourseEnrollmentController--> FindStudentByUsernameService : uses
+CreateCourseEnrollmentController--> FindCourseByCourseCodeService : uses
+MakeCourseEnrollmentApplicationUI--> CreateCourseEnrollmentController : uses
+
+@enduml

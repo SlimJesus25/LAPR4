@@ -1,0 +1,37 @@
+@startuml
+
+
+package "<<agr Exam>>"{
+    class Exam  <<entity>><<root>> {}
+    class ExamTitle <<vo>>{}
+    class ExamHeader <<entity>>{}
+    class ExamHeaderTextualDescription <<vo>>{}
+    class ExamSection <<entity>>{}
+    class ExamSectionTextualDescription <<vo>>{}
+    class ExamQuestion <<entity>>{}
+    class ExamQuestionStatement <<vo>>{}
+    class ExamQuestionNumber <<vo>>{}
+    class ExamQuestionValue <<vo>>{}
+    class ExamQuestionSolution<<vo>>{}
+    class ExamQuestionType <<vo>><<enum>>{}
+
+    Teacher --> "*" Exam : creates
+    Exam --> "1" ExamTitle
+    Exam --> "1" ExamHeader
+    ExamHeader --> "0..1" ExamHeaderTextualDescription
+    Exam --> "*" ExamSection : have
+    ExamSection --> "0..1" ExamSectionTextualDescription
+    ExamQuestion --> "1" ExamQuestionValue
+    ExamQuestion --> "1" ExamQuestionNumber
+    ExamSection --> "*" ExamQuestion : have
+    ExamQuestion --> "1" ExamQuestionSolution
+    ExamQuestion --> "1" ExamQuestionType
+    ExamQuestion --> "1" ExamQuestionStatement
+    Exam --> "1" Course : belongs to
+}
+
+
+
+
+
+@enduml

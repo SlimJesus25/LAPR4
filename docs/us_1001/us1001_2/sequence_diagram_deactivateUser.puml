@@ -1,0 +1,39 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+autonumber
+
+actor Administrator as admin
+
+participant DeactivateUserUI as ui <<presentation>>
+participant DeactivateUserController as du_ctrl <<application>>
+participant AuthorizationService as authz <<service>>
+participant UserManagementService as svc <<service>>
+
+database UserRepository as repo <<persistence>>
+
+admin->ui : asks to deactivate a user
+ui-->admin: shows a list of users
+admin->ui: selects a user to deactivate
+ui->du_ctrl: creates
+activate du_ctrl
+du_ctrl->authz:authorizationService()
+ui->du_ctrl: deactivateUser(user)
+du_ctrl -> authz: ensureAuthenticatedUserHasAnyOf(ADMINISTRATOR, POWER_USER)
+alt user has insufficient privileges
+    authz -> du_ctrl : Insufficient Privileges
+    du_ctrl --> ui : Insufficient Privileges
+    ui --> admin : Insufficient Privileges
+else user has sufficient privileges
+    authz -> du_ctrl : Sufficient Privileges
+end
+
+
+    du_ctrl->svc: deactivateUser(user)
+    activate svc
+    svc->svc: deactivate(Calendars.now())
+    svc -> repo : save(user)
+    svc -> du_ctrl: SystemUser user
+    deactivate svc
+   du_ctrl->ui:SystemUser user
+    ui-->admin: informs about the success of the operation
+@enduml

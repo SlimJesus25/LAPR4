@@ -1,0 +1,48 @@
+@startuml
+
+autonumber
+
+actor Teacher as T
+participant "ListCoursesExamsGradesUI" as UI <<presentation>>
+participant "ListExamsGradesController" as Ctr <<application>>
+participant "ListCoursesService" as CrSer <<application>>
+participant "FormerExamService" as FeSer <<domain>>
+participant "TeacherService" as TSer <<domain>>
+database "CourseRepository" as CourRepo <<persistence>>
+database "TeacherRepository" as TeRepo <<persistence>>
+database "ExamRepository" as ExaRepo <<persistence>>
+
+T -> UI : aks to list grades
+alt List Grades of All Courses
+UI -> Ctr : listAllGrades()
+Ctr -> CrSer : teacherCourses()
+CrSer -> CourRepo : listTeacherCourses()
+CourRepo -> CrSer : returns list of courses of teacher
+CrSer -> Ctr : returns list of courses of teacher
+Ctr -> FeSer : listAllGrades()
+FeSer -> ExaRepo : listAllGrades()
+ExaRepo -> FeSer : returns list of former exams
+FeSer -> Ctr : returns list of former exams
+Ctr -> UI : returns list of former exams
+UI -> T : Shows list of grades
+else List Grades of One Course
+UI -> CrSer : teacherCourses()
+CrSer -> TSer : findTeacherByUserName(username)
+TSer -> TeRepo : findTeacherByUserName(username)
+TeRepo -> TSer : returns teacher
+TSer -> CrSer : returns teacher
+CrSer -> CourRepo : teacherCourses(teacher)
+CourRepo -> CrSer : returns list of courses of teacher
+CrSer -> UI : returns list of courses of teacher
+UI -> T : shows the list of courses of teacher
+T -> UI : says which course to list grades
+UI -> Ctr : listExamsGrades(selectedCourse)
+Ctr -> FeSer : listExamsGrades(course)
+FeSer -> ExaRepo : listFormerExamsOfCourse(course)
+ExaRepo -> FeSer : returns list of former exams
+FeSer -> Ctr : returns list of former exams
+Ctr -> UI : returns list of former exams
+UI -> T : Shows list of grades
+end
+
+@enduml

@@ -1,0 +1,92 @@
+@startuml
+
+actor User as user
+participant ChangePostItUI as ui <<presentation>>
+participant ListWritableSharedBoardsService as svc1 <<application>>
+participant SendRequestService as svc2 <<application>>
+database SharedBoardParticipationRepository as sbp_repo <<persistence>>
+participant Server as server <<server>>
+participant ChangePostItController as change_ctrl <<application>>
+participant PostItChangeService as change_svc <<service>>
+database PostItRepository as repo <<persistence>>
+database SharedBoardRepository as sbrepo <<persistence>>
+participant PostIt as postit <<domain>>
+participant SharedBoard as board <<domain>>
+
+activate user
+user -> ui : asks to change a post-it
+activate ui
+ui -> svc1 : List<SharedBoardDTO> sharedBoards = listWritableSharedBoards()
+activate svc1
+note right
+The user is obtained through session.
+end note
+svc1 -> sbp_repo : List<SharedBoard> sharedBoards = listWritableSharedBoards(user)
+activate sbp_repo
+sbp_repo --> svc1 : List<SharedBoard> sharedBoards
+deactivate sbp_repo
+svc1 --> ui : List<SharedBoardDTO> sharedBoards
+deactivate svc1
+ui --> user : shows writable shared boards and asks to select one
+deactivate ui
+user -> ui : selects one shared board
+activate ui
+ui --> user : asks for a row, column of the post-it
+user -> ui : Input the row and column
+ui --> user : asks if want to change content
+alt want change content
+user -> ui : Input the new content
+end alt
+ui --> user : asks if want to change position
+alt want change content
+user -> ui : Input the new position
+end alt
+
+activate ui
+ui -> svc2 : sendPostItChangeRequest(row,column,row,column,newContent,selectedBoard)
+activate svc2
+svc2 -> server : establishes TCP connection
+activate server
+server --> svc2 : accepts the request
+deactivate server
+
+svc2 -> server : sends post-it data related
+activate server
+server -> server : creats a new thread to attend the client request
+server -> change_ctrl : changePostIt(newRow, newColumn, exRow, exColumn, newContent, sharedBoard)
+activate change_ctrl
+change_ctrl -> change_svc : changePostIt(newRow,newColumn,exRow,exColumn,content,sharedBoard)
+activate change_svc
+alt content!=null
+change_svc -> board : changePostItContent(newRow,newColumn,content)
+activate board
+board -> board : verifyIfCellIsOccupied(row, column)
+board -> postit : changePostItContent(newContent)
+board -> board :   actionStack.push(new BoardAction(Action.CHANGE_POST_IT_CONTENT, row, column, null, null, newContent))
+board -> board :   history.push(new BoardAction(Action.CHANGE_POST_IT_CONTENT, row, column, null, null, newContent)
+deactivate board
+
+end
+alt newRow!=exRow
+change_svc -> board : changePostItPosition(newRow,newColumn,exRow,exColumn)
+activate board
+board -> board : verifyIfCellIsOccupied(oldRow, oldColumn)
+board -> board : verifyIfCellIsOccupied(newRow, newColumn)
+board -> board : clearOldCellPostIt
+board -> board : updateNewPosition
+board -> board :actionStack.push(new BoardAction(Action.CHANGE_POST_IT_PLACE, oldRow, oldColumn, newRow, newColumn, aux.content().content()))
+board -> board : history.push(new BoardAction(Action.CHANGE_POST_IT_PLACE, oldRow, oldColumn, newRow, newColumn,aux.content().content()));
+deactivate board
+end
+change_svc --> change_ctrl
+deactivate change_svc
+change_ctrl --> server : answer with the operation success
+deactivate change_ctrl
+deactivate server
+svc2 --> ui
+deactivate svc2
+ui --> user : shows operation success
+deactivate ui
+deactivate user
+
+@enduml

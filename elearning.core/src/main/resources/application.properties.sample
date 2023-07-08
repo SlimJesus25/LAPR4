@@ -1,0 +1,18 @@
+#####################################################
+##
+## eLearning
+##
+#####################################################
+
+persistence.persistenceUnit=eapli.eLearning
+
+#persistence.repositoryFactory=eapli.elearning.persistence.jpa.JpaRepositoryFactory
+persistence.repositoryFactory=eapli.elearning.persistence.inmemory.InMemoryRepositoryFactory
+row_max=20
+col_max=10
+
+ui.menu.layout=horizontal
+
+HighCaloriesDishLimit=300
+
+UseEventfulControllers=true

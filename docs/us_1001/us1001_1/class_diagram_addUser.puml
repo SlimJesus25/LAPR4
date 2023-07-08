@@ -1,0 +1,65 @@
+@startuml
+
+interface AddUserUI {
+  +requestToAddUser()
+  +showListOfRoles(roles: List<Role>)
+  +getUserInputData(): InputData
+}
+
+class ShowRolesService {
+  -authorizationService: AuthorizationService
+  -userRepository: ELearningUserRepository
+  +showRoles()
+}
+
+class AddUserController {
+  -userService: UserManagementService
+  -authorizationService: AuthorizationService
+  +addUser(inputData: InputData, selectedRoles: List<Role>): SystemUser
+}
+
+interface AuthorizationService {
+  +ensureAuthenticatedUserHasAnyOf(roles: List<Role>)
+}
+
+interface UserManagementService {
+  +registerNewUser(username, password, firstName, lastName, email, roles, createdOn): SystemUser
+}
+
+class ELearningUserRepository {
+  +repositories()
+  +showRoles(): List<Role>
+}
+
+class SystemUser {
+  -username: String
+  -password: String
+  -firstName: String
+  -lastName: String
+  -email: String
+  -roles: List<Role>
+  -createdOn: Date
+  +getUsername(): String
+  +getFirstName(): String
+  +getLastName(): String
+  +getEmail(): String
+  +getRoles(): List<Role>
+  +getCreatedOn(): Date
+}
+
+class Role {
+  -name: String
+  +getName(): String
+}
+
+AddUserUI --> ShowRolesService
+AddUserUI --> AddUserController
+AddUserUI --> SystemUser
+ShowRolesService --> ELearningUserRepository
+AddUserController --> UserManagementService
+AddUserController --> AuthorizationService
+ShowRolesService --> AuthorizationService
+UserManagementService --> SystemUser
+ELearningUserRepository --> SystemUser
+AddUserUI --> Role
+@enduml

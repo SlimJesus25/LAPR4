@@ -1,0 +1,18 @@
+@startuml
+
+class TakeExamUI{}
+class FormerExamValidationService{}
+class VisitorService{}
+class EvaluateExamService{}
+class GetSumExamQuestionValuesService{}
+class ExamQuestionDTO{}
+class CreateFormerExamController{}
+class FormerExam{}
+TakeExamUI --> FormerExamValidationService : uses
+TakeExamUI --> VisitorService : uses
+TakeExamUI --> CreateFormerExamController : uses
+TakeExamUI --> EvaluateExamService : uses
+TakeExamUI --> GetSumExamQuestionValuesService : uses
+CreateFormerExamController --> FormerExam : uses
+EvaluateExamService --> ExamQuestionDTO : uses
+@enduml

@@ -1,0 +1,149 @@
+@startuml
+
+title  Teacher chooses Exam specifications
+autonumber
+
+actor Student as S
+participant "CreateExtraLectureUI" as UI <<presentation>>
+participant "UtilsLectureService" as UtilsLectureSer <<application>>
+participant "UtilsLectureValidationService" as UtilsLectureValSer <<domain>>
+participant "CheckLecturesHourRelatedService" as CheckLecturesSer <<application>>
+participant "LectureInDayAndHourService" as LecturesSer <<domain>>
+participant "GetCourseEnrolledStudentsService" as GetCourseStudents <<application>>
+participant "NonAppliedStudentsExtraClassService" as NonAppApp <<application>>
+participant "NonAppliedStudentsService" as NonAppSer <<domain>>
+participant "FindStudentByMechanographicalNumberService" as FindStud <<application>>
+database "CourseEnrollmentRepository" as CourseEnrollRepo <<persistence>>
+database "StudentRepository" as StudRepo <<persistence>>
+
+activate UI
+UI -> S : asks for extra lecture initial hour
+deactivate UI
+activate S
+S -> UI : chooses extra lecture initial hour
+deactivate S
+activate UI
+UI -> UtilsLectureSer : checks if introduced hour is valid and if its between 7am and 11pm
+deactivate UI
+activate UtilsLectureSer
+UtilsLectureSer -> UtilsLectureValSer : checks if introduced hour is valid and if its between 7am and 11pm
+deactivate UtilsLectureSer
+activate UtilsLectureValSer
+UtilsLectureValSer -> UtilsLectureSer : returns time if valid
+deactivate UtilsLectureValSer
+activate UtilsLectureSer
+UtilsLectureSer -> UI : returns time if valid
+deactivate UtilsLectureSer
+activate UI
+UI -> S : asks for extra lecture final hour
+deactivate UI
+activate S
+S -> UI : chooses extra lecture final hour
+deactivate S
+activate UI
+UI -> UtilsLectureSer : checks if introduced hour is valid and if its between 7am and 11pm
+deactivate UI
+activate UtilsLectureSer
+UtilsLectureSer -> UtilsLectureValSer : checks if introduced hour is valid and if its between 7am and 11pm
+deactivate UtilsLectureSer
+activate UtilsLectureValSer
+UtilsLectureValSer -> UtilsLectureSer : returns time if valid
+deactivate UtilsLectureValSer
+activate UtilsLectureSer
+UtilsLectureSer -> UI : returns time if valid
+deactivate UtilsLectureSer
+activate UI
+UI -> S : asks for extra lecture date
+deactivate UI
+activate S
+S -> UI : chooses extra lecture date
+deactivate S
+activate UI
+UI -> UtilsLectureSer : checks if introduced date is valid
+deactivate UI
+activate UtilsLectureSer
+UtilsLectureSer -> UtilsLectureValSer : checks if introduced date is valid
+deactivate UtilsLectureSer
+activate UtilsLectureValSer
+UtilsLectureValSer -> UtilsLectureSer : returns true if valid
+deactivate UtilsLectureValSer
+activate UtilsLectureSer
+UtilsLectureSer -> UI : returns true if valid
+deactivate UtilsLectureSer
+activate UI
+UI -> CheckLecturesSer : verify if there are lectures that will collide
+deactivate UI
+activate CheckLecturesSer
+CheckLecturesSer -> LecturesSer : verify if there are lectures that will collide
+deactivate CheckLecturesSer
+activate LecturesSer
+LecturesSer -> CheckLecturesSer : returns true if there are lectures that will collide
+deactivate LecturesSer
+activate CheckLecturesSer
+CheckLecturesSer -> UI : returns true if there are lectures that will collide
+deactivate CheckLecturesSer
+activate UI
+UI -> S : asks for extra lecture type
+deactivate UI
+activate S
+S -> UI : chooses extra lecture type
+deactivate S
+activate UI
+UI -> S : asks for extra lecture students
+deactivate UI
+activate S
+S -> UI : chooses extra lecture students
+deactivate S
+activate UI
+UI -> GetCourseStudents :
+deactivate UI
+activate GetCourseStudents
+GetCourseStudents -> CourseEnrollRepo : get students enrolled in course
+deactivate GetCourseStudents
+activate CourseEnrollRepo
+CourseEnrollRepo -> GetCourseStudents : returns students enrolled in course
+deactivate CourseEnrollRepo
+activate GetCourseStudents
+GetCourseStudents -> UI : returns students enrolled in course
+deactivate GetCourseStudents
+activate UI
+UI -> NonAppApp : get students that are applied in the course but not in the extra lecture
+deactivate UI
+activate NonAppApp
+NonAppApp -> NonAppSer : get students that are applied in the course but not in the extra lecture
+deactivate NonAppApp
+activate NonAppSer
+NonAppSer -> NonAppApp : returns students that are applied in the course but not in the extra lecture
+deactivate NonAppSer
+activate NonAppApp
+NonAppApp -> UI : returns students that are applied in the course but not in the extra lecture
+deactivate NonAppApp
+activate UI
+UI -> NonAppApp : checks if introduced number was a valid student number
+deactivate UI
+activate NonAppApp
+NonAppApp -> NonAppSer : checks if introduced number was a valid student number
+deactivate NonAppApp
+activate NonAppSer
+NonAppSer -> NonAppApp : returns true if valid
+deactivate NonAppSer
+activate NonAppApp
+NonAppApp -> UI : returns true if valid
+deactivate NonAppApp
+activate UI
+UI -> FindStud : find student introduced
+deactivate UI
+activate FindStud
+FindStud -> StudRepo : find student introduced
+deactivate FindStud
+activate StudRepo
+StudRepo -> FindStud : returns student introduced
+deactivate StudRepo
+activate FindStud
+FindStud -> UI : returns student introduced
+deactivate FindStud
+
+
+
+
+@enduml

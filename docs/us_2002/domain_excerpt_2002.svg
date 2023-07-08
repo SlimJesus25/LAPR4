@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1279.2px" preserveAspectRatio="none" style="width:1122px;height:1279px;background:#282828;" version="1.1" viewBox="0 0 1122 1279" width="1122px" zoomAndPan="magnify"><defs/><g><!--MD5=[df5f7f76be0a19fa1db0f289a7d91cae]
+cluster <<agr Course>>--><g id="cluster_&lt;&lt;agr Course&gt;&gt;"><path d="M345.3,620.4715 L472.5,620.4715 A2.25,2.25 0 0 1 474,621.9715 L478.2,640.1139 L561.3,640.1139 A1.5,1.5 0 0 1 562.8,641.6139 L562.8,1141.5715 A1.5,1.5 0 0 1 561.3,1143.0715 L345.3,1143.0715 A1.5,1.5 0 0 1 343.8,1141.5715 L343.8,621.9715 A1.5,1.5 0 0 1 345.3,620.4715 " fill="#282828" style="stroke:#33FF33;stroke-width:0.6;"/><line style="stroke:#33FF33;stroke-width:0.6;" x1="343.8" x2="478.2" y1="640.1139" y2="640.1139"/><text fill="#33FF33" font-family="Verdana" font-size="13.2" font-weight="bold" lengthAdjust="spacing" textLength="126.6" x="346.2" y="634.9424">&lt;&lt;agr Course&gt;&gt;</text></g><!--MD5=[7a16ee65e8462556cdd13c1b3ceaccff]
+cluster <<agr Exam>>--><g id="cluster_&lt;&lt;agr Exam&gt;&gt;"><path d="M614.7,459.6715 L731.1,459.6715 A2.25,2.25 0 0 1 732.6,461.1715 L736.8,479.3139 L1116.3,479.3139 A1.5,1.5 0 0 1 1117.8,480.8139 L1117.8,989.1715 A1.5,1.5 0 0 1 1116.3,990.6715 L614.7,990.6715 A1.5,1.5 0 0 1 613.2,989.1715 L613.2,461.1715 A1.5,1.5 0 0 1 614.7,459.6715 " fill="#282828" style="stroke:#33FF33;stroke-width:0.6;"/><line style="stroke:#33FF33;stroke-width:0.6;" x1="613.2" x2="736.8" y1="479.3139" y2="479.3139"/><text fill="#33FF33" font-family="Verdana" font-size="13.2" font-weight="bold" lengthAdjust="spacing" textLength="115.8" x="615.6" y="474.1424">&lt;&lt;agr Exam&gt;&gt;</text></g><!--MD5=[5073b65cfab0f3b6c40e98381a5edf48]
+cluster <<agr Student>>--><g id="cluster_&lt;&lt;agr Student&gt;&gt;"><path d="M8.1,7.2715 L142.5,7.2715 A2.25,2.25 0 0 1 144,8.7715 L148.2,26.9139 L248.1,26.9139 A1.5,1.5 0 0 1 249.6,28.4139 L249.6,404.7715 A1.5,1.5 0 0 1 248.1,406.2715 L8.1,406.2715 A1.5,1.5 0 0 1 6.6,404.7715 L6.6,8.7715 A1.5,1.5 0 0 1 8.1,7.2715 " fill="#282828" style="stroke:#33FF33;stroke-width:0.6;"/><line style="stroke:#33FF33;stroke-width:0.6;" x1="6.6" x2="148.2" y1="26.9139" y2="26.9139"/><text fill="#33FF33" font-family="Verdana" font-size="13.2" font-weight="bold" lengthAdjust="spacing" textLength="133.8" x="9" y="21.7424">&lt;&lt;agr Student&gt;&gt;</text></g><!--MD5=[1e905d04ad9cea22dddcbf20bcceb5c8]
+cluster <<agr CourseEnrollment>>--><g id="cluster_&lt;&lt;agr CourseEnrollment&gt;&gt;"><path d="M137.4,420.6715 L346.8,420.6715 A2.25,2.25 0 0 1 348.3,422.1715 L352.5,440.3139 L431.1,440.3139 A1.5,1.5 0 0 1 432.6,441.8139 L432.6,604.5715 A1.5,1.5 0 0 1 431.1,606.0715 L137.4,606.0715 A1.5,1.5 0 0 1 135.9,604.5715 L135.9,422.1715 A1.5,1.5 0 0 1 137.4,420.6715 " fill="#282828" style="stroke:#33FF33;stroke-width:0.6;"/><line style="stroke:#33FF33;stroke-width:0.6;" x1="135.9" x2="352.5" y1="440.3139" y2="440.3139"/><text fill="#33FF33" font-family="Verdana" font-size="13.2" font-weight="bold" lengthAdjust="spacing" textLength="208.8" x="138.3" y="435.1424">&lt;&lt;agr CourseEnrollment&gt;&gt;</text></g><!--MD5=[4066b0363c5a91ff3b6e03e0428953a9]
+class Course--><g id="elem_Course"><rect codeLine="7" fill="#282828" height="33.7096" id="Course" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="33.6" x="353.4" y="873.6715"/><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="30.6" x="354.9" y="883.9102">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="24" x="358.2" y="892.6605">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="30" x="355.2" y="902.6174">Course</text></g><!--MD5=[ba580110b1777f63e0f1dfe3fcefdac0]
+class Code--><g id="elem_Code"><rect codeLine="8" fill="#282828" height="24.9592" id="Code" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="25.2" x="515.1" y="1108.2715"/><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="18" x="518.7" y="1118.5102">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="21.6" x="516.9" y="1128.467">Code</text></g><!--MD5=[009695af4e54f3bba8a9c60dca3e1c94]
+class Description--><g id="elem_Description"><rect codeLine="9" fill="#282828" height="24.9592" id="Description" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="51" x="502.2" y="993.0715"/><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="18" x="518.7" y="1003.3102">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="47.4" x="504" y="1013.267">Description</text></g><!--MD5=[90111e5cdc788a7ef73a3273c23dcc2b]
+class Title--><g id="elem_Title"><rect codeLine="10" fill="#282828" height="24.9592" id="Title" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="21" x="517.2" y="877.8715"/><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="18" x="518.7" y="888.1102">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="17.4" x="519" y="898.067">Title</text></g><!--MD5=[60d6b92408f98aed8df94d5c6e04aa63]
+class State--><g id="elem_State"><rect codeLine="11" fill="#282828" height="33.7096" id="State" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="31.8" x="511.8" y="754.2715"/><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="18" x="518.7" y="764.5102">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="30.6" x="512.4" y="773.2605">«enum»</text><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="22.8" x="516.3" y="783.2174">State</text></g><!--MD5=[61a83f88cb8b7d3a80bc8c481f3736bf]
+class Teacher--><g id="elem_Teacher"><rect fill="#282828" height="16.2088" id="Teacher" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="36.6" x="509.4" y="647.7715"/><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="33" x="511.2" y="659.2166">Teacher</text></g><!--MD5=[4ec975f1641a34b3290014bf4027a644]
+class Exam--><g id="elem_Exam"><rect codeLine="23" fill="#282828" height="33.7096" id="Exam" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="31.8" x="622.8" y="836.4715"/><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="30.6" x="623.4" y="846.7102">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="24" x="626.7" y="855.4605">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="23.4" x="627" y="865.4174">Exam</text></g><!--MD5=[843aaaa02b88e4ab5d6068ecb7966639]
+class ExamTitle--><g id="elem_ExamTitle"><rect codeLine="24" fill="#282828" height="24.9592" id="ExamTitle" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="44.4" x="717.9" y="955.8715"/><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="18" x="731.1" y="966.1102">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="40.8" x="719.7" y="976.067">ExamTitle</text></g><!--MD5=[b9043650fabe5ed8a44954746e63e426]
+class ExamHeader--><g id="elem_ExamHeader"><rect codeLine="25" fill="#282828" height="24.9592" id="ExamHeader" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="56.4" x="711.9" y="840.6715"/><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="30.6" x="724.8" y="850.9102">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="52.8" x="713.7" y="860.867">ExamHeader</text></g><!--MD5=[9c2d9224e6a5aad957150a20d2b5d02e]
+class ExamHeaderTextualDescription--><g id="elem_ExamHeaderTextualDescription"><rect codeLine="26" fill="#282828" height="24.9592" id="ExamHeaderTextualDescription" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="135" x="826.5" y="945.0715"/><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="18" x="885" y="955.3102">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="131.4" x="828.3" y="965.267">ExamHeaderTextualDescription</text></g><!--MD5=[1c3f90767a77540a1eb0ff215bb23629]
+class ExamSection--><g id="elem_ExamSection"><rect codeLine="27" fill="#282828" height="24.9592" id="ExamSection" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="58.2" x="711" y="725.4715"/><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="30.6" x="724.8" y="735.7102">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="54.6" x="712.8" y="745.667">ExamSection</text></g><!--MD5=[baa7ffa6029a0cf7bd64640b621deb05]
+class ExamSectionTextualDescription--><g id="elem_ExamSectionTextualDescription"><rect codeLine="28" fill="#282828" height="24.9592" id="ExamSectionTextualDescription" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="136.8" x="825.6" y="829.8715"/><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="18" x="885" y="840.1102">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="133.2" x="827.4" y="850.067">ExamSectionTextualDescription</text></g><!--MD5=[b3de511c68cb1ef492574a8c65f0a5f9]
+class ExamQuestion--><g id="elem_ExamQuestion"><rect codeLine="29" fill="#282828" height="24.9592" id="ExamQuestion" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="64.8" x="861.6" y="714.6715"/><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="30.6" x="878.7" y="724.9102">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="61.2" x="863.4" y="734.867">ExamQuestion</text></g><!--MD5=[ffb24d37a69e6444eb6c829ee499790c]
+class ExamQuestionStatement--><g id="elem_ExamQuestionStatement"><rect codeLine="30" fill="#282828" height="24.9592" id="ExamQuestionStatement" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="109.2" x="999" y="955.8715"/><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="18" x="1044.6" y="966.1102">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="105.6" x="1000.8" y="976.067">ExamQuestionStatement</text></g><!--MD5=[7877ac9720807cabdc8fb588d655238a]
+class ExamQuestionNumber--><g id="elem_ExamQuestionNumber"><rect codeLine="31" fill="#282828" height="24.9592" id="ExamQuestionNumber" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="97.8" x="1004.7" y="840.6715"/><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="18" x="1044.6" y="850.9102">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="94.2" x="1006.5" y="860.867">ExamQuestionNumber</text></g><!--MD5=[255945b5dcdc8c3a1fb12b4c948ff035]
+class ExamQuestionValue--><g id="elem_ExamQuestionValue"><rect codeLine="32" fill="#282828" height="24.9592" id="ExamQuestionValue" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="87.6" x="1009.8" y="725.4715"/><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="18" x="1044.6" y="735.7102">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="84" x="1011.6" y="745.667">ExamQuestionValue</text></g><!--MD5=[9a4125d7cf75ab86d10f081cd85a3b90]
+class ExamQuestionSolution--><g id="elem_ExamQuestionSolution"><rect codeLine="33" fill="#282828" height="24.9592" id="ExamQuestionSolution" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="99.6" x="1003.8" y="610.2715"/><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="18" x="1044.6" y="620.5102">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="96" x="1005.6" y="630.467">ExamQuestionSolution</text></g><!--MD5=[bafb4570337233aef9fe15eb97c59d28]
+class ExamQuestionType--><g id="elem_ExamQuestionType"><rect codeLine="34" fill="#282828" height="33.7096" id="ExamQuestionType" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="85.2" x="1011" y="486.6715"/><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="18" x="1044.6" y="496.9102">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="30.6" x="1038.3" y="505.6605">«enum»</text><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="81.6" x="1012.8" y="515.6174">ExamQuestionType</text></g><!--MD5=[d6181cb537bdc20c0a3007a98a56832d]
+class Student--><g id="elem_Student"><rect codeLine="53" fill="#282828" height="33.7096" id="Student" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="37.8" x="16.2" y="252.0715"/><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="30.6" x="19.8" y="262.3102">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="24" x="23.1" y="271.0605">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="34.2" x="18" y="281.0174">Student</text></g><!--MD5=[5243e318521b02aa88a50eadb44ea622]
+class MechanographicalNumber--><g id="elem_MechanographicalNumber"><rect codeLine="54" fill="#282828" height="24.9592" id="MechanographicalNumber" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="110.4" x="129.6" y="371.4715"/><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="18" x="175.8" y="381.7102">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="106.8" x="131.4" y="391.667">MechanographicalNumber</text></g><!--MD5=[97467e26ffde9778fa457b034074f959]
+class StudentTaxPayerNumber--><g id="elem_StudentTaxPayerNumber"><rect codeLine="55" fill="#282828" height="24.9592" id="StudentTaxPayerNumber" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="109.2" x="130.2" y="256.2715"/><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="18" x="175.8" y="266.5102">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="105.6" x="132" y="276.467">StudentTaxPayerNumber</text></g><!--MD5=[29dbd85e324f1fec9ac2bda1d300b741]
+class StudentDateOfBirth--><g id="elem_StudentDateOfBirth"><rect codeLine="56" fill="#282828" height="24.9592" id="StudentDateOfBirth" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="87.6" x="141" y="141.0715"/><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="18" x="175.8" y="151.3102">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="84" x="142.8" y="161.267">StudentDateOfBirth</text></g><!--MD5=[bc064d979c32666ae52f3d7624591b7b]
+class SystemUser--><g id="elem_SystemUser"><rect fill="#282828" height="16.2088" id="SystemUser" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="54.6" x="157.5" y="34.5715"/><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="51" x="159.3" y="46.0166">SystemUser</text></g><!--MD5=[1ec858193921129a990e7c8e50ec2789]
+class CourseEnrollment--><g id="elem_CourseEnrollment"><rect codeLine="66" fill="#282828" height="33.7096" id="CourseEnrollment" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="78.6" x="145.5" y="524.4715"/><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="30.6" x="169.5" y="534.7102">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="24" x="172.8" y="543.4605">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="75" x="147.3" y="553.4174">CourseEnrollment</text></g><!--MD5=[b24fda4217638911158a568453a513c5]
+class StudentEnrollmentState--><g id="elem_StudentEnrollmentState"><rect codeLine="67" fill="#282828" height="33.7096" id="StudentEnrollmentState" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="105.6" x="317.4" y="562.8715"/><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="18" x="361.2" y="573.1102">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="30.6" x="354.9" y="581.8605">«enum»</text><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="102" x="319.2" y="591.8174">StudentEnrollmentState</text></g><!--MD5=[bfdc2b14c2bb60c94f4e80c98c3dc20e]
+class CourseEnrollmentDate--><g id="elem_CourseEnrollmentDate"><rect codeLine="68" fill="#282828" height="24.9592" id="CourseEnrollmentDate" rx="1.5" ry="1.5" style="stroke:#33FF33;stroke-width:0.6;" width="98.4" x="321" y="447.6715"/><text fill="#33FF33" font-family="Verdana" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="18" x="361.2" y="457.9102">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="8.4" lengthAdjust="spacing" textLength="94.8" x="322.8" y="467.867">CourseEnrollmentDate</text></g><!--MD5=[6893f384ff0ef933df1c7749ea824a41]
+link Course to State--><g id="link_Course_State"><path codeLine="13" d="M387.132,879.4735 C409.506,864.2335 450.726,835.5595 484.2,808.8715 C492.714,802.0855 501.804,794.1775 509.418,787.3555 " fill="none" id="Course-to-State" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="511.728,785.2735,506.1087,787.102,509.4981,787.2804,509.3197,790.6698,511.728,785.2735" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="502.2202" y="797.9552">1</text></g><!--MD5=[22fbf65ce2adace958a9a6aab0fc3d5d]
+link Course to Title--><g id="link_Course_Title"><path codeLine="14" d="M387.234,890.4715 C418.398,890.4715 485.532,890.4715 513.954,890.4715 " fill="none" id="Course-to-Title" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="517.062,890.4715,511.662,888.0715,514.062,890.4715,511.662,892.8715,517.062,890.4715" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="507.6172" y="900.0448">1</text></g><!--MD5=[3bb0c3a02b5f89787288109fed45d2b4]
+link Course to Description--><g id="link_Course_Description"><path codeLine="15" d="M387.234,902.5855 C416.202,923.9335 476.232,968.1835 507.384,991.1395 " fill="none" id="Course-to-Description" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="509.94,993.0295,507.0189,987.8927,507.5257,991.2487,504.1696,991.7556,509.94,993.0295" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="498.966" y="986.732">1</text></g><!--MD5=[006a8456a0dc3f5efeb6a338a72ec64d]
+link Course to Code--><g id="link_Course_Code"><path codeLine="16" d="M382.296,907.4155 C411.54,950.5315 488.472,1063.9375 516.606,1105.4035 " fill="none" id="Course-to-Code" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="518.388,1108.0255,517.3389,1102.21,516.7022,1105.5439,513.3684,1104.9073,518.388,1108.0255" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="510.1476" y="1101.8778">1</text></g><!--MD5=[879e79d9b9300cd2bae6192b9cbae86c]
+link Course to Teacher--><g id="link_Course_Teacher"><path codeLine="17" d="M382.038,873.5995 C412.32,828.1495 494.994,704.0575 519.906,666.6715 " fill="none" id="Course-to-Teacher" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="521.598,664.1335,516.6057,667.2953,519.9339,666.6296,520.5995,669.9578,521.598,664.1335" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="40.8" x="442.8" y="723.7134">is ruled by</text><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="5.4" x="513.0623" y="676.6057">*</text></g><!--MD5=[f47f7666d83c05865702f88b2327fd81]
+link Teacher to Exam--><g id="link_Teacher_Exam"><path codeLine="36" d="M535.044,664.0555 C543.288,674.2675 557.4,692.4415 567.6,709.2715 C593.406,751.8475 617.562,805.2235 629.784,833.5255 " fill="none" id="Teacher-to-Exam" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="630.996,836.3515,631.0526,830.4424,629.8039,833.5985,626.6478,832.3498,630.996,836.3515" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="30" x="573" y="718.9134">creates</text><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="5.4" x="623.06" y="830.0174">*</text></g><!--MD5=[c4befa03adfe763a1f9735b81775aba2]
+link Exam to ExamTitle--><g id="link_Exam_ExamTitle"><path codeLine="37" d="M654.084,870.2695 C673.674,892.7935 707.928,932.1715 726.552,953.5855 " fill="none" id="Exam-to-ExamTitle" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="728.52,955.8535,726.7824,950.2054,726.5493,953.5915,723.1632,953.3585,728.52,955.8535" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="719.2639" y="949.3538">1</text></g><!--MD5=[5ea425579540db4306603459313fbf63]
+link Exam to ExamHeader--><g id="link_Exam_ExamHeader"><path codeLine="38" d="M654.738,853.2715 C669.06,853.2715 690.798,853.2715 708.672,853.2715 " fill="none" id="Exam-to-ExamHeader" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="711.732,853.2715,706.332,850.8715,708.732,853.2715,706.332,855.6715,711.732,853.2715" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="702.2207" y="861.8576">1</text></g><!--MD5=[d8e6afc66b8eb26ff4a8e0aec8d6f97d]
+link ExamHeader to ExamHeaderTextualDescription--><g id="link_ExamHeader_ExamHeaderTextualDescription"><path codeLine="39" d="M759.27,865.9675 C787.818,885.4855 842.316,922.7455 872.31,943.2535 " fill="none" id="ExamHeader-to-ExamHeaderTextualDescription" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="874.956,945.0655,871.8458,940.0409,872.4771,943.3757,869.1423,944.007,874.956,945.0655" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="15.6" x="850.7995" y="938.5697">0..1</text></g><!--MD5=[b15455bd3c16c22f377c86ec1812c104]
+link Exam to ExamSection--><g id="link_Exam_ExamSection"><path codeLine="40" d="M654.084,836.2735 C673.674,813.7495 707.928,774.3715 726.552,752.9635 " fill="none" id="Exam-to-ExamSection" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="728.52,750.6955,723.1632,753.1905,726.5493,752.9575,726.7824,756.3436,728.52,750.6955" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="19.2" x="673.2" y="790.9134">have</text><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="5.4" x="719.4608" y="763.0177">*</text></g><!--MD5=[d5a125966cbd88501416f7069ce7d519]
+link ExamSection to ExamSectionTextualDescription--><g id="link_ExamSection_ExamSectionTextualDescription"><path codeLine="41" d="M759.27,750.7675 C787.818,770.2855 842.316,807.5455 872.31,828.0535 " fill="none" id="ExamSection-to-ExamSectionTextualDescription" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="874.956,829.8655,871.8458,824.8409,872.4771,828.1757,869.1423,828.807,874.956,829.8655" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="15.6" x="850.7995" y="823.3697">0..1</text></g><!--MD5=[35b6e0e0d9d4cf8d8023bc95512efbc4]
+link ExamQuestion to ExamQuestionValue--><g id="link_ExamQuestion_ExamQuestionValue"><path codeLine="42" d="M926.466,729.4435 C949.47,731.0155 980.892,733.1575 1006.668,734.9155 " fill="none" id="ExamQuestion-to-ExamQuestionValue" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="1009.782,735.1255,1004.5588,732.3617,1006.789,734.9203,1004.2305,737.1504,1009.782,735.1255" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="1000.2158" y="743.1648">1</text></g><!--MD5=[e74d8c3717d72255cf4fe6eb882dd683]
+link ExamQuestion to ExamQuestionNumber--><g id="link_ExamQuestion_ExamQuestionNumber"><path codeLine="43" d="M910.662,740.0455 C940.326,763.6435 1003.53,813.9175 1034.76,838.7635 " fill="none" id="ExamQuestion-to-ExamQuestionNumber" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="1037.136,840.6535,1034.4045,835.4133,1034.7884,838.7857,1031.416,839.1695,1037.136,840.6535" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="1026.3231" y="834.1538">1</text></g><!--MD5=[071475dfaedcbe295168d081f5f4fbc5]
+link ExamSection to ExamQuestion--><g id="link_ExamSection_ExamQuestion"><path codeLine="44" d="M769.242,736.0555 C794.508,734.2675 831.468,731.6515 858.492,729.7435 " fill="none" id="ExamSection-to-ExamQuestion" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="861.57,729.5215,856.0181,727.4976,858.5771,729.7273,856.3474,732.2863,861.57,729.5215" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="19.2" x="787.8" y="732.1134">have</text><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="5.4" x="851.4494" y="738.3188">*</text></g><!--MD5=[f197c70a31e6994907e73729b49e96c7]
+link ExamQuestion to ExamQuestionSolution--><g id="link_ExamQuestion_ExamQuestionSolution"><path codeLine="45" d="M913.866,714.5755 C943.536,695.0215 1000.236,657.6475 1031.31,637.1695 " fill="none" id="ExamQuestion-to-ExamQuestionSolution" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="1033.872,635.4835,1028.0414,636.4449,1031.3653,637.1317,1030.6786,640.4556,1033.872,635.4835" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="1023.4017" y="647.8026">1</text></g><!--MD5=[08c0c6d873efaebb0b84fee5e9b8e20f]
+link ExamQuestion to ExamQuestionType--><g id="link_ExamQuestion_ExamQuestionType"><path codeLine="46" d="M901.866,714.6655 C918.084,686.8495 958.956,618.4675 999,565.2715 C1010.166,550.4395 1023.96,534.6955 1034.808,522.8095 " fill="none" id="ExamQuestion-to-ExamQuestionType" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="1036.938,520.4815,1031.5224,522.8461,1034.9132,522.6951,1035.0642,526.0858,1036.938,520.4815" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="1027.9682" y="533.0692">1</text></g><!--MD5=[0f270eaf73ed88acaed6482fc06cf1be]
+link ExamQuestion to ExamQuestionStatement--><g id="link_ExamQuestion_ExamQuestionStatement"><path codeLine="47" d="M915.078,739.8715 C930.234,750.2035 950.268,766.1395 962.4,784.8715 C994.098,833.8195 970.128,860.2075 999,910.8715 C1008.414,927.3955 1023.486,942.9295 1035.318,953.6935 " fill="none" id="ExamQuestion-to-ExamQuestionStatement" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="1037.64,955.7815,1035.2317,950.3852,1035.4101,953.7746,1032.0207,953.953,1037.64,955.7815" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="1027.2173" y="949.4693">1</text></g><!--MD5=[7f1d0bf7102f85089487bdb0fa0969e2]
+link Exam to Course--><g id="link_Exam_Course"><path codeLine="48" d="M637.254,870.1195 C633.744,932.3335 618.072,1147.7035 567.6,1188.6715 C461.088,1275.1255 391.734,989.6575 374.826,910.3435 " fill="none" id="Exam-to-Course" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="374.202,907.3915,372.9659,913.1701,374.82,910.3271,377.663,912.1812,374.202,907.3915" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="41.4" x="507" y="1186.9134">belongs to</text><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="369.7524" y="919.9595">1</text></g><!--MD5=[ea95752f0a529f5f12dd427409b2595a]
+link Student to MechanographicalNumber--><g id="link_Student_MechanographicalNumber"><path codeLine="58" d="M54.06,283.1155 C82.458,305.1415 136.746,347.2615 165.408,369.4915 " fill="none" id="Student-to-MechanographicalNumber" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="167.928,371.4535,165.1311,366.248,165.5572,369.6152,162.1899,370.0413,167.928,371.4535" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="156.9851" y="364.9538">1</text></g><!--MD5=[05c64b37fedf4539596262f997c2b231]
+link Student to SystemUser--><g id="link_Student_SystemUser"><path codeLine="59" d="M42.852,251.9275 C56.85,219.7915 89.976,148.5115 129.6,96.0715 C142.158,79.4515 159.87,63.1195 171.678,52.9795 " fill="none" id="Student-to-SystemUser" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="174.252,50.7895,168.5865,52.4692,171.97,52.7369,171.7023,56.1205,174.252,50.7895" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="39.3566" y="245.5875">1</text></g><!--MD5=[8d9f94e67a7ba52540c7724bf93ea242]
+link Student to StudentDateOfBirth--><g id="link_Student_StudentDateOfBirth"><path codeLine="61" d="M54.06,254.6335 C82.458,232.6015 136.746,190.4875 165.408,168.2515 " fill="none" id="Student-to-StudentDateOfBirth" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="167.928,166.2955,162.1874,167.6976,165.554,168.1296,165.122,171.4961,167.928,166.2955" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="158.1896" y="178.6177">1</text></g><!--MD5=[bdb337b8f731444b4aa73ef9c3dc6760]
+link Student to StudentTaxPayerNumber--><g id="link_Student_StudentTaxPayerNumber"><path codeLine="62" d="M54.06,268.8715 C72.252,268.8715 101.076,268.8715 126.978,268.8715 " fill="none" id="Student-to-StudentTaxPayerNumber" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="130.122,268.8715,124.722,266.4715,127.122,268.8715,124.722,271.2715,130.122,268.8715" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="120.5952" y="277.1159">1</text></g><!--MD5=[8c22081c07e3c68362fd395856718c73]
+link CourseEnrollment to Course--><g id="link_CourseEnrollment_Course"><path codeLine="69" d="M194.286,558.1135 C224.982,616.3075 326.484,808.7275 359.28,870.9115 " fill="none" id="CourseEnrollment-to-Course" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="360.696,873.5935,360.2922,867.698,359.2931,870.9417,356.0494,869.9426,360.696,873.5935" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="39" x="259.8" y="682.9134">applied to</text><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="352.9944" y="867.2696">1</text></g><!--MD5=[cb715a54aadbf7d066f6db7a33c5cfea]
+link CourseEnrollment to StudentEnrollmentState--><g id="link_CourseEnrollment_StudentEnrollmentState"><path codeLine="70" d="M224.238,549.3715 C250.416,554.8255 285.336,562.1035 314.388,568.1635 " fill="none" id="CourseEnrollment-to-StudentEnrollmentState" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="317.358,568.7815,312.5586,565.3339,314.4206,568.1717,311.5829,570.0337,317.358,568.7815" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="307.8106" y="576.0901">1</text></g><!--MD5=[8bd9f506ccecfb31a0a536262345d978]
+link CourseEnrollment to CourseEnrollmentDate--><g id="link_CourseEnrollment_CourseEnrollmentDate"><path codeLine="71" d="M223.788,524.3935 C257.67,509.4955 306.45,488.0455 338.082,474.1315 " fill="none" id="CourseEnrollment-to-CourseEnrollmentDate" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="340.902,472.8895,334.9927,472.8706,338.1567,474.0991,336.9282,477.2631,340.902,472.8895" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="327.9794" y="485.2102">1</text></g><!--MD5=[49ba2dad9bf5996785881463a55660d1]
+reverse link Student to CourseEnrollment--><g id="link_Student_CourseEnrollment"><path codeLine="72" d="M42.612,288.7195 C49.314,307.2415 60.18,335.4595 72,358.8715 C103.998,422.2675 150.702,492.5995 172.362,524.2255 " fill="none" id="Student-backto-CourseEnrollment" style="stroke:#33FF33;stroke-width:0.6;"/><polygon fill="#33FF33" points="41.574,285.8335,41.1323,291.7263,42.5841,288.6583,45.652,290.1101,41.574,285.8335" style="stroke:#33FF33;stroke-width:0.6;"/><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="38.4" x="72.6" y="357.1134">applies to</text><text fill="#33FF33" font-family="Verdana" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="37.6652" y="298.4107">1</text></g><!--MD5=[17cd5c138b1b8c7de77f0a0773abf90b]
+@startuml
+!theme crt-green
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+package "<<agr Course>>"{
+    class Course<<entity>><<root>>{}
+    class Code <<vo>>
+    class Description<<vo>>{}
+    class Title<<vo>>{}
+    class State<<vo>><<enum>>{}
+
+    Course  - -> "1" State
+    Course  -down-> "1" Title
+    Course  -down-> "1" Description
+    Course  -down-> "1" Code
+    Course - -> "*" Teacher : is ruled by
+
+
+}
+
+package "<<agr Exam>>"{
+    class Exam  <<entity>><<root>> {}
+    class ExamTitle <<vo>>{}
+    class ExamHeader <<entity>>{}
+    class ExamHeaderTextualDescription <<vo>>{}
+    class ExamSection <<entity>>{}
+    class ExamSectionTextualDescription <<vo>>{}
+    class ExamQuestion <<entity>>{}
+    class ExamQuestionStatement <<vo>>{}
+    class ExamQuestionNumber <<vo>>{}
+    class ExamQuestionValue <<vo>>{}
+    class ExamQuestionSolution<<vo>>{}
+    class ExamQuestionType <<vo>><<enum>>{}
+
+    Teacher - -> "*" Exam : creates
+    Exam - -> "1" ExamTitle
+    Exam - -> "1" ExamHeader
+    ExamHeader - -> "0..1" ExamHeaderTextualDescription
+    Exam - -> "*" ExamSection : have
+    ExamSection - -> "0..1" ExamSectionTextualDescription
+    ExamQuestion - -> "1" ExamQuestionValue
+    ExamQuestion - -> "1" ExamQuestionNumber
+    ExamSection - -> "*" ExamQuestion : have
+    ExamQuestion - -> "1" ExamQuestionSolution
+    ExamQuestion - -> "1" ExamQuestionType
+    ExamQuestion - -> "1" ExamQuestionStatement
+    Exam - -> "1" Course : belongs to
+}
+
+package "<<agr Student>>"{
+
+    class Student<<entity>><<root>>{}
+    class MechanographicalNumber<<vo>>{}
+    class StudentTaxPayerNumber<<vo>>{}
+    class StudentDateOfBirth<<vo>>{}
+
+    Student  - -> "1" MechanographicalNumber
+    Student "1" - -> SystemUser
+    'Student <- - "*" Lecture : participates
+    Student - -> "1" StudentDateOfBirth
+    Student - -> "1" StudentTaxPayerNumber
+}
+
+package "<<agr CourseEnrollment>>"{
+    class CourseEnrollment <<entity>><<root>>{}
+    class StudentEnrollmentState <<vo>><<enum>>{}
+    class CourseEnrollmentDate <<vo>>{}
+    CourseEnrollment - -> "1" Course : applied to
+    CourseEnrollment - -> "1" StudentEnrollmentState
+    CourseEnrollment - -> "1" CourseEnrollmentDate
+    Student "1" <- - CourseEnrollment: applies to
+}
+hide circle
+hide fields
+
+@enduml
+
+@startuml
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor #282828
+    FontColor #33FF33
+    FontName Verdana
+    HyperLinkColor #33FF33
+    LineColor #33FF33
+    LineThickness 1
+    Margin 5
+  }
+  box {
+    LineStyle 12-18
+    LineThickness 3
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  referenceHeader {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor #33FF33
+skinparam BackgroundColor #282828
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy solid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor #33FF33
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor #282828
+  BarColor #33FF33
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor #33FF33
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor #282828
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor #282828
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Header {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color #33FF33
+}
+skinparam IconPackage {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconPrivate {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconProtected {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconPublic {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam Note {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor #33FF33
+}
+skinparam Package {
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor #282828
+  BorderColor #33FF33
+}
+skinparam StereotypeA {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeC {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeE {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeI {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeN {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam UseCaseStereoType {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+package "<<agr Course>>"{
+    class Course<<entity>><<root>>{}
+    class Code <<vo>>
+    class Description<<vo>>{}
+    class Title<<vo>>{}
+    class State<<vo>><<enum>>{}
+
+    Course  - -> "1" State
+    Course  -down-> "1" Title
+    Course  -down-> "1" Description
+    Course  -down-> "1" Code
+    Course - -> "*" Teacher : is ruled by
+
+
+}
+
+package "<<agr Exam>>"{
+    class Exam  <<entity>><<root>> {}
+    class ExamTitle <<vo>>{}
+    class ExamHeader <<entity>>{}
+    class ExamHeaderTextualDescription <<vo>>{}
+    class ExamSection <<entity>>{}
+    class ExamSectionTextualDescription <<vo>>{}
+    class ExamQuestion <<entity>>{}
+    class ExamQuestionStatement <<vo>>{}
+    class ExamQuestionNumber <<vo>>{}
+    class ExamQuestionValue <<vo>>{}
+    class ExamQuestionSolution<<vo>>{}
+    class ExamQuestionType <<vo>><<enum>>{}
+
+    Teacher - -> "*" Exam : creates
+    Exam - -> "1" ExamTitle
+    Exam - -> "1" ExamHeader
+    ExamHeader - -> "0..1" ExamHeaderTextualDescription
+    Exam - -> "*" ExamSection : have
+    ExamSection - -> "0..1" ExamSectionTextualDescription
+    ExamQuestion - -> "1" ExamQuestionValue
+    ExamQuestion - -> "1" ExamQuestionNumber
+    ExamSection - -> "*" ExamQuestion : have
+    ExamQuestion - -> "1" ExamQuestionSolution
+    ExamQuestion - -> "1" ExamQuestionType
+    ExamQuestion - -> "1" ExamQuestionStatement
+    Exam - -> "1" Course : belongs to
+}
+
+package "<<agr Student>>"{
+
+    class Student<<entity>><<root>>{}
+    class MechanographicalNumber<<vo>>{}
+    class StudentTaxPayerNumber<<vo>>{}
+    class StudentDateOfBirth<<vo>>{}
+
+    Student  - -> "1" MechanographicalNumber
+    Student "1" - -> SystemUser
+    Student - -> "1" StudentDateOfBirth
+    Student - -> "1" StudentTaxPayerNumber
+}
+
+package "<<agr CourseEnrollment>>"{
+    class CourseEnrollment <<entity>><<root>>{}
+    class StudentEnrollmentState <<vo>><<enum>>{}
+    class CourseEnrollmentDate <<vo>>{}
+    CourseEnrollment - -> "1" Course : applied to
+    CourseEnrollment - -> "1" StudentEnrollmentState
+    CourseEnrollment - -> "1" CourseEnrollmentDate
+    Student "1" <- - CourseEnrollment: applies to
+}
+hide circle
+hide fields
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 19:12:26 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

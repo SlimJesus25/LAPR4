@@ -1,0 +1,38 @@
+@startuml
+
+class CreateLectureUI {
+
+}
+class ListTeacherAppliedCoursesService {
+    +listTeacherAppliedCourses(Optional<UserSession> user)
+}
+class GetTeacherScheduleService {
+    +getTeacherSchedule(Optional<UserSession> user)
+}
+class TeacherAvailableWeekDaysService {
+    +listTeacherAvailableWeekDays(List<LectureDTO> lectures)
+}
+class ListTeacherAvailableWeekDaysService {
+    +listTeacherAvailableWeekDays(List<LectureDTO> lectures)
+}
+class TeacherRepository {
+    +findTeacherByUsername(Username userName)
+}
+class TeamElementRepository {
+    +findCoursesOfTeacher(Teacher teacher);
+}
+class LectureRepository {
+     +listLecturesByTeacher(String teacherAcronym)
+}
+
+CreateLectureUI --> ListTeacherAppliedCoursesService : uses
+CreateLectureUI --> GetTeacherScheduleService : uses
+CreateLectureUI --> TeacherAvailableWeekDaysService : uses
+TeacherAvailableWeekDaysService --> ListTeacherAvailableWeekDaysService : uses
+ListTeacherAvailableWeekDaysService --> TeacherRepository : uses
+GetTeacherScheduleService --> TeacherRepository : uses
+ListTeacherAvailableWeekDaysService --> TeamElementRepository : uses
+GetTeacherScheduleService --> LectureRepository : uses
+
+
+@enduml

@@ -1,0 +1,94 @@
+@startuml DDD
+
+!theme crt-green
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+package "<<agr Course>>"{
+    class Course<<entity>><<root>>{}
+    class Code <<vo>>
+    class Description<<vo>>{}
+    class Title<<vo>>{}
+    class State<<vo>><<enum>>{}
+
+    Course  --> "1" State
+    Course  -down-> "1" Title
+    Course  -down-> "1" Description
+    Course  -down-> "1" Code
+    Course --> "*" Teacher : is ruled by
+
+
+}
+package "<<agr Student>>"{
+
+    class Student<<entity>><<root>>{}
+    class MechanographicalNumber<<vo>>{}
+    class StudentTaxPayerNumber<<vo>>{}
+    class StudentDateOfBirth<<vo>>{}
+
+    Student --> "1" MechanographicalNumber
+    Student --> "1" SystemUser
+    'Student <-- "*" Lecture : participates
+    Student --> "1" StudentDateOfBirth
+    Student --> "1" StudentTaxPayerNumber
+}
+
+package "<<agr Exam>>"{
+    class Exam  <<entity>><<root>> {}
+    class ExamType <<enum>><<vo>>{}
+    class ExamTitle <<vo>>{}
+    class ExamHeaderTextualDescription <<vo>>{}
+    class ExamInitalDateTime <<vo>> {}
+    class ExamFinalDateTime <<vo>>{}
+
+    Teacher --> "*" Exam : creates
+    Exam --> "1" ExamTitle
+    Exam --> "0..1" ExamHeaderTextualDescription
+    Exam --> "1" Course : belongs to
+    Exam --> "1" ExamType
+    Exam --> "1" ExamInitalDateTime
+    Exam --> "1" ExamFinalDateTime
+
+}
+
+package "<<agr ExamSection>>"{
+    class ExamSection <<entity>><<root>> {}
+    class ExamSectionTextualDescription <<vo>>{}
+
+    ExamSection "*" <-- Exam
+    ExamSection --> "0..1" ExamSectionTextualDescription
+}
+
+package "<<agr ExamQuestion>>"{
+    class ExamQuestion <<entity>><<root>>{}
+    class ExamQuestionStatement <<vo>>{}
+    class ExamQuestionNumber <<vo>>{}
+    class ExamQuestionValue <<vo>>{}
+    class ExamQuestionSolution<<vo>>{}
+    class ExamQuestionType <<vo>><<enum>>{}
+
+    ExamQuestion "*" <-- ExamSection
+    ExamQuestion --> "1" ExamQuestionValue
+    ExamQuestion --> "1" ExamQuestionNumber
+    ExamQuestion --> "1" ExamQuestionSolution
+    ExamQuestion --> "1" ExamQuestionType
+    ExamQuestion --> "1" ExamQuestionStatement
+
+}
+
+package "<<agr FormerExam>>"{
+    class FormerExam<<entity>><<root>>{}
+    class FinalGrade<<vo>>{}
+
+    FormerExam --> "1" FinalGrade
+    FormerExam --> "1" Exam
+    FormerExam --> "1" Student
+}
+
+
+
+
+
+
+@enduml

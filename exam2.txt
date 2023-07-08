@@ -1,0 +1,7 @@
+MULTIPLE_CHOICE -1;
+MISSING_WORDS -anonymus;multiple;
+TRUE_OR_FALSE -f;
+SHORT_ANSWER -AconstructorisaspecialmethodinJava.Ithasthesamename"+;
+MISSING_WORDS -anonymus;multiple;
+SHORT_ANSWER -AconstructorisaspecialmethodinJava.Ithasthesamename"+;
+TRUE_OR_FALSE -t;

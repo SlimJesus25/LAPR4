@@ -1,0 +1,50 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+actor User as user
+participant CancelMeetingUI as ui <<presentation>>
+participant ListOwnedUserMeetingsService as svc <<application>>
+participant CancelMeetingController as ctrl <<application>>
+database MeetingParticipationRepository as mpr_repo <<persistence>>
+database MeetingRepository as mr_repo <<persistence>>
+participant Meeting as meeting <<domain>>
+
+activate user
+user -> ui : asks to cancel a meeting
+activate ui
+ui -> svc : List<MeetingDTO> ownedMeetings = listOwnedMeetings()
+activate svc
+note right
+the user is obtained through session
+end note
+svc -> mpr_repo : List<Meeting> meetings = listOwnedMeetingsByUser(authenticatedUser)
+activate mpr_repo
+mpr_repo --> svc
+deactivate mpr_repo
+svc --> ui
+deactivate svc
+ui --> user : shows owned meeting and asks to select one
+deactivate ui
+user -> ui : selects one meeting
+activate ui
+ui -> ctrl : MeetingDTO meeting = cancelMeeting(meetingID)
+activate ctrl
+ctrl -> mr_repo : Meeting theMeeting = identityOf(meetingID)
+activate mr_repo
+mr_repo --> ctrl
+deactivate mr_repo
+ctrl -> meeting : cancelMeeting() (verifies if the meeting is already canceled)
+activate meeting
+meeting --> ctrl
+deactivate meeting
+ctrl -> mr_repo : save(theMeeting)
+activate mr_repo
+mr_repo --> ctrl
+deactivate mr_repo
+ctrl --> ui
+deactivate ctrl
+ui --> user : shows the success of the operation
+deactivate ui
+deactivate user
+
+@enduml

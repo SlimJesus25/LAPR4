@@ -1,0 +1,259 @@
+@startuml DDD
+
+!theme crt-green
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+package "<<agr SystemUser>>"{
+    class SystemUser<<entity>><<root>>{}
+    class UserName<<vo>>{}
+    class UserPassword<<vo>>{}
+
+    SystemUser --> "1" UserName
+    SystemUser --> "1" UserPassword
+}
+
+package "<<agr Manager>>"{
+
+    class Manager<<entity>><<root>>{}
+    SystemUser "1" <- Manager
+
+}
+
+package "<<agr Teacher>>"{
+
+    class Teacher<<entity>><<root>>{}
+    class Acronym<<vo>>{}
+    class TaxPayerNumber<<vo>>{}
+    class DateOfBirth<<vo>>{}
+
+    SystemUser "1" <-- Teacher
+    Teacher -down-> "1" Acronym
+    Teacher --> "1" DateOfBirth
+    Teacher --> "1" TaxPayerNumber
+}
+
+package "<<agr Course>>"{
+    class Course<<entity>><<root>>{}
+    class Code <<vo>>
+    class Description<<vo>>{}
+    class Title<<vo>>{}
+    class State<<vo>><<enum>>{}
+
+    Course  --> "1" State
+    Course  -down-> "1" Title
+    Course  -down-> "1" Description
+    Course  -down-> "1" Code
+    Course --> "*" Teacher : is ruled by
+
+
+}
+
+package "<<agr Exam>>"{
+    class Exam  <<entity>><<root>> {}
+    class ExamType <<enum>><<vo>>{}
+    class ExamTitle <<vo>>{}
+    class ExamHeaderTextualDescription <<vo>>{}
+    class ExamInitalDateTime <<vo>> {}
+    class ExamFinalDateTime <<vo>>{}
+
+    Teacher --> "*" Exam : creates
+    Exam --> "1" ExamTitle
+    Exam --> "0..1" ExamHeaderTextualDescription
+    Exam --> "1" Course : belongs to
+    Exam --> "1" ExamType
+    Exam --> "1" ExamInitalDateTime
+    Exam --> "1" ExamFinalDateTime
+
+}
+
+package "<<agr ExamSection>>"{
+    class ExamSection <<entity>><<root>> {}
+    class ExamSectionTextualDescription <<vo>>{}
+
+    ExamSection "*" <-- Exam
+    ExamSection --> "0..1" ExamSectionTextualDescription
+}
+
+package "<<agr ExamQuestion>>"{
+    class ExamQuestion <<entity>><<root>>{}
+    class ExamQuestionStatement <<vo>>{}
+    class ExamQuestionFeedback <<vo>>{}
+    class ExamQuestionValue <<vo>>{}
+    class ExamQuestionSolution<<vo>>{}
+    class ExamQuestionType <<vo>><<enum>>{}
+
+    ExamQuestion "*" <-- ExamSection
+    ExamQuestion --> "1" ExamQuestionValue
+    ExamQuestion --> "*" ExamQuestionFeedback
+    ExamQuestion --> "*" ExamQuestionSolution
+    ExamQuestion --> "1" ExamQuestionType
+    ExamQuestion --> "1" ExamQuestionStatement
+
+}
+
+package "<<agr Lecture>>"{
+    class Lecture<<entity>><<root>>{}
+    class InitalDate<<vo>>{}
+    class FinalDate<<vo>>{}
+    class WeekDay<<vo>>{}
+    class InitalTime<<vo>>{}
+    class FinalTime<<vo>>{}
+    class LectureType<<vo>><<enum>>{}
+
+    Lecture --> "1" InitalDate
+    Lecture --> "1" FinalDate
+    Lecture --> "1" WeekDay
+    Lecture --> "1" InitalTime
+    Lecture --> "1" FinalTime
+    Lecture --> "1" Course : is associated to
+    Lecture --> "1" Teacher: instructed by
+    Lecture --> "1" LectureType
+}
+
+package "<<agr ExtraLecture>>"{
+    class ExtraLecture<<entity>><<root>>{}
+    class ExtraLectureDayNTime<<vo>>{}
+    class ExtraLectureType<<vo>><<enum>>{}
+
+    ExtraLecture --> "1" ExtraLectureDayNTime
+    ExtraLecture --> "1" Teacher : instructed by
+    ExtraLecture --> "1" Course : is associated to
+    ExtraLecture --> "1" ExtraLectureType
+}
+
+package "<<agr Meeting>>"{
+    class Meeting<<entity>><<root>>{}
+    class MeetingDuration<<vo>>{}
+    class MeetingDateNTime<<vo>>{}
+    class MeetingName<<vo>>{}
+    class MeetingState<<vo>><<enum>>{}
+
+    Meeting --> "1" MeetingDuration
+    Meeting --> "1" MeetingDateNTime
+    Meeting --> "1" MeetingName
+    Meeting --> "1" MeetingState
+    SystemUser "*" <---  Meeting : is participated by
+}
+
+package "<<agr MeetingParticipation>>"{
+    class MeetingParticipation<<entity>><<root>>{}
+    class MeetingParticipationState<<vo>>{}
+
+    MeetingParticipation --> "*" SystemUser
+    MeetingParticipation --> "*" Meeting
+    MeetingParticipation --> "1" MeetingParticipationState
+}
+
+package "<<agr Student>>"{
+
+    class Student<<entity>><<root>>{}
+    class MechanographicalNumber<<vo>>{}
+    class StudentTaxPayerNumber<<vo>>{}
+    class StudentDateOfBirth<<vo>>{}
+
+    Student --> "1" MechanographicalNumber
+    Student --> "1" SystemUser
+    'Student <-- "*" Lecture : participates
+    Student --> "1" StudentDateOfBirth
+    Student --> "1" StudentTaxPayerNumber
+}
+
+package "<<agr SharedBoard>>"{
+    class SharedBoard<<entity>><<root>>{}
+    class SharedBoardTitle<<vo>>{}
+    class CreationTimestamp<<vo>>{}
+    class SharedBoardState<<vo>><<enum>>{}
+
+    SharedBoard --> "1" SharedBoardState
+    SharedBoard --> "1" SharedBoardTitle
+    SharedBoard --> "1" CreationTimestamp
+}
+
+package "<<agr PostIt>>"{
+    class PostIt<<entity>><<root>>{}
+    class PostItRow<<vo>>{}
+    class PostItColumn<<vo>>{}
+    class PostItContent<<vo>>{}
+
+    PostIt --> "1" SharedBoard : belongs
+    PostIt --> "1" PostItRow
+    PostIt --> "1" PostItColumn
+    PostIt --> "1" SystemUser
+    PostIt --> "1" PostItContent
+}
+
+package "<<agr PostItModification>>"{
+    class PostItModification<<entity>><<root>>{}
+    class PostItOldRow<<vo>>{}
+    class PostItOldColumn<<vo>>{}
+    'class PostItNewRow<<vo>>{}
+    'class PostItNewColumn<<vo>>{}
+    class PostItOldContent<<vo>>{}
+    'class PostItNewContent<<vo>>{}
+    class PostItModificationDateTime<<vo>>{}
+
+    PostItModification --> "1" PostIt
+    PostItModification --> "1" PostItOldRow
+    PostItModification --> "1" PostItOldColumn
+    PostItModification --> "1" PostItOldContent
+    PostItModification --> "1" PostItModificationDateTime
+
+}
+
+package "<<agr SharedBoardParticipation>>"{
+    class SharedBoardParticipation<<entity>><<root>>{}
+    class UserPermission<<vo>><<enum>>{}
+    note top: This tells what permission the user contains in a specific SharedBoard
+    class UserStatus <<vo>><<enum>>{}
+    note right: This tells if the user is a guest or a participant
+
+    SharedBoardParticipation --> UserPermission
+    SharedBoardParticipation --> UserStatus
+    SharedBoard "1" <-- SharedBoardParticipation
+    SystemUser "1" <-- SharedBoardParticipation
+}
+
+package "<<agr FormerExam>>"{
+    class FormerExam<<entity>><<root>>{}
+    class FinalGrade<<vo>>{}
+
+    FormerExam --> "1" FinalGrade
+    FormerExam --> "1" Exam
+    FormerExam --> "1" Student
+}
+
+package "<<agr CourseEnrollment>>"{
+    class CourseEnrollment <<entity>><<root>>{}
+    class StudentEnrollmentState <<vo>><<enum>>{}
+    class CourseEnrollmentDate <<vo>>{}
+    CourseEnrollment --> "1" Course : applied to
+    CourseEnrollment --> "1" StudentEnrollmentState
+    CourseEnrollment --> "1" CourseEnrollmentDate
+    Student "1" <-- CourseEnrollment: applies to
+}
+
+package "<<agr TeamElement>>"{
+    class TeamElement <<entity>><<root>>{}
+    class AdhesionDate <<vo>>{}
+    TeamElement --> "1" AdhesionDate
+    TeamElement --> "1" Course
+    TeamElement --> "1" Teacher
+}
+'               Events and Services Zone
+
+'class ExamCreated<<event>>{
+'}
+'class ExamCreatedWatchdog<<service>>{
+'}
+
+'ExamCreatedWatchdog ..> ExamCreated : consumes
+'Exam ..> ExamCreated : publishes
+'FormerExam ..> ExamCreatedWatchdog : observes
+
+hide circle
+hide fields
+
+
+@enduml

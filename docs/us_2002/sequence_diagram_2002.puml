@@ -1,0 +1,43 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+autonumber
+
+actor Student as user
+
+participant ListUserExamsUI as ui <<presentation>>
+participant ListUserExamsController as lue_ctrl <<application>>
+participant AuthorizationService as authz <<service>>
+participant IExamService as iService <<service>>
+participant ExamService as service <<service>>
+
+database ExamRepository as repo <<persistence>>
+
+user->ui : requests a list of future exams
+ui-> lue_ctrl: creates
+activate lue_ctrl
+lue_ctrl->authz: authorizationService()
+lue_ctrl->iService: creates
+
+ui->lue_ctrl: listUserExams()
+
+lue_ctrl->authz: ensureAuthenticatedUserHasAnyOf(ELearningUser, Student)
+alt user has insufficient privileges
+    authz -> lue_ctrl : Insufficient Privileges
+    lue_ctrl --> ui : Insufficient Privileges
+    ui --> user : Insufficient Privileges
+else user has sufficient privileges
+    authz -> lue_ctrl : Sufficient Privileges
+end
+
+activate iService
+activate service
+lue_ctrl-> iService : listUserExams(authz.session().get().authenticatedUser())
+iService->service: listUserExams(authz.session().get().authenticatedUser())
+service->repo: repositories()
+service->repo: listAllExamsOfCoursesOfStudent(user)
+service->service : List<ExamDTO> result
+service->iService: Iterable<ExamDTO> result
+iService->lue_ctrl : Iterable<ExamDTO>
+lue_ctrl->ui: Iterable<ExamDTO>
+ui-->user: shows the list of his exams
+@enduml

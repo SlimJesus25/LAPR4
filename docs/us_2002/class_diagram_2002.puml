@@ -1,0 +1,38 @@
+@startuml
+
+class ListUserExamsUI {
+  +showExamsList()
+}
+
+class ListUserExamsController {
+  +listUserExams()
+}
+
+class AuthorizationService {
+  +ensureAuthenticatedUserHasAnyOf()
+}
+
+class IExamService {
+  +listUserExams(user)
+}
+
+class ExamService {
+  +listUserExams(user)
+}
+
+class ExamRepository {
+  +repositories()
+  +listAllExamsOfCoursesOfStudent(user)
+}
+
+ListUserExamsUI ..> ListUserExamsController : Uses
+ListUserExamsController ..> AuthorizationService : Uses
+ListUserExamsController ..> IExamService : Uses
+ListUserExamsController --> IExamService : Calls listUserExams()
+IExamService --> ExamService : Calls listUserExams()
+ExamService --> ExamRepository : Retrieves exams
+ExamService --> ExamService : Returns List<ExamDTO>
+IExamService --> ListUserExamsController : Returns Iterable<ExamDTO>
+ListUserExamsController --> ListUserExamsUI : Returns Iterable<ExamDTO>
+
+@enduml

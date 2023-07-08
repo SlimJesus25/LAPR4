@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="632px" preserveAspectRatio="none" style="width:495px;height:632px;background:#282828;" version="1.1" viewBox="0 0 495 632" width="495px" zoomAndPan="magnify"><defs/><g><!--MD5=[82f7d86f5769d519152cc22ccaf08df8]
+class UndoLastChangePostItUI--><g id="elem_UndoLastChangePostItUI"><rect codeLine="3" fill="#282828" height="61.0146" id="UndoLastChangePostItUI" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="205" x="170" y="12"/><ellipse cx="183" cy="26" fill="#282828" rx="9" ry="9" style="stroke:#33FF33;stroke-width:1.0;"/><path d="M185,22.5 Q185.2031,22 185.4375,21.75 Q185.6719,21.5 185.9375,21.5 Q186.4063,21.5 186.7031,21.7813 Q187,22.0625 187,22.7188 L187,24.2813 Q187,24.9375 186.7188,25.2188 Q186.4375,25.5 186,25.5 Q185.6094,25.5 185.3594,25.3281 Q185.1094,25.1563 185,24.7031 Q184.9531,24.3906 184.7813,24.2188 Q184.4688,23.8906 183.9063,23.7031 Q183.3438,23.5 182.7813,23.5 Q182.0781,23.5 181.4844,23.7813 Q180.9063,24.0625 180.4531,24.6875 Q180,25.3125 180,26.1719 L180,27.0938 Q180,28.125 180.8438,28.8125 Q181.6875,29.5 183.1875,29.5 Q184.0781,29.5 184.7031,29.2969 Q185.0625,29.1875 185.4688,28.8281 Q185.7344,28.625 185.875,28.5625 Q186.0156,28.5 186.1875,28.5 Q186.5156,28.5 186.75,28.7656 Q187,29.0156 187,29.375 Q187,29.7188 186.6563,30.125 Q186.1563,30.7188 185.3594,31.0469 Q184.3125,31.5 183.0313,31.5 Q181.5313,31.5 180.3281,30.9063 Q179.3594,30.4375 178.6719,29.4219 Q178,28.4063 178,27.2031 L178,26.1094 Q178,24.8594 178.5938,23.7656 Q179.2031,22.6719 180.25,22.0938 Q181.3125,21.5 182.5,21.5 Q183.2188,21.5 183.8438,21.75 Q184.4688,22 185,22.5 Z " fill="#33FF33"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="177" x="195" y="31.5679">UndoLastChangePostItUI</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="171" x2="374" y1="40" y2="40"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="107" x="176" y="58.0752">«presentation»</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="171" x2="374" y1="65.0146" y2="65.0146"/></g><!--MD5=[2a69c18fd33e6b7286e5275b2f9a03d5]
+class ListWritableSharedBoardsService--><g id="elem_ListWritableSharedBoardsService"><rect codeLine="7" fill="#282828" height="61.0146" id="ListWritableSharedBoardsService" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="261" x="12" y="150"/><ellipse cx="25" cy="164" fill="#282828" rx="9" ry="9" style="stroke:#33FF33;stroke-width:1.0;"/><path d="M27,160.5 Q27.2031,160 27.4375,159.75 Q27.6719,159.5 27.9375,159.5 Q28.4063,159.5 28.7031,159.7813 Q29,160.0625 29,160.7188 L29,162.2813 Q29,162.9375 28.7188,163.2188 Q28.4375,163.5 28,163.5 Q27.6094,163.5 27.3594,163.3281 Q27.1094,163.1563 27,162.7031 Q26.9531,162.3906 26.7813,162.2188 Q26.4688,161.8906 25.9063,161.7031 Q25.3438,161.5 24.7813,161.5 Q24.0781,161.5 23.4844,161.7813 Q22.9063,162.0625 22.4531,162.6875 Q22,163.3125 22,164.1719 L22,165.0938 Q22,166.125 22.8438,166.8125 Q23.6875,167.5 25.1875,167.5 Q26.0781,167.5 26.7031,167.2969 Q27.0625,167.1875 27.4688,166.8281 Q27.7344,166.625 27.875,166.5625 Q28.0156,166.5 28.1875,166.5 Q28.5156,166.5 28.75,166.7656 Q29,167.0156 29,167.375 Q29,167.7188 28.6563,168.125 Q28.1563,168.7188 27.3594,169.0469 Q26.3125,169.5 25.0313,169.5 Q23.5313,169.5 22.3281,168.9063 Q21.3594,168.4375 20.6719,167.4219 Q20,166.4063 20,165.2031 L20,164.1094 Q20,162.8594 20.5938,161.7656 Q21.2031,160.6719 22.25,160.0938 Q23.3125,159.5 24.5,159.5 Q25.2188,159.5 25.8438,159.75 Q26.4688,160 27,160.5 Z " fill="#33FF33"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="233" x="37" y="169.5679">ListWritableSharedBoardsService</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="13" x2="272" y1="178" y2="178"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="92" x="18" y="196.0752">«application»</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="13" x2="272" y1="203.0146" y2="203.0146"/></g><!--MD5=[cd972f05dd966f5aed006fdaccec2941]
+class SendRequestService--><g id="elem_SendRequestService"><rect codeLine="11" fill="#282828" height="61.0146" id="SendRequestService" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="172" x="308.5" y="150"/><ellipse cx="321.5" cy="164" fill="#282828" rx="9" ry="9" style="stroke:#33FF33;stroke-width:1.0;"/><path d="M323.5,160.5 Q323.7031,160 323.9375,159.75 Q324.1719,159.5 324.4375,159.5 Q324.9063,159.5 325.2031,159.7813 Q325.5,160.0625 325.5,160.7188 L325.5,162.2813 Q325.5,162.9375 325.2188,163.2188 Q324.9375,163.5 324.5,163.5 Q324.1094,163.5 323.8594,163.3281 Q323.6094,163.1563 323.5,162.7031 Q323.4531,162.3906 323.2813,162.2188 Q322.9688,161.8906 322.4063,161.7031 Q321.8438,161.5 321.2813,161.5 Q320.5781,161.5 319.9844,161.7813 Q319.4063,162.0625 318.9531,162.6875 Q318.5,163.3125 318.5,164.1719 L318.5,165.0938 Q318.5,166.125 319.3438,166.8125 Q320.1875,167.5 321.6875,167.5 Q322.5781,167.5 323.2031,167.2969 Q323.5625,167.1875 323.9688,166.8281 Q324.2344,166.625 324.375,166.5625 Q324.5156,166.5 324.6875,166.5 Q325.0156,166.5 325.25,166.7656 Q325.5,167.0156 325.5,167.375 Q325.5,167.7188 325.1563,168.125 Q324.6563,168.7188 323.8594,169.0469 Q322.8125,169.5 321.5313,169.5 Q320.0313,169.5 318.8281,168.9063 Q317.8594,168.4375 317.1719,167.4219 Q316.5,166.4063 316.5,165.2031 L316.5,164.1094 Q316.5,162.8594 317.0938,161.7656 Q317.7031,160.6719 318.75,160.0938 Q319.8125,159.5 321,159.5 Q321.7188,159.5 322.3438,159.75 Q322.9688,160 323.5,160.5 Z " fill="#33FF33"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="144" x="333.5" y="169.5679">SendRequestService</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="309.5" x2="479.5" y1="178" y2="178"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="92" x="314.5" y="196.0752">«application»</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="309.5" x2="479.5" y1="203.0146" y2="203.0146"/></g><!--MD5=[c60af77fe5573b84a4aa4bce89659574]
+class Server--><g id="elem_Server"><rect codeLine="15" fill="#282828" height="61.0146" id="Server" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="74" x="357.5" y="288"/><ellipse cx="370.5" cy="302" fill="#282828" rx="9" ry="9" style="stroke:#33FF33;stroke-width:1.0;"/><path d="M372.5,298.5 Q372.7031,298 372.9375,297.75 Q373.1719,297.5 373.4375,297.5 Q373.9063,297.5 374.2031,297.7813 Q374.5,298.0625 374.5,298.7188 L374.5,300.2813 Q374.5,300.9375 374.2188,301.2188 Q373.9375,301.5 373.5,301.5 Q373.1094,301.5 372.8594,301.3281 Q372.6094,301.1563 372.5,300.7031 Q372.4531,300.3906 372.2813,300.2188 Q371.9688,299.8906 371.4063,299.7031 Q370.8438,299.5 370.2813,299.5 Q369.5781,299.5 368.9844,299.7813 Q368.4063,300.0625 367.9531,300.6875 Q367.5,301.3125 367.5,302.1719 L367.5,303.0938 Q367.5,304.125 368.3438,304.8125 Q369.1875,305.5 370.6875,305.5 Q371.5781,305.5 372.2031,305.2969 Q372.5625,305.1875 372.9688,304.8281 Q373.2344,304.625 373.375,304.5625 Q373.5156,304.5 373.6875,304.5 Q374.0156,304.5 374.25,304.7656 Q374.5,305.0156 374.5,305.375 Q374.5,305.7188 374.1563,306.125 Q373.6563,306.7188 372.8594,307.0469 Q371.8125,307.5 370.5313,307.5 Q369.0313,307.5 367.8281,306.9063 Q366.8594,306.4375 366.1719,305.4219 Q365.5,304.4063 365.5,303.2031 L365.5,302.1094 Q365.5,300.8594 366.0938,299.7656 Q366.7031,298.6719 367.75,298.0938 Q368.8125,297.5 370,297.5 Q370.7188,297.5 371.3438,297.75 Q371.9688,298 372.5,298.5 Z " fill="#33FF33"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="46" x="382.5" y="307.5679">Server</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="358.5" x2="430.5" y1="316" y2="316"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="62" x="363.5" y="334.0752">«server»</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="358.5" x2="430.5" y1="341.0146" y2="341.0146"/></g><!--MD5=[24c3ad707fb460dbb057f09a4a6ff552]
+class UndoChangeController--><g id="elem_UndoChangeController"><rect codeLine="19" fill="#282828" height="61.0146" id="UndoChangeController" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="187" x="301" y="426"/><ellipse cx="314" cy="440" fill="#282828" rx="9" ry="9" style="stroke:#33FF33;stroke-width:1.0;"/><path d="M316,436.5 Q316.2031,436 316.4375,435.75 Q316.6719,435.5 316.9375,435.5 Q317.4063,435.5 317.7031,435.7813 Q318,436.0625 318,436.7188 L318,438.2813 Q318,438.9375 317.7188,439.2188 Q317.4375,439.5 317,439.5 Q316.6094,439.5 316.3594,439.3281 Q316.1094,439.1563 316,438.7031 Q315.9531,438.3906 315.7813,438.2188 Q315.4688,437.8906 314.9063,437.7031 Q314.3438,437.5 313.7813,437.5 Q313.0781,437.5 312.4844,437.7813 Q311.9063,438.0625 311.4531,438.6875 Q311,439.3125 311,440.1719 L311,441.0938 Q311,442.125 311.8438,442.8125 Q312.6875,443.5 314.1875,443.5 Q315.0781,443.5 315.7031,443.2969 Q316.0625,443.1875 316.4688,442.8281 Q316.7344,442.625 316.875,442.5625 Q317.0156,442.5 317.1875,442.5 Q317.5156,442.5 317.75,442.7656 Q318,443.0156 318,443.375 Q318,443.7188 317.6563,444.125 Q317.1563,444.7188 316.3594,445.0469 Q315.3125,445.5 314.0313,445.5 Q312.5313,445.5 311.3281,444.9063 Q310.3594,444.4375 309.6719,443.4219 Q309,442.4063 309,441.2031 L309,440.1094 Q309,438.8594 309.5938,437.7656 Q310.2031,436.6719 311.25,436.0938 Q312.3125,435.5 313.5,435.5 Q314.2188,435.5 314.8438,435.75 Q315.4688,436 316,436.5 Z " fill="#33FF33"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="159" x="326" y="445.5679">UndoChangeController</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="302" x2="487" y1="454" y2="454"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="92" x="307" y="472.0752">«application»</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="302" x2="487" y1="479.0146" y2="479.0146"/></g><!--MD5=[3762909e135fb728396985e200594027]
+class SharedBoard--><g id="elem_SharedBoard"><rect codeLine="23" fill="#282828" height="61.0146" id="SharedBoard" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="120" x="334.5" y="564"/><ellipse cx="347.5" cy="578" fill="#282828" rx="9" ry="9" style="stroke:#33FF33;stroke-width:1.0;"/><path d="M349.5,574.5 Q349.7031,574 349.9375,573.75 Q350.1719,573.5 350.4375,573.5 Q350.9063,573.5 351.2031,573.7813 Q351.5,574.0625 351.5,574.7188 L351.5,576.2813 Q351.5,576.9375 351.2188,577.2188 Q350.9375,577.5 350.5,577.5 Q350.1094,577.5 349.8594,577.3281 Q349.6094,577.1563 349.5,576.7031 Q349.4531,576.3906 349.2813,576.2188 Q348.9688,575.8906 348.4063,575.7031 Q347.8438,575.5 347.2813,575.5 Q346.5781,575.5 345.9844,575.7813 Q345.4063,576.0625 344.9531,576.6875 Q344.5,577.3125 344.5,578.1719 L344.5,579.0938 Q344.5,580.125 345.3438,580.8125 Q346.1875,581.5 347.6875,581.5 Q348.5781,581.5 349.2031,581.2969 Q349.5625,581.1875 349.9688,580.8281 Q350.2344,580.625 350.375,580.5625 Q350.5156,580.5 350.6875,580.5 Q351.0156,580.5 351.25,580.7656 Q351.5,581.0156 351.5,581.375 Q351.5,581.7188 351.1563,582.125 Q350.6563,582.7188 349.8594,583.0469 Q348.8125,583.5 347.5313,583.5 Q346.0313,583.5 344.8281,582.9063 Q343.8594,582.4375 343.1719,581.4219 Q342.5,580.4063 342.5,579.2031 L342.5,578.1094 Q342.5,576.8594 343.0938,575.7656 Q343.7031,574.6719 344.75,574.0938 Q345.8125,573.5 347,573.5 Q347.7188,573.5 348.3438,573.75 Q348.9688,574 349.5,574.5 Z " fill="#33FF33"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="92" x="359.5" y="583.5679">SharedBoard</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="335.5" x2="453.5" y1="592" y2="592"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="69" x="340.5" y="610.0752">«domain»</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="335.5" x2="453.5" y1="617.0146" y2="617.0146"/></g><!--MD5=[a336cf746aaf15acb35d04bd3be296b7]
+class SharedBoardParticipationRepository--><g id="elem_SharedBoardParticipationRepository"><rect codeLine="27" fill="#282828" height="61.0146" id="SharedBoardParticipationRepository" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="281" x="14" y="288"/><ellipse cx="27" cy="302" fill="#282828" rx="9" ry="9" style="stroke:#33FF33;stroke-width:1.0;"/><path d="M29,298.5 Q29.2031,298 29.4375,297.75 Q29.6719,297.5 29.9375,297.5 Q30.4063,297.5 30.7031,297.7813 Q31,298.0625 31,298.7188 L31,300.2813 Q31,300.9375 30.7188,301.2188 Q30.4375,301.5 30,301.5 Q29.6094,301.5 29.3594,301.3281 Q29.1094,301.1563 29,300.7031 Q28.9531,300.3906 28.7813,300.2188 Q28.4688,299.8906 27.9063,299.7031 Q27.3438,299.5 26.7813,299.5 Q26.0781,299.5 25.4844,299.7813 Q24.9063,300.0625 24.4531,300.6875 Q24,301.3125 24,302.1719 L24,303.0938 Q24,304.125 24.8438,304.8125 Q25.6875,305.5 27.1875,305.5 Q28.0781,305.5 28.7031,305.2969 Q29.0625,305.1875 29.4688,304.8281 Q29.7344,304.625 29.875,304.5625 Q30.0156,304.5 30.1875,304.5 Q30.5156,304.5 30.75,304.7656 Q31,305.0156 31,305.375 Q31,305.7188 30.6563,306.125 Q30.1563,306.7188 29.3594,307.0469 Q28.3125,307.5 27.0313,307.5 Q25.5313,307.5 24.3281,306.9063 Q23.3594,306.4375 22.6719,305.4219 Q22,304.4063 22,303.2031 L22,302.1094 Q22,300.8594 22.5938,299.7656 Q23.2031,298.6719 24.25,298.0938 Q25.3125,297.5 26.5,297.5 Q27.2188,297.5 27.8438,297.75 Q28.4688,298 29,298.5 Z " fill="#33FF33"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="253" x="39" y="307.5679">SharedBoardParticipationRepository</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="15" x2="294" y1="316" y2="316"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="82" x="20" y="334.0752">«database»</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="15" x2="294" y1="341.0146" y2="341.0146"/></g><!--MD5=[3e8d4f4f81f6a7d034322ee87c55c84f]
+link UndoLastChangePostItUI to ListWritableSharedBoardsService--><g id="link_UndoLastChangePostItUI_ListWritableSharedBoardsService"><path codeLine="31" d="M187.29,73.11 C174.28,81 162.28,90.82 153.5,103 C144.9,114.92 141.65,130.65 140.74,144.74 " fill="none" id="UndoLastChangePostItUI-to-ListWritableSharedBoardsService" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="140.5,149.85,144.9068,141.0421,140.7283,144.8552,136.9152,140.6767,140.5,149.85" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="30" x="154.5" y="117.0698">uses</text></g><!--MD5=[97cd67d762fde37041dd8ae40b21b7dd]
+link ListWritableSharedBoardsService to UndoLastChangePostItUI--><g id="link_ListWritableSharedBoardsService_UndoLastChangePostItUI"><path codeLine="40" d="M171.1,149.58 C191.67,128.06 219.4,99.05 240.67,76.8 " fill="none" id="ListWritableSharedBoardsService-to-UndoLastChangePostItUI" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="244.29,73.01,235.1862,76.7677,240.8414,76.6303,240.9787,82.2855,244.29,73.01" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="47" x="216.5" y="117.0698">returns</text></g><!--MD5=[1c0e892425e3cbe5f39d0506ffb1ea2e]
+link ListWritableSharedBoardsService to SharedBoardParticipationRepository--><g id="link_ListWritableSharedBoardsService_SharedBoardParticipationRepository"><path codeLine="32" d="M128.28,211.28 C123.27,225.43 119.72,242.58 123.5,258 C125.56,266.43 129.06,275 132.97,282.9 " fill="none" id="ListWritableSharedBoardsService-to-SharedBoardParticipationRepository" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="135.45,287.74,134.8896,277.9071,133.1626,283.2939,127.7758,281.5669,135.45,287.74" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="30" x="124.5" y="255.0698">uses</text></g><!--MD5=[2d9bf500229a2f56137c95cadb2c4343]
+link SharedBoardParticipationRepository to ListWritableSharedBoardsService--><g id="link_SharedBoardParticipationRepository_ListWritableSharedBoardsService"><path codeLine="41" d="M159.23,287.97 C160.8,273.73 161.66,256.42 159.5,241 C158.35,232.81 156.36,224.16 154.13,216.07 " fill="none" id="SharedBoardParticipationRepository-to-ListWritableSharedBoardsService" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="152.71,211.11,151.3287,220.8615,154.0798,215.9187,159.0227,218.6698,152.71,211.11" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="47" x="162.5" y="255.0698">returns</text></g><!--MD5=[0a7d138cc8b5b7c2025d7dfe15895da9]
+link UndoLastChangePostItUI to SendRequestService--><g id="link_UndoLastChangePostItUI_SendRequestService"><path codeLine="33" d="M286.56,73.21 C294.45,88.16 305.17,106.01 317.5,120 C325.88,129.51 335.96,138.56 346.03,146.6 " fill="none" id="UndoLastChangePostItUI-to-SendRequestService" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="350.04,149.74,345.4526,141.0248,346.1149,146.6427,340.4969,147.305,350.04,149.74" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="30" x="318.5" y="117.0698">uses</text></g><!--MD5=[f0335db6d2cedb7610a309427b8602b3]
+link SendRequestService to UndoLastChangePostItUI--><g id="link_SendRequestService_UndoLastChangePostItUI"><path codeLine="39" d="M382.46,149.98 C375.42,134.91 365.55,116.89 353.5,103 C345.12,93.34 334.9,84.34 324.59,76.41 " fill="none" id="SendRequestService-to-UndoLastChangePostItUI" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="320.47,73.3,325.2355,81.9191,324.458,76.316,330.0611,75.5384,320.47,73.3" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="47" x="365.5" y="117.0698">returns</text></g><!--MD5=[437971afa50c5957681120b1bb92a3c0]
+link SendRequestService to Server--><g id="link_SendRequestService_Server"><path codeLine="34" d="M394.5,211.01 C394.5,231.98 394.5,260.24 394.5,282.38 " fill="none" id="SendRequestService-to-Server" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="394.5,287.58,398.5,278.58,394.5,282.58,390.5,278.58,394.5,287.58" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="30" x="395.5" y="255.0698">uses</text></g><!--MD5=[605009b6b143686db0d4f6f934a88e54]
+link Server to UndoChangeController--><g id="link_Server_UndoChangeController"><path codeLine="35" d="M367.08,349.33 C357.72,363.06 350.68,379.86 355.5,396 C358.12,404.79 362.51,413.48 367.41,421.4 " fill="none" id="Server-to-UndoChangeController" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="370.17,425.71,368.6829,415.9741,367.4727,421.4999,361.9468,420.2897,370.17,425.71" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="30" x="356.5" y="393.0698">uses</text></g><!--MD5=[47d1df208106a188583ad9ebc62827fa]
+link UndoChangeController to Server--><g id="link_UndoChangeController_Server"><path codeLine="38" d="M394.5,425.58 C394.5,404.51 394.5,376.24 394.5,354.19 " fill="none" id="UndoChangeController-to-Server" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="394.5,349.01,390.5,358.01,394.5,354.01,398.5,358.01,394.5,349.01" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="47" x="395.5" y="393.0698">returns</text></g><!--MD5=[a71221e71d3e3510f97b5cdf1cf3da7d]
+link UndoChangeController to SharedBoard--><g id="link_UndoChangeController_SharedBoard"><path codeLine="36" d="M367.08,487.33 C357.72,501.06 350.68,517.86 355.5,534 C358.12,542.79 362.51,551.48 367.41,559.4 " fill="none" id="UndoChangeController-to-SharedBoard" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="370.17,563.71,368.6829,553.9741,367.4727,559.4999,361.9468,558.2897,370.17,563.71" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="30" x="356.5" y="531.0698">uses</text></g><!--MD5=[a71221e71d3e3510f97b5cdf1cf3da7d]
+link UndoChangeController to SharedBoard--><g id="link_UndoChangeController_SharedBoard"><path codeLine="37" d="M394.5,487.01 C394.5,507.98 394.5,536.24 394.5,558.38 " fill="none" id="UndoChangeController-to-SharedBoard-1" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="394.5,563.58,398.5,554.58,394.5,558.58,390.5,554.58,394.5,563.58" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="29" x="395.5" y="531.0698">calls</text></g><!--MD5=[1afd192c046117eabfc6a1ea63415cca]
+@startuml
+
+!theme crt-green
+class UndoLastChangePostItUI {
+  <<presentation>>
+}
+
+class ListWritableSharedBoardsService {
+  <<application>>
+}
+
+class SendRequestService {
+  <<application>>
+}
+
+class Server {
+  <<server>>
+}
+
+class UndoChangeController {
+  <<application>>
+}
+
+class SharedBoard {
+  <<domain>>
+}
+
+class SharedBoardParticipationRepository {
+  <<database>>
+}
+
+UndoLastChangePostItUI - -> ListWritableSharedBoardsService : uses
+ListWritableSharedBoardsService - -> SharedBoardParticipationRepository : uses
+UndoLastChangePostItUI - -> SendRequestService : uses
+SendRequestService - -> Server : uses
+Server - -> UndoChangeController : uses
+UndoChangeController - -> SharedBoard : uses
+UndoChangeController - -> SharedBoard : calls
+UndoChangeController - -> Server : returns
+SendRequestService - -> UndoLastChangePostItUI : returns
+ListWritableSharedBoardsService - -> UndoLastChangePostItUI : returns
+SharedBoardParticipationRepository - -> ListWritableSharedBoardsService : returns
+
+@enduml
+
+@startuml
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor #282828
+    FontColor #33FF33
+    FontName Verdana
+    HyperLinkColor #33FF33
+    LineColor #33FF33
+    LineThickness 1
+    Margin 5
+  }
+  box {
+    LineStyle 12-18
+    LineThickness 3
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  referenceHeader {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor #33FF33
+skinparam BackgroundColor #282828
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy solid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor #33FF33
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor #282828
+  BarColor #33FF33
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor #33FF33
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor #282828
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor #282828
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Header {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color #33FF33
+}
+skinparam IconPackage {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconPrivate {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconProtected {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconPublic {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam Note {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor #33FF33
+}
+skinparam Package {
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor #282828
+  BorderColor #33FF33
+}
+skinparam StereotypeA {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeC {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeE {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeI {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeN {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam UseCaseStereoType {
+  FontColor #33FF33
+  FontName Verdana
+}
+class UndoLastChangePostItUI {
+  <<presentation>>
+}
+
+class ListWritableSharedBoardsService {
+  <<application>>
+}
+
+class SendRequestService {
+  <<application>>
+}
+
+class Server {
+  <<server>>
+}
+
+class UndoChangeController {
+  <<application>>
+}
+
+class SharedBoard {
+  <<domain>>
+}
+
+class SharedBoardParticipationRepository {
+  <<database>>
+}
+
+UndoLastChangePostItUI - -> ListWritableSharedBoardsService : uses
+ListWritableSharedBoardsService - -> SharedBoardParticipationRepository : uses
+UndoLastChangePostItUI - -> SendRequestService : uses
+SendRequestService - -> Server : uses
+Server - -> UndoChangeController : uses
+UndoChangeController - -> SharedBoard : uses
+UndoChangeController - -> SharedBoard : calls
+UndoChangeController - -> Server : returns
+SendRequestService - -> UndoLastChangePostItUI : returns
+ListWritableSharedBoardsService - -> UndoLastChangePostItUI : returns
+SharedBoardParticipationRepository - -> ListWritableSharedBoardsService : returns
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 19:12:26 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

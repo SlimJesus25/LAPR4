@@ -1,0 +1,65 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor User as user
+participant ListCoursesAvailableUI as ui <<presentation>>
+participant ListCoursesAvailableController as ctrl <<application>>
+participant ListCoursesAvailableService as listserv <<service>>
+participant AuthorizationService as authz <<service>>
+participant UserSession as session <<domain>>
+participant SystemUser as su <<domain>>
+database TeacherRepository as repot <<persistence>>
+database StudentRepository as repoS <<persistence>>
+database CourseRepository as repoC <<persistence>>
+database TeamElementRepository as repoTE <<persistence>>
+database CourseEnrollmentRepository as repoCE <<persistence>>
+
+
+
+
+activate user
+user -> ui : asks to list the courses available
+ui -> ctrl : listCoursesAvailable()
+activate ctrl
+ctrl -> authz : session().get()
+ctrl -> session : authenticatedUser()
+ctrl -> su : roleTypes()
+    alt roleTypes = Teacher
+    ctrl -> listserv : listIfTeacher()
+    activate listserv
+    listserv -> repot : findTeacherByUserName(userName)
+    listserv -> repoTE : findCoursesOfTeacher(teacher)
+    deactivate listserv
+
+    else roleTypes = Student
+    ctrl -> listserv : listIfStudent()
+    activate listserv
+    listserv -> repoS : findStudentByUserName(userName)
+    listserv -> repoCE : findCoursesStudentIsEnrolled(student)
+    listserv -> repoC : listAllOpenEnrollmentCourses()
+    listserv -> listserv : addListsWithoutRep(coursesAvailable,coursesEnrolled)
+
+    deactivate listserv
+    else roleTypes = Admin
+
+
+    ctrl -> listserv : listIfAdmin()
+
+        activate listserv
+        listserv -> repoC : listAllCourses()
+        deactivate listserv
+
+    end
+    ctrl -> ui : List<CourseDTO>
+    deactivate ctrl
+        activate ui
+        ui --> user : shows courses available list
+        deactivate ui
+
+
+
+
+deactivate user
+@enduml

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="666px" preserveAspectRatio="none" style="width:1945px;height:666px;background:#282828;" version="1.1" viewBox="0 0 1945 666" width="1945.8px" zoomAndPan="magnify"><defs/><g><rect fill="#282828" height="500.7489" style="stroke:#33FF33;stroke-width:0.9;" width="9" x="324.9" y="83.7132"/><rect fill="#282828" height="112.6775" style="stroke:#33FF33;stroke-width:0.9;" width="9" x="708.3" y="103.3326"/><rect fill="#282828" height="314.8132" style="stroke:#33FF33;stroke-width:0.9;" width="9" x="917.55" y="269.6489"/><rect fill="#282828" height="287.9938" style="stroke:#33FF33;stroke-width:0.9;" width="9" x="1131.75" y="296.4683"/><rect fill="#282828" height="200.3357" style="stroke:#33FF33;stroke-width:0.9;" width="9" x="1482.75" y="384.1264"/><rect fill="#282828" height="169.0163" style="stroke:#33FF33;stroke-width:0.9;" width="9" x="1642.05" y="415.4458"/><line style="stroke:#33FF33;stroke-width:0.9;stroke-dasharray:5.0,5.0;" x1="26.1" x2="26.1" y1="74.7132" y2="592.5621"/><line style="stroke:#33FF33;stroke-width:0.9;stroke-dasharray:5.0,5.0;" x1="328.95" x2="328.95" y1="74.7132" y2="592.5621"/><line style="stroke:#33FF33;stroke-width:0.9;stroke-dasharray:5.0,5.0;" x1="712.35" x2="712.35" y1="74.7132" y2="592.5621"/><line style="stroke:#33FF33;stroke-width:0.9;stroke-dasharray:5.0,5.0;" x1="922.05" x2="922.05" y1="74.7132" y2="592.5621"/><line style="stroke:#33FF33;stroke-width:0.9;stroke-dasharray:5.0,5.0;" x1="1135.8" x2="1135.8" y1="74.7132" y2="592.5621"/><line style="stroke:#33FF33;stroke-width:0.9;stroke-dasharray:5.0,5.0;" x1="1486.8" x2="1486.8" y1="74.7132" y2="592.5621"/><line style="stroke:#33FF33;stroke-width:0.9;stroke-dasharray:5.0,5.0;" x1="1646.55" x2="1646.55" y1="74.7132" y2="592.5621"/><line style="stroke:#33FF33;stroke-width:0.9;stroke-dasharray:5.0,5.0;" x1="1828.35" x2="1828.35" y1="74.7132" y2="592.5621"/><text fill="#33FF33" font-family="Verdana" font-size="12.6" lengthAdjust="spacing" textLength="28.8" x="9" y="72.0677">User</text><ellipse cx="26.1" cy="12.6" fill="#282828" rx="7.2" ry="7.2" style="stroke:#33FF33;stroke-width:0.9;"/><path d="M26.1,19.8 L26.1,44.1 M14.4,27 L37.8,27 M26.1,44.1 L14.4,57.6 M26.1,44.1 L37.8,57.6 " fill="none" style="stroke:#33FF33;stroke-width:0.9;"/><text fill="#33FF33" font-family="Verdana" font-size="12.6" lengthAdjust="spacing" textLength="28.8" x="9" y="604.3298">User</text><ellipse cx="26.1" cy="615.0753" fill="#282828" rx="7.2" ry="7.2" style="stroke:#33FF33;stroke-width:0.9;"/><path d="M26.1,622.2753 L26.1,646.5753 M14.4,629.4753 L37.8,629.4753 M26.1,646.5753 L14.4,660.0753 M26.1,646.5753 L37.8,660.0753 " fill="none" style="stroke:#33FF33;stroke-width:0.9;"/><rect fill="#282828" height="43.2264" rx="2.25" ry="2.25" style="stroke:#33FF33;stroke-width:0.9;" width="171.9" x="243.45" y="30.5868"/><text fill="#33FF33" font-family="Verdana" font-size="12.6" font-style="italic" lengthAdjust="spacing" textLength="96.3" x="281.25" y="49.5545">«presentation»</text><text fill="#33FF33" font-family="Verdana" font-size="12.6" lengthAdjust="spacing" textLength="159.3" x="249.75" y="64.8677">UndoLastChangePostItUI</text><rect fill="#282828" height="43.2264" rx="2.25" ry="2.25" style="stroke:#33FF33;stroke-width:0.9;" width="171.9" x="243.45" y="591.6621"/><text fill="#33FF33" font-family="Verdana" font-size="12.6" font-style="italic" lengthAdjust="spacing" textLength="96.3" x="281.25" y="610.6298">«presentation»</text><text fill="#33FF33" font-family="Verdana" font-size="12.6" lengthAdjust="spacing" textLength="159.3" x="249.75" y="625.943">UndoLastChangePostItUI</text><rect fill="#282828" height="43.2264" rx="2.25" ry="2.25" style="stroke:#33FF33;stroke-width:0.9;" width="222.3" x="601.65" y="30.5868"/><text fill="#33FF33" font-family="Verdana" font-size="12.6" font-style="italic" lengthAdjust="spacing" textLength="86.4" x="669.6" y="49.5545">«application»</text><text fill="#33FF33" font-family="Verdana" font-size="12.6" lengthAdjust="spacing" textLength="209.7" x="607.95" y="64.8677">ListWritableSharedBoardsService</text><rect fill="#282828" height="43.2264" rx="2.25" ry="2.25" style="stroke:#33FF33;stroke-width:0.9;" width="222.3" x="601.65" y="591.6621"/><text fill="#33FF33" font-family="Verdana" font-size="12.6" font-style="italic" lengthAdjust="spacing" textLength="86.4" x="669.6" y="610.6298">«application»</text><text fill="#33FF33" font-family="Verdana" font-size="12.6" lengthAdjust="spacing" textLength="209.7" x="607.95" y="625.943">ListWritableSharedBoardsService</text><rect fill="#282828" height="43.2264" rx="2.25" ry="2.25" style="stroke:#33FF33;stroke-width:0.9;" width="142.2" x="850.95" y="30.5868"/><text fill="#33FF33" font-family="Verdana" font-size="12.6" font-style="italic" lengthAdjust="spacing" textLength="86.4" x="878.85" y="49.5545">«application»</text><text fill="#33FF33" font-family="Verdana" font-size="12.6" lengthAdjust="spacing" textLength="129.6" x="857.25" y="64.8677">SendRequestService</text><rect fill="#282828" height="43.2264" rx="2.25" ry="2.25" style="stroke:#33FF33;stroke-width:0.9;" width="142.2" x="850.95" y="591.6621"/><text fill="#33FF33" font-family="Verdana" font-size="12.6" font-style="italic" lengthAdjust="spacing" textLength="86.4" x="878.85" y="610.6298">«application»</text><text fill="#33FF33" font-family="Verdana" font-size="12.6" lengthAdjust="spacing" textLength="129.6" x="857.25" y="625.943">SendRequestService</text><rect fill="#282828" height="43.2264" rx="2.25" ry="2.25" style="stroke:#33FF33;stroke-width:0.9;" width="67.5" x="1102.5" y="30.5868"/><text fill="#33FF33" font-family="Verdana" font-size="12.6" font-style="italic" lengthAdjust="spacing" textLength="54.9" x="1108.8" y="49.5545">«server»</text><text fill="#33FF33" font-family="Verdana" font-size="12.6" lengthAdjust="spacing" textLength="41.4" x="1115.55" y="64.8677">Server</text><rect fill="#282828" height="43.2264" rx="2.25" ry="2.25" style="stroke:#33FF33;stroke-width:0.9;" width="67.5" x="1102.5" y="591.6621"/><text fill="#33FF33" font-family="Verdana" font-size="12.6" font-style="italic" lengthAdjust="spacing" textLength="54.9" x="1108.8" y="610.6298">«server»</text><text fill="#33FF33" font-family="Verdana" font-size="12.6" lengthAdjust="spacing" textLength="41.4" x="1115.55" y="625.943">Server</text><rect fill="#282828" height="43.2264" rx="2.25" ry="2.25" style="stroke:#33FF33;stroke-width:0.9;" width="155.7" x="1409.4" y="30.5868"/><text fill="#33FF33" font-family="Verdana" font-size="12.6" font-style="italic" lengthAdjust="spacing" textLength="86.4" x="1444.05" y="49.5545">«application»</text><text fill="#33FF33" font-family="Verdana" font-size="12.6" lengthAdjust="spacing" textLength="143.1" x="1415.7" y="64.8677">UndoChangeController</text><rect fill="#282828" height="43.2264" rx="2.25" ry="2.25" style="stroke:#33FF33;stroke-width:0.9;" width="155.7" x="1409.4" y="591.6621"/><text fill="#33FF33" font-family="Verdana" font-size="12.6" font-style="italic" lengthAdjust="spacing" textLength="86.4" x="1444.05" y="610.6298">«application»</text><text fill="#33FF33" font-family="Verdana" font-size="12.6" lengthAdjust="spacing" textLength="143.1" x="1415.7" y="625.943">UndoChangeController</text><rect fill="#282828" height="43.2264" rx="2.25" ry="2.25" style="stroke:#33FF33;stroke-width:0.9;" width="95.4" x="1598.85" y="30.5868"/><text fill="#33FF33" font-family="Verdana" font-size="12.6" font-style="italic" lengthAdjust="spacing" textLength="64.8" x="1614.15" y="49.5545">«domain»</text><text fill="#33FF33" font-family="Verdana" font-size="12.6" lengthAdjust="spacing" textLength="82.8" x="1605.15" y="64.8677">SharedBoard</text><rect fill="#282828" height="43.2264" rx="2.25" ry="2.25" style="stroke:#33FF33;stroke-width:0.9;" width="95.4" x="1598.85" y="591.6621"/><text fill="#33FF33" font-family="Verdana" font-size="12.6" font-style="italic" lengthAdjust="spacing" textLength="64.8" x="1614.15" y="610.6298">«domain»</text><text fill="#33FF33" font-family="Verdana" font-size="12.6" lengthAdjust="spacing" textLength="82.8" x="1605.15" y="625.943">SharedBoard</text><text fill="#33FF33" font-family="Verdana" font-size="12.6" lengthAdjust="spacing" textLength="227.7" x="1712.25" y="72.0677">SharedBoardParticipationRepository</text><path d="M1812.6,27 C1812.6,18 1828.8,18 1828.8,18 C1828.8,18 1845,18 1845,27 L1845,50.4 C1845,59.4 1828.8,59.4 1828.8,59.4 C1828.8,59.4 1812.6,59.4 1812.6,50.4 L1812.6,27 " fill="#282828" style="stroke:#33FF33;stroke-width:1.35;"/><path d="M1812.6,27 C1812.6,36 1828.8,36 1828.8,36 C1828.8,36 1845,36 1845,27 " fill="none" style="stroke:#33FF33;stroke-width:1.35;"/><text fill="#33FF33" font-family="Verdana" font-size="12.6" lengthAdjust="spacing" textLength="227.7" x="1712.25" y="604.3298">SharedBoardParticipationRepository</text><path d="M1812.6,615.9753 C1812.6,606.9753 1828.8,606.9753 1828.8,606.9753 C1828.8,606.9753 1845,606.9753 1845,615.9753 L1845,639.3753 C1845,648.3753 1828.8,648.3753 1828.8,648.3753 C1828.8,648.3753 1812.6,648.3753 1812.6,639.3753 L1812.6,615.9753 " fill="#282828" style="stroke:#33FF33;stroke-width:1.35;"/><path d="M1812.6,615.9753 C1812.6,624.9753 1828.8,624.9753 1828.8,624.9753 C1828.8,624.9753 1845,624.9753 1845,615.9753 " fill="none" style="stroke:#33FF33;stroke-width:1.35;"/><rect fill="#282828" height="500.7489" style="stroke:#33FF33;stroke-width:0.9;" width="9" x="324.9" y="83.7132"/><rect fill="#282828" height="112.6775" style="stroke:#33FF33;stroke-width:0.9;" width="9" x="708.3" y="103.3326"/><rect fill="#282828" height="314.8132" style="stroke:#33FF33;stroke-width:0.9;" width="9" x="917.55" y="269.6489"/><rect fill="#282828" height="287.9938" style="stroke:#33FF33;stroke-width:0.9;" width="9" x="1131.75" y="296.4683"/><rect fill="#282828" height="200.3357" style="stroke:#33FF33;stroke-width:0.9;" width="9" x="1482.75" y="384.1264"/><rect fill="#282828" height="169.0163" style="stroke:#33FF33;stroke-width:0.9;" width="9" x="1642.05" y="415.4458"/><polygon fill="#33FF33" points="314.1,99.7326,323.1,103.3326,314.1,106.9326,317.7,103.3326" style="stroke:#33FF33;stroke-width:0.9;"/><line style="stroke:#33FF33;stroke-width:0.9;" x1="26.1" x2="319.5" y1="103.3326" y2="103.3326"/><text fill="#33FF33" font-family="Verdana" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="8.1" x="32.4" y="99.076">1</text><text fill="#33FF33" font-family="Verdana" font-size="11.7" lengthAdjust="spacing" textLength="265.5" x="44.1" y="99.076">request to undo the last change to a post it</text><polygon fill="#33FF33" points="697.5,129.252,706.5,132.852,697.5,136.452,701.1,132.852" style="stroke:#33FF33;stroke-width:0.9;"/><line style="stroke:#33FF33;stroke-width:0.9;" x1="333.9" x2="702.9" y1="132.852" y2="132.852"/><text fill="#33FF33" font-family="Verdana" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="8.1" x="340.2" y="128.5954">2</text><text fill="#33FF33" font-family="Verdana" font-size="11.7" lengthAdjust="spacing" textLength="341.1" x="351.9" y="128.5954">List&lt;SharedBoardDTO&gt;&gt; list = listWritableSharedBoards()</text><path d="M721.8,115.0326 L721.8,137.5326 L964.8,137.5326 L964.8,124.0326 L955.8,115.0326 L721.8,115.0326 " fill="#282828" style="stroke:#33FF33;stroke-width:0.9;"/><path d="M955.8,115.0326 L955.8,124.0326 L964.8,124.0326 L955.8,115.0326 " fill="#282828" style="stroke:#33FF33;stroke-width:0.9;"/><text fill="#33FF33" font-family="Verdana" font-size="11.7" lengthAdjust="spacing" textLength="224.1" x="727.2" y="131.2954">The user is obtained through session.</text><polygon fill="#33FF33" points="1818,158.7713,1827,162.3713,1818,165.9713,1821.6,162.3713" style="stroke:#33FF33;stroke-width:0.9;"/><line style="stroke:#33FF33;stroke-width:0.9;" x1="717.3" x2="1823.4" y1="162.3713" y2="162.3713"/><text fill="#33FF33" font-family="Verdana" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="8.1" x="723.6" y="158.1148">3</text><text fill="#33FF33" font-family="Verdana" font-size="11.7" lengthAdjust="spacing" textLength="341.1" x="735.3" y="158.1148">List&lt;SharedBoardDTO&gt;&gt; list = listWritableSharedBoards()</text><polygon fill="#33FF33" points="727.2,185.5907,718.2,189.1907,727.2,192.7907,723.6,189.1907" style="stroke:#33FF33;stroke-width:0.9;"/><line style="stroke:#33FF33;stroke-width:0.9;stroke-dasharray:2.0,2.0;" x1="721.8" x2="1827.9" y1="189.1907" y2="189.1907"/><text fill="#33FF33" font-family="Verdana" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="8.1" x="732.6" y="184.9342">4</text><text fill="#33FF33" font-family="Verdana" font-size="11.7" lengthAdjust="spacing" textLength="4.5" x="744.3" y="184.9342"> </text><polygon fill="#33FF33" points="343.8,212.4101,334.8,216.0101,343.8,219.6101,340.2,216.0101" style="stroke:#33FF33;stroke-width:0.9;"/><line style="stroke:#33FF33;stroke-width:0.9;stroke-dasharray:2.0,2.0;" x1="338.4" x2="711.9" y1="216.0101" y2="216.0101"/><text fill="#33FF33" font-family="Verdana" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="8.1" x="349.2" y="211.7536">5</text><text fill="#33FF33" font-family="Verdana" font-size="11.7" lengthAdjust="spacing" textLength="4.5" x="360.9" y="211.7536"> </text><polygon fill="#33FF33" points="36,239.2295,27,242.8295,36,246.4295,32.4,242.8295" style="stroke:#33FF33;stroke-width:0.9;"/><line style="stroke:#33FF33;stroke-width:0.9;stroke-dasharray:2.0,2.0;" x1="30.6" x2="324" y1="242.8295" y2="242.8295"/><text fill="#33FF33" font-family="Verdana" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="8.1" x="41.4" y="238.5729">6</text><text fill="#33FF33" font-family="Verdana" font-size="11.7" lengthAdjust="spacing" textLength="237.6" x="53.1" y="238.5729">shows a list of listWritableSharedBoards</text><polygon fill="#33FF33" points="314.1,266.0489,323.1,269.6489,314.1,273.2489,317.7,269.6489" style="stroke:#33FF33;stroke-width:0.9;"/><line style="stroke:#33FF33;stroke-width:0.9;" x1="26.1" x2="319.5" y1="269.6489" y2="269.6489"/><text fill="#33FF33" font-family="Verdana" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="8.1" x="32.4" y="265.3923">7</text><text fill="#33FF33" font-family="Verdana" font-size="11.7" lengthAdjust="spacing" textLength="131.4" x="44.1" y="265.3923">selects a sharedBoard</text><polygon fill="#33FF33" points="906.75,292.8683,915.75,296.4683,906.75,300.0683,910.35,296.4683" style="stroke:#33FF33;stroke-width:0.9;"/><line style="stroke:#33FF33;stroke-width:0.9;" x1="333.9" x2="912.15" y1="296.4683" y2="296.4683"/><text fill="#33FF33" font-family="Verdana" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="8.1" x="340.2" y="292.2117">8</text><text fill="#33FF33" font-family="Verdana" font-size="11.7" lengthAdjust="spacing" textLength="477" x="351.9" y="292.2117">String feedback = sendPostItUndoRequest(selectedBoard.getSharedBoardTitle()</text><polygon fill="#33FF33" points="1120.95,319.6876,1129.95,323.2876,1120.95,326.8876,1124.55,323.2876" style="stroke:#33FF33;stroke-width:0.9;"/><line style="stroke:#33FF33;stroke-width:0.9;" x1="926.55" x2="1126.35" y1="323.2876" y2="323.2876"/><text fill="#33FF33" font-family="Verdana" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="8.1" x="932.85" y="319.0311">9</text><text fill="#33FF33" font-family="Verdana" font-size="11.7" lengthAdjust="spacing" textLength="171.9" x="944.55" y="319.0311">establishes a tcp connection</text><polygon fill="#33FF33" points="936.45,346.507,927.45,350.107,936.45,353.707,932.85,350.107" style="stroke:#33FF33;stroke-width:0.9;"/><line style="stroke:#33FF33;stroke-width:0.9;stroke-dasharray:2.0,2.0;" x1="931.05" x2="1130.85" y1="350.107" y2="350.107"/><text fill="#33FF33" font-family="Verdana" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="16.2" x="941.85" y="345.8505">10</text><text fill="#33FF33" font-family="Verdana" font-size="11.7" lengthAdjust="spacing" textLength="121.5" x="961.65" y="345.8505">accepts the request</text><line style="stroke:#33FF33;stroke-width:0.9;" x1="1140.75" x2="1183.05" y1="372.4264" y2="372.4264"/><line style="stroke:#33FF33;stroke-width:0.9;" x1="1183.05" x2="1183.05" y1="372.4264" y2="384.1264"/><line style="stroke:#33FF33;stroke-width:0.9;" x1="1146.15" x2="1183.05" y1="384.1264" y2="384.1264"/><polygon fill="#33FF33" points="1155.15,380.5264,1146.15,384.1264,1155.15,387.7264,1151.55,384.1264" style="stroke:#33FF33;stroke-width:0.9;"/><text fill="#33FF33" font-family="Verdana" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="16.2" x="1151.55" y="368.1699">11</text><text fill="#33FF33" font-family="Verdana" font-size="11.7" lengthAdjust="spacing" textLength="309.6" x="1171.35" y="368.1699">creates a new thread to attend the client's request</text><polygon fill="#33FF33" points="1471.95,411.8458,1480.95,415.4458,1471.95,419.0458,1475.55,415.4458" style="stroke:#33FF33;stroke-width:0.9;"/><line style="stroke:#33FF33;stroke-width:0.9;" x1="1140.75" x2="1477.35" y1="415.4458" y2="415.4458"/><text fill="#33FF33" font-family="Verdana" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="16.2" x="1147.05" y="411.1893">12</text><text fill="#33FF33" font-family="Verdana" font-size="11.7" lengthAdjust="spacing" textLength="267.3" x="1166.85" y="411.1893">String feedback = undoChange(sharedBoard)</text><polygon fill="#33FF33" points="1631.25,438.6652,1640.25,442.2652,1631.25,445.8652,1634.85,442.2652" style="stroke:#33FF33;stroke-width:0.9;"/><line style="stroke:#33FF33;stroke-width:0.9;" x1="1491.75" x2="1636.65" y1="442.2652" y2="442.2652"/><text fill="#33FF33" font-family="Verdana" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="16.2" x="1498.05" y="438.0086">13</text><text fill="#33FF33" font-family="Verdana" font-size="11.7" lengthAdjust="spacing" textLength="108.9" x="1517.85" y="438.0086">undoLastChange()</text><polygon fill="#33FF33" points="1501.65,465.4846,1492.65,469.0846,1501.65,472.6846,1498.05,469.0846" style="stroke:#33FF33;stroke-width:0.9;"/><line style="stroke:#33FF33;stroke-width:0.9;stroke-dasharray:2.0,2.0;" x1="1496.25" x2="1641.15" y1="469.0846" y2="469.0846"/><text fill="#33FF33" font-family="Verdana" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="16.2" x="1507.05" y="464.828">14</text><text fill="#33FF33" font-family="Verdana" font-size="11.7" lengthAdjust="spacing" textLength="4.5" x="1526.85" y="464.828"> </text><polygon fill="#33FF33" points="1150.65,492.304,1141.65,495.904,1150.65,499.504,1147.05,495.904" style="stroke:#33FF33;stroke-width:0.9;"/><line style="stroke:#33FF33;stroke-width:0.9;stroke-dasharray:2.0,2.0;" x1="1145.25" x2="1481.85" y1="495.904" y2="495.904"/><text fill="#33FF33" font-family="Verdana" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="16.2" x="1156.05" y="491.6474">15</text><text fill="#33FF33" font-family="Verdana" font-size="11.7" lengthAdjust="spacing" textLength="4.5" x="1175.85" y="491.6474"> </text><polygon fill="#33FF33" points="936.45,519.1233,927.45,522.7233,936.45,526.3233,932.85,522.7233" style="stroke:#33FF33;stroke-width:0.9;"/><line style="stroke:#33FF33;stroke-width:0.9;stroke-dasharray:2.0,2.0;" x1="931.05" x2="1130.85" y1="522.7233" y2="522.7233"/><text fill="#33FF33" font-family="Verdana" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="16.2" x="941.85" y="518.4668">16</text><text fill="#33FF33" font-family="Verdana" font-size="11.7" lengthAdjust="spacing" textLength="4.5" x="961.65" y="518.4668"> </text><polygon fill="#33FF33" points="343.8,545.9427,334.8,549.5427,343.8,553.1427,340.2,549.5427" style="stroke:#33FF33;stroke-width:0.9;"/><line style="stroke:#33FF33;stroke-width:0.9;stroke-dasharray:2.0,2.0;" x1="338.4" x2="916.65" y1="549.5427" y2="549.5427"/><text fill="#33FF33" font-family="Verdana" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="16.2" x="349.2" y="545.2862">17</text><text fill="#33FF33" font-family="Verdana" font-size="11.7" lengthAdjust="spacing" textLength="4.5" x="369" y="545.2862"> </text><polygon fill="#33FF33" points="36,572.7621,27,576.3621,36,579.9621,32.4,576.3621" style="stroke:#33FF33;stroke-width:0.9;"/><line style="stroke:#33FF33;stroke-width:0.9;stroke-dasharray:2.0,2.0;" x1="30.6" x2="324" y1="576.3621" y2="576.3621"/><text fill="#33FF33" font-family="Verdana" font-size="11.7" font-weight="bold" lengthAdjust="spacing" textLength="16.2" x="41.4" y="572.1056">18</text><text fill="#33FF33" font-family="Verdana" font-size="11.7" lengthAdjust="spacing" textLength="219.6" x="61.2" y="572.1056">informs the success of the operation</text><!--MD5=[7dd19cf6ac644cf09bd2aaec2f20a257]
+@startuml
+autonumber
+!theme crt-green
+actor User as user
+participant UndoLastChangePostItUI as UI <<presentation>>
+participant ListWritableSharedBoardsService as listService <<application>>
+participant SendRequestService as svc <<application>>
+participant Server as sv <<server>>
+participant UndoChangeController as undoCtrl <<application>>
+participant SharedBoard as sb <<domain>>
+database SharedBoardParticipationRepository as SBPRepo
+
+activate UI
+user -> UI: request to undo the last change to a post it
+activate listService
+UI-> listService: List<SharedBoardDTO>> list = listWritableSharedBoards()
+note right
+The user is obtained through session.
+end note
+listService -> SBPRepo: List<SharedBoardDTO>> list = listWritableSharedBoards()
+SBPRepo - -> listService:
+listService - -> UI:
+deactivate listService
+UI - -> user: shows a list of listWritableSharedBoards
+user -> UI: selects a sharedBoard
+activate svc
+UI -> svc: String feedback = sendPostItUndoRequest(selectedBoard.getSharedBoardTitle()
+activate sv
+svc -> sv: establishes a tcp connection
+sv - -> svc: accepts the request
+sv -> sv: creates a new thread to attend the client's request
+activate undoCtrl
+sv -> undoCtrl: String feedback = undoChange(sharedBoard)
+activate sb
+undoCtrl -> sb: undoLastChange()
+sb- ->undoCtrl
+undoCtrl- ->sv:
+sv- ->svc:
+svc- ->UI:
+UI- ->user: informs the success of the operation
+
+
+@enduml
+
+@startuml
+autonumber
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor #282828
+    FontColor #33FF33
+    FontName Verdana
+    HyperLinkColor #33FF33
+    LineColor #33FF33
+    LineThickness 1
+    Margin 5
+  }
+  box {
+    LineStyle 12-18
+    LineThickness 3
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  referenceHeader {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor #33FF33
+skinparam BackgroundColor #282828
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy solid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor #33FF33
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor #282828
+  BarColor #33FF33
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor #33FF33
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor #282828
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor #282828
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Header {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color #33FF33
+}
+skinparam IconPackage {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconPrivate {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconProtected {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconPublic {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam Note {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor #33FF33
+}
+skinparam Package {
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor #282828
+  BorderColor #33FF33
+}
+skinparam StereotypeA {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeC {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeE {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeI {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeN {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam UseCaseStereoType {
+  FontColor #33FF33
+  FontName Verdana
+}
+actor User as user
+participant UndoLastChangePostItUI as UI <<presentation>>
+participant ListWritableSharedBoardsService as listService <<application>>
+participant SendRequestService as svc <<application>>
+participant Server as sv <<server>>
+participant UndoChangeController as undoCtrl <<application>>
+participant SharedBoard as sb <<domain>>
+database SharedBoardParticipationRepository as SBPRepo
+
+activate UI
+user -> UI: request to undo the last change to a post it
+activate listService
+UI-> listService: List<SharedBoardDTO>> list = listWritableSharedBoards()
+note right
+The user is obtained through session.
+end note
+listService -> SBPRepo: List<SharedBoardDTO>> list = listWritableSharedBoards()
+SBPRepo - -> listService:
+listService - -> UI:
+deactivate listService
+UI - -> user: shows a list of listWritableSharedBoards
+user -> UI: selects a sharedBoard
+activate svc
+UI -> svc: String feedback = sendPostItUndoRequest(selectedBoard.getSharedBoardTitle()
+activate sv
+svc -> sv: establishes a tcp connection
+sv - -> svc: accepts the request
+sv -> sv: creates a new thread to attend the client's request
+activate undoCtrl
+sv -> undoCtrl: String feedback = undoChange(sharedBoard)
+activate sb
+undoCtrl -> sb: undoLastChange()
+sb- ->undoCtrl
+undoCtrl- ->sv:
+sv- ->svc:
+svc- ->UI:
+UI- ->user: informs the success of the operation
+
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 19:12:26 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,132 @@
+@startuml
+
+title  Teacher chooses Exam specifications
+autonumber
+
+actor Student as S
+participant "CreateLectureUI" as UI <<presentation>>
+participant "UtilsLectureService" as UtilsLectureSer <<application>>
+participant "UtilsLectureValidationService" as UtilsLectureValSer <<domain>>
+participant "CheckLecturesHourRelatedService" as CheckLecturesSer <<application>>
+participant "LectureInDayAndHourService" as LecturesSer <<domain>>
+
+activate UI
+UI -> S : asks for lecture week day
+deactivate UI
+activate S
+S -> UI : chooses lecture week day
+deactivate S
+activate UI
+UI -> S : asks for lecture initial hour
+deactivate UI
+activate S
+S -> UI : chooses lecture initial hour
+deactivate S
+activate UI
+UI -> UtilsLectureSer : checks if introduced hour is valid and if its between 7am and 11pm
+deactivate UI
+activate UtilsLectureSer
+UtilsLectureSer -> UtilsLectureValSer : checks if introduced hour is valid and if its between 7am and 11pm
+deactivate UtilsLectureSer
+activate UtilsLectureValSer
+UtilsLectureValSer -> UtilsLectureSer : returns time if valid
+deactivate UtilsLectureValSer
+activate UtilsLectureSer
+UtilsLectureSer -> UI : returns time if valid
+deactivate UtilsLectureSer
+activate UI
+UI -> S : asks for lecture final hour
+deactivate UI
+activate S
+S -> UI : chooses lecture final hour
+deactivate S
+activate UI
+UI -> UtilsLectureSer : checks if introduced hour is valid and if its between 7am and 11pm
+deactivate UI
+activate UtilsLectureSer
+UtilsLectureSer -> UtilsLectureValSer : checks if introduced hour is valid and if its between 7am and 11pm
+deactivate UtilsLectureSer
+activate UtilsLectureValSer
+UtilsLectureValSer -> UtilsLectureSer : returns time if valid
+deactivate UtilsLectureValSer
+activate UtilsLectureSer
+UtilsLectureSer -> UI : returns time if valid
+deactivate UtilsLectureSer
+activate UI
+UI -> S : asks for lecture initial date
+deactivate UI
+activate S
+S -> UI : chooses lecture initial date
+deactivate S
+activate UI
+UI -> UtilsLectureSer : checks if introduced date is valid
+deactivate UI
+activate UtilsLectureSer
+UtilsLectureSer -> UtilsLectureValSer : checks if introduced date is valid
+deactivate UtilsLectureSer
+activate UtilsLectureValSer
+UtilsLectureValSer -> UtilsLectureSer : returns true if valid
+deactivate UtilsLectureValSer
+activate UtilsLectureSer
+UtilsLectureSer -> UI : returns true if valid
+deactivate UtilsLectureSer
+activate UI
+UI -> CheckLecturesSer : get all the lectures in the same day
+deactivate UI
+activate CheckLecturesSer
+CheckLecturesSer -> LecturesSer : get all the lectures in the same day
+deactivate CheckLecturesSer
+activate LecturesSer
+LecturesSer -> CheckLecturesSer : returns all the lectures in the same day
+deactivate LecturesSer
+activate CheckLecturesSer
+CheckLecturesSer -> UI : returns all the lectures in the same day
+deactivate CheckLecturesSer
+activate UI
+UI -> S : asks for lecture final date
+deactivate UI
+activate S
+S -> UI : chooses lecture final date
+deactivate S
+activate UI
+UI -> UtilsLectureSer : checks if introduced date is valid
+deactivate UI
+activate UtilsLectureSer
+UtilsLectureSer -> UtilsLectureValSer : checks if introduced date is valid
+deactivate UtilsLectureSer
+activate UtilsLectureValSer
+UtilsLectureValSer -> UtilsLectureSer : returns true if valid
+deactivate UtilsLectureValSer
+activate UtilsLectureSer
+UtilsLectureSer -> UI : returns true if valid
+deactivate UtilsLectureSer
+activate UI
+UI -> CheckLecturesSer : get all the lectures in the same day
+deactivate UI
+activate CheckLecturesSer
+CheckLecturesSer -> LecturesSer : get all the lectures in the same day
+deactivate CheckLecturesSer
+activate LecturesSer
+LecturesSer -> CheckLecturesSer : returns all the lectures in the same day
+deactivate LecturesSer
+activate CheckLecturesSer
+CheckLecturesSer -> UI : returns all the lectures in the same day
+deactivate CheckLecturesSer
+activate UI
+UI -> UtilsLectureSer : checks if the lecture is in the same day and hour as another lecture
+deactivate UI
+activate UtilsLectureSer
+UtilsLectureSer -> UtilsLectureValSer : checks if the lecture is in the same day and hour as another lecture
+deactivate UtilsLectureSer
+activate UtilsLectureValSer
+UtilsLectureValSer -> UtilsLectureSer : returns true if the lecture is in the same day and hour as another lecture
+deactivate UtilsLectureValSer
+activate UtilsLectureSer
+UtilsLectureSer -> UI : returns true if the lecture is in the same day and hour as another lecture
+deactivate UtilsLectureSer
+activate UI
+UI -> S : asks for lecture type
+deactivate UI
+activate S
+S -> UI : chooses lecture type
+@enduml

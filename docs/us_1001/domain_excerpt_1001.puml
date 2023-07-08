@@ -1,0 +1,53 @@
+@startuml DDD
+
+!theme crt-green
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+
+package "<<agr SystemUser>>"{
+    class SystemUser<<entity>><<root>>{}
+    class UserName<<vo>>{}
+    class UserPassword<<vo>>{}
+
+    SystemUser "1" --> "1" UserName
+    SystemUser "1" --> "1" UserPassword
+}
+
+package "<<agr Manager>>"{
+
+    class Manager<<entity>><<root>>{}
+    SystemUser "1" <- Manager
+
+}
+
+package "<<agr Teacher>>"{
+
+    class Teacher<<entity>><<root>>{}
+    class Acronym<<vo>>{}
+    class TaxPayerNumber<<vo>>{}
+    class DateOfBirth<<vo>>{}
+
+    SystemUser "1" <-- Teacher
+    Teacher -down-> "1" Acronym
+    Teacher --> "1" DateOfBirth
+    Teacher --> "1" TaxPayerNumber
+}
+
+package "<<agr Student>>"{
+
+    class Student<<entity>><<root>>{}
+    class MechanographicalNumber<<vo>>{}
+    class StudentTaxPayerNumber<<vo>>{}
+    class StudentDateOfBirth<<vo>>{}
+
+    Student  --> "1" MechanographicalNumber
+    Student "1" --> SystemUser
+    'Student <-- "*" Lecture : participates
+    Student --> "1" StudentDateOfBirth
+    Student --> "1" StudentTaxPayerNumber
+}
+
+hide circles
+@enduml

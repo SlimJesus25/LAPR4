@@ -1,0 +1,51 @@
+@startuml
+
+class CreateSharedBoardUI {
+  +requestInputData()
+  +informOperationSuccess()
+}
+
+class CreateSharedBoardController {
+  +createSharedBoard(title, rows, columns)
+}
+
+class AuthorizationService {
+  +ensureAuthenticatedUserHasAnyOf()
+}
+
+class SharedBoardService {
+  +createSharedBoard(sharedBoard)
+}
+
+class SharedBoardBuilder {
+  +withSharedBoardTitle(title)
+  +withSharedBoardRows(rows)
+  +withSharedBoardColumns(columns)
+  +withSharedBoardUser(user)
+  +build()
+}
+
+class SharedBoard {
+  -title: String
+  -rows: int
+  -columns: int
+  -user: User
+}
+
+class SharedBoardRepository {
+  +repositories()
+  +save(sharedBoard)
+}
+
+CreateSharedBoardUI ..> CreateSharedBoardController : Uses
+CreateSharedBoardController ..> AuthorizationService : Uses
+CreateSharedBoardController ..> SharedBoardService : Uses
+CreateSharedBoardController --> CreateSharedBoardUI : Informs success
+CreateSharedBoardController ..> SharedBoardBuilder : Uses
+CreateSharedBoardController --> SharedBoardService : Calls createSharedBoard()
+SharedBoardService ..> SharedBoardRepository : Uses
+SharedBoardService --> CreateSharedBoardController : Returns SharedBoard
+SharedBoardBuilder --> SharedBoard : Builds
+CreateSharedBoardController --> SharedBoard : Creates
+
+@enduml

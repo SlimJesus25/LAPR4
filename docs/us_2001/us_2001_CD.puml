@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+package "<<agr ExamQuestion>>"{
+    class ExamQuestion <<entity>><<root>>{}
+    class ExamQuestionStatement <<vo>>{}
+    class ExamQuestionFeedback <<vo>>{}
+    class ExamQuestionValue <<vo>>{}
+    class ExamQuestionSolution<<vo>>{}
+    class ExamQuestionType <<vo>><<enum>>{}
+
+    ExamQuestion "*" <-- ExamSection
+    ExamQuestion --> "1" ExamQuestionValue
+    ExamQuestion --> "*" ExamQuestionFeedback
+    ExamQuestion --> "*" ExamQuestionSolution
+    ExamQuestion --> "1" ExamQuestionType
+    ExamQuestion --> "1" ExamQuestionStatement
+
+}
+@enduml

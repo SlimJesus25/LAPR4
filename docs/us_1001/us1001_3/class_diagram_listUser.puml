@@ -1,0 +1,68 @@
+@startuml
+
+interface ListUsersByRoleUI {
+  +showListOfRoles(roles: List<Role>)
+  +getUserRoleSelection(): Role
+  +showListOfUsers(users: List<SystemUser>)
+}
+
+class ShowRolesService {
+  -authorizationService: AuthorizationService
+  -userRepository: ELearningUserRepository
+  +showRoles(): List<Role>
+}
+
+class ListUsersByRoleController {
+  -authorizationService: AuthorizationService
+  -userService: IUserService
+  +listUsersByRole(role: Role): List<SystemUser>
+}
+
+interface AuthorizationService {
+  +ensureAuthenticatedUserHasAnyOf(roles: List<Role>)
+}
+
+interface IUserService {
+  +listUsersByRole(role: Role): List<SystemUser>
+}
+
+class UserService {
+  -userRepository: SystemUserRepository
+  +listUsersByRole(role: Role): List<SystemUser>
+}
+
+class ELearningUserRepository {
+  +show_roles(): List<Role>
+  +listUsersByRole(role: Role): List<SystemUser>
+}
+
+class SystemUserRepository {
+  +listUsersByRole(role: Role): List<SystemUser>
+}
+
+class SystemUser {
+  -username: String
+  -password: String
+  -firstName: String
+  -lastName: String
+  -email: String
+  +getUsername(): String
+  +getPassword(): String
+  +getFirstName(): String
+  +getLastName(): String
+  +getEmail(): String
+}
+
+ListUsersByRoleUI --> ShowRolesService
+ListUsersByRoleUI --> ListUsersByRoleController
+ListUsersByRoleUI --> SystemUser
+ShowRolesService --> AuthorizationService
+ShowRolesService --> ELearningUserRepository
+ListUsersByRoleController --> AuthorizationService
+ListUsersByRoleController --> IUserService
+ListUsersByRoleController --> SystemUser
+IUserService --> SystemUser
+UserService --> SystemUserRepository
+ELearningUserRepository --> SystemUser
+SystemUserRepository --> SystemUser
+@enduml

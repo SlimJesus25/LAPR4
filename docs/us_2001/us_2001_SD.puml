@@ -1,0 +1,137 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+@startuml
+
+autonumber
+
+actor Teacher as T
+participant "CreateExamUI" as UI
+participant "CreateExamController" as Ctr
+participant "EvalVisitor" as EV
+participant "ExamService" as ESer
+participant "CourseService" as CSer
+participant "ExamSectionService" as ESSer
+participant "ExamQuestionService" as EQSer
+database "ExamRepository" as ERepo
+database "CourseRepository" as CRRepo
+database "ExamSectionRepository" as ESRepo
+database "ExamQuestionRepository" as EQRepo
+
+
+alt Create Exam
+UI -> T : asks for file path
+T -> UI : gives file path
+UI -> Ctr : createExam()
+Ctr -> EV : buildExam()
+
+EV -> CSer : findCourseByCode()
+CSer -> CRRepo : findCourseByCode()
+CRRepo -> CSer : returns Course
+CSer -> EV : returns Course
+loop for each section
+EV -> EQSer : findQuestionByStatement()
+EQSer -> EQRepo : findQuestionByStatement
+EQRepo -> EQSer : returns Question
+EQSer -> EV : returns Question
+
+alt Question is not found
+EV -> EQSer : createQuestion()
+EQSer -> EQRepo : createQuestion()
+EQRepo -> EQSer : returns Question
+EQSer -> EV : returns Question
+end
+
+EV -> ESSer : findSectionByDescription()
+ESSer -> ESRepo : findSectionByDescription()
+ESRepo -> ESSer : returns Section
+ESSer -> EV : returns Section
+
+alt Section is not found
+EV -> ESSer : createSection()
+ESSer -> ESRepo : createSection()
+ESRepo -> ESSer : returns Section
+ESSer -> EV : returns Section
+end
+end
+
+EV -> ESer : findExamByTitle()
+ESer -> ERepo : findExamByTitle()
+ERepo -> ESer : returns Exam
+ESer -> EV : returns Exam
+
+alt Exam is not found
+EV -> ESer : createExam()
+ESer -> ERepo : createExam()
+ERepo -> ESer : returns Exam
+ESer -> EV : returns Exam
+end
+EV -> Ctr : returns Exam
+Ctr -> UI : returns Exam
+UI -> T : shows Exam
+
+else Update Exam (*This code was not implemented*)
+
+UI -> Ctr : listExams()
+Ctr -> CSer : findTeacherCourses()
+CSer -> CRRepo : findTeacherCourses()
+CRRepo -> CSer : returns Courses
+CSer -> Ctr : returns Courses
+Ctr -> ESer : listExams()
+ESer -> ERepo : findExamsByCourse()
+ERepo -> ESer : returns Exams
+ESer -> Ctr : returns Exams
+Ctr -> UI : returns Exams
+UI -> T : shows Exams
+T -> UI : selects Exam
+UI -> T : asks for file path
+T -> UI : gives file path
+UI -> Ctr : updateExam()
+Ctr -> EV : updateExam()
+
+EV -> CSer : findCourseByCode()
+CSer -> CRRepo : findCourseByCode()
+CRRepo -> CSer : returns Course
+CSer -> EV : returns Course
+loop for each section
+EV -> EQSer : findQuestionByStatement()
+EQSer -> EQRepo : findQuestionByStatement
+EQRepo -> EQSer : returns Question
+EQSer -> EV : returns Question
+
+alt Question is not found
+EV -> EQSer : createQuestion()
+EQSer -> EQRepo : createQuestion()
+EQRepo -> EQSer : returns Question
+EQSer -> EV : returns Question
+end
+
+EV -> ESSer : findSectionByDescription()
+ESSer -> ESRepo : findSectionByDescription()
+ESRepo -> ESSer : returns Section
+ESSer -> EV : returns Section
+
+alt Section is not found
+EV -> ESSer : createSection()
+ESSer -> ESRepo : createSection()
+ESRepo -> ESSer : returns Section
+ESSer -> EV : returns Section
+end
+end
+EV -> ESer : updateExam()
+ESer -> ERepo : updateExam()
+ERepo -> ESer : returns Exam
+ESer -> EV : returns Exam
+
+EV -> Ctr : returns Exam
+Ctr -> UI : returns Exam
+UI -> T : shows Exam
+
+
+end
+
+@enduml
+
+@enduml

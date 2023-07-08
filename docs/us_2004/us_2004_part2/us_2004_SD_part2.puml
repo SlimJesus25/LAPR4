@@ -1,0 +1,74 @@
+@startuml
+
+@startuml
+
+title  Evaluate and Show Exam Result
+autonumber
+actor Student as S
+participant "TakeExamUI" as UI <<presentation>>
+participant "FormerExamValidationService" as ValSer <<servic>>
+participant "VisitorService" as VisitorSer <<service>>
+participant "EvaluateExamService" as EvaluateSer <<service>>
+participant "GetSumExamQuestionValuesService" as SumSer <<service>>
+participant "ExamQuestionDTO" as DTO <<DTO>>
+participant "CreateFormerExamController" as ctrl <<controller>>
+participant "FormerExam" as FormerExam <<entity>>
+participant "FormerExamRepository" as FormerExamRepo <<persistence>>
+activate UI
+UI-> ValSer : checks if exam is still in time to be evaluated
+deactivate UI
+activate ValSer
+ValSer -> ValSer : checks if exam is still in time to be evaluated
+ValSer -> UI : returns true if exam is still in time to be evaluated
+deactivate ValSer
+activate UI
+UI -> VisitorSer: sends exam questions to validate them
+deactivate UI
+activate VisitorSer
+VisitorSer -> VisitorSer: validates exam answers and gives grade 0 to those invalid
+VisitorSer -> UI
+deactivate VisitorSer
+activate UI
+UI -> EvaluateSer: sends exam answers and questions to evaluate them
+deactivate UI
+activate EvaluateSer
+EvaluateSer -> EvaluateSer: evaluates exam answers and gives grade to those that are correct
+EvaluateSer -> DTO : requests exam questions solutions to compare with answers
+deactivate EvaluateSer
+activate DTO
+DTO -> EvaluateSer : sends exam questions solutions
+deactivate DTO
+activate EvaluateSer
+EvaluateSer -> UI : sends each question grade
+deactivate EvaluateSer
+activate UI
+UI-> SumSer : requests sum of exam questions values
+deactivate UI
+activate SumSer
+SumSer -> UI : sends sum of exam questions values
+deactivate SumSer
+activate UI
+UI->S: shows exam grade and each question feedback
+UI->ctrl: requests to save exam grade(grade, studentId, examId)
+deactivate UI
+activate ctrl
+ctrl->FormerExam: creates former exam
+deactivate ctrl
+activate FormerExam
+FormerExam->ctrl: returns former exam
+deactivate FormerExam
+activate ctrl
+ctrl->FormerExamRepo: saves former exam
+deactivate ctrl
+activate FormerExamRepo
+FormerExamRepo->ctrl: returns former exam
+deactivate FormerExamRepo
+activate ctrl
+ctrl->UI: returns former exam
+deactivate ctrl
+activate UI
+UI->S: shows message of success
+deactivate UI
+@enduml
+
+@enduml

@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+hide circles
+hide fields
+hide empty members
+
+package "<<agr Meeting>>"{
+    class Meeting<<entity>><<root>>{}
+    class MeetingDuration<<vo>>{}
+    class MeetingDateNTime<<vo>>{}
+    class MeetingName<<vo>>{}
+    class MeetingState<<vo>><<enum>>{}
+
+    Meeting --> "1" MeetingDuration
+    Meeting --> "1" MeetingDateNTime
+    Meeting --> "1" MeetingName
+    Meeting --> "1" MeetingState
+}
+
+package "<<agr MeetingParticipation>>"{
+    class MeetingParticipation<<entity>><<root>>{}
+    class MeetingParticipationState<<vo>>{}
+
+    MeetingParticipation --> "*" SystemUser
+    MeetingParticipation --> "*" Meeting
+    MeetingParticipation --> "1" MeetingParticipationState
+}
+
+@enduml

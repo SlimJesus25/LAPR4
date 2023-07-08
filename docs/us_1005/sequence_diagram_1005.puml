@@ -1,0 +1,92 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor Administrator as admin
+participant SetTeachersUI as ui <<presentation>>
+participant SetTeachersController as ste_ctrl <<application>>
+participant ValidTeachersToAddToTeamService as reg_svc <<service>>
+participant ListTeachersService as te_svc <<service>>
+participant ListCoursesService as co_svc <<service>>
+participant SetTeachersService as svc <<service>>
+participant FindCourseRegentService as regente <<service>>
+participant TeamElementFactory as fac <<service>>
+participant TeamElement as TeamElement <<domain>>
+database CourseRepository as repo <<persistence>>
+database TeacherRepository as repot <<persistence>>
+database TeamElementRepository as repote <<persistence>>
+
+
+
+
+
+activate admin
+admin -> ui : asks to set the teachers of a course
+
+ui -> ste_ctrl : listCourses()
+
+ste_ctrl -> co_svc : allCourses()
+activate co_svc
+co_svc -> repo : findAllCourses()
+co_svc -> ste_ctrl : List<CourseDTO>
+deactivate co_svc
+ste_ctrl -> ui : List<CourseDTO>
+
+activate ui
+
+ui --> admin : shows course list and requests to select one course
+deactivate ui
+
+admin -> ui : selects a course
+
+ui -> ste_ctrl : listTeachers()
+ste_ctrl -> te_svc : allTeachers()
+activate te_svc
+te_svc -> repot : findAll()
+te_svc -> ste_ctrl :List<TeacherDTO>
+deactivate te_svc
+ste_ctrl -> ui :List<TeacherDTO>
+activate ui
+        ui -> reg_svc :validateTeachersToAddToTeam(teachers, selectedCourse)
+        activate reg_svc
+        reg_svc -> regente : regent = findCourseRegent(code)
+        regente -> repo : findRegentOf(code)
+        reg_svc -> reg_svc: teacherList.removeIf(teachersList.contains(regent))
+
+        ui --> admin : shows teachers list and requests to select the teachers
+        deactivate reg_svc
+deactivate ui
+        admin -> ui : selects the teachers
+
+activate ui
+ui -> ste_ctrl : setTeachersTo(selectedCourse, listOfTeachers)
+activate ste_ctrl
+ste_ctrl -> repo : findCourseByCode(courseCode)
+activate repo
+repo -> ste_ctrl : theCourse
+deactivate repo
+loop for each element in listOfTeachers
+ste_ctrl -> repot : findTeacherByAcronym(teacherAcronym)
+activate repot
+repot -> ste_ctrl : theTeacher
+deactivate repot
+end loop
+ste_ctrl -> svc : setTeachers(theCourse, teachersList)
+
+activate svc
+loop for each element in teachersList
+svc -> fac : createTeamElement(course, teacher, LocalDate)
+activate fac
+    fac->TeamElement : TeamElement(adhesionDate, course, teacher)
+deactivate fac
+    svc -> repote : save(teamElement)
+    end loop
+deactivate svc
+deactivate ste_ctrl
+
+ui --> admin : presents the successful message
+deactivate ui
+
+deactivate admin
+@enduml

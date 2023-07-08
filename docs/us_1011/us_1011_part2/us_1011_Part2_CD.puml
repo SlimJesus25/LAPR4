@@ -1,0 +1,47 @@
+@startuml
+
+class CreateLectureUI {
+
+}
+class UtilsLectureService {
+    -UtilsLectureValidationService utilsLectureValidationService = new UtilsLectureValidationService();
+    +isValidDate(String dateString)
+    +isInInterval(LocalDate initialDate, LocalDate finalDate, LectureWeekDay chosenWeekDay)
+    +parseTimeString(String timeString)
+    +selectedIntervalIsInsideLectureInterval(LectureDTO lecture, LocalTime end, LocalTime start)
+}
+class UtilsLectureValidationService {
++ isValidDate(String dateString)
++ isInInterval(LocalDate initialDate, LocalDate finalDate, LectureWeekDay chosenWeekDay)
++ parseTimeString(String timeString)
+- isInteger(String str)
+}
+class CheckLecturesHourRelatedService {
+    +lecturesInThisWeekDay(List<LectureDTO> lecturesRelevantToHour, LectureWeekDay day) {
+
+}
+class LectureInDayAndHourService {
+    + LectureDTO lectureInThisWeekDay(List<LectureDTO> lecturesRelevantToHour, LectureWeekDay day)
+    + List<LectureDTO> lecturesInThisWeekDay(List<LectureDTO> lecturesRelevantToHour, LectureWeekDay day)
+    + List<LectureDTO> lecturesInThisWeekDay(List<LectureDTO> scheduleList, LocalDate date)
+    - boolean lectureHasThisWeekDate(LectureDTO lecture, LocalDate date)
+    - boolean isLectureInThisDay(LectureDTO lecture, LectureInitialDate updatedInitialDate, LectureFinalDate updatedFinalDate)
+    + LectureDTO lecturesInThisWeekDayAndHour(List<LectureDTO> lectures, LectureWeekDay day, LocalTime time)
+    + boolean lecturesInThisHour(List<LectureDTO> lecturesInThisDay, LocalTime startHours, LocalTime endHours)
+    - boolean isLectureOccurringInHour(LectureDTO lecture, LocalTime time)
+    + List<LectureDTO> lecturesStartingOrEndingInInterval(List<LectureDTO> lectures, LocalTime initialTime, LocalTime finalTime)
+    + boolean isLectureInThisHour(LectureDTO lecture, LectureInitialTime startHours, LectureFinalTime endHours)
+    + boolean areLecturesInDateHourAndWeekDay(LectureInitialDate updatedInitialDate, LectureFinalDate updatedFinalDate, LectureWeekDay updatedWeekDay, LectureInitialTime updatedInitialTime, LectureFinalTime updatedFinalTime, List<LectureDTO> schedule)
+    + boolean isMeetingInDateHourAndWeekDay(LocalTime initialTime, LocalTime finalTime, LocalDate initialDate, LocalDate finalDate, String weekDay, Meeting meeting)
+    - boolean isMeetingInThisHour(Meeting meeting, LocalTime initialTime, LocalTime finalTime)
+    - boolean isMeetingInThisDay(Meeting meeting, LocalDate initialDate, LocalDate finalDate)
+    - boolean isMeetingInThisWeekDay(Meeting meeting, String weekDay)
+    - DayOfWeek getMeetingWeekDay(Meeting meeting)
+}
+
+CreateLectureUI -> UtilsLectureService : uses
+UtilsLectureService -> UtilsLectureValidationService : uses
+CreateLectureUI -> CheckLecturesHourRelatedService : uses
+CheckLecturesHourRelatedService -> LectureInDayAndHourService : uses
+
+@enduml

@@ -1,0 +1,45 @@
+@startuml
+
+package "<<agr Teacher>>"{
+
+    class Teacher<<entity>><<root>>{}
+    class Acronym<<vo>>{}
+    class TaxPayerNumber<<vo>>{}
+    class DateOfBirth<<vo>>{}
+
+
+    Teacher -down-> "1" Acronym
+    Teacher --> "1" DateOfBirth
+    Teacher --> "1" TaxPayerNumber
+}
+
+package "<<agr Course>>"{
+    class Course<<entity>><<root>>{}
+    class CourseCode <<vo>>
+    class CourseDescription<<vo>>{}
+    class CourseTitle<<vo>>{}
+    enum CourseState<<vo>>{
+       OPEN
+       CLOSE
+    }
+
+    Course --> "1" CourseState
+    Course -down-> "1" CourseTitle
+    Course -down-> "1" CourseDescription
+    Course -down-> "1" CourseCode
+}
+
+package "<<agr TeamElement>>"{
+    class TeamElement <<entity>><<root>>{}
+    class course <<vo>>{
+    }
+    class teacher <<vo>>{}
+
+    TeamElement -down-> "1" course
+    TeamElement -down-> "1" teacher
+    teacher "1" --> Teacher
+    course "1" --> Course
+
+}
+
+@enduml

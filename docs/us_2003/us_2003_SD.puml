@@ -1,0 +1,43 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title List Exams of Course
+autonumber
+
+actor Teacher as T
+participant "ListExamsUI" as UI
+participant "ListExamsController" as ExaCtr
+participant "ListCoursesService" as CourSer
+participant "ListExamsService" as ExaSer
+database "CourseRepository" as CourRepo
+database "ExamRepository" as ExaRepo
+
+-> UI : Onload
+activate UI
+UI -> CourSer : ListCoursesController()
+activate CourSer
+UI -> ExaCtr : ListExamsController()
+activate ExaCtr
+CourSer -> CourRepo : PersistenceContext.repositories().courses()
+activate CourRepo
+ExaCtr -> ExaRepo : PersistenceContext.repositories().exams()
+activate ExaRepo
+UI -> CourSer : allCourses()
+CourSer -> CourRepo : listAllCourses()
+CourRepo -> CourSer : return list of courses
+deactivate CourRepo
+CourSer -> UI : return list of courses
+deactivate CourSer
+UI -> T : Shows the list of courses
+T -> UI : selects the course
+UI -> ExaCtr : listExams(selectedCourse)
+ExaCtr -> ExaRepo : listAllExamsOfCourseByCode(Coursecode)
+ExaRepo -> ExaCtr : return results
+deactivate ExaRepo
+ExaCtr -> UI : return results
+deactivate ExaCtr
+
+UI -> T : Shows the Teacher the Exams
+deactivate UI
+
+@enduml

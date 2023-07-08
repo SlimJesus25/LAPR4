@@ -1,0 +1,15 @@
+@startuml
+
+hide circles
+hide attributes
+hide methods
+
+package "<<agr MeetingParticipation>>"{
+    class MeetingParticipation<<entity>><<root>>{}
+    class MeetingParticipationState<<vo>>{}
+
+    MeetingParticipation --> "*" SystemUser
+    MeetingParticipation --> "*" Meeting
+    MeetingParticipation --> "1" MeetingParticipationState
+}
+@enduml

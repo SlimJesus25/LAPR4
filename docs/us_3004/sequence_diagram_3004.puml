@@ -1,0 +1,76 @@
+@startuml
+autonumber
+actor User as user
+participant ShareSharedBoardUI as ui <<presentation>>
+participant ListOwnedSharedBoardsService as service1 <<application>>
+participant ListStudentsAndTeachersUsersService as service2 <<application>>
+participant SendRequestService as service3 <<application>>
+participant Server as server <<server>>
+participant SendShareSharedBoardController as shCtrl <<application>>
+participant ShareSharedBoardService as service4 <<domain>>
+participant SharedBoardParticipationFactory as factory <<domain>>
+participant SharedBoardParticipation as domain <<domain>>
+database SharedBoardRepository as sbrepo <<persistence>>
+database SharedBoardParticipationRepository as sbp_repo <<persistence>>
+database SystemUserRepository as userRepo <<persistence>>
+
+
+activate user
+user -> ui : asks to share a shared board
+activate ui
+ui -> service1 : List<SharedBoardDTO> ownedSharedBoards = listOwnedAndActiveSharedBoards()
+activate service1
+note right
+The user is obtained through session.
+end note
+service1 -> sbrepo : List<SharedBoard> ownedSharedBoards = listOwnedAndActiveSharedBoards(user)
+activate sbrepo
+sbrepo --> service1:
+deactivate sbrepo
+service1 --> ui :
+deactivate service1
+ui --> user : asks to select one sharedBoard to share with other users
+user -> ui : selects one shared board
+ui -> service2 : List<SystemUser> users = listStudentsAndTeachersUsers()
+activate service2
+service2 -> userRepo: List<SystemUser> listStudentsAndTeachersUsers()
+activate userRepo
+userRepo --> service2:
+deactivate userRepo
+service2 --> ui:
+deactivate service2
+ui -> ui:  List<UserPermission> userPermissionList
+ui-->user: asks to select a list of users to add to the sharedBoard and it's respective permissions
+user -> ui: selects users
+ui -> service3: String feedback = svc.sendShareSharedBoardRequest(selectedSharedBoard, selectedUsers, selectedPermissions);
+service3 -> server : establishes TCP connection
+activate server
+server --> service3 : accepts the request
+server -> server: creates a new thread to attend client's request
+server->shCtrl: String feedback = shareBoard(sharedBoard, username, permission)
+activate service4
+shCtrl->service4: String feedback = shareBoard(sharedBoard, username, permission)
+activate userRepo
+service4->userRepo: user = findSystemUserByUsername(username)
+userRepo-->service4:
+deactivate userRepo
+activate factory
+service4->factory: e = createSharedBoardParticipation(permission, stats, user, sharedBoard)
+activate domain
+factory->domain: new SharedBoardParticipation(permission, stats, user, sharedBoard)
+deactivate domain
+deactivate factory
+activate sbp_repo
+service4->sbp_repo: repositories()
+service4->sbp_repo: save(newSharedBoardParticipation)
+sbp_repo-->service4: SharedBoardParticipation
+service4-->shCtrl
+deactivate service4
+shCtrl-->server
+server-->service3: answers with the operation success and respective message
+deactivate server
+service3-->ui:
+ui-->user:shows the success of the operation
+deactivate ui
+
+@enduml

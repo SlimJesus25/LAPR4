@@ -1,0 +1,94 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title Bulk Student Enrollment By CSV
+autonumber
+
+actor Manager as M
+participant "BulkEnrollmentAction" as Act
+participant "BulkEnrollmentUI" as UI
+participant "BulkStudentEnrollmentController" as Ctr
+participant "ReadBulkStudentEnrollmentCSVService" as ReadCSV
+participant "FindStudentByMechanographicalNumberService" as StuCtr
+participant "FindCourseByCourseCodeService" as CourCtr
+participant "CreateCourseEnrollmentService" as CourEnrCtr
+database "CourseRepository" as CourRepo
+database "StudentRepository" as StuRepo
+database "CourseEnrollmentRepository" as Repo
+
+M -> Act : Onload
+activate Act
+Act -> UI : execute()
+deactivate Act
+activate UI
+UI -> Ctr : BulkStudentEnrollmentController()
+activate Ctr
+Ctr -> ReadCSV : ReadBulkStudentEnrollmentCSV()
+activate ReadCSV
+ReadCSV -> StuCtr : FindStudentByMechanographicalNumberController()
+activate StuCtr
+StuCtr -> StuRepo : PersistenceContext.repositories().students()
+activate StuRepo
+ReadCSV -> CourCtr : FindCourseByCourseCodeController()
+activate CourCtr
+CourCtr -> CourRepo : PersistenceContext.repositories().courses()
+activate CourRepo
+ReadCSV -> CourEnrCtr : CreateCourseEnrollmentController()
+activate CourEnrCtr
+CourEnrCtr -> Repo : PersistenceContext.repositories().courseEnrollments()
+activate Repo
+
+ReadCSV -> Repo : PersistenceContext.repositories().courseEnrollments()
+
+UI -> M : asks the file path
+activate M
+M -> UI : gives the file path
+UI -> Ctr : enrollStudents(File)
+Ctr -> ReadCSV : bulkRegisterStudents(File)
+
+loop while there are lines in the CSV file
+alt isnt correctly formated
+ReadCSV -> ReadCSV : results add line incorrectly formated
+ReadCSV -> StuCtr : findStudentByMechanographicalNumber(mechanographicalNumber)
+StuCtr -> StuRepo : findStudentByMechanographicalNumber(mechanographicalNumber)
+StuRepo -> StuCtr : return result
+deactivate StuRepo
+StuCtr -> ReadCSV : return result
+deactivate StuCtr
+ReadCSV -> CourCtr : findCourseByCourseCode(courseCode)
+CourCtr -> CourRepo : findCourseByCode(courseCode)
+CourCtr -> CourRepo : return result
+deactivate CourRepo
+CourCtr -> ReadCSV : return result
+deactivate CourCtr
+else
+alt user or course invalid
+ReadCSV -> ReadCSV : results add line with user or course invalid
+else
+ReadCSV -> ReadCSV : verifyEnrollmentExists(course, student)
+ReadCSV -> Repo : checkIfStudentEnrolledInCourse(course,student)
+Repo -> ReadCSV : return result
+alt enrollemnt already exists
+ReadCSV -> ReadCSV : results add line with repeated enrollemnt
+else
+ReadCSV -> CourEnrCtr : createCourseEnrollment(course,student,courseEnrollmentDate,enrolled)
+CourEnrCtr -> Repo : save(CourseEnrollment)
+deactivate CourEnrCtr
+deactivate Repo
+ReadCSV -> ReadCSV : results add line with successful Student creatio
+end
+end
+end
+ReadCSV -> ReadCSV : lineCounter ++
+end
+ReadCSV -> Ctr : return results
+deactivate ReadCSV
+
+Ctr -> UI : passes the results
+deactivate Ctr
+
+UI -> M : Shows the Manager the results
+deactivate M
+deactivate UI
+
+@enduml

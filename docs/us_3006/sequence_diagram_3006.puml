@@ -1,0 +1,78 @@
+@startuml
+
+actor User as user
+participant CreatePostItUI as ui <<presentation>>
+participant ListWritableSharedBoardsService as svc1 <<application>>
+participant SendRequestService as svc2 <<application>>
+database SharedBoardParticipationRepository as sbp_repo <<persistence>>
+participant SendPostItCreationRequestService as svc <<service>>
+participant Server as server <<server>>
+participant CreatePostItController as create_ctrl <<application>>
+participant PostItFactory as fact <<factory>>
+participant PostIt as postit <<domain>>
+participant SharedBoard as sharedBoard <<domain>>
+
+activate user
+user -> ui : asks to create a post-it
+activate ui
+ui -> svc1 : List<SharedBoardDTO> sharedBoards = listWritableSharedBoards()
+activate svc1
+note right
+The user is obtained through session.
+end note
+svc1 -> sbp_repo : List<SharedBoard> sharedBoards = listWritableSharedBoards(user)
+activate sbp_repo
+sbp_repo --> svc1 : List<SharedBoard> sharedBoards
+deactivate sbp_repo
+svc1 --> ui : List<SharedBoardDTO> sharedBoards
+deactivate svc1
+ui --> user : shows writable shared boards and asks to select one
+deactivate ui
+user -> ui : selects one shared board
+activate ui
+ui --> user : asks for a row, column and content for the post-it
+deactivate ui
+user -> ui : inputs all data
+activate ui
+ui -> svc2 : sendPostItCreationRequest(row, column, content, shareBoardDTO)
+activate svc2
+svc2 -> server : establishes TCP connection
+activate server
+server --> svc2 : accepts the request
+deactivate server
+svc2 -> svc : String feedback = sendPostItCreationRequest(row, column, content, sharedBoardDTO)
+activate svc
+svc -> server : sends post-it data related
+activate server
+server -> server : creats a new thread to attend the client request
+server -> create_ctrl : String feedback = createPostIt(row, column, content, sharedBoardTitle)
+activate create_ctrl
+create_ctrl -> fact : PostIt postIt = createPostIt(row, column, content, sharedBoardTitle)
+activate fact
+fact -> postit : creates new post-it
+activate postit
+postit --> fact
+deactivate postit
+fact --> create_ctrl
+deactivate fact
+create_ctrl -> sharedBoard : insertPostIt(row, column, postit)
+activate sharedBoard
+sharedBoard -> sharedBoard : verifies all the requirements to create a post-it successfully
+alt position is already occupied or is invalid
+sharedBoard --> create_ctrl : throws IllegalArgumentException and aborts the proccess
+end alt
+sharedBoard --> create_ctrl
+deactivate sharedBoard
+create_ctrl --> server
+deactivate create_ctrl
+server --> svc : answers with the operation success and respective message
+deactivate server
+svc --> svc2
+deactivate svc
+svc2 --> ui
+deactivate svc2
+ui --> user : shows operation success
+deactivate ui
+deactivate user
+
+@enduml

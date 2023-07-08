@@ -1,0 +1,85 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+autonumber
+
+actor Administrator as admin
+
+participant AddCourseUI as ui <<presentation>>
+participant ListTeacherService as lt_ctrl<<application>>
+participant CreateCourseController as cc_ctrl <<application>>
+participant FindTeacherByAcronymService as ft_ctrl <<application>>
+participant AuthorizationService as authz <<service>>
+participant Course as c <<domain>>
+'participant JpaCourseRepository as jpa <<persistence>>
+database CourseRepository as CRepo <<persistence>>
+database TeacherRepository as TRepo <<persistence>>
+
+activate admin
+
+admin -> ui : Asks to create a course
+ui --> admin : Requests input data (code, title, description)
+admin -> ui : Types input data
+
+ui->lt_ctrl:creates
+
+activate lt_ctrl
+lt_ctrl -> TRepo : repositories()
+lt_ctrl -> authz : authorizationService()
+deactivate lt_ctrl
+
+ui->lt_ctrl:listTeachers()
+activate lt_ctrl
+lt_ctrl -> authz : ensureAuthenticatedUserHasAnyOf(ADMINISTRATOR, POWER_USER)
+lt_ctrl -> TRepo : findAll()
+lt_ctrl -> ui : List<TeacherDTO>
+deactivate lt_ctrl
+
+ui --> admin : shows teacher list and requests to select a teacher
+
+admin -> ui : selects a teacher
+ui->cc_ctrl:creates
+
+activate cc_ctrl
+cc_ctrl -> CRepo : repositories()
+cc_ctrl -> authz : authorizationService()
+deactivate cc_ctrl
+
+ui -> cc_ctrl: createCourse(code, title, description, teacher)
+
+activate cc_ctrl
+
+cc_ctrl -> authz : ensureAuthenticatedUserHasAnyOf(ADMINISTRATOR, POWER_USER)
+
+alt user has insufficient privileges
+    authz -> cc_ctrl : Insufficient Privileges
+    cc_ctrl --> ui : Insufficient Privileges
+    ui --> admin : Insufficient Privileges
+else user has sufficient privileges
+    authz -> cc_ctrl : Sufficient Privileges
+end
+
+cc_ctrl -> ft_ctrl : creates
+
+activate ft_ctrl
+ft_ctrl -> TRepo : repositories()
+ft_ctrl -> authz : authorizationService()
+deactivate ft_ctrl
+
+cc_ctrl -> ft_ctrl : findTeacherByAcronym(regentAcronym)
+activate ft_ctrl
+    ft_ctrl -> TRepo : findTeacherByAcronym(regentAcronym)
+    ft_ctrl -> cc_ctrl : Teacher regent
+deactivate ft_ctrl
+
+cc_ctrl -> c : creates()
+
+cc_ctrl -> c : CourseBuilder(code,title,description,regent)
+
+cc_ctrl -> CRepo : save(newCourse)
+
+cc_ctrl -> ui : newCourse
+
+ui --> admin : presents the success/failure of the operation
+
+
+@enduml

@@ -1,0 +1,48 @@
+@startuml DDD
+
+!theme crt-green
+skinparam nodesep 150
+hide circles
+hide fields
+hide empty members
+
+package "<<agr SharedBoard>>"{
+    class SharedBoard<<entity>><<root>>{}
+    class SharedBoardTitle<<vo>>{}
+    class CreationTimestamp<<vo>>{}
+    class SharedBoardState<<vo>><<enum>>{}
+
+    SharedBoard --> "1" SharedBoardState
+    SharedBoard --> "1" SharedBoardTitle
+    SharedBoard --> "1" CreationTimestamp
+}
+
+package "<<agr PostIt>>"{
+    class PostIt<<entity>><<root>>{}
+    class PostItRow<<vo>>{}
+    class PostItColumn<<vo>>{}
+    class PostItContent<<vo>>{}
+
+    PostIt --> "1" SharedBoard : belongs
+    PostIt --> "1" PostItRow
+    PostIt --> "1" PostItColumn
+    PostIt --> "1" SystemUser
+    PostIt --> "1" PostItContent
+}
+
+package "<<agr PostItModification>>"{
+    class PostItModification<<entity>><<root>>{}
+    class PostItOldRow<<vo>>{}
+    class PostItOldColumn<<vo>>{}
+    class PostItOldContent<<vo>>{}
+    class PostItModificationDateTime<<vo>>{}
+
+    PostItModification --> "1" PostIt
+    PostItModification --> "1" PostItOldRow
+    PostItModification --> "1" PostItOldColumn
+    PostItModification --> "1" PostItOldContent
+    PostItModification --> "1" PostItModificationDateTime
+
+}
+
+@enduml

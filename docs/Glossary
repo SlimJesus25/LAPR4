@@ -1,0 +1,105 @@
+# Glossary
+
+## Terms, Expressions and Acronyms (TEA)
+
+| TEA (EN) | Description (EN) |
+|-----------|-----------|
+|Admin| Agent responsible to manage the app, specifically he manages all the users of the system as well as courses and students enrollment.|
+|App| Final product of the project, structure that contains all the functionalities and interfaces.|
+|Automated Exams| Online exams that students take with an automatic correction and instant feedback.|
+|Board history| History of all the updates and usages of a board.|
+|Board| Feature that can be used to share and organize ideas and information.|
+|Course Code| Unique code given by the administrator to the course. |
+|Course Description| Description of the course, containing a short summary of what consists the course. |
+|Course Enrolled Student|Student that is enrolled in this course. |
+|Course Enrollment Date| The date a student applied to a specific course.|
+|Course Enrollment State| It's the state of a students application to a specific course.|
+|Course Exam| *A course exam (using the definition of 'exam') is an exam specific to a certain course.|
+|Course Grade| *A course grade (using the definition of 'grade') is a grade related to a certain exam.|
+|Course Regent| Teacher that is responsible for everything related to a specific course. |
+|Course State| Contains the state of the course (open, closed, accepting inscriptions.. etc). |
+|Course Team Creation Date| Date when the team was created for that course. |
+|Course Team| Group of teachers that instruct a specific course. |
+|Course Title| Title given to a course to uniquely identify it. |
+|Course| A course is a conceptual system that aggregates students and teachers. Courses generally have a fixed program of sessions every week during the term, called lectures which will usually use boards. A course is characterized by its title and a unique code inputted by the administrator.|
+|Csv file| *A CSV (comma-separated values) file is a text file in which information is separated by commas.|
+|Dashboard| A dashboard is a way of displaying various types of visual data in one place.|
+|Database| *A database is an organised collection of related data from which you can easily retrieve and use data.|
+|Enrollment| Student applies to a specific course, and the Administrator should accept or reject his registration. |
+|Exam Header Textual Description| A description that can be included in the header of the exam, if necessary. |
+|Exam Header| Place of the exam that includes the global settings, such as the type of the feedback and the type of the grade. |
+|Exam Matching Question| Group of sub questions and the respective answers, they must match to be correct. |
+|Exam Missing Words Question| The student must fill the text with the correct words/phrase in order to answer the question. |
+|Exam Multiple Choice Question| Can be single answer or multiple answer questions, and the user must choose the correspondent answers for the question. |
+|Exam Numerical Answer| It is identical to the short answer question, but the student has an acceptable error range set, to allow more correct answers. |
+|Exam Question Number| Number of the question in the exam. |
+|Exam Question Type| Type of the question. Every question has a specific type, and all the types will be defined in this glossary. |
+|Exam Question Value| Value that the question has quantitatively in the exam. |
+|Exam Question| Question that appears on a section of an exam, that can have specific characteristics. |
+|Exam Section Textual Description| A description that can be included in the section of the exam, if necessary.|
+|Exam Section| The exam is divided into different sections, each section with a group of questions. |
+|Exam Short Answer Question| The user must write a word or a phrase to answer the question, and may have several possible answers with different grades. Can be sensitive to case. |
+|Exam Title| Main parameter to define the name of an exam. |
+|Exam Veracity Question| The student must answer if the statement is true or false. |
+|Exam| An exam is related to a specific course. It has a unique title and a small description. Exams have also a open and a close date.|
+|Exams Structure| *Defined way that an exam is composed and organized.|
+|Extra Lecture| It is like a lecture but is scheduled for some reason.|
+|Former Exam Grade| Grade of the exam that was made by the student. |
+|Former Exam Question Feedback| Feedback provided by the system about the answer given by the user. |
+|Former Exam Question Number| Number of the question of the former exam. |
+|Former Exam Question Solution| Correct answer to a question of the former exam. |
+|Former Exam Question| Question of the former exam with specific parameters. |
+|Former Exam| Exam with the grade and feedback of a student. |
+|Grade| Result achieved by a student in an exam.|
+|Invitation| System specified feature that allows a certain actor to invite participants to a meeting.|
+|Lecture Date| Date that the lecture takes place to happen. |
+|Lecture Duration| Duration of the lecture. |
+|Lecture Participant| Manages all students that have the lecture.|
+|Lecture Time| The specific time of the day (hours and minutes) where the lecture takes place. |
+|Lecture Type| Manage if a lecture is either normal or extraordinary.|
+|Lecture| Event that happen in some time and have a duration with participants.|
+|Manager| Manage all the users of the system as well as courses and students enrollment.|
+|Meeting Date| Date that the meeting takes place to happen. |
+|Meeting Duration| Duration of the meeting. |
+|Meeting Participants| Number of participants attending to the meeting. |
+|Meeting Time| The specific time of the day (hours and minutes) where the meeting takes place. |
+|Meeting| Event that happen in some time and have a duration with participants.|
+|Owner| Individual that created a board/post which is able to manage it as intended.|
+|Parser| Feature responsible to automatic evaluate an exam. |
+|Participant| Individual that is taking part/ is present in a meeting or lecture. |
+|Platform| Virtual Place where users access to see all the information related to eCourse. |
+|Post-It Content| Content of the Post it note. It may be updated and/or deleted by the author of it. |
+|Post-It Creation Timestamp| The moment where the post it was created in the shared board cell. |
+|Post-It Creator| Author of the post created in a shared board cell. |
+|Post-It History| Keeps track of the post-it changes. |
+|Post-It Type| Type of the post it note created by the user to the shared board. |
+|Post-it| A note that a user can leave with information into a shared board cell. |
+|Recurring Lecture| Lecture that happens every week. |
+|Remote Learning| Users can access a Course virtually, without the need of moving to a specific place to learn. |
+|Response status| A Meeting can only happen depending on the responses to the invitations sent. Response status displays if the users rejected or accepted the meeting proposed. |
+|Response| When a question is presented to the user, in an exam context, the user needs to give a response to it. |
+|Schedule| Allows a certain actor to plan the classes and/or meetings with the respective time and dates. |
+|Server| Remote place where the information will be stored related to eCourse. |
+|Shared Board Cell| Place inside the shared board where the users can put their post it's with information. |
+|Shared Board Column Number| Number that identifies uniquely the Column of the Shared Board. |
+|Shared Board Column Title| Title that identifies the column. It is optional. |
+|Shared Board Column| Column of the Shared Board with specific parameters. |
+|Shared Board Guest| All users that were invited to that shared board. |
+|Shared Board Max Cells| Is the maximum amount of cells the shared board can have. |
+|Shared Board Participant| Manages all users that have access to the shared board. |
+|Shared Board Row Number| Number that identifies uniquely the Row of the Shared Board. |
+|Shared Board Row Title| Title that identifies the row. It is optional. |
+|Shared Board Row| Row of the Shared Board with specific parameters. |
+|Shared Board Title| Title given by the owner of the board to identify it. |
+|Shared Board| Digital place where a group of users place their contents, sharing with each other. |
+|Student Mechanographic Number| Number responsible to characterise/identify a student.|
+|Student| Students enroll in courses. They take exams. They can view the results of their exams. A student is characterized by his/her name, date of birth, tax payer number and a mechanographic number assigned automatically by the system based on the year of registration and a sequential number. |
+|System| In this business context, system is everything that is created to correspond to the needs of the company's objectives, in this case, the eCourse project. |
+|Teacher Acronym| Used to describe the teacher in a short way, with only 3 letters. |
+|Teacher Schedule| A Teachers schedule with his lectures and meetings. |
+|Teacher| A Teacher is characterized by his/her name, date of birth, tax payer number and an acronym inputed by the administrator. Teachers are responsible for scheduling classes for their courses. Teachers can schedule extra classes and create exams. |
+|User Date of Birth| Date when the user was born.|
+|User Name| Full name of the user. |
+|User Password| Key that will allow the user to interact with the system. |
+|User Tax Payer Number| Number used by tax authorities to track their tax obligations, and it's only from Portugal. |
+|User| Users are people that have use cases in the system, for example teachers, managers and students.|

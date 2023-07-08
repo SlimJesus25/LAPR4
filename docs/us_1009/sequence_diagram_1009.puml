@@ -1,0 +1,78 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor Administrator as admin
+participant AnswerStudentApplicationUI as ui <<presentation>>
+participant ListEnrollmentCoursesController as lc_ctrl <<application>>
+participant ListApplicatedStudentsController as aps_ctrl <<application>>
+participant AnswerStudentApplicationImpl as aspi_ctrl <<application>>
+participant SetCourseEnrollmentState as sce_ctrl <<application>>
+participant AuthorizationService as authz <<service>>
+participant AnswerStudentApplicationService as svc <<service>>
+database CourseEnrollmentRepository as repo <<persistence>>
+participant CourseEnrollment as course <<domain>>
+
+activate admin
+
+admin -> ui : asks to accept/reject students applications to courses
+
+ui -> lc_ctrl : creates
+activate lc_ctrl
+lc_ctrl -> repo : repositories()
+lc_ctrl -> authz : authorizationService()
+deactivate lc_ctrl
+ui -> lc_ctrl : allCoursesWithApplications()
+activate lc_ctrl
+lc_ctrl -> authz : ensureAuthenticatedUserHasAnyOf(ADMINISTRATOR, POWER_USER)
+alt user has insufficient privileges
+    authz -> lc_ctrl : Insufficient Privileges
+    lc_ctrl --> ui : Insufficient Privileges
+    ui --> admin : Insufficient Privileges
+else user has sufficient privileges
+    authz -> lc_ctrl : Sufficient Privileges
+end
+    lc_ctrl -> repo : listCourseEnrollments()
+    lc_ctrl -> ui : List<CourseEnrollmentDTO>
+deactivate lc_ctrl
+
+
+activate ui
+ui --> admin : shows course list and requests to select one course
+deactivate ui
+
+admin -> ui : selects a course
+activate ui
+ui -> aps_ctrl : allCoursesWithApplicationsTo(CourseEnrollmentDTO)
+deactivate ui
+activate aps_ctrl
+aps_ctrl -> repo : listStudentsApplicatedTo(courseCode)
+aps_ctrl -> ui : List<CourseEnrollmentDTO>
+deactivate aps_ctrl
+activate ui
+ui --> admin : shows students list and requests to select one student
+deactivate ui
+
+admin -> ui : selects a student to give the approval
+activate ui
+ui --> admin : requests to accept/reject
+deactivate ui
+admin -> ui : accepts/rejects the application
+activate ui
+
+ui -> aspi_ctrl : answerStudentApplication(identity, courseCode, studentMechanographicalNumber, approval)
+activate aspi_ctrl
+aspi_ctrl -> repo : theEnrollment = ofIdentity(identity)
+aspi_ctrl -> svc : setCourseEnrollmentState(theEnrollment, approval)
+deactivate aspi_ctrl
+activate svc
+svc -> repo : updateEnrollmentState(enrollment, approval)
+deactivate svc
+repo -> course : updateStudentEnrollment(enrollment, approval)
+
+ui --> admin : presents the student and the course that he applied with the approval
+deactivate ui
+
+deactivate admin
+@enduml

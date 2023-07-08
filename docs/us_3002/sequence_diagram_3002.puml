@@ -1,0 +1,55 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+autonumber
+
+actor User as user
+
+participant CreateSharedBoardUI as ui <<presentation>>
+participant CreateSharedBoardController as ctrl <<application>>
+participant AuthorizationService as authz <<service>>
+participant SharedBoardService as service <<service>>
+participant SharedBoardBuilder as builder <<domain>>
+participant SharedBoard as domain <<domain>>
+
+database SharedBoardRepository as repo <<persistence>>
+
+user->ui: asks to create a Shared Board
+ui-->user: requests input data(title, rows, columns)
+user->ui: Types requested data
+activate ctrl
+ui->ctrl: creates
+ctrl->authz: authorizationService()
+ctrl->service: create
+deactivate ctrl
+
+ui->ctrl: createSharedBoard(title, Integer.parseInt(rows), Integer.parseInt(columns))
+
+activate ctrl
+ctrl -> authz:ensureAuthenticatedUserHasAnyOf(ELearningUser, Student, Teacher)
+
+alt user has insufficient privileges
+    authz -> ctrl : Insufficient Privileges
+    ctrl --> ui : Insufficient Privileges
+    ui --> user : Insufficient Privileges
+else user has sufficient privileges
+    authz -> ctrl : Sufficient Privileges
+end
+
+activate builder
+ctrl->builder: creates
+ctrl->builder: withSharedBoardTitle(title)
+ctrl->builder: withSharedBoardRows(rows)
+ctrl->builder: withSharedBoardColumns(columns)
+ctrl->builder:withSharedBoardUser(authz.session().get().authenticatedUser())
+ctrl->builder: build()
+builder->domain: creates
+deactivate builder
+ctrl->service: createSharedBoard(newSharedBoard)
+service->repo: repositories()
+service->repo: save(newSharedBoard)
+repo-->service: SharedBoard
+service-->ctrl:SharedBoard
+ctrl-->ui:SharedBoard
+ui-->user: Informs the success of the operation
+
+@enduml

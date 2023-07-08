@@ -1,0 +1,90 @@
+@startuml
+
+autonumber
+
+actor User as user
+participant AnswerMeetingInvitationUI as ui <<presentation>>
+participant ListMeetingByUserService as svc1 <<application>>
+participant AnswerMeetingInvitationController as am_ctrl <<application>>
+participant FindMeetingParticipationByIDController as fm_ctrl <<application>>
+participant SetCourseEnrollmentStateService as svc <<service>>
+database MeetingParticipationRepository as repo <<persistence>>
+participant MeetingParticipation as meetingpart <<domain>>
+
+activate user
+user -> ui : asks to accept/refuse a meeting invitation
+activate ui
+ui -> svc1 : List<MeetingParticipationDTO> unansweredMeetingsByUser = listUnansweredMeetingsByUser()
+activate svc1
+note right
+the user is obtained through session
+end note
+svc1 -> repo : List<MeetingParticipation> unansweredMeetingsByUser = listUnansweredMeetingsByUser(user)
+activate repo
+repo --> svc1
+deactivate repo
+svc1 --> ui
+deactivate svc1
+ui --> user : shows all received invitations
+deactivate ui
+user -> ui : selects one invitation
+activate ui
+ui --> user : asks to accept/refuse the invite
+deactivate ui
+alt acceptance case
+user -> ui : accept the invite
+activate ui
+ui -> am_ctrl : acceptMeetingInvitation(selectedMeeting)
+activate am_ctrl
+am_ctrl -> fm_ctrl : findMeetingParticipationByID(id)
+activate fm_ctrl
+fm_ctrl -> repo : ofIdentity(id).orElseThrow(IllegalArgumentException)
+activate repo
+repo --> fm_ctrl
+deactivate repo
+fm_ctrl --> am_ctrl
+deactivate fm_ctrl
+am_ctrl -> meetingpart : acceptMeetingRequest()
+alt user already answered the meeting
+activate meetingpart
+meetingpart --> am_ctrl : throws IllegalArgumentException and aborts the process
+deactivate meetingpart
+end
+am_ctrl -> repo : save(meetingParticipation)
+activate repo
+repo --> am_ctrl
+deactivate repo
+am_ctrl --> ui
+deactivate am_ctrl
+deactivate ui
+else rejection case
+user -> ui : refuse the invite
+activate ui
+ui -> am_ctrl : refuseMeetingInvitation(selectedMeeting)
+activate am_ctrl
+activate am_ctrl
+am_ctrl -> fm_ctrl : findMeetingParticipationByID(id)
+activate fm_ctrl
+fm_ctrl -> repo : ofIdentity(id).orElseThrow(IllegalArgumentException)
+activate repo
+repo --> fm_ctrl
+deactivate repo
+fm_ctrl --> am_ctrl
+deactivate fm_ctrl
+am_ctrl -> meetingpart : refuseMeetingInvitation()
+alt user already answered the meeting
+activate meetingpart
+meetingpart --> am_ctrl : throws IllegalArgumentException and aborts the process
+deactivate meetingpart
+end
+am_ctrl -> repo : save(meetingParticipation)
+activate repo
+repo --> am_ctrl
+deactivate repo
+am_ctrl --> ui
+deactivate am_ctrl
+end
+ui --> user : shows the success of the operation
+deactivate ui
+deactivate user
+@enduml

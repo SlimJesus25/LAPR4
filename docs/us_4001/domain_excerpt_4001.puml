@@ -1,0 +1,21 @@
+@startuml
+!theme crt-green
+skinparam nodesep 150
+hide empty members
+left to right direction
+hide circles
+hide files
+
+package "<<agr Meeting>>"{
+    class Meeting<<entity>><<root>>{}
+    class MeetingDuration<<vo>>{}
+    class MeetingDateNTime<<vo>>{}
+    class MeetingName<<vo>>{}
+
+    Meeting --> "1" MeetingDuration
+    Meeting --> "1" MeetingDateNTime
+    Meeting --> "1" MeetingName
+    SystemUser "*" <---  Meeting : is participated by
+}
+
+@enduml

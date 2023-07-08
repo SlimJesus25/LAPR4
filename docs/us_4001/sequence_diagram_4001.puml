@@ -1,0 +1,54 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor User as user
+participant ScheduleMeetingUI as ui <<presentation>>
+participant ListStudentsAndTeachersUsersController as lctrl <<application>>
+participant ScheduleMeetingController as ctrl <<application>>
+participant ScheduleMeetingService as sce_ctrl <<application>>
+participant CheckAvailabilityService as checksv <<service>>
+participant MeetingFactory as factory <<factory>>
+database SystemUserRepository as sysusrepo <<persistence>>
+database MeetingRepository as repo <<persistence>>
+participant Meeting as meeting <<domain>>
+
+user -> ui : asks to schedule a meeting
+activate user
+activate ui
+ui --> user : asks for a meeting name, date, hour
+deactivate ui
+user -> ui : inputs all data
+activate ui
+ui -> lctrl : users = listStudentsAndTeachersUsers()
+activate lctrl
+lctrl -> sysusrepo : findAll()
+deactivate lctrl
+loop until user press to exit
+ui --> user : presents all students/teachers to invite
+deactivate ui
+user --> ui : selects user to invite
+activate ui
+end loop
+ui -> ctrl : availability = checkUsersAvailability(meetingDateNTime, meetingDuration, selectedUsers)
+activate ctrl
+ctrl -> checksv : checkAvailability(meetingDateNTime, guests, meetingDuration)
+deactivate ctrl
+ui --> user : shows every selected user availability
+deactivate ui
+user -> ui : proceeds to invite all/only available users
+activate ui
+ui -> ctrl : scheduleMeeting(meetingName, meetingDateNTime, meetingDuration, guests)
+activate ctrl
+ctrl -> factory : createMeeting(meetingName, meetingDateNTime, meetingDuration, guests)
+activate factory
+factory -> meeting : Meeting meeting = new Meeting(meetingName, meetingDateNTime, meetingDuration, guests)
+deactivate factory
+ctrl -> repo : save(meeting)
+deactivate ctrl
+ui --> user : tell the success of the operation
+deactivate ui
+deactivate user
+
+@enduml

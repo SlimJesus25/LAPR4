@@ -1,0 +1,56 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+autonumber
+
+actor Administrator as admin
+participant ListUsersByRoleUI as ui <<presentation>>
+participant ShowRolesService as sr_ctrl <<application>>
+participant ListUsersByRoleController as lu_ctrl <<application>>
+participant AuthorizationService as authz <<service>>
+participant IUserService as us <<service>>
+participant UserService as us1 <<service>>
+
+database SystemUserRepository as repo1 <<persistence>>
+database ELearningUserRepository as repo <<persistence>>
+admin -> ui  : requests a list of Users by role
+activate sr_ctrl
+ui-> sr_ctrl: creates
+sr_ctrl -> repo : repositories()
+sr_ctrl -> authz: authorizationService()
+deactivate sr_ctrl
+
+ui -> sr_ctrl: show_roles()
+
+activate sr_ctrl
+sr_ctrl -> authz : ensureAuthenticatedUserHasAnyOf(ADMINISTRATOR, POWER_USER)
+
+alt user has insufficient privileges
+    authz -> sr_ctrl : Insufficient Privileges
+    sr_ctrl --> ui : Insufficient Privileges
+    ui --> admin : Insufficient Privileges
+else user has sufficient privileges
+    authz -> sr_ctrl : Sufficient Privileges
+end
+    sr_ctrl -> repo : show_roles()
+    sr_ctrl -> ui : List<Role>
+
+deactivate sr_ctrl
+ui--> admin : show list of Roles and request to choose one
+admin->ui : selects a role
+
+ui->lu_ctrl: creates
+activate lu_ctrl
+lu_ctrl -> authz: authorizationService()
+lu_ctrl -> us: listUsersByRole(role)
+activate us
+us -> us1: listUsersByRole(role)
+activate us1
+us1 -> repo1 : listUsersByRole(role)
+us1 -> us1 : List<GeneralDTO> finalResult
+us1 -> us : Iterable<GeneralDTO> finalResult
+us -> lu_ctrl : Iterable<GeneralDTO> finalResult
+lu_ctrl -> ui : Iterable<GeneralDTO> finalResult
+ui --> admin: shows a list of users according to the role selected
+deactivate lu_ctrl
+
+@enduml

@@ -1,0 +1,62 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+autonumber
+
+actor Administrator as admin
+
+
+participant AddUserUI as ui <<presentation>>
+participant ShowRolesService as sr_ctrl <<application>>
+participant AddUserController as au_ctrl <<application>>
+participant AuthorizationService as authz <<service>>
+participant UserManagementService as svc <<service>>
+
+database ELearningUserRepository as ERepo <<persistence>>
+
+activate admin
+admin -> ui: requests to add User
+ui --> admin : asks for input data (Username, Password, First Name, Last Name, E-Mail)
+admin -> ui : types input data
+
+ui -> sr_ctrl : creates
+activate sr_ctrl
+sr_ctrl -> ERepo: repositories()
+sr_ctrl -> authz: authorizationService()
+deactivate sr_ctrl
+
+ui -> sr_ctrl: show_roles()
+
+activate sr_ctrl
+sr_ctrl -> authz : ensureAuthenticatedUserHasAnyOf(ADMINISTRATOR, POWER_USER)
+
+alt user has insufficient privileges
+    authz -> sr_ctrl : Insufficient Privileges
+    sr_ctrl --> ui : Insufficient Privileges
+    ui --> admin : Insufficient Privileges
+else user has sufficient privileges
+    authz -> sr_ctrl : Sufficient Privileges
+end
+    sr_ctrl -> ERepo : show_roles()
+    sr_ctrl -> ui : List<Role>
+
+deactivate sr_ctrl
+ui--> admin : show list of Roles and request to choose them
+admin->ui : selects roles
+
+ui -> au_ctrl : creates
+
+activate au_ctrl
+au_ctrl -> svc: userService()
+au_ctrl -> authz: authorizationService()
+deactivate au_ctrl
+
+ui -> au_ctrl: addUser(username, password, firstName, lastName, email, selectedRoles)
+
+activate au_ctrl
+au_ctrl -> authz : ensureAuthenticatedUserHasAnyOf(ADMINISTRATOR, POWER_USER)
+au_ctrl -> svc : registerNewUser(username, password, firstName, lastName, email, a, createdOn)
+au_ctrl -> ui: SystemUser user
+
+ui-->admin: informs about the success of the operation
+
+@enduml

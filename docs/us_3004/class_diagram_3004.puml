@@ -1,0 +1,77 @@
+@startuml
+
+class SystemUser {
+  - username
+  - session
+}
+
+class ShareSharedBoardUI {
+  + listOwnedAndActiveSharedBoards(): List<SharedBoardDTO>
+}
+
+class ListOwnedSharedBoardsService {
+  + listOwnedAndActiveSharedBoards(user: User): List<SharedBoard>
+}
+
+class ListStudentsAndTeachersUsersService {
+  + listStudentsAndTeachersUsers(): List<SystemUser>
+}
+
+class SendRequestService {
+  + sendShareSharedBoardRequest(sharedBoard: SharedBoardDTO, users: List<SystemUser>, permissions: List<UserPermission>): String
+}
+
+class Server {
+  - TCPConnection
+}
+
+class SendShareSharedBoardController {
+  + shareBoard(sharedBoard: SharedBoardDTO, username: String, permission: UserPermission): String
+}
+
+class ShareSharedBoardService {
+  + shareBoard(sharedBoard: SharedBoardDTO, username: String, permission: UserPermission): String
+}
+
+class SharedBoardParticipationFactory {
+  + createSharedBoardParticipation(permission: UserPermission, stats: Statistics, user: SystemUser, sharedBoard: SharedBoard): SharedBoardParticipation
+}
+
+class SharedBoardParticipation {
+  - permission: UserPermission
+  - stats: Statistics
+  - user: SystemUser
+  - sharedBoard: SharedBoard
+}
+
+class SharedBoardRepository {
+  + listOwnedAndActiveSharedBoards(user: User): List<SharedBoard>
+}
+
+class SharedBoardParticipationRepository {
+  + repositories()
+  + save(participation: SharedBoardParticipation)
+}
+
+class SystemUserRepository {
+  + findSystemUserByUsername(username: String): SystemUser
+}
+
+SystemUser --> ShareSharedBoardUI : uses
+ShareSharedBoardUI --> ListOwnedSharedBoardsService : uses
+ListOwnedSharedBoardsService --> SharedBoardRepository : uses
+ShareSharedBoardUI --> ListStudentsAndTeachersUsersService : uses
+ListStudentsAndTeachersUsersService --> SystemUserRepository : uses
+ShareSharedBoardUI --> SendRequestService : uses
+SendRequestService --> Server : uses
+SendRequestService --> SendShareSharedBoardController : uses
+SendShareSharedBoardController --> ShareSharedBoardService : uses
+ShareSharedBoardService --> SharedBoardParticipationFactory : uses
+SharedBoardParticipationFactory --> SharedBoardParticipation : creates
+ShareSharedBoardService --> SharedBoardParticipationRepository : uses
+SendShareSharedBoardController --> Server : uses
+Server --> SendRequestService : sends
+SendRequestService --> ShareSharedBoardUI : returns
+ShareSharedBoardUI --> SystemUser : returns
+
+@enduml

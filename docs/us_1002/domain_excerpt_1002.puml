@@ -1,0 +1,37 @@
+@startuml DDD
+
+!theme crt-green
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+package "<<agr Teacher>>"{
+
+    class Teacher<<entity>><<root>>{}
+    class Acronym<<vo>>{}
+    class TaxPayerNumber<<vo>>{}
+    class DateOfBirth<<vo>>{}
+
+    SystemUser "1" <-- Teacher
+    Teacher -down-> "1" Acronym
+    Teacher --> "1" DateOfBirth
+    Teacher --> "1" TaxPayerNumber
+}
+
+package "<<agr Course>>"{
+    class Course<<entity>><<root>>{}
+    class Code <<vo>>
+    class Description<<vo>>{}
+    class Title<<vo>>{}
+    class State<<vo>><<enum>>{}
+
+    Course  --> "1" State
+    Course  -down-> "1" Title
+    Course  -down-> "1" Description
+    Course  -down-> "1" Code
+    Course --> "*" Teacher : is ruled by
+
+
+}
+
+@enduml

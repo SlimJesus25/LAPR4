@@ -1,0 +1,75 @@
+@startuml
+
+class CreateLectureUI {
+}
+class FindTeacherByUsernameService {
+}
+class ListExtraClassesOfTeacherService {
+}
+class ExtraLectureRepository {
+}
+class TeacherRepository {
+
+}
+class FindCourseByCourseCodeService {
+
+}
+class CourseRepository {
+
+}
+class ValidateExtraClassesCallerService {
+
+}
+class ValidateExtraClassesService {
+
+}
+class CheckMeetingCollisionService {
+
+}
+class CheckAvailabilityService {
+
+}
+class MeetingParticipantRepository {
+
+}
+class LectureInDayAndHourService {
+
+}
+class CollisionLecturesCourseService {
+
+}
+class CollisionLectureAndLecturesCourseService {
+
+}
+class CreateLectureController {
+
+}
+class LectureFactory {
+
+}
+class Lecture {
+
+}
+class LectureRepository {
+
+}
+CreateLectureUI-> FindTeacherByUsernameService : uses
+CreateLectureUI-> ListExtraClassesOfTeacherService : uses
+CreateLectureUI-> FindCourseByCourseCodeService : uses
+CreateLectureUI-> ValidateExtraClassesCallerService : uses
+CreateLectureUI-> CheckMeetingCollisionService : uses
+CreateLectureUI-> CollisionLecturesCourseService : uses
+CreateLectureUI-> CreateLectureController : uses
+ListExtraClassesOfTeacherService->ExtraLectureRepository : uses
+FindTeacherByUsernameService->TeacherRepository : uses
+FindCourseByCourseCodeService->CourseRepository : uses
+ValidateExtraClassesCallerService->ValidateExtraClassesService : uses
+CheckMeetingCollisionService->CheckAvailabilityService : uses
+CheckAvailabilityService->LectureInDayAndHourService : uses
+CollisionLecturesCourseService->FindCourseByCourseCodeService : uses
+CollisionLecturesCourseService->CollisionLectureAndLecturesCourseService : uses
+CreateLectureController->LectureFactory : uses
+LectureFactory->Lecture : uses
+CreateLectureController->LectureRepository : uses
+CheckAvailabilityService->MeetingParticipantRepository : uses
+@enduml

@@ -1,0 +1,48 @@
+@startuml
+class ListExamGradesStudentUI {
+    + listExamsGrades(selectedCourse: CourseDTO): Iterable<FormerExamDTO>
+    + presentExamGrades(examGrades: Iterable<FormerExamDTO>): void
+}
+
+class ListStudentGradesController {
+    + listExamsGrades(course: CourseDTO): Iterable<FormerExamDTO>
+}
+
+class ListStudentGradesService {
+    + listExamsGrades(course: CourseDTO): Iterable<FormerExamDTO>
+}
+
+class FormerExamService {
+    + listFormerExamsOfCourse(course: CourseDTO): Iterable<FormerExam>
+}
+
+class StudentService {
+    + findStudentByUsername(username: string): Student
+}
+
+class CourseService {
+    + coursesThatStudentIsEnrolledOn(studentId: string): Iterable<CourseDTO>
+}
+
+class StudentRepository {
+    + findStudentByUserName(username: string): Student
+}
+
+class CourseEnrollmentRepository {
+    + coursesThatStudentIsEnrolledOn(studentId: string): Iterable<Course>
+}
+
+class FormerExamRepository {
+    + listFormerExamsOfCourse(course: Course): Iterable<FormerExam>
+}
+
+ListExamGradesStudentUI --> ListStudentGradesController
+ListStudentGradesController --> ListStudentGradesService
+ListStudentGradesService --> FormerExamService
+ListStudentGradesService --> StudentService
+ListStudentGradesService --> CourseEnrollmentRepository
+FormerExamService --> FormerExamRepository
+StudentService --> StudentRepository
+CourseService --> CourseEnrollmentRepository
+
+@enduml

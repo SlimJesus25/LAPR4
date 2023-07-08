@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1948px" preserveAspectRatio="none" style="width:5920px;height:1948px;background:#282828;" version="1.1" viewBox="0 0 5920 1948" width="5920px" zoomAndPan="magnify"><defs/><g><!--MD5=[c5bbcd52c01f0010dd672dab0bed5a94]
+cluster <<aggregate User>>--><g id="cluster_&lt;&lt;aggregate User&gt;&gt;"><path d="M1481.5,254.31 L1749.5,254.31 A3.75,3.75 0 0 1 1752,256.81 L1759,287.0473 L2042.5,287.0473 A2.5,2.5 0 0 1 2045,289.5473 L2045,599.81 A2.5,2.5 0 0 1 2042.5,602.31 L1481.5,602.31 A2.5,2.5 0 0 1 1479,599.81 L1479,256.81 A2.5,2.5 0 0 1 1481.5,254.31 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="1479" x2="1759" y1="287.0473" y2="287.0473"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="267" x="1483" y="278.4282">&lt;&lt;aggregate User&gt;&gt;</text></g><!--MD5=[6a9444e3c5965ac101d02162390a82d5]
+cluster <<aggregate Manager>>--><g id="cluster_&lt;&lt;aggregate Manager&gt;&gt;"><path d="M926.5,51.31 L1245.5,51.31 A3.75,3.75 0 0 1 1248,53.81 L1255,84.0473 L1255.5,84.0473 A2.5,2.5 0 0 1 1258,86.5473 L1258,202.81 A2.5,2.5 0 0 1 1255.5,205.31 L926.5,205.31 A2.5,2.5 0 0 1 924,202.81 L924,53.81 A2.5,2.5 0 0 1 926.5,51.31 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="924" x2="1255" y1="84.0473" y2="84.0473"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="318" x="928" y="75.4282">&lt;&lt;aggregate Manager&gt;&gt;</text></g><!--MD5=[02b2f500b18294b41f136d1c83ce32e9]
+cluster <<aggregate Teacher>>--><g id="cluster_&lt;&lt;aggregate Teacher&gt;&gt;"><path d="M2071.5,455.31 L2382.5,455.31 A3.75,3.75 0 0 1 2385,457.81 L2392,488.0473 L2392.5,488.0473 A2.5,2.5 0 0 1 2395,490.5473 L2395,800.81 A2.5,2.5 0 0 1 2392.5,803.31 L2071.5,803.31 A2.5,2.5 0 0 1 2069,800.81 L2069,457.81 A2.5,2.5 0 0 1 2071.5,455.31 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="2069" x2="2392" y1="488.0473" y2="488.0473"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="310" x="2073" y="479.4282">&lt;&lt;aggregate Teacher&gt;&gt;</text></g><!--MD5=[45635272d18ad2a9770b5a7d4e67ab8a]
+cluster <<aggreggate Course>>--><g id="cluster_&lt;&lt;aggreggate Course&gt;&gt;"><path d="M13.5,254.31 L325.5,254.31 A3.75,3.75 0 0 1 328,256.81 L335,287.0473 L461.5,287.0473 A2.5,2.5 0 0 1 464,289.5473 L464,807.81 A2.5,2.5 0 0 1 461.5,810.31 L13.5,810.31 A2.5,2.5 0 0 1 11,807.81 L11,256.81 A2.5,2.5 0 0 1 13.5,254.31 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="11" x2="335" y1="287.0473" y2="287.0473"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="311" x="15" y="278.4282">&lt;&lt;aggreggate Course&gt;&gt;</text></g><!--MD5=[6905682acc1871da4e50ccf83ff21d23]
+cluster <<agr CourseTeam>>--><g id="cluster_&lt;&lt;agr CourseTeam&gt;&gt;"><path d="M490.5,455.31 L770.5,455.31 A3.75,3.75 0 0 1 773,457.81 L780,488.0473 L780.5,488.0473 A2.5,2.5 0 0 1 783,490.5473 L783,800.81 A2.5,2.5 0 0 1 780.5,803.31 L490.5,803.31 A2.5,2.5 0 0 1 488,800.81 L488,457.81 A2.5,2.5 0 0 1 490.5,455.31 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="488" x2="780" y1="488.0473" y2="488.0473"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="279" x="492" y="479.4282">&lt;&lt;agr CourseTeam&gt;&gt;</text></g><!--MD5=[0fc20a4f049525f6bc53047136c5ef0f]
+cluster <<aggregate CourseState>>--><g id="cluster_&lt;&lt;aggregate CourseState&gt;&gt;"><path d="M809.5,656.31 L1172.5,656.31 A3.75,3.75 0 0 1 1175,658.81 L1182,689.0473 L1182.5,689.0473 A2.5,2.5 0 0 1 1185,691.5473 L1185,807.81 A2.5,2.5 0 0 1 1182.5,810.31 L809.5,810.31 A2.5,2.5 0 0 1 807,807.81 L807,658.81 A2.5,2.5 0 0 1 809.5,656.31 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="807" x2="1182" y1="689.0473" y2="689.0473"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="362" x="811" y="680.4282">&lt;&lt;aggregate CourseState&gt;&gt;</text></g><!--MD5=[fa73f35890f53741bcf9818016f65fc8]
+cluster <<aggregate Exam>>--><g id="cluster_&lt;&lt;aggregate Exam&gt;&gt;"><path d="M2421.5,656.31 L2700.5,656.31 A3.75,3.75 0 0 1 2703,658.81 L2710,689.0473 L3096.5,689.0473 A2.5,2.5 0 0 1 3099,691.5473 L3099,1640.81 A2.5,2.5 0 0 1 3096.5,1643.31 L2421.5,1643.31 A2.5,2.5 0 0 1 2419,1640.81 L2419,658.81 A2.5,2.5 0 0 1 2421.5,656.31 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="2419" x2="2710" y1="689.0473" y2="689.0473"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="278" x="2423" y="680.4282">&lt;&lt;aggregate Exam&gt;&gt;</text></g><!--MD5=[8f6031a075d2f34e9a37c8e667f14d6f]
+cluster <<aggregate ExamQuestionType>>--><g id="cluster_&lt;&lt;aggregate ExamQuestionType&gt;&gt;"><path d="M2448.5,1676.31 L2898.5,1676.31 A3.75,3.75 0 0 1 2901,1678.81 L2908,1709.0473 L3772.5,1709.0473 A2.5,2.5 0 0 1 3775,1711.5473 L3775,1938.81 A2.5,2.5 0 0 1 3772.5,1941.31 L2448.5,1941.31 A2.5,2.5 0 0 1 2446,1938.81 L2446,1678.81 A2.5,2.5 0 0 1 2448.5,1676.31 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="2446" x2="2908" y1="1709.0473" y2="1709.0473"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="449" x="2450" y="1700.4282">&lt;&lt;aggregate ExamQuestionType&gt;&gt;</text></g><!--MD5=[87d2c687f0a8b9c4984e448d826400ba]
+cluster <<aggreggate Class>>--><g id="cluster_&lt;&lt;aggreggate Class&gt;&gt;"><path d="M759.5,859.31 L1050.5,859.31 A3.75,3.75 0 0 1 1053,861.81 L1060,892.0473 L1112.5,892.0473 A2.5,2.5 0 0 1 1115,894.5473 L1115,1204.81 A2.5,2.5 0 0 1 1112.5,1207.31 L759.5,1207.31 A2.5,2.5 0 0 1 757,1204.81 L757,861.81 A2.5,2.5 0 0 1 759.5,859.31 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="757" x2="1060" y1="892.0473" y2="892.0473"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="290" x="761" y="883.4282">&lt;&lt;aggreggate Class&gt;&gt;</text></g><!--MD5=[afa93ae3dee715532bdaa1ef894683bc]
+cluster <<aggreggate Meeting>>--><g id="cluster_&lt;&lt;aggreggate Meeting&gt;&gt;"><path d="M1141.5,1060.31 L1467.5,1060.31 A3.75,3.75 0 0 1 1470,1062.81 L1477,1093.0473 L1714.5,1093.0473 A2.5,2.5 0 0 1 1717,1095.5473 L1717,1338.81 A2.5,2.5 0 0 1 1714.5,1341.31 L1141.5,1341.31 A2.5,2.5 0 0 1 1139,1338.81 L1139,1062.81 A2.5,2.5 0 0 1 1141.5,1060.31 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="1139" x2="1477" y1="1093.0473" y2="1093.0473"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="325" x="1143" y="1084.4282">&lt;&lt;aggreggate Meeting&gt;&gt;</text></g><!--MD5=[ca3276b1a52300cffc65f9792a456f95]
+cluster <<aggregate Student>>--><g id="cluster_&lt;&lt;aggregate Student&gt;&gt;"><path d="M3125.5,455.31 L3434.5,455.31 A3.75,3.75 0 0 1 3437,457.81 L3444,488.0473 L3444.5,488.0473 A2.5,2.5 0 0 1 3447,490.5473 L3447,800.81 A2.5,2.5 0 0 1 3444.5,803.31 L3125.5,803.31 A2.5,2.5 0 0 1 3123,800.81 L3123,457.81 A2.5,2.5 0 0 1 3125.5,455.31 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="3123" x2="3444" y1="488.0473" y2="488.0473"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="308" x="3127" y="479.4282">&lt;&lt;aggregate Student&gt;&gt;</text></g><!--MD5=[7d35d98f7091ec223875e718b1cc3c91]
+cluster <<aggreggate SharedBoard>>--><g id="cluster_&lt;&lt;aggreggate SharedBoard&gt;&gt;"><path d="M4513.5,51.31 L4900.5,51.31 A3.75,3.75 0 0 1 4903,53.81 L4910,84.0473 L4910.5,84.0473 A2.5,2.5 0 0 1 4913,86.5473 L4913,398.81 A2.5,2.5 0 0 1 4910.5,401.31 L4513.5,401.31 A2.5,2.5 0 0 1 4511,398.81 L4511,53.81 A2.5,2.5 0 0 1 4513.5,51.31 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="4511" x2="4910" y1="84.0473" y2="84.0473"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="386" x="4515" y="75.4282">&lt;&lt;aggreggate SharedBoard&gt;&gt;</text></g><!--MD5=[875aa41cd3b79cdd075f58d87d1f613b]
+cluster <<aggreggate PostIt>>--><g id="cluster_&lt;&lt;aggreggate PostIt&gt;&gt;"><path d="M4498.5,455.31 L4800.5,455.31 A3.75,3.75 0 0 1 4803,457.81 L4810,488.0473 L5103.5,488.0473 A2.5,2.5 0 0 1 5106,490.5473 L5106,800.81 A2.5,2.5 0 0 1 5103.5,803.31 L4498.5,803.31 A2.5,2.5 0 0 1 4496,800.81 L4496,457.81 A2.5,2.5 0 0 1 4498.5,455.31 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="4496" x2="4810" y1="488.0473" y2="488.0473"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="301" x="4500" y="479.4282">&lt;&lt;aggreggate PostIt&gt;&gt;</text></g><!--MD5=[f54b40204932c46bf24965190bb138fe]
+cluster <<aggreggate SharedBoardColumn>>--><g id="cluster_&lt;&lt;aggreggate SharedBoardColumn&gt;&gt;"><path d="M4939.5,51.31 L5420.5,51.31 A3.75,3.75 0 0 1 5423,53.81 L5430,84.0473 L5430.5,84.0473 A2.5,2.5 0 0 1 5433,86.5473 L5433,398.81 A2.5,2.5 0 0 1 5430.5,401.31 L4939.5,401.31 A2.5,2.5 0 0 1 4937,398.81 L4937,53.81 A2.5,2.5 0 0 1 4939.5,51.31 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="4937" x2="5430" y1="84.0473" y2="84.0473"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="480" x="4941" y="75.4282">&lt;&lt;aggreggate SharedBoardColumn&gt;&gt;</text></g><!--MD5=[257f40c5d0252f50b091a516d1f5aebe]
+cluster <<aggreggate SharedBoardRow>>--><g id="cluster_&lt;&lt;aggreggate SharedBoardRow&gt;&gt;"><path d="M5459.5,51.31 L5900.5,51.31 A3.75,3.75 0 0 1 5903,53.81 L5910,84.0473 L5910.5,84.0473 A2.5,2.5 0 0 1 5913,86.5473 L5913,398.81 A2.5,2.5 0 0 1 5910.5,401.31 L5459.5,401.31 A2.5,2.5 0 0 1 5457,398.81 L5457,53.81 A2.5,2.5 0 0 1 5459.5,51.31 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="5457" x2="5910" y1="84.0473" y2="84.0473"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="440" x="5461" y="75.4282">&lt;&lt;aggreggate SharedBoardRow&gt;&gt;</text></g><!--MD5=[63eeb42fc7a50e6a88e938c4fe90725c]
+cluster <<aggreggate FormerExam>>--><g id="cluster_&lt;&lt;aggreggate FormerExam&gt;&gt;"><path d="M3473.5,656.31 L3856.5,656.31 A3.75,3.75 0 0 1 3859,658.81 L3866,689.0473 L4469.5,689.0473 A2.5,2.5 0 0 1 4472,691.5473 L4472,1338.81 A2.5,2.5 0 0 1 4469.5,1341.31 L3473.5,1341.31 A2.5,2.5 0 0 1 3471,1338.81 L3471,658.81 A2.5,2.5 0 0 1 3473.5,656.31 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="3471" x2="3866" y1="689.0473" y2="689.0473"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="382" x="3475" y="680.4282">&lt;&lt;aggreggate FormerExam&gt;&gt;</text></g><!--MD5=[3fd616f346a44cd59a91eb10b19e157c]
+class User--><g id="elem_User"><rect codeLine="5" fill="#282828" height="64.1826" id="User" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="53" x="1734.5" y="328.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="1735.5" y="345.3745">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="1741" y="359.9584">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="32" x="1745" y="376.5532">User</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="1735.5" x2="1786.5" y1="384.4926" y2="384.4926"/></g><!--MD5=[d92d9e883939eee4186895798e1fdba2]
+class TaxPayerNumber--><g id="elem_TaxPayerNumber"><rect codeLine="7" fill="#282828" height="49.5986" id="TaxPayerNumber" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="125" x="1495.5" y="536.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="1534" y="553.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="119" x="1498.5" y="569.9692">TaxPayerNumber</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="1496.5" x2="1619.5" y1="577.9086" y2="577.9086"/></g><!--MD5=[9a6e98b13a389138a8ee3cd2798f9215]
+class UserName--><g id="elem_UserName"><rect codeLine="9" fill="#282828" height="49.5986" id="UserName" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="77" x="1655.5" y="536.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="1670" y="553.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="71" x="1658.5" y="569.9692">UserName</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="1656.5" x2="1731.5" y1="577.9086" y2="577.9086"/></g><!--MD5=[f15d303a52b8b9e97d00804c6847c0b5]
+class UserDateOfBirth--><g id="elem_UserDateOfBirth"><rect codeLine="11" fill="#282828" height="49.5986" id="UserDateOfBirth" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="121" x="1767.5" y="536.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="1804" y="553.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="115" x="1770.5" y="569.9692">UserDateOfBirth</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="1768.5" x2="1887.5" y1="577.9086" y2="577.9086"/></g><!--MD5=[88967cc527ac608118ac16caae449e3f]
+class UserPassword--><g id="elem_UserPassword"><rect codeLine="13" fill="#282828" height="49.5986" id="UserPassword" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="105" x="1923.5" y="536.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="1952" y="553.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="99" x="1926.5" y="569.9692">UserPassword</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="1924.5" x2="2027.5" y1="577.9086" y2="577.9086"/></g><!--MD5=[b24ed8d4ae84bae9290d9aab401637c7]
+class Manager--><g id="elem_Manager"><rect codeLine="23" fill="#282828" height="64.1826" id="Manager" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="65" x="1058.5" y="125.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="1065.5" y="142.3745">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="1071" y="156.9584">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="59" x="1061.5" y="173.5532">Manager</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="1059.5" x2="1122.5" y1="181.4926" y2="181.4926"/></g><!--MD5=[61a83f88cb8b7d3a80bc8c481f3736bf]
+class Teacher--><g id="elem_Teacher"><rect codeLine="29" fill="#282828" height="64.1826" id="Teacher" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="61" x="2085.5" y="529.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="2090.5" y="546.3745">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="2096" y="560.9584">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="55" x="2088.5" y="577.5532">Teacher</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="2086.5" x2="2145.5" y1="585.4926" y2="585.4926"/></g><!--MD5=[f5a7999b0b159b159672da30b363dede]
+class TeacherAcronym--><g id="elem_TeacherAcronym"><rect codeLine="31" fill="#282828" height="49.5986" id="TeacherAcronym" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="123" x="2085.5" y="737.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="2123" y="754.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="117" x="2088.5" y="770.9692">TeacherAcronym</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="2086.5" x2="2207.5" y1="778.9086" y2="778.9086"/></g><!--MD5=[4066b0363c5a91ff3b6e03e0428953a9]
+class Course--><g id="elem_Course"><rect codeLine="39" fill="#282828" height="64.1826" id="Course" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="56" x="392" y="328.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="394.5" y="345.3745">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="400" y="359.9584">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="50" x="395" y="376.5532">Course</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="393" x2="447" y1="384.4926" y2="384.4926"/></g><!--MD5=[d48061ccbd276027f3231694ef585189]
+class CourseCode--><g id="elem_CourseCode"><rect codeLine="42" fill="#282828" height="49.5986" id="CourseCode" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="92" x="27" y="536.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="49" y="553.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="86" x="30" y="569.9692">CourseCode</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="28" x2="118" y1="577.9086" y2="577.9086"/></g><!--MD5=[0914d6e5e1a282792d31c06d16c1ac2b]
+class CourseDescription--><g id="elem_CourseDescription"><rect codeLine="43" fill="#282828" height="49.5986" id="CourseDescription" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="135" x="154.5" y="536.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="198" y="553.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="129" x="157.5" y="569.9692">CourseDescription</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="155.5" x2="288.5" y1="577.9086" y2="577.9086"/></g><!--MD5=[919961f679087acc85f7aece57678273]
+class CourseRegent--><g id="elem_CourseRegent"><rect codeLine="45" fill="#282828" height="64.1826" id="CourseRegent" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="106" x="273" y="730.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="300.5" y="747.3745">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="306" y="761.9584">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="100" x="276" y="778.5532">CourseRegent</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="274" x2="378" y1="786.4926" y2="786.4926"/></g><!--MD5=[c3304bb95cb9ec2adad5e3f1dfc01105]
+class CourseTitle--><g id="elem_CourseTitle"><rect codeLine="47" fill="#282828" height="49.5986" id="CourseTitle" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="85" x="362.5" y="536.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="381" y="553.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="79" x="365.5" y="569.9692">CourseTitle</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="363.5" x2="446.5" y1="577.9086" y2="577.9086"/></g><!--MD5=[aaa502745fb95eae207aa82621ebab59]
+class CourseTeam--><g id="elem_CourseTeam"><rect codeLine="58" fill="#282828" height="64.1826" id="CourseTeam" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="94" x="668" y="529.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="689.5" y="546.3745">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="695" y="560.9584">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="88" x="671" y="577.5532">CourseTeam</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="669" x2="761" y1="585.4926" y2="585.4926"/></g><!--MD5=[7f889bb360c9d0616fcf5b05b6bbbe91]
+class CourseTeamCreationDate--><g id="elem_CourseTeamCreationDate"><rect codeLine="59" fill="#282828" height="49.5986" id="CourseTeamCreationDate" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="186" x="581" y="737.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="650" y="754.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="180" x="584" y="770.9692">CourseTeamCreationDate</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="582" x2="766" y1="778.9086" y2="778.9086"/></g><!--MD5=[799856c08d18301c64071de18adb2d39]
+class CourseState--><g id="elem_CourseState"><rect codeLine="68" fill="#282828" height="64.1826" id="CourseState" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="94" x="823" y="730.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="844.5" y="747.3745">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="850" y="761.9584">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="88" x="826" y="778.5532">CourseState</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="824" x2="916" y1="786.4926" y2="786.4926"/></g><!--MD5=[4ec975f1641a34b3290014bf4027a644]
+class Exam--><g id="elem_Exam"><rect codeLine="75" fill="#282828" height="64.1826" id="Exam" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="53" x="2521.5" y="730.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="2522.5" y="747.3745">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="2528" y="761.9584">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="39" x="2528.5" y="778.5532">Exam</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="2522.5" x2="2573.5" y1="786.4926" y2="786.4926"/></g><!--MD5=[843aaaa02b88e4ab5d6068ecb7966639]
+class ExamTitle--><g id="elem_ExamTitle"><rect codeLine="77" fill="#282828" height="49.5986" id="ExamTitle" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="74" x="2610" y="737.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="2623" y="754.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="68" x="2613" y="770.9692">ExamTitle</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="2611" x2="2683" y1="778.9086" y2="778.9086"/></g><!--MD5=[b9043650fabe5ed8a44954746e63e426]
+class ExamHeader--><g id="elem_ExamHeader"><rect codeLine="79" fill="#282828" height="49.5986" id="ExamHeader" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="94" x="2501" y="1141.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="2522.5" y="1158.3745">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="88" x="2504" y="1174.9692">ExamHeader</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="2502" x2="2594" y1="1182.9086" y2="1182.9086"/></g><!--MD5=[9c2d9224e6a5aad957150a20d2b5d02e]
+class ExamHeaderTextualDescription--><g id="elem_ExamHeaderTextualDescription"><rect codeLine="81" fill="#282828" height="49.5986" id="ExamHeaderTextualDescription" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="225" x="2435.5" y="1275.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="2524" y="1292.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="219" x="2438.5" y="1308.9692">ExamHeaderTextualDescription</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="2436.5" x2="2659.5" y1="1316.9086" y2="1316.9086"/></g><!--MD5=[1c3f90767a77540a1eb0ff215bb23629]
+class ExamSection--><g id="elem_ExamSection"><rect codeLine="83" fill="#282828" height="49.5986" id="ExamSection" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="97" x="2761.5" y="1141.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="2784.5" y="1158.3745">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="91" x="2764.5" y="1174.9692">ExamSection</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="2762.5" x2="2857.5" y1="1182.9086" y2="1182.9086"/></g><!--MD5=[baa7ffa6029a0cf7bd64640b621deb05]
+class ExamSectionTextualDescription--><g id="elem_ExamSectionTextualDescription"><rect codeLine="85" fill="#282828" height="49.5986" id="ExamSectionTextualDescription" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="228" x="2696" y="1275.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="2786" y="1292.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="222" x="2699" y="1308.9692">ExamSectionTextualDescription</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="2697" x2="2923" y1="1316.9086" y2="1316.9086"/></g><!--MD5=[b3de511c68cb1ef492574a8c65f0a5f9]
+class ExamQuestion--><g id="elem_ExamQuestion"><rect codeLine="87" fill="#282828" height="49.5986" id="ExamQuestion" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="108" x="2940" y="1388.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="2968.5" y="1405.3745">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="102" x="2943" y="1421.9692">ExamQuestion</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="2941" x2="3047" y1="1429.9086" y2="1429.9086"/></g><!--MD5=[7877ac9720807cabdc8fb588d655238a]
+class ExamQuestionNumber--><g id="elem_ExamQuestionNumber"><rect codeLine="89" fill="#282828" height="49.5986" id="ExamQuestionNumber" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="163" x="2722.5" y="1577.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="2780" y="1594.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="157" x="2725.5" y="1610.9692">ExamQuestionNumber</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="2723.5" x2="2884.5" y1="1618.9086" y2="1618.9086"/></g><!--MD5=[255945b5dcdc8c3a1fb12b4c948ff035]
+class ExamQuestionValue--><g id="elem_ExamQuestionValue"><rect codeLine="91" fill="#282828" height="49.5986" id="ExamQuestionValue" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="146" x="2921" y="1577.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="2970" y="1594.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="140" x="2924" y="1610.9692">ExamQuestionValue</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="2922" x2="3066" y1="1618.9086" y2="1618.9086"/></g><!--MD5=[bafb4570337233aef9fe15eb97c59d28]
+class ExamQuestionType--><g id="elem_ExamQuestionType"><rect codeLine="106" fill="#282828" height="64.1826" id="ExamQuestionType" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="142" x="3049" y="1750.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="3094.5" y="1767.3745">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="3100" y="1781.9584">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="136" x="3052" y="1798.5532">ExamQuestionType</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="3050" x2="3190" y1="1806.4926" y2="1806.4926"/></g><!--MD5=[df03094c2be3924f270ddff8cda03659]
+class ExamMatchingQuestion--><g id="elem_ExamMatchingQuestion"><rect codeLine="109" fill="#282828" height="49.5986" id="ExamMatchingQuestion" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="170" x="2462" y="1875.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="2523" y="1892.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="164" x="2465" y="1908.9692">ExamMatchingQuestion</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="2463" x2="2631" y1="1916.9086" y2="1916.9086"/></g><!--MD5=[c308f5583ed68fbc024b2915b2e7e031]
+class ExamMultipleChoiceQuestion--><g id="elem_ExamMultipleChoiceQuestion"><rect codeLine="112" fill="#282828" height="49.5986" id="ExamMultipleChoiceQuestion" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="206" x="2667" y="1875.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="2746" y="1892.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="200" x="2670" y="1908.9692">ExamMultipleChoiceQuestion</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="2668" x2="2872" y1="1916.9086" y2="1916.9086"/></g><!--MD5=[2e85bf3d80a89828f55e840e710778d8]
+class ExamShortAnswerQuestion--><g id="elem_ExamShortAnswerQuestion"><rect codeLine="115" fill="#282828" height="49.5986" id="ExamShortAnswerQuestion" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="200" x="2908" y="1875.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="2984" y="1892.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="194" x="2911" y="1908.9692">ExamShortAnswerQuestion</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="2909" x2="3107" y1="1916.9086" y2="1916.9086"/></g><!--MD5=[66f2519d57f2be6636590237fca5802b]
+class ExamNumericalQuestion--><g id="elem_ExamNumericalQuestion"><rect codeLine="118" fill="#282828" height="49.5986" id="ExamNumericalQuestion" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="175" x="3143.5" y="1875.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="3207" y="1892.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="169" x="3146.5" y="1908.9692">ExamNumericalQuestion</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="3144.5" x2="3317.5" y1="1916.9086" y2="1916.9086"/></g><!--MD5=[35e8bd6361c25b8d8bf21772d900b465]
+class ExamMissingWordsQuestion--><g id="elem_ExamMissingWordsQuestion"><rect codeLine="121" fill="#282828" height="49.5986" id="ExamMissingWordsQuestion" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="206" x="3354" y="1875.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="3433" y="1892.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="200" x="3357" y="1908.9692">ExamMissingWordsQuestion</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="3355" x2="3559" y1="1916.9086" y2="1916.9086"/></g><!--MD5=[0e93c99393db812e4506db48d86eafaf]
+class ExamVeracityQuestion--><g id="elem_ExamVeracityQuestion"><rect codeLine="124" fill="#282828" height="49.5986" id="ExamVeracityQuestion" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="164" x="3595" y="1875.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="3653" y="1892.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="158" x="3598" y="1908.9692">ExamVeracityQuestion</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="3596" x2="3758" y1="1916.9086" y2="1916.9086"/></g><!--MD5=[41e1c6cf192918703501b24b2053926c]
+class Class--><g id="elem_Class"><rect codeLine="141" fill="#282828" height="64.1826" id="Class" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="53" x="979.5" y="933.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="980.5" y="950.3745">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="986" y="964.9584">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="37" x="987.5" y="981.5532">Class</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="980.5" x2="1031.5" y1="989.4926" y2="989.4926"/></g><!--MD5=[83d021cd76fb2fee369e6351b6cdfcec]
+class ClassDuration--><g id="elem_ClassDuration"><rect codeLine="143" fill="#282828" height="49.5986" id="ClassDuration" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="104" x="773" y="1141.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="801" y="1158.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="98" x="776" y="1174.9692">ClassDuration</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="774" x2="876" y1="1182.9086" y2="1182.9086"/></g><!--MD5=[b5a410b9750a55490512dc2d9d0f2814]
+class ClassDate--><g id="elem_ClassDate"><rect codeLine="145" fill="#282828" height="49.5986" id="ClassDate" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="76" x="912" y="1141.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="926" y="1158.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="70" x="915" y="1174.9692">ClassDate</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="913" x2="987" y1="1182.9086" y2="1182.9086"/></g><!--MD5=[cc919cfed071cc62cfc1a210ad6976ef]
+class ClassTime--><g id="elem_ClassTime"><rect codeLine="147" fill="#282828" height="49.5986" id="ClassTime" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="76" x="1023" y="1141.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="1037" y="1158.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="70" x="1026" y="1174.9692">ClassTime</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="1024" x2="1098" y1="1182.9086" y2="1182.9086"/></g><!--MD5=[a78031611904abe1e5cbb3fd0b6ea028]
+class Meeting--><g id="elem_Meeting"><rect codeLine="157" fill="#282828" height="64.1826" id="Meeting" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="60" x="1348" y="1134.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="1352.5" y="1151.3745">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="1358" y="1165.9584">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="54" x="1351" y="1182.5532">Meeting</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="1349" x2="1407" y1="1190.4926" y2="1190.4926"/></g><!--MD5=[d5a4d5b0b85bb5fcf34f0ed59904ca55]
+class MeetingDuration--><g id="elem_MeetingDuration"><rect codeLine="159" fill="#282828" height="49.5986" id="MeetingDuration" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="121" x="1155.5" y="1275.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="1192" y="1292.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="115" x="1158.5" y="1308.9692">MeetingDuration</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="1156.5" x2="1275.5" y1="1316.9086" y2="1316.9086"/></g><!--MD5=[398100988d09a6250c4881dc37a3d51a]
+class MeetingParticipant--><g id="elem_MeetingParticipant"><rect codeLine="161" fill="#282828" height="49.5986" id="MeetingParticipant" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="133" x="1311.5" y="1275.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="1352.5" y="1292.3745">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="127" x="1314.5" y="1308.9692">MeetingParticipant</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="1312.5" x2="1443.5" y1="1316.9086" y2="1316.9086"/></g><!--MD5=[470de71a3d8a10af421a05b5c0e7e25c]
+class MeetingTime--><g id="elem_MeetingTime"><rect codeLine="163" fill="#282828" height="49.5986" id="MeetingTime" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="93" x="1479.5" y="1275.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="1502" y="1292.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="87" x="1482.5" y="1308.9692">MeetingTime</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="1480.5" x2="1571.5" y1="1316.9086" y2="1316.9086"/></g><!--MD5=[238408e3227ccafb6ae8a54751313c19]
+class MeetingDate--><g id="elem_MeetingDate"><rect codeLine="165" fill="#282828" height="49.5986" id="MeetingDate" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="93" x="1607.5" y="1275.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="1630" y="1292.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="87" x="1610.5" y="1308.9692">MeetingDate</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="1608.5" x2="1699.5" y1="1316.9086" y2="1316.9086"/></g><!--MD5=[d6181cb537bdc20c0a3007a98a56832d]
+class Student--><g id="elem_Student"><rect codeLine="178" fill="#282828" height="64.1826" id="Student" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="63" x="3253.5" y="529.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="3259.5" y="546.3745">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="3265" y="560.9584">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="57" x="3256.5" y="577.5532">Student</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="3254.5" x2="3315.5" y1="585.4926" y2="585.4926"/></g><!--MD5=[5243e318521b02aa88a50eadb44ea622]
+class MechanographicalNumber--><g id="elem_MechanographicalNumber"><rect codeLine="180" fill="#282828" height="49.5986" id="MechanographicalNumber" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="184" x="3193" y="737.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="3261" y="754.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="178" x="3196" y="770.9692">MechanographicalNumber</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="3194" x2="3376" y1="778.9086" y2="778.9086"/></g><!--MD5=[3762909e135fb728396985e200594027]
+class SharedBoard--><g id="elem_SharedBoard"><rect codeLine="187" fill="#282828" height="64.1826" id="SharedBoard" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="98" x="4796" y="125.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="4819.5" y="142.3745">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="4825" y="156.9584">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="92" x="4799" y="173.5532">SharedBoard</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="4797" x2="4893" y1="181.4926" y2="181.4926"/></g><!--MD5=[5bdc71683edea6adee4442f3a444c148]
+class SharedBoardTitle--><g id="elem_SharedBoardTitle"><rect codeLine="189" fill="#282828" height="49.5986" id="SharedBoardTitle" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="127" x="4612.5" y="335.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="4652" y="352.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="121" x="4615.5" y="368.9692">SharedBoardTitle</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="4613.5" x2="4738.5" y1="376.9086" y2="376.9086"/></g><!--MD5=[c8e494d84838be845717fe7e82907e86]
+class SharedBoardCell--><g id="elem_SharedBoardCell"><rect codeLine="191" fill="#282828" height="49.5986" id="SharedBoardCell" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="122" x="4775" y="335.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="4812" y="352.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="116" x="4778" y="368.9692">SharedBoardCell</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="4776" x2="4896" y1="376.9086" y2="376.9086"/></g><!--MD5=[458552462bbdcbc92793825846cc11c0]
+class PostIt--><g id="elem_PostIt"><rect codeLine="200" fill="#282828" height="64.1826" id="PostIt" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="53" x="4809.5" y="529.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="4810.5" y="546.3745">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="4816" y="560.9584">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="42" x="4815" y="577.5532">PostIt</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="4810.5" x2="4861.5" y1="585.4926" y2="585.4926"/></g><!--MD5=[94b85bea94b5642f969dfdae8e41c7da]
+class PostItCreationTimestamp--><g id="elem_PostItCreationTimestamp"><rect codeLine="201" fill="#282828" height="49.5986" id="PostItCreationTimestamp" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="184" x="4512" y="737.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="4580" y="754.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="178" x="4515" y="770.9692">PostItCreationTimestamp</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="4513" x2="4695" y1="778.9086" y2="778.9086"/></g><!--MD5=[4426355f252acd2c32e0565f3c8f9749]
+class PostItType--><g id="elem_PostItType"><rect codeLine="202" fill="#282828" height="49.5986" id="PostItType" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="82" x="4731" y="737.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="4748" y="754.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="76" x="4734" y="770.9692">PostItType</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="4732" x2="4812" y1="778.9086" y2="778.9086"/></g><!--MD5=[6ac42eb454599b4c06c6dc3518b1382b]
+class PostItContent--><g id="elem_PostItContent"><rect codeLine="203" fill="#282828" height="49.5986" id="PostItContent" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="105" x="4848.5" y="737.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="4877" y="754.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="99" x="4851.5" y="770.9692">PostItContent</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="4849.5" x2="4952.5" y1="778.9086" y2="778.9086"/></g><!--MD5=[a75757855d524372435c4e31d79e6551]
+class PostItCreator--><g id="elem_PostItCreator"><rect codeLine="204" fill="#282828" height="49.5986" id="PostItCreator" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="101" x="4988.5" y="737.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="49" x="5014.5" y="754.3745">«Value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="95" x="4991.5" y="770.9692">PostItCreator</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="4989.5" x2="5088.5" y1="778.9086" y2="778.9086"/></g><!--MD5=[079c03b1fa811e930f7e78ec0014ab60]
+class SharedBoardColumn--><g id="elem_SharedBoardColumn"><rect codeLine="213" fill="#282828" height="64.1826" id="SharedBoardColumn" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="151" x="5017.5" y="125.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="5067.5" y="142.3745">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="5073" y="156.9584">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="145" x="5020.5" y="173.5532">SharedBoardColumn</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="5018.5" x2="5167.5" y1="181.4926" y2="181.4926"/></g><!--MD5=[a9777c4d3f42874c14c48de422d0968c]
+class SharedBoardColumnTitle--><g id="elem_SharedBoardColumnTitle"><rect codeLine="215" fill="#282828" height="49.5986" id="SharedBoardColumnTitle" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="180" x="4970" y="335.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="5036" y="352.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="174" x="4973" y="368.9692">SharedBoardColumnTitle</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="4971" x2="5149" y1="376.9086" y2="376.9086"/></g><!--MD5=[f22ce6fb177a29917e09835698a90d07]
+class SharedBoardColumnNumber--><g id="elem_SharedBoardColumnNumber"><rect codeLine="217" fill="#282828" height="49.5986" id="SharedBoardColumnNumber" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="206" x="5185" y="335.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="5264" y="352.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="200" x="5188" y="368.9692">SharedBoardColumnNumber</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="5186" x2="5390" y1="376.9086" y2="376.9086"/></g><!--MD5=[8a3886ea8f2fef698e71794ae2d96799]
+class SharedBoardRow--><g id="elem_SharedBoardRow"><rect codeLine="225" fill="#282828" height="64.1826" id="SharedBoardRow" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="128" x="5480" y="125.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="5518.5" y="142.3745">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="5524" y="156.9584">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="122" x="5483" y="173.5532">SharedBoardRow</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="5481" x2="5607" y1="181.4926" y2="181.4926"/></g><!--MD5=[3f25048fa7b4c2a42305d147f1776b93]
+class SharedBoardRowTitle--><g id="elem_SharedBoardRowTitle"><rect codeLine="227" fill="#282828" height="49.5986" id="SharedBoardRowTitle" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="157" x="5473.5" y="335.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="5528" y="352.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="151" x="5476.5" y="368.9692">SharedBoardRowTitle</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="5474.5" x2="5629.5" y1="376.9086" y2="376.9086"/></g><!--MD5=[cae3dd8651051265c06cb82c8587c0c1]
+class SharedBoardRowNumber--><g id="elem_SharedBoardRowNumber"><rect codeLine="229" fill="#282828" height="49.5986" id="SharedBoardRowNumber" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="183" x="5665.5" y="335.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="5733" y="352.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="177" x="5668.5" y="368.9692">SharedBoardRowNumber</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="5666.5" x2="5847.5" y1="376.9086" y2="376.9086"/></g><!--MD5=[77bbc7875e07044be1bb10338b60d6a9]
+class FormerExam--><g id="elem_FormerExam"><rect codeLine="237" fill="#282828" height="64.1826" id="FormerExam" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="95" x="3524.5" y="730.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="3546.5" y="747.3745">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="3552" y="761.9584">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="89" x="3527.5" y="778.5532">FormerExam</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="3525.5" x2="3618.5" y1="786.4926" y2="786.4926"/></g><!--MD5=[585a894f65b9199afae04ddc161145c1]
+class FormerExamGrade--><g id="elem_FormerExamGrade"><rect codeLine="238" fill="#282828" height="49.5986" id="FormerExamGrade" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="137" x="3503.5" y="940.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="3548" y="957.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="131" x="3506.5" y="973.9692">FormerExamGrade</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="3504.5" x2="3639.5" y1="981.9086" y2="981.9086"/></g><!--MD5=[203366fafa1aeb0911c286256c28afa1]
+class FormerExamTitle--><g id="elem_FormerExamTitle"><rect codeLine="239" fill="#282828" height="49.5986" id="FormerExamTitle" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="124" x="3655" y="737.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="3693" y="754.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="118" x="3658" y="770.9692">FormerExamTitle</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="3656" x2="3778" y1="778.9086" y2="778.9086"/></g><!--MD5=[4c002356f082beb713e6d76f98d6400b]
+class FormerExamSection--><g id="elem_FormerExamSection"><rect codeLine="240" fill="#282828" height="49.5986" id="FormerExamSection" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="147" x="3735.5" y="940.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="3783.5" y="957.3745">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="141" x="3738.5" y="973.9692">FormerExamSection</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="3736.5" x2="3881.5" y1="981.9086" y2="981.9086"/></g><!--MD5=[d1f270a25667834bcac7159e9a26ec3d]
+class FormerExamQuestion--><g id="elem_FormerExamQuestion"><rect codeLine="246" fill="#282828" height="64.1826" id="FormerExamQuestion" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="158" x="3775" y="1134.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="3828.5" y="1151.3745">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="3834" y="1165.9584">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="152" x="3778" y="1182.5532">FormerExamQuestion</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="3776" x2="3932" y1="1190.4926" y2="1190.4926"/></g><!--MD5=[61969e0d106e0ae7aa4ce18244395a94]
+class FormerExamQuestionFeedback--><g id="elem_FormerExamQuestionFeedback"><rect codeLine="247" fill="#282828" height="49.5986" id="FormerExamQuestionFeedback" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="223" x="3487.5" y="1275.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="3575" y="1292.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="217" x="3490.5" y="1308.9692">FormerExamQuestionFeedback</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="3488.5" x2="3709.5" y1="1316.9086" y2="1316.9086"/></g><!--MD5=[bbd3c57aa3fac4f2b02543d611cf9554]
+class FormerExamQuestionSolution--><g id="elem_FormerExamQuestionSolution"><rect codeLine="248" fill="#282828" height="49.5986" id="FormerExamQuestionSolution" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="216" x="3746" y="1275.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="3830" y="1292.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="210" x="3749" y="1308.9692">FormerExamQuestionSolution</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="3747" x2="3961" y1="1316.9086" y2="1316.9086"/></g><!--MD5=[15d4f785563ba487725f18c9499aedc8]
+class FormerExamQuestionNumber--><g id="elem_FormerExamQuestionNumber"><rect codeLine="249" fill="#282828" height="49.5986" id="FormerExamQuestionNumber" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="213" x="3997.5" y="1275.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="4080" y="1292.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="207" x="4000.5" y="1308.9692">FormerExamQuestionNumber</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="3998.5" x2="4209.5" y1="1316.9086" y2="1316.9086"/></g><!--MD5=[76696ea56e81808a4ebbb1a148b305eb]
+class FormerExamQuestionAnswer--><g id="elem_FormerExamQuestionAnswer"><rect codeLine="250" fill="#282828" height="49.5986" id="FormerExamQuestionAnswer" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="210" x="4246" y="1275.31"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="4327" y="1292.3745">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="204" x="4249" y="1308.9692">FormerExamQuestionAnswer</text><line style="stroke:#33FF33;stroke-width:1.0;" x1="4247" x2="4455" y1="1316.9086" y2="1316.9086"/></g><!--MD5=[459e11d5a71364655287659c8b13223e]
+link User to TaxPayerNumber--><g id="link_User_TaxPayerNumber"><path codeLine="15" d="M1734.06,376.41 C1707.71,392 1667.38,418.1 1638,447.31 C1612.32,472.84 1589.17,507.44 1574.45,531.61 " fill="none" id="User-to-TaxPayerNumber" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="1571.81,536,1579.8843,530.3603,1574.393,531.7188,1573.0344,526.2275,1571.81,536" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="1718.5184" y="376.6512">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="1566.4464" y="525.4135">1</text></g><!--MD5=[9764ab48b6a576f7597d9c9f423ed4bd]
+link User to UserName--><g id="link_User_UserName"><path codeLine="16" d="M1750.53,392.4 C1737.71,430.48 1716.17,494.47 1703.7,531.49 " fill="none" id="User-to-UserName" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="1702.08,536.31,1708.747,529.0608,1703.6783,531.5723,1701.1667,526.5036,1702.08,536.31" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="1739.5456" y="413.6989">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="1695.2275" y="525.408">1</text></g><!--MD5=[c13e39c5fc61ffd2fc960dd3bc9478af]
+link User to UserDateOfBirth--><g id="link_User_UserDateOfBirth"><path codeLine="17" d="M1771.47,392.4 C1784.29,430.48 1805.83,494.47 1818.3,531.49 " fill="none" id="User-to-UserDateOfBirth" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="1819.92,536.31,1820.8333,526.5036,1818.3217,531.5723,1813.253,529.0608,1819.92,536.31" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="1764.8044" y="413.6989">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="1808.5225" y="525.408">1</text></g><!--MD5=[1fb053375b57868c1af69cd4f6f17154]
+link User to UserPassword--><g id="link_User_UserPassword"><path codeLine="18" d="M1787.62,372.36 C1818.81,386.29 1870.69,412.67 1906,447.31 C1930.87,471.7 1950.74,506.61 1962.87,531.16 " fill="none" id="User-to-UserPassword" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="1965.19,535.92,1964.8306,526.0777,1962.9939,531.4281,1957.6436,529.5914,1965.19,535.92" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="1795.4664" y="371.6748">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="1953.3949" y="525.7156">1</text></g><!--MD5=[6eb6e197a729f6ec2412743e0bdbca1d]
+link Manager to User--><g id="link_Manager_User"><path codeLine="24" d="M1123.77,168.14 C1233.41,201.03 1587.65,307.31 1714.93,345.49 " fill="none" id="Manager-to-User" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="none" points="1717.18,338.85,1734.32,351.31,1713.15,352.26,1717.18,338.85" style="stroke:#33FF33;stroke-width:1.0;"/></g><!--MD5=[fe11be17f27ee1479a55560e2013de50]
+link Teacher to TeacherAcronym--><g id="link_Teacher_TeacherAcronym"><path codeLine="34" d="M2120.84,593.4 C2126.75,631.33 2136.66,694.95 2142.44,732.03 " fill="none" id="Teacher-to-TeacherAcronym" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="2143.26,737.31,2145.8512,727.8081,2142.5029,732.3676,2137.9434,729.0194,2143.26,737.31" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="2113.0133" y="614.6989">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="2133.0831" y="726.408">1</text></g><!--MD5=[d87c224b488f6c9759d0a77cb4053101]
+reverse link User to Teacher--><g id="link_User_Teacher"><path codeLine="35" d="M1807.69,365.37 C1868.01,372.71 1973.7,392.89 2045,447.31 C2072.63,468.4 2092.25,503.57 2103.77,529.08 " fill="none" id="User-backto-Teacher" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="none" points="1806.81,372.32,1787.67,363.21,1808.31,358.4,1806.81,372.32" style="stroke:#33FF33;stroke-width:1.0;"/></g><!--MD5=[500f8ae1c0880bd245f7f78b715d7dda]
+link Course to CourseRegent--><g id="link_Course_CourseRegent"><path codeLine="50" d="M391.99,384.55 C375.14,400.33 355.06,422.75 345,447.31 C306.51,541.25 313.9,664.33 320.84,724.69 " fill="none" id="Course-to-CourseRegent" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="321.46,729.99,324.3763,720.5828,320.8733,725.0245,316.4316,721.5215,321.46,729.99" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="9" x="375.0657" y="405.4316">*</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="311.5919" y="719.4167">1</text></g><!--MD5=[b3919203e0fc33882323d71b139d4648]
+link Course to CourseTitle--><g id="link_Course_CourseTitle"><path codeLine="51" d="M417.66,392.4 C414.8,430.33 410,493.95 407.21,531.03 " fill="none" id="Course-to-CourseTitle" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="406.81,536.31,411.4676,527.632,407.1815,531.3238,403.4897,527.0377,406.81,536.31" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="408.3524" y="413.6989">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="398.1941" y="525.408">1</text></g><!--MD5=[fb1b11975120a3eff39f2a5b357f0d9b]
+link Course to CourseDescription--><g id="link_Course_CourseDescription"><path codeLine="52" d="M391.57,373.95 C369.56,384.67 339.17,401.6 317,422.31 C282.4,454.63 253.39,501.65 236.85,531.6 " fill="none" id="Course-to-CourseDescription" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="234.3,536.26,242.1294,530.2851,236.7003,531.8738,235.1115,526.4446,234.3,536.26" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="376.0706" y="391.9798">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="228.5306" y="525.7434">1</text></g><!--MD5=[5f51c4f556a3967dddec88ee110fd332]
+link Course to CourseCode--><g id="link_Course_CourseCode"><path codeLine="53" d="M391.93,363.04 C337.19,367.76 214.76,385.04 137,447.31 C109.94,468.98 92.3,505.38 82.52,531 " fill="none" id="Course-to-CourseCode" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="80.67,535.97,87.5566,528.9291,82.4131,531.2837,80.0585,526.1401,80.67,535.97" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="376.1129" y="360.0223">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="73.6104" y="525.7784">1</text></g><!--MD5=[16e9b5ddd71d8efcdab99dc765b22088]
+link Manager to Course--><g id="link_Manager_Course"><path codeLine="54" d="M1058.18,168.14 C944.37,202.23 567.34,315.17 453.1,349.4 " fill="none" id="Manager-to-Course" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="448.18,350.87,457.9515,352.1018,452.9672,349.4267,455.6423,344.4423,448.18,350.87" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="58" x="875" y="235.3798">manages</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="1042.5859" y="166.9602">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="9" x="456.1458" y="344.8859">*</text></g><!--MD5=[f4bc19d247017f0a0d906bf42b29e775]
+link CourseTeam to CourseTeamCreationDate--><g id="link_CourseTeam_CourseTeamCreationDate"><path codeLine="61" d="M708.59,593.4 C700.78,631.33 687.67,694.95 680.03,732.03 " fill="none" id="CourseTeam-to-CourseTeamCreationDate" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="678.95,737.31,684.6689,729.2916,679.9498,732.411,676.8304,727.6919,678.95,737.31" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="698.4429" y="614.6989">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="671.2172" y="726.408">1</text></g><!--MD5=[a7582738bdcd3376b3bc83b7ed3e9c25]
+link Teacher to CourseTeam--><g id="link_Teacher_CourseTeam"><path codeLine="62" d="M2104.5,529.09 C2093.52,503.69 2074.27,470.02 2045,454.31 C1934.17,394.84 1604.47,445.57 1479,454.31 C1209.5,473.09 890.39,528.7 767.16,551.45 " fill="none" id="Teacher-to-CourseTeam" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="762.14,552.37,771.7198,554.6563,767.0557,551.4555,770.2565,546.7913,762.14,552.37" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="60" x="1402" y="436.3798">is part of</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="9" x="2092" y="518.5385">*</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="769.9708" y="547.9697">1</text></g><!--MD5=[617533b29651d8954dfedde995baddca]
+link Course to CourseTeam--><g id="link_Course_CourseTeam"><path codeLine="63" d="M448.02,380.21 C497.74,413.75 602.03,484.1 664.54,526.27 " fill="none" id="Course-to-CourseTeam" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="668.96,529.25,663.7432,520.8963,664.8174,526.4502,659.2635,527.5244,668.96,529.25" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="88" x="534" y="436.3798">instructed by</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="455.8249" y="381.3775">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="652.0466" y="520.3281">1</text></g><!--MD5=[e64f2b7cf82963464778f39ca9b22dac]
+link Course to CourseState--><g id="link_Course_CourseState"><path codeLine="70" d="M448.11,364.29 C524.67,372.95 734.43,400.53 783,447.31 C860.48,521.92 870.86,658.94 871.07,724.49 " fill="none" id="Course-to-CourseState" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="871.07,729.84,875.07,720.84,871.07,724.84,867.07,720.84,871.07,729.84" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="9" x="456.0587" y="361.577">*</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="862.4657" y="719.7296">1</text></g><!--MD5=[f47f7666d83c05865702f88b2327fd81]
+link Teacher to Exam--><g id="link_Teacher_Exam"><path codeLine="93" d="M2146.72,576.46 C2226.01,612.98 2436.87,710.12 2516.74,746.91 " fill="none" id="Teacher-to-Exam" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="2521.36,749.04,2514.8779,741.625,2516.824,746.9365,2511.5124,748.8826,2521.36,749.04" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="50" x="2282" y="637.3798">creates</text></g><!--MD5=[c4befa03adfe763a1f9735b81775aba2]
+link Exam to ExamTitle--><g id="link_Exam_ExamTitle"><path codeLine="94" d="M2574.68,762.31 C2584.71,762.31 2594.73,762.31 2604.75,762.31 " fill="none" id="Exam-to-ExamTitle" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="2609.99,762.31,2600.99,758.31,2604.99,762.31,2600.99,766.31,2609.99,762.31" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="2582.5418" y="758.537">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="2593.9162" y="759.0215">1</text></g><!--MD5=[5ea425579540db4306603459313fbf63]
+link Exam to ExamHeader--><g id="link_Exam_ExamHeader"><path codeLine="95" d="M2548,794.52 C2548,870.18 2548,1062.57 2548,1136.12 " fill="none" id="Exam-to-ExamHeader" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="2548,1141.2,2552,1132.2,2548,1136.2,2544,1132.2,2548,1141.2" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="2539.2125" y="815.4684">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="2538.925" y="1130.6672">1</text></g><!--MD5=[d8e6afc66b8eb26ff4a8e0aec8d6f97d]
+link ExamHeader to ExamHeaderTextualDescription--><g id="link_ExamHeader_ExamHeaderTextualDescription"><path codeLine="96" d="M2548,1191.52 C2548,1213.66 2548,1246.47 2548,1270.06 " fill="none" id="ExamHeader-to-ExamHeaderTextualDescription" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="2548,1275.25,2552,1266.25,2548,1270.25,2544,1266.25,2548,1275.25" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="26" x="2518.5063" y="1264.7307">0..1</text></g><!--MD5=[b15455bd3c16c22f377c86ec1812c104]
+link Exam to ExamSection--><g id="link_Exam_ExamSection"><path codeLine="97" d="M2568.34,794.52 C2617.85,870.49 2744.05,1064.11 2791.54,1136.99 " fill="none" id="Exam-to-ExamSection" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="2794.29,1141.2,2792.7261,1131.4761,2791.5595,1137.0114,2786.0243,1135.8449,2794.29,1141.2" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="87" x="2698" y="970.8798">composed by</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="2563.5569" y="815.4684">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="27" x="2759.4398" y="1130.6672">1..*</text></g><!--MD5=[d5a125966cbd88501416f7069ce7d519]
+link ExamSection to ExamSectionTextualDescription--><g id="link_ExamSection_ExamSectionTextualDescription"><path codeLine="98" d="M2810,1191.52 C2810,1213.66 2810,1246.47 2810,1270.06 " fill="none" id="ExamSection-to-ExamSectionTextualDescription" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="2810,1275.25,2814,1266.25,2810,1270.25,2806,1266.25,2810,1275.25" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="2801.125" y="1211.8765">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="26" x="2780.5063" y="1264.7307">0..1</text></g><!--MD5=[35b6e0e0d9d4cf8d8023bc95512efbc4]
+link ExamQuestion to ExamQuestionValue--><g id="link_ExamQuestion_ExamQuestionValue"><path codeLine="99" d="M2994,1438.37 C2994,1472.5 2994,1534.91 2994,1571.79 " fill="none" id="ExamQuestion-to-ExamQuestionValue" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="2994,1577.04,2998,1568.04,2994,1572.04,2990,1568.04,2994,1577.04" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="2985.075" y="1459.1082">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="2984.925" y="1566.4642">1</text></g><!--MD5=[e74d8c3717d72255cf4fe6eb882dd683]
+link ExamQuestion to ExamQuestionNumber--><g id="link_ExamQuestion_ExamQuestionNumber"><path codeLine="100" d="M2969.55,1438.37 C2934.45,1472.92 2869.9,1536.45 2832.62,1573.14 " fill="none" id="ExamQuestion-to-ExamQuestionNumber" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="2828.66,1577.04,2837.8736,1573.5602,2832.2169,1573.526,2832.2512,1567.8692,2828.66,1577.04" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="2954.9709" y="1459.1082">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="2826.2124" y="1566.4642">1</text></g><!--MD5=[071475dfaedcbe295168d081f5f4fbc5]
+link ExamSection to ExamQuestion--><g id="link_ExamSection_ExamQuestion"><path codeLine="101" d="M2849.39,1191.37 C2878.44,1210.86 2917.09,1240.71 2942,1275.31 C2965.88,1308.49 2980.27,1354 2987.68,1383.28 " fill="none" id="ExamSection-to-ExamQuestion" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="2988.89,1388.2,2990.6146,1378.5033,2987.6908,1383.3459,2982.8481,1380.4221,2988.89,1388.2" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="87" x="2978" y="1305.8798">composed by</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="2849.5739" y="1212.1082">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="9" x="2977.3073" y="1377.6672">*</text></g><!--MD5=[8548e446a98a54be2f92f6192c21a04d]
+reverse link ExamQuestionType to ExamMatchingQuestion--><g id="link_ExamQuestionType_ExamMatchingQuestion"><path codeLine="127" d="M3028.86,1800.04 C2933.83,1817.74 2780.66,1846.97 2649,1875.31 C2643.49,1876.5 2637.81,1877.75 2632.1,1879.03 " fill="none" id="ExamQuestionType-backto-ExamMatchingQuestion" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="none" points="3027.87,1793.11,3048.81,1796.34,3030.42,1806.87,3027.87,1793.11" style="stroke:#33FF33;stroke-width:1.0;"/></g><!--MD5=[acbed955ea2287c5dac26b08534d61e2]
+reverse link ExamQuestionType to ExamNumericalQuestion--><g id="link_ExamQuestionType_ExamNumericalQuestion"><path codeLine="128" d="M3163.68,1828.96 C3178.77,1844.72 3195.08,1861.77 3207.86,1875.13 " fill="none" id="ExamQuestionType-backto-ExamNumericalQuestion" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="none" points="3158.52,1833.69,3149.75,1814.4,3168.63,1824.01,3158.52,1833.69" style="stroke:#33FF33;stroke-width:1.0;"/></g><!--MD5=[2f3d4e80362907144e9f040d181bc50f]
+reverse link ExamQuestionType to ExamShortAnswerQuestion--><g id="link_ExamQuestionType_ExamShortAnswerQuestion"><path codeLine="129" d="M3075.93,1828.96 C3060.7,1844.72 3044.25,1861.77 3031.35,1875.13 " fill="none" id="ExamQuestionType-backto-ExamShortAnswerQuestion" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="none" points="3071.06,1823.92,3089.99,1814.4,3081.13,1833.65,3071.06,1823.92" style="stroke:#33FF33;stroke-width:1.0;"/></g><!--MD5=[26cc6f399c9dfa188b3a4970f899563c]
+reverse link ExamQuestionType to ExamMissingWordsQuestion--><g id="link_ExamQuestionType_ExamMissingWordsQuestion"><path codeLine="130" d="M3210.05,1814.31 C3265.62,1833.43 3335.85,1857.61 3387.19,1875.28 " fill="none" id="ExamQuestionType-backto-ExamMissingWordsQuestion" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="none" points="3207.69,1820.9,3191.06,1807.77,3212.25,1807.66,3207.69,1820.9" style="stroke:#33FF33;stroke-width:1.0;"/></g><!--MD5=[0e8e0c49c1d2335e87947de10cf8f5af]
+reverse link ExamQuestionType to ExamVeracityQuestion--><g id="link_ExamQuestionType_ExamVeracityQuestion"><path codeLine="131" d="M3210.93,1800.48 C3303.51,1818.21 3451.07,1847.19 3578,1875.31 C3583.53,1876.53 3589.22,1877.83 3594.94,1879.15 " fill="none" id="ExamQuestionType-backto-ExamVeracityQuestion" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="none" points="3209.52,1807.33,3191.19,1796.7,3212.15,1793.58,3209.52,1807.33" style="stroke:#33FF33;stroke-width:1.0;"/></g><!--MD5=[577f8f20b6a6b7722872851dd15fd1cc]
+reverse link ExamQuestionType to ExamMultipleChoiceQuestion--><g id="link_ExamQuestionType_ExamMultipleChoiceQuestion"><path codeLine="132" d="M3029.71,1813.23 C2971.56,1832.51 2896.97,1857.23 2842.65,1875.23 " fill="none" id="ExamQuestionType-backto-ExamMultipleChoiceQuestion" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="none" points="3027.56,1806.57,3048.75,1806.92,3031.97,1819.86,3027.56,1806.57" style="stroke:#33FF33;stroke-width:1.0;"/></g><!--MD5=[08c0c6d873efaebb0b84fee5e9b8e20f]
+link ExamQuestion to ExamQuestionType--><g id="link_ExamQuestion_ExamQuestionType"><path codeLine="133" d="M3010.97,1438.46 C3031.74,1469.24 3066.43,1524.75 3085,1577.31 C3104.97,1633.85 3113.78,1703.35 3117.49,1744.9 " fill="none" id="ExamQuestion-to-ExamQuestionType" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="3117.94,1750.07,3121.1545,1740.7605,3117.5118,1745.0884,3113.1839,1741.4456,3117.94,1750.07" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="97" x="3073" y="1544.3798">differs through</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="9" x="3004.6978" y="1458.8033">*</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="3108.6144" y="1739.5142">1</text></g><!--MD5=[4a62766a8e97ac2b6bf81d515b639357]
+link Class to ClassDuration--><g id="link_Class_ClassDuration"><path codeLine="150" d="M979.32,982.71 C955.1,998.48 919.4,1024.05 894,1052.31 C870.95,1077.96 851.23,1112.34 838.84,1136.42 " fill="none" id="Class-to-ClassDuration" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="836.46,1141.1,844.0946,1134.878,838.7189,1136.6394,836.9575,1131.2637,836.46,1141.1" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="963.4583" y="983.3957">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="830.4649" y="1130.5404">1</text></g><!--MD5=[08c5a242c6562e3a5d86d152590b21dd]
+link Class to ClassDate--><g id="link_Class_ClassDate"><path codeLine="151" d="M997.25,997.4 C986.53,1035.48 968.53,1099.47 958.11,1136.49 " fill="none" id="Class-to-ClassDate" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="956.75,1141.31,963.0419,1133.7329,958.1066,1136.4976,955.342,1131.5623,956.75,1141.31" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="986.6203" y="1018.6989">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="949.5234" y="1130.408">1</text></g><!--MD5=[b9f0a692579196d7806c9c9ae9282b94]
+link Class to ClassTime--><g id="link_Class_ClassTime"><path codeLine="152" d="M1014.59,997.4 C1025.08,1035.33 1042.66,1098.95 1052.91,1136.03 " fill="none" id="Class-to-ClassTime" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="1054.37,1141.31,1055.8317,1131.5702,1053.0399,1136.4902,1048.1199,1133.6984,1054.37,1141.31" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="1007.5367" y="1018.6989">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="1043.3803" y="1130.408">1</text></g><!--MD5=[b2c4635d6633d40fca5d7b3301a7e4bd]
+link Course to Class--><g id="link_Course_Class"><path codeLine="153" d="M448.15,363.1 C533.98,369.13 790.06,391.53 848,447.31 C987.19,581.31 1004.69,834.11 1006.21,928 " fill="none" id="Course-to-Class" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="1006.28,933.15,1010.151,924.0938,1006.2086,928.1505,1002.1518,924.2081,1006.28,933.15" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="456.1494" y="358.2537">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="9" x="996.3569" y="922.6117">*</text></g><!--MD5=[a200de2d06f75f14c1712cecedb72425]
+link Meeting to MeetingDuration--><g id="link_Meeting_MeetingDuration"><path codeLine="168" d="M1347.91,1191.83 C1320.09,1214.5 1278.79,1248.15 1249.84,1271.74 " fill="none" id="Meeting-to-MeetingDuration" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="1245.66,1275.15,1255.1627,1272.562,1249.5349,1271.99,1250.1068,1266.3622,1245.66,1275.15" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="1332.0267" y="1194.1383">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="1244.5561" y="1264.6038">1</text></g><!--MD5=[8385e2603b159b608b15c1ccf67aedd5]
+link Meeting to MeetingParticipant--><g id="link_Meeting_MeetingParticipant"><path codeLine="169" d="M1378,1198.59 C1378,1220.24 1378,1248.85 1378,1270.05 " fill="none" id="Meeting-to-MeetingParticipant" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="1378,1275.27,1382,1266.27,1378,1270.27,1374,1266.27,1378,1275.27" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="81" x="1379" y="1242.3798">attended by</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="1369.2125" y="1219.5522">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="9" x="1367.7906" y="1264.756">*</text></g><!--MD5=[a9f15c461faef2688de8ccdfd7bd6345]
+link Meeting to MeetingTime--><g id="link_Meeting_MeetingTime"><path codeLine="170" d="M1408.35,1184.43 C1426.89,1195.65 1450.5,1211.34 1469,1228.31 C1482.83,1241 1496.09,1257.19 1506.33,1270.9 " fill="none" id="Meeting-to-MeetingTime" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="1509.41,1275.07,1507.2705,1265.4563,1506.4352,1271.0512,1500.8404,1270.216,1509.41,1275.07" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="1415.8641" y="1184.8904">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="1495.8764" y="1264.5023">1</text></g><!--MD5=[1ad137e38a4fc710618d9c484c4d55df]
+link Meeting to MeetingDate--><g id="link_Meeting_MeetingDate"><path codeLine="171" d="M1408.06,1181.69 C1454.81,1204.04 1545.49,1247.41 1602.72,1274.78 " fill="none" id="Meeting-to-MeetingDate" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="1607.46,1277.05,1601.0733,1269.5526,1602.9513,1274.8887,1597.6152,1276.7666,1607.46,1277.05" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="1415.9364" y="1200.1221">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="1591.4052" y="1270.3131">1</text></g><!--MD5=[a7f2536356ea0e746aa343948fb860cc]
+link User to Meeting--><g id="link_User_Meeting"><path codeLine="172" d="M1734.23,361.94 C1658.79,364.27 1446.86,375.01 1400,422.31 C1356.29,466.43 1378,498.2 1378,560.31 C1378,560.31 1378,560.31 1378,966.31 C1378,1023.18 1378,1089.19 1378,1129.08 " fill="none" id="User-to-Meeting" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="1378,1134.29,1382,1125.29,1378,1129.29,1374,1125.29,1378,1134.29" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="50" x="1379" y="767.8798">creates</text></g><!--MD5=[2593e5b4bfb9460d3cd40892cc941d32]
+link Course to Meeting--><g id="link_Course_Meeting"><path codeLine="173" d="M448.45,361.58 C598.39,363.78 1290,383.48 1290,560.31 C1290,560.31 1290,560.31 1290,966.31 C1290,1027.66 1325.41,1091.25 1351.31,1129.56 " fill="none" id="Course-to-Meeting" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="1354.42,1134.1,1352.6559,1124.4104,1351.6038,1129.9686,1346.0456,1128.9164,1354.42,1134.1" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="455.9541" y="376.7492">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="9" x="1339.2775" y="1123.5507">*</text></g><!--MD5=[ea95752f0a529f5f12dd427409b2595a]
+link Student to MechanographicalNumber--><g id="link_Student_MechanographicalNumber"><path codeLine="182" d="M3285,593.4 C3285,631.33 3285,694.95 3285,732.03 " fill="none" id="Student-to-MechanographicalNumber" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="3285,737.31,3289,728.31,3285,732.31,3281,728.31,3285,737.31" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="3276.175" y="614.6989">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="3275.875" y="726.408">1</text></g><!--MD5=[29fe19ce294944fa80f389ae9bd987a4]
+reverse link User to Student--><g id="link_User_Student"><path codeLine="183" d="M1807.65,367.4 C2039.09,397.62 3060.55,531 3253.5,556.2 " fill="none" id="User-backto-Student" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="none" points="1806.7,374.34,1787.77,364.81,1808.51,360.45,1806.7,374.34" style="stroke:#33FF33;stroke-width:1.0;"/></g><!--MD5=[76f41b5a429d3a028f538df6f7d64af4]
+link SharedBoard to SharedBoardTitle--><g id="link_SharedBoard_SharedBoardTitle"><path codeLine="194" d="M4811.97,189.38 C4795.18,205.75 4774.82,226.49 4758,246.31 C4734.67,273.8 4710.77,307.49 4694.84,330.9 " fill="none" id="SharedBoard-to-SharedBoardTitle" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="4691.96,335.15,4700.3137,329.9332,4694.7598,331.0074,4693.6856,325.4535,4691.96,335.15" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="4796.3326" y="210.6747">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="4687.1743" y="324.6038">1</text></g><!--MD5=[b97cb0de3b6521a20763257d402dd2f2]
+link SharedBoard to SharedBoardCell--><g id="link_SharedBoard_SharedBoardCell"><path codeLine="195" d="M4843.59,189.72 C4841.88,228.02 4839,292.29 4837.32,329.74 " fill="none" id="SharedBoard-to-SharedBoardCell" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="4837.09,335.06,4841.4968,326.2521,4837.3183,330.0652,4833.5052,325.8867,4837.09,335.06" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="4834.5587" y="210.4564">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="9" x="4827.1736" y="324.4896">*</text></g><!--MD5=[40a8851e245357a58ae41fbe0eb2d0e6]
+link PostIt to PostItCreationTimestamp--><g id="link_PostIt_PostItCreationTimestamp"><path codeLine="205" d="M4809.26,579.1 C4783.82,595.54 4744.95,621.9 4714,648.31 C4682.57,675.13 4649.96,709.6 4628.5,733.38 " fill="none" id="PostIt-to-PostItCreationTimestamp" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="4625.15,737.1,4634.1439,733.0862,4628.4948,733.3835,4628.1975,727.7345,4625.15,737.1" style="stroke:#33FF33;stroke-width:1.0;"/></g><!--MD5=[6625e6f332115c809059ec19389ef606]
+link PostIt to PostItType--><g id="link_PostIt_PostItType"><path codeLine="206" d="M4826,593.4 C4813.75,631.48 4793.17,695.47 4781.27,732.49 " fill="none" id="PostIt-to-PostItType" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="4779.72,737.31,4786.2751,729.9594,4781.2454,732.5484,4778.6565,727.5187,4779.72,737.31" style="stroke:#33FF33;stroke-width:1.0;"/></g><!--MD5=[b0bc5db4f555832017dc1677a35f21fb]
+link SharedBoardCell to PostIt--><g id="link_SharedBoardCell_PostIt"><path codeLine="207" d="M4836,385.31 C4836,419.74 4836,483.43 4836,523.74 " fill="none" id="SharedBoardCell-to-PostIt" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="4836,529.02,4840,520.02,4836,524.02,4832,520.02,4836,529.02" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="4827.075" y="406.0343">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="26" x="4807.1563" y="518.4532">1..0</text></g><!--MD5=[440630785bb2b27bdebdd3fa1e193299]
+link PostIt to PostItContent--><g id="link_PostIt_PostItContent"><path codeLine="208" d="M4846.16,593.4 C4858.59,631.48 4879.5,695.47 4891.59,732.49 " fill="none" id="PostIt-to-PostItContent" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="4893.16,737.31,4894.1618,727.5122,4891.6046,732.5581,4886.5587,730.0009,4893.16,737.31" style="stroke:#33FF33;stroke-width:1.0;"/></g><!--MD5=[c91b7ff462228967bd0b1c52f822940d]
+link PostIt to PostItCreator--><g id="link_PostIt_PostItCreator"><path codeLine="209" d="M4862.65,574.61 C4891.88,589.08 4938.9,615.38 4971,648.31 C4995.12,673.06 5014.44,707.9 5026.23,732.34 " fill="none" id="PostIt-to-PostItCreator" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="5028.49,737.08,5028.2187,727.2349,5026.3342,732.5686,5021.0005,730.6841,5028.49,737.08" style="stroke:#33FF33;stroke-width:1.0;"/></g><!--MD5=[6cdb86e33d0c199b03bf0f79035362a4]
+link SharedBoardColumn to SharedBoardColumnTitle--><g id="link_SharedBoardColumn_SharedBoardColumnTitle"><path codeLine="219" d="M5087.84,189.72 C5081.55,228.02 5071,292.29 5064.85,329.74 " fill="none" id="SharedBoardColumn-to-SharedBoardColumnTitle" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="5063.98,335.06,5069.3666,326.8147,5064.7789,330.1242,5061.4693,325.5365,5063.98,335.06" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="64" x="5083" y="235.3798">may have</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="5078.0939" y="210.4564">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="26" x="5035.5559" y="324.4896">0..1</text></g><!--MD5=[3a5a904cfe3ff5b5c31041ae678fb9f0]
+link SharedBoard to SharedBoardColumn--><g id="link_SharedBoard_SharedBoardColumn"><path codeLine="220" d="M4894.29,157.31 C4927.96,157.31 4973.33,157.31 5012.22,157.31 " fill="none" id="SharedBoard-to-SharedBoardColumn" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="5017.42,157.31,5008.4315,153.2843,5012.42,157.2957,5008.4086,161.2843,5017.42,157.31" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="87" x="4912.25" y="151.3798">composed by</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="9" x="5000.5371" y="154.6719">*</text></g><!--MD5=[0420553509727b068e9e0c500076d6ca]
+link SharedBoardColumn to SharedBoardColumnNumber--><g id="link_SharedBoardColumn_SharedBoardColumnNumber"><path codeLine="221" d="M5124.54,189.58 C5134.64,199.66 5145.83,210.92 5156,221.31 C5193.05,259.19 5235.29,303.56 5261.79,331.55 " fill="none" id="SharedBoardColumn-to-SharedBoardColumnNumber" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="5265.27,335.22,5261.9963,325.9311,5261.836,331.5857,5256.1815,331.4255,5265.27,335.22" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="5121.9619" y="210.5402">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="5250.0863" y="324.6926">1</text></g><!--MD5=[8119d936237a71985f0bf67e300e1c13]
+link SharedBoardRow to SharedBoardRowTitle--><g id="link_SharedBoardRow_SharedBoardRowTitle"><path codeLine="231" d="M5545.25,189.72 C5546.77,228.02 5549.33,292.29 5550.82,329.74 " fill="none" id="SharedBoardRow-to-SharedBoardRowTitle" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="5551.04,335.06,5554.676,325.9069,5550.8396,330.064,5546.6825,326.2276,5551.04,335.06" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="64" x="5548" y="235.3798">may have</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="5536.7258" y="210.4564">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="26" x="5521.2883" y="324.4896">0..1</text></g><!--MD5=[61bd26f4ce636aaa0e2f885aeb50f705]
+link SharedBoard to SharedBoardRow--><g id="link_SharedBoard_SharedBoardRow"><path codeLine="232" d="M4866.39,125.18 C4885.77,99.21 4916.92,64.57 4954,49.31 C5047.09,11 5311.89,16.33 5407,49.31 C5448.18,63.59 5486.36,95.95 5511.9,121.55 " fill="none" id="SharedBoard-to-SharedBoardRow" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="5515.57,125.27,5512.0902,116.0564,5512.056,121.7131,5506.3992,121.6788,5515.57,125.27" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="87" x="5144.5" y="32.3798">composed by</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="9" x="5499.3666" y="114.7579">*</text></g><!--MD5=[55a60b3ba4da61fd54671d206946e149]
+link SharedBoardRow to SharedBoardRowNumber--><g id="link_SharedBoardRow_SharedBoardRowNumber"><path codeLine="233" d="M5583.16,189.58 C5595.41,199.56 5608.88,210.76 5621,221.31 C5662.03,257.03 5705.5,302.7 5731.95,331.49 " fill="none" id="SharedBoardRow-to-SharedBoardRowNumber" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="5735.41,335.26,5732.2673,325.926,5732.0275,331.5778,5726.3757,331.338,5735.41,335.26" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="5582.0821" y="210.5402">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="5720.5327" y="324.7434">1</text></g><!--MD5=[f75bf4303be76c6b00164d62a30a2d44]
+link FormerExam to FormerExamGrade--><g id="link_FormerExam_FormerExamGrade"><path codeLine="242" d="M3572,794.72 C3572,833.02 3572,897.29 3572,934.74 " fill="none" id="FormerExam-to-FormerExamGrade" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="3572,940.06,3576,931.06,3572,935.06,3568,931.06,3572,940.06" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="3563.2375" y="815.4564">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="3562.925" y="929.4896">1</text></g><!--MD5=[484eef6c01ebb1ed62dacf7dd0eaad82]
+link FormerExam to FormerExamTitle--><g id="link_FormerExam_FormerExamTitle"><path codeLine="243" d="M3619.58,762.31 C3629.62,762.31 3639.67,762.31 3649.72,762.31 " fill="none" id="FormerExam-to-FormerExamTitle" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="3654.97,762.31,3645.97,758.31,3649.97,762.31,3645.97,766.31,3654.97,762.31" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="3627.4782" y="759.2786">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="3638.9226" y="759.5389">1</text></g><!--MD5=[41eedf4b4d7f1a318bafb564a305598b]
+link Student to FormerExam--><g id="link_Student_FormerExam"><path codeLine="244" d="M3316.53,584.18 C3366.45,618.78 3464.03,686.45 3523.08,727.39 " fill="none" id="Student-to-FormerExam" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="3527.27,730.29,3522.1532,721.8746,3523.1611,727.441,3517.5948,728.4489,3527.27,730.29" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="36" x="3395" y="637.3798">takes</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="9" x="3324.4116" y="585.6795">*</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="3508.6103" y="719.7823">1</text></g><!--MD5=[0c89a6b7a14e4ea5b35f35b16a408ac4]
+link FormerExam to FormerExamSection--><g id="link_FormerExam_FormerExamSection"><path codeLine="245" d="M3608.77,794.5 C3654.84,833.56 3733.03,899.88 3776.83,937.02 " fill="none" id="FormerExam-to-FormerExamSection" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="3780.7,940.31,3776.4341,931.4329,3776.8907,937.0713,3771.2523,937.5279,3780.7,940.31" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="87" x="3663" y="840.3798">composed by</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="3607.2216" y="815.4445">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="27" x="3741.9438" y="929.408">1..*</text></g><!--MD5=[4b5e2a5ea458c9496c9ac3f1ede803b8]
+link FormerExamSection to FormerExamQuestion--><g id="link_FormerExamSection_FormerExamQuestion"><path codeLine="252" d="M3814.43,990.31 C3822.21,1024.74 3836.61,1088.43 3845.73,1128.74 " fill="none" id="FormerExamSection-to-FormerExamQuestion" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="3846.92,1134.02,3848.8455,1124.3612,3845.8218,1129.1421,3841.0409,1126.1184,3846.92,1134.02" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="87" x="3827" y="1041.3798">composed by</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="3806.7607" y="1011.0343">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="9" x="3835.3869" y="1123.4532">*</text></g><!--MD5=[c843d71ef1bc94029a1aa56896abb5cb]
+link FormerExamQuestion to FormerExamQuestionFeedback--><g id="link_FormerExamQuestion_FormerExamQuestionFeedback"><path codeLine="253" d="M3793.89,1198.43 C3750.13,1221.08 3691.52,1251.42 3650.03,1272.89 " fill="none" id="FormerExamQuestion-to-FormerExamQuestionFeedback" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="3645.56,1275.21,3655.3914,1274.6246,3650.0003,1272.9113,3651.7136,1267.5202,3645.56,1275.21" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="3772.6673" y="1219.735">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="3648.998" y="1264.6799">1</text></g><!--MD5=[6ac9612d0d97b9e611a4ac037135e1ae]
+link FormerExamQuestion to FormerExamQuestionSolution--><g id="link_FormerExamQuestion_FormerExamQuestionSolution"><path codeLine="254" d="M3854,1198.59 C3854,1220.24 3854,1248.85 3854,1270.05 " fill="none" id="FormerExamQuestion-to-FormerExamQuestionSolution" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="3854,1275.27,3858,1266.27,3854,1270.27,3850,1266.27,3854,1275.27" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="3845.2125" y="1219.5522">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="3844.925" y="1264.756">1</text></g><!--MD5=[27b2d0d47ca23e8649d54279abfeefc7]
+link FormerExamQuestion to FormerExamQuestionNumber--><g id="link_FormerExamQuestion_FormerExamQuestionNumber"><path codeLine="255" d="M3912.93,1198.43 C3955.66,1220.98 4012.83,1251.17 4053.48,1272.63 " fill="none" id="FormerExamQuestion-to-FormerExamQuestionNumber" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="4058.35,1275.21,4052.2456,1267.481,4053.9245,1272.883,4048.5225,1274.5619,4058.35,1275.21" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="3916.2593" y="1219.735">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="4037.0066" y="1264.6799">1</text></g><!--MD5=[de5559ad0d4790020504ff3568c4237a]
+link FormerExamQuestion to FormerExamQuestionAnswer--><g id="link_FormerExamQuestion_FormerExamQuestionAnswer"><path codeLine="256" d="M3933.03,1188.3 C4020.61,1211.56 4161.83,1249.07 4255.53,1273.95 " fill="none" id="FormerExamQuestion-to-FormerExamQuestionAnswer" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="4260.51,1275.28,4252.8377,1269.1045,4255.6774,1273.997,4250.7849,1276.8367,4260.51,1275.28" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="3940.9438" y="1187.7803">1</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="4229.4781" y="1265.567">1</text></g><!--MD5=[3ad88ddff0dd51ca73c17b4086085f6c]
+@startuml DDD
+
+!theme crt-green
+
+package "<<aggregate User>>"{
+    class User<<entity>><<root>>{
+    }
+    class TaxPayerNumber<<value>>{
+    }
+    class UserName<<value>>{
+    }
+    class UserDateOfBirth<<value>>{
+    }
+    class UserPassword<<value>>{
+    }
+    User"1" - -> "1" TaxPayerNumber
+    User "1" - -> "1" UserName
+    User "1" - -> "1" UserDateOfBirth
+    User"1"- ->"1" UserPassword
+}
+
+package "<<aggregate Manager>>"{
+
+    class Manager<<entity>><<root>>{}
+    User <|-up- Manager
+
+}
+package "<<aggregate Teacher>>"{
+
+class Teacher<<entity>><<root>>{
+}
+class TeacherAcronym<<value>>{
+}
+
+Teacher "1" -down-> "1" TeacherAcronym
+User <|- - Teacher
+}
+
+package "<<aggreggate Course>>"{
+    class Course<<entity>><<root>>{
+    }
+
+    class CourseCode <<value>>
+    class CourseDescription<<value>>{
+    }
+    class CourseRegent<<entity>><<root>>{}
+
+    class CourseTitle<<value>>{
+    }
+
+    Course "*" -down- -> "1" CourseRegent
+    Course "1" -down-> "1" CourseTitle
+    Course "1" -down-> "1" CourseDescription
+    Course "1" -down-> "1" CourseCode
+    Manager "1" -> "*"  Course : manages
+}
+
+package "<<agr CourseTeam>>"{
+    class CourseTeam<<entity>><<root>>{}
+    class CourseTeamCreationDate<<value>>{}
+
+    CourseTeam "1" - -> "1" CourseTeamCreationDate
+    Teacher "*" -> "1" CourseTeam : is part of
+    Course "1" - -> "1" CourseTeam : instructed by
+}
+
+
+package "<<aggregate CourseState>>"{
+    class CourseState<<entity>><<root>>{
+    }
+    Course "*" - - -> "1" CourseState
+}
+
+
+package "<<aggregate Exam>>"{
+    class Exam  <<entity>><<root>> {
+    }
+    class ExamTitle <<value>>{
+    }
+    class ExamHeader <<entity>>{
+    }
+    class ExamHeaderTextualDescription <<value>>{
+    }
+    class ExamSection <<entity>>{
+    }
+    class ExamSectionTextualDescription <<value>>{
+    }
+    class ExamQuestion <<entity>>{
+    }
+    class ExamQuestionNumber <<value>>{
+    }
+    class ExamQuestionValue <<value>>{
+    }
+    Teacher - -> Exam : creates
+    Exam "1" -right-> "1" ExamTitle
+    Exam "1" - - -> "1" ExamHeader
+    ExamHeader - -> "0..1" ExamHeaderTextualDescription
+    Exam "1" - - -> "1..*" ExamSection :composed by
+    ExamSection "1" - -> "0..1" ExamSectionTextualDescription
+    ExamQuestion "1" - - -> "1" ExamQuestionValue
+    ExamQuestion "1" - - -> "1" ExamQuestionNumber
+    ExamSection "1" - - -> "*" ExamQuestion : composed by
+}
+
+package "<<aggregate ExamQuestionType>>"{
+
+    class ExamQuestionType <<entity>><<root>>{
+    }
+
+    class ExamMatchingQuestion <<value>>{
+    }
+
+    class ExamMultipleChoiceQuestion <<value>>{
+    }
+
+    class ExamShortAnswerQuestion <<value>>{
+    }
+
+    class ExamNumericalQuestion <<value>>{
+    }
+
+    class ExamMissingWordsQuestion <<value>>{
+    }
+
+    class ExamVeracityQuestion <<value>>{
+    }
+
+    ExamQuestionType <|- - ExamMatchingQuestion
+    ExamQuestionType <|- - ExamNumericalQuestion
+    ExamQuestionType <|- - ExamShortAnswerQuestion
+    ExamQuestionType <|- - ExamMissingWordsQuestion
+    ExamQuestionType <|- - ExamVeracityQuestion
+    ExamQuestionType <|- - ExamMultipleChoiceQuestion
+    ExamQuestion "*" - - - -> "1" ExamQuestionType : differs through
+}
+
+
+
+
+
+package "<<aggreggate Class>>"{
+    class Class<<entity>><<root>>{
+    }
+    class ClassDuration<<value>>{
+    }
+    class ClassDate<<value>>{
+    }
+    class ClassTime<<value>>{
+    }
+
+    Class"1" - -> "1"ClassDuration
+    Class"1" - -> "1"ClassDate
+    Class"1" - -> "1"ClassTime
+    Course "1" - - - -> "*" Class
+}
+
+package "<<aggreggate Meeting>>"{
+    class Meeting<<entity>><<root>>{
+    }
+    class MeetingDuration<<value>>{
+    }
+    class MeetingParticipant<<entity>>{
+    }
+    class MeetingTime<<value>>{
+    }
+    class MeetingDate<<value>>{
+    }
+
+    Meeting "1" - -> "1"MeetingDuration
+    Meeting"1" - -> "*"MeetingParticipant : attended by
+    Meeting"1" - -> "1"MeetingTime
+    Meeting "1"- -> "1"MeetingDate
+    User - - - - -> Meeting : creates
+    Course "1" - - - -> "*" Meeting
+}
+
+package "<<aggregate Student>>"{
+
+    class Student<<entity>><<root>>{
+    }
+    class MechanographicalNumber<<value>>{
+    }
+    Student "1" - -> "1" MechanographicalNumber
+    User <|- - Student
+}
+
+package "<<aggreggate SharedBoard>>"{
+    class SharedBoard<<entity>><<root>>{
+    }
+    class SharedBoardTitle<<value>>{
+    }
+    class SharedBoardCell<<value>>{
+    }
+
+    SharedBoard "1" - -> "1"SharedBoardTitle
+    SharedBoard "1"- -> "*"SharedBoardCell
+
+}
+
+package "<<aggreggate PostIt>>"{
+    class PostIt<<entity>><<root>>{}
+    class PostItCreationTimestamp<<value>>{}
+    class PostItType<<value>>{}
+    class PostItContent<<value>>{}
+    class PostItCreator<<Value>>{}
+    PostIt - -> PostItCreationTimestamp
+    PostIt - -> PostItType
+    SharedBoardCell "1" - -> "1..0" PostIt
+    PostIt - -> PostItContent
+    PostIt - -> PostItCreator
+}
+
+package "<<aggreggate SharedBoardColumn>>"{
+    class SharedBoardColumn<<entity>><<root>>{
+    }
+    class SharedBoardColumnTitle<<value>>{
+    }
+    class SharedBoardColumnNumber<<value>>{
+    }
+    SharedBoardColumn "1" - -> "0..1" SharedBoardColumnTitle : "may have"
+    SharedBoard -> "*" SharedBoardColumn : composed by
+    SharedBoardColumn "1" - -> "1" SharedBoardColumnNumber
+}
+
+package "<<aggreggate SharedBoardRow>>"{
+    class SharedBoardRow<<entity>><<root>>{
+    }
+    class SharedBoardRowTitle<<value>>{
+    }
+    class SharedBoardRowNumber<<value>>{
+    }
+    SharedBoardRow "1" - -> "0..1" SharedBoardRowTitle : "may have"
+    SharedBoard -> "*" SharedBoardRow : composed by
+    SharedBoardRow "1" - -> "1" SharedBoardRowNumber
+}
+
+package "<<aggreggate FormerExam>>"{
+    class FormerExam<<entity>><<root>>{}
+    class FormerExamGrade<<value>>{}
+    class FormerExamTitle<<value>>{}
+    class FormerExamSection<<entity>>{}
+
+    FormerExam "1" - -> "1" FormerExamGrade
+    FormerExam "1" -right-> "1" FormerExamTitle
+    Student "*" - -> "1" FormerExam : takes
+    FormerExam "1" - -> "1..*" FormerExamSection : composed by
+    class FormerExamQuestion<<entity>><<root>>{}
+    class FormerExamQuestionFeedback<<value>>{}
+    class FormerExamQuestionSolution<<value>>{}
+    class FormerExamQuestionNumber<<value>>{}
+    class FormerExamQuestionAnswer<<value>>{}
+
+    FormerExamSection "1" - -> "*" FormerExamQuestion : composed by
+    FormerExamQuestion "1" - -> "1" FormerExamQuestionFeedback
+    FormerExamQuestion "1" - -> "1" FormerExamQuestionSolution
+    FormerExamQuestion "1" - -> "1" FormerExamQuestionNumber
+    FormerExamQuestion "1" -down-> "1" FormerExamQuestionAnswer
+}
+
+'               Events and Services Zone
+
+'class ExamCreated<<event>>{
+'}
+'class ExamCreatedWatchdog<<service>>{
+'}
+
+'ExamCreatedWatchdog ..> ExamCreated : consumes
+'Exam ..> ExamCreated : publishes
+'FormerExam ..> ExamCreatedWatchdog : observes
+
+hide circle
+hide fields
+
+
+@enduml
+
+@startuml DDD
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor #282828
+    FontColor #33FF33
+    FontName Verdana
+    HyperLinkColor #33FF33
+    LineColor #33FF33
+    LineThickness 1
+    Margin 5
+  }
+  box {
+    LineStyle 12-18
+    LineThickness 3
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  referenceHeader {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor #33FF33
+skinparam BackgroundColor #282828
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy solid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor #33FF33
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor #282828
+  BarColor #33FF33
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor #33FF33
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor #282828
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor #282828
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Header {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color #33FF33
+}
+skinparam IconPackage {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconPrivate {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconProtected {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconPublic {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam Note {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor #33FF33
+}
+skinparam Package {
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor #282828
+  BorderColor #33FF33
+}
+skinparam StereotypeA {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeC {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeE {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeI {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeN {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam UseCaseStereoType {
+  FontColor #33FF33
+  FontName Verdana
+}
+
+package "<<aggregate User>>"{
+    class User<<entity>><<root>>{
+    }
+    class TaxPayerNumber<<value>>{
+    }
+    class UserName<<value>>{
+    }
+    class UserDateOfBirth<<value>>{
+    }
+    class UserPassword<<value>>{
+    }
+    User"1" - -> "1" TaxPayerNumber
+    User "1" - -> "1" UserName
+    User "1" - -> "1" UserDateOfBirth
+    User"1"- ->"1" UserPassword
+}
+
+package "<<aggregate Manager>>"{
+
+    class Manager<<entity>><<root>>{}
+    User <|-up- Manager
+
+}
+package "<<aggregate Teacher>>"{
+
+class Teacher<<entity>><<root>>{
+}
+class TeacherAcronym<<value>>{
+}
+
+Teacher "1" -down-> "1" TeacherAcronym
+User <|- - Teacher
+}
+
+package "<<aggreggate Course>>"{
+    class Course<<entity>><<root>>{
+    }
+
+    class CourseCode <<value>>
+    class CourseDescription<<value>>{
+    }
+    class CourseRegent<<entity>><<root>>{}
+
+    class CourseTitle<<value>>{
+    }
+
+    Course "*" -down- -> "1" CourseRegent
+    Course "1" -down-> "1" CourseTitle
+    Course "1" -down-> "1" CourseDescription
+    Course "1" -down-> "1" CourseCode
+    Manager "1" -> "*"  Course : manages
+}
+
+package "<<agr CourseTeam>>"{
+    class CourseTeam<<entity>><<root>>{}
+    class CourseTeamCreationDate<<value>>{}
+
+    CourseTeam "1" - -> "1" CourseTeamCreationDate
+    Teacher "*" -> "1" CourseTeam : is part of
+    Course "1" - -> "1" CourseTeam : instructed by
+}
+
+
+package "<<aggregate CourseState>>"{
+    class CourseState<<entity>><<root>>{
+    }
+    Course "*" - - -> "1" CourseState
+}
+
+
+package "<<aggregate Exam>>"{
+    class Exam  <<entity>><<root>> {
+    }
+    class ExamTitle <<value>>{
+    }
+    class ExamHeader <<entity>>{
+    }
+    class ExamHeaderTextualDescription <<value>>{
+    }
+    class ExamSection <<entity>>{
+    }
+    class ExamSectionTextualDescription <<value>>{
+    }
+    class ExamQuestion <<entity>>{
+    }
+    class ExamQuestionNumber <<value>>{
+    }
+    class ExamQuestionValue <<value>>{
+    }
+    Teacher - -> Exam : creates
+    Exam "1" -right-> "1" ExamTitle
+    Exam "1" - - -> "1" ExamHeader
+    ExamHeader - -> "0..1" ExamHeaderTextualDescription
+    Exam "1" - - -> "1..*" ExamSection :composed by
+    ExamSection "1" - -> "0..1" ExamSectionTextualDescription
+    ExamQuestion "1" - - -> "1" ExamQuestionValue
+    ExamQuestion "1" - - -> "1" ExamQuestionNumber
+    ExamSection "1" - - -> "*" ExamQuestion : composed by
+}
+
+package "<<aggregate ExamQuestionType>>"{
+
+    class ExamQuestionType <<entity>><<root>>{
+    }
+
+    class ExamMatchingQuestion <<value>>{
+    }
+
+    class ExamMultipleChoiceQuestion <<value>>{
+    }
+
+    class ExamShortAnswerQuestion <<value>>{
+    }
+
+    class ExamNumericalQuestion <<value>>{
+    }
+
+    class ExamMissingWordsQuestion <<value>>{
+    }
+
+    class ExamVeracityQuestion <<value>>{
+    }
+
+    ExamQuestionType <|- - ExamMatchingQuestion
+    ExamQuestionType <|- - ExamNumericalQuestion
+    ExamQuestionType <|- - ExamShortAnswerQuestion
+    ExamQuestionType <|- - ExamMissingWordsQuestion
+    ExamQuestionType <|- - ExamVeracityQuestion
+    ExamQuestionType <|- - ExamMultipleChoiceQuestion
+    ExamQuestion "*" - - - -> "1" ExamQuestionType : differs through
+}
+
+
+
+
+
+package "<<aggreggate Class>>"{
+    class Class<<entity>><<root>>{
+    }
+    class ClassDuration<<value>>{
+    }
+    class ClassDate<<value>>{
+    }
+    class ClassTime<<value>>{
+    }
+
+    Class"1" - -> "1"ClassDuration
+    Class"1" - -> "1"ClassDate
+    Class"1" - -> "1"ClassTime
+    Course "1" - - - -> "*" Class
+}
+
+package "<<aggreggate Meeting>>"{
+    class Meeting<<entity>><<root>>{
+    }
+    class MeetingDuration<<value>>{
+    }
+    class MeetingParticipant<<entity>>{
+    }
+    class MeetingTime<<value>>{
+    }
+    class MeetingDate<<value>>{
+    }
+
+    Meeting "1" - -> "1"MeetingDuration
+    Meeting"1" - -> "*"MeetingParticipant : attended by
+    Meeting"1" - -> "1"MeetingTime
+    Meeting "1"- -> "1"MeetingDate
+    User - - - - -> Meeting : creates
+    Course "1" - - - -> "*" Meeting
+}
+
+package "<<aggregate Student>>"{
+
+    class Student<<entity>><<root>>{
+    }
+    class MechanographicalNumber<<value>>{
+    }
+    Student "1" - -> "1" MechanographicalNumber
+    User <|- - Student
+}
+
+package "<<aggreggate SharedBoard>>"{
+    class SharedBoard<<entity>><<root>>{
+    }
+    class SharedBoardTitle<<value>>{
+    }
+    class SharedBoardCell<<value>>{
+    }
+
+    SharedBoard "1" - -> "1"SharedBoardTitle
+    SharedBoard "1"- -> "*"SharedBoardCell
+
+}
+
+package "<<aggreggate PostIt>>"{
+    class PostIt<<entity>><<root>>{}
+    class PostItCreationTimestamp<<value>>{}
+    class PostItType<<value>>{}
+    class PostItContent<<value>>{}
+    class PostItCreator<<Value>>{}
+    PostIt - -> PostItCreationTimestamp
+    PostIt - -> PostItType
+    SharedBoardCell "1" - -> "1..0" PostIt
+    PostIt - -> PostItContent
+    PostIt - -> PostItCreator
+}
+
+package "<<aggreggate SharedBoardColumn>>"{
+    class SharedBoardColumn<<entity>><<root>>{
+    }
+    class SharedBoardColumnTitle<<value>>{
+    }
+    class SharedBoardColumnNumber<<value>>{
+    }
+    SharedBoardColumn "1" - -> "0..1" SharedBoardColumnTitle : "may have"
+    SharedBoard -> "*" SharedBoardColumn : composed by
+    SharedBoardColumn "1" - -> "1" SharedBoardColumnNumber
+}
+
+package "<<aggreggate SharedBoardRow>>"{
+    class SharedBoardRow<<entity>><<root>>{
+    }
+    class SharedBoardRowTitle<<value>>{
+    }
+    class SharedBoardRowNumber<<value>>{
+    }
+    SharedBoardRow "1" - -> "0..1" SharedBoardRowTitle : "may have"
+    SharedBoard -> "*" SharedBoardRow : composed by
+    SharedBoardRow "1" - -> "1" SharedBoardRowNumber
+}
+
+package "<<aggreggate FormerExam>>"{
+    class FormerExam<<entity>><<root>>{}
+    class FormerExamGrade<<value>>{}
+    class FormerExamTitle<<value>>{}
+    class FormerExamSection<<entity>>{}
+
+    FormerExam "1" - -> "1" FormerExamGrade
+    FormerExam "1" -right-> "1" FormerExamTitle
+    Student "*" - -> "1" FormerExam : takes
+    FormerExam "1" - -> "1..*" FormerExamSection : composed by
+    class FormerExamQuestion<<entity>><<root>>{}
+    class FormerExamQuestionFeedback<<value>>{}
+    class FormerExamQuestionSolution<<value>>{}
+    class FormerExamQuestionNumber<<value>>{}
+    class FormerExamQuestionAnswer<<value>>{}
+
+    FormerExamSection "1" - -> "*" FormerExamQuestion : composed by
+    FormerExamQuestion "1" - -> "1" FormerExamQuestionFeedback
+    FormerExamQuestion "1" - -> "1" FormerExamQuestionSolution
+    FormerExamQuestion "1" - -> "1" FormerExamQuestionNumber
+    FormerExamQuestion "1" -down-> "1" FormerExamQuestionAnswer
+}
+
+
+
+
+hide circle
+hide fields
+
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 19:12:26 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

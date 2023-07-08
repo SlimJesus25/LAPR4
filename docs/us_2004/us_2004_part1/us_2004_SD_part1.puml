@@ -1,0 +1,70 @@
+@startuml
+
+title  Get exams and student submission of the exam
+autonumber
+
+actor Student as S
+participant "TakeExamUI" as UI <<interface>>
+participant "GetCoursesExamsService" as GetSer <<service>>
+participant "ExportExamService" as ExpSer <<service>>
+participant "ImportExamService" as ImpSer <<service>>
+database "ExamRepository" as ExamRepo <<persistence>>
+database "CourseEnrollmentRepository" as CourseEnroRepo <<persistence>>
+database "StudentRepository" as StudRepo <<persistence>>
+activate S
+S->UI: Open TakeExamUI
+deactivate S
+activate UI
+UI->GetSer : get exams that student can take
+deactivate UI
+activate GetSer
+GetSer->StudRepo : get student
+deactivate GetSer
+activate StudRepo
+StudRepo->GetSer : return student logged
+deactivate StudRepo
+activate GetSer
+GetSer->CourseEnroRepo : get courses student is enrolled
+deactivate GetSer
+activate CourseEnroRepo
+CourseEnroRepo->GetSer : return courses student is enrolled
+deactivate CourseEnroRepo
+activate GetSer
+GetSer->ExamRepo : get exams of courses student is enrolled
+deactivate GetSer
+activate ExamRepo
+ExamRepo->GetSer : return exams of courses student is enrolled
+deactivate ExamRepo
+activate GetSer
+GetSer->GetSer : filter exams that student can take (not taken and not expired)
+GetSer->UI : return exams that student can take
+deactivate GetSer
+activate UI
+UI->S : show exams that student can take
+deactivate UI
+activate S
+S->UI: Select exam to take
+deactivate S
+activate UI
+UI->ExpSer : export exam prompt to student
+deactivate UI
+activate ExpSer
+ExpSer->ExpSer : makes the exam prompt and exports it to the downloads directory of the student
+ExpSer->UI : return exam prompt
+deactivate ExpSer
+activate UI
+UI->S : waits student to do the exam in the exported file
+deactivate UI
+activate S
+S->S : does the exam
+S->UI : submits the exam
+deactivate S
+activate UI
+UI->ImpSer : asks for student answers
+deactivate UI
+activate ImpSer
+ImpSer->ImpSer : imports the exam and treats it in order to send to antlr
+ImpSer->UI : return student answers
+deactivate ImpSer
+activate UI
+@enduml

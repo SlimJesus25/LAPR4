@@ -1,0 +1,43 @@
+@startuml
+autonumber
+!theme crt-green
+actor User as user
+participant UndoLastChangePostItUI as UI <<presentation>>
+participant ListWritableSharedBoardsService as listService <<application>>
+participant SendRequestService as svc <<application>>
+participant Server as sv <<server>>
+participant UndoChangeController as undoCtrl <<application>>
+participant SharedBoard as sb <<domain>>
+database SharedBoardParticipationRepository as SBPRepo
+
+activate UI
+user -> UI: request to undo the last change to a post it
+activate listService
+UI-> listService: List<SharedBoardDTO>> list = listWritableSharedBoards()
+note right
+The user is obtained through session.
+end note
+listService -> SBPRepo: List<SharedBoardDTO>> list = listWritableSharedBoards()
+SBPRepo --> listService:
+listService --> UI:
+deactivate listService
+UI --> user: shows a list of listWritableSharedBoards
+user -> UI: selects a sharedBoard
+activate svc
+UI -> svc: String feedback = sendPostItUndoRequest(selectedBoard.getSharedBoardTitle()
+activate sv
+svc -> sv: establishes a tcp connection
+sv --> svc: accepts the request
+sv -> sv: creates a new thread to attend the client's request
+activate undoCtrl
+sv -> undoCtrl: String feedback = undoChange(sharedBoard)
+activate sb
+undoCtrl -> sb: undoLastChange()
+sb-->undoCtrl
+undoCtrl-->sv:
+sv-->svc:
+svc-->UI:
+UI-->user: informs the success of the operation
+
+
+@enduml

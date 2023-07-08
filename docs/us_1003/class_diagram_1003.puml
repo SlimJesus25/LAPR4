@@ -1,0 +1,45 @@
+@startuml
+
+package "<<agr Student>>"{
+    class Student<<entity>><<root>>{}
+    class MechanographicalNumber<<vo>>{}
+    class StudentTaxPayerNumber<<vo>>{}
+    class StudentDateOfBirth<<vo>>{}
+
+    Student --> "1" MechanographicalNumber
+    Student --> "1" StudentDateOfBirth
+    Student --> "1" StudentTaxPayerNumber
+}
+
+package "<<agr Course>>"{
+    class Course<<entity>><<root>>{}
+    class CourseCode <<vo>>
+    class CourseDescription<<vo>>{}
+    class CourseTitle<<vo>>{}
+    enum CourseState<<vo>>{
+       OPEN
+       CLOSE
+    }
+
+    Course --> "1" CourseState
+    Course -down-> "1" CourseTitle
+    Course -down-> "1" CourseDescription
+    Course -down-> "1" CourseCode
+}
+
+package "<<agr CourseEnrollment>>"{
+    class CourseEnrollment <<entity>><<root>>{}
+    enum CourseEnrollmentState <<vo>>{
+        CANDIDATED
+        ACCEPTED
+        UNDEFINED
+    }
+    class CourseEnrollmentDate <<vo>>{}
+
+    Student "1" <-- CourseEnrollment : receive apply
+    CourseEnrollment --> "1" Course : is related to
+    CourseEnrollment --> "1" CourseEnrollmentState
+    CourseEnrollment --> "1" CourseEnrollmentDate
+}
+
+@enduml

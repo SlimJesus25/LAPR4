@@ -1,0 +1,45 @@
+@startuml
+
+interface DeactivateUserUI {
+  +showListOfUsers(users: List<SystemUser>)
+  +getUserSelection(): SystemUser
+}
+
+class DeactivateUserController {
+  -authorizationService: AuthorizationService
+  -userService: UserManagementService
+  +deactivateUser(user: SystemUser): SystemUser
+}
+
+interface AuthorizationService {
+  +ensureAuthenticatedUserHasAnyOf(roles: List<Role>)
+}
+
+interface UserManagementService {
+  +deactivateUser(user: SystemUser): SystemUser
+}
+
+class UserRepository {
+  +save(user: SystemUser)
+}
+
+class SystemUser {
+  -username: String
+  -password: String
+  -firstName: String
+  -lastName: String
+  -email: String
+  +getUsername(): String
+  +getPassword(): String
+  +getFirstName(): String
+  +getLastName(): String
+  +getEmail(): String
+}
+
+DeactivateUserUI --> DeactivateUserController
+DeactivateUserUI --> SystemUser
+DeactivateUserController --> AuthorizationService
+DeactivateUserController --> UserManagementService
+DeactivateUserController --> SystemUser
+DeactivateUserController --> UserRepository
+@enduml

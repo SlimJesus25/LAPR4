@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence">
+  <persistence-unit name="eapli.base">
+    <!--
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    -->
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+    <class>eapli.framework.infrastructure.authz.domain.model.SystemUser</class>
+    <class>eapli.elearning.elearningusermanagement.domain.ELearningUser</class>
+    <class>eapli.framework.infrastructure.authz.domain.model.Role</class>
+    <class>eapli.framework.infrastructure.authz.domain.model.RoleSet</class>
+    <class>eapli.framework.infrastructure.authz.domain.model.RoleAssignment</class>
+    <class>eapli.elearning.coursemanagement.domain.Course</class>
+    <class>eapli.elearning.exammanagement.domain.Exam</class>
+    <class>eapli.elearning.examquestionmanagement.domain.ExamQuestion</class>
+    <class>eapli.elearning.examsectionmanagement.domain.ExamSection</class>
+    <class>eapli.elearning.extralecturemanagement.domain.ExtraLecture</class>
+    <class>eapli.elearning.extralectureparticipantmanagement.domain.ExtraLectureParticipant</class>
+    <class>eapli.elearning.examquestionmanagement.domain.ExamQuestion</class>
+    <class>eapli.elearning.examsectionmanagement.domain.ExamSection</class>
+    <class>eapli.elearning.studentmanagement.domain.Student</class>
+    <class>eapli.elearning.formerexammanagement.domain.FormerExam</class>
+    <class>eapli.elearning.courseenrollmentmanagement.domain.CourseEnrollment</class>
+    <class>eapli.elearning.teamelementmanagament.domain.TeamElement</class>
+    <class>eapli.elearning.lecturemanagement.domain.Lecture</class>
+    <class>eapli.elearning.managermanagement.domain.Manager</class>
+    <class>eapli.elearning.sharedboardmanagement.domain.SharedBoard</class>
+    <class>eapli.elearning.sharedboardparticipationmanagement.domain.SharedBoardParticipation</class>
+    <class>eapli.elearning.teachermanagement.domain.Teacher</class>
+    <class>eapli.elearning.teacherschedulemanagement.domain.TeacherSchedule</class>
+    <class>eapli.elearning.meetingmanagement.domain.Meeting</class>
+    <class>eapli.elearning.teamelementmanagament.domain.AdhesionDate</class>
+    <class>eapli.elearning.elearningusermanagement.domain.SignupRequest</class>
+    <class>eapli.elearning.meetingparticipationmanagement.domain.MeetingParticipation</class>
+    <class>eapli.elearning.postitmanagement.domain.PostIt</class>
+    <class>eapli.elearning.postitmodificationmanagement.domain.PostItModification</class>
+
+    <properties>
+      <!--<property name="javax.persistence.jdbc.url" value="jdbc:h2:tcp://localhost/~/base"/>-->
+      <property name="javax.persistence.jdbc.url" value="jdbc:h2:tcp://vsgate-s2.dei.isep.ipp.pt:10847/elearning;MV_STORE=FALSE;AUTO_SERVER=true;"/>
+
+      <property name="javax.persistence.jdbc.user" value="admin"/>
+      <property name="javax.persistence.jdbc.password" value="admin"/>
+      <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
+      <!-- <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/> -->
+      <!-- <property name="eclipselink.logging.level" value="FINE"/> -->
+      <!-- <property name = "hibernate.show_sql" value = "true" /> -->
+      <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
+
+    </properties>
+  </persistence-unit>
+</persistence>

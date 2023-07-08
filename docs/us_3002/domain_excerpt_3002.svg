@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1314.5px" preserveAspectRatio="none" style="width:573px;height:1314px;background:#282828;" version="1.1" viewBox="0 0 573 1314" width="573px" zoomAndPan="magnify"><defs/><g><!--MD5=[b110f5355061fb3ceca7c492aa18dd29]
+cluster <<agr SystemUser>>--><g id="cluster_&lt;&lt;agr SystemUser&gt;&gt;"><path d="M112,364.5596 L249,364.5596 A1.875,1.875 0 0 1 250.25,365.8096 L253.75,380.9282 L311.75,380.9282 A1.25,1.25 0 0 1 313,382.1782 L313,510.8096 A1.25,1.25 0 0 1 311.75,512.0596 L112,512.0596 A1.25,1.25 0 0 1 110.75,510.8096 L110.75,365.8096 A1.25,1.25 0 0 1 112,364.5596 " fill="#282828" style="stroke:#33FF33;stroke-width:0.5;"/><line style="stroke:#33FF33;stroke-width:0.5;" x1="110.75" x2="253.75" y1="380.9282" y2="380.9282"/><text fill="#33FF33" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="136.5" x="112.75" y="376.6187">&lt;&lt;agr SystemUser&gt;&gt;</text></g><!--MD5=[f804193a1e6122b9a58c180f71471b3e]
+cluster <<agr Manager>>--><g id="cluster_&lt;&lt;agr Manager&gt;&gt;"><path d="M80.5,6.0596 L197.5,6.0596 A1.875,1.875 0 0 1 198.75,7.3096 L202.25,22.4282 L202.5,22.4282 A1.25,1.25 0 0 1 203.75,23.6782 L203.75,63.3096 A1.25,1.25 0 0 1 202.5,64.5596 L80.5,64.5596 A1.25,1.25 0 0 1 79.25,63.3096 L79.25,7.3096 A1.25,1.25 0 0 1 80.5,6.0596 " fill="#282828" style="stroke:#33FF33;stroke-width:0.5;"/><line style="stroke:#33FF33;stroke-width:0.5;" x1="79.25" x2="202.25" y1="22.4282" y2="22.4282"/><text fill="#33FF33" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="116.5" x="81.25" y="18.1187">&lt;&lt;agr Manager&gt;&gt;</text></g><!--MD5=[35923cb12c05676ebce80b9ded9f376d]
+cluster <<agr Teacher>>--><g id="cluster_&lt;&lt;agr Teacher&gt;&gt;"><path d="M256.75,524.0596 L369.75,524.0596 A1.875,1.875 0 0 1 371,525.3096 L374.5,540.4282 L405.75,540.4282 A1.25,1.25 0 0 1 407,541.6782 L407,766.3096 A1.25,1.25 0 0 1 405.75,767.5596 L256.75,767.5596 A1.25,1.25 0 0 1 255.5,766.3096 L255.5,525.3096 A1.25,1.25 0 0 1 256.75,524.0596 " fill="#282828" style="stroke:#33FF33;stroke-width:0.5;"/><line style="stroke:#33FF33;stroke-width:0.5;" x1="255.5" x2="374.5" y1="540.4282" y2="540.4282"/><text fill="#33FF33" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="112.5" x="257.5" y="536.1187">&lt;&lt;agr Teacher&gt;&gt;</text></g><!--MD5=[5073b65cfab0f3b6c40e98381a5edf48]
+cluster <<agr Student>>--><g id="cluster_&lt;&lt;agr Student&gt;&gt;"><path d="M6.75,109.0596 L118.75,109.0596 A1.875,1.875 0 0 1 120,110.3096 L123.5,125.4282 L194.25,125.4282 A1.25,1.25 0 0 1 195.5,126.6782 L195.5,351.3096 A1.25,1.25 0 0 1 194.25,352.5596 L6.75,352.5596 A1.25,1.25 0 0 1 5.5,351.3096 L5.5,110.3096 A1.25,1.25 0 0 1 6.75,109.0596 " fill="#282828" style="stroke:#33FF33;stroke-width:0.5;"/><line style="stroke:#33FF33;stroke-width:0.5;" x1="5.5" x2="123.5" y1="125.4282" y2="125.4282"/><text fill="#33FF33" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="111.5" x="7.5" y="121.1187">&lt;&lt;agr Student&gt;&gt;</text></g><!--MD5=[92bfed150496a7311125cbdbdd0ce21b]
+cluster <<agr SharedBoard>>--><g id="cluster_&lt;&lt;agr SharedBoard&gt;&gt;"><path d="M247.5,779.5596 L391,779.5596 A1.875,1.875 0 0 1 392.25,780.8096 L395.75,795.9282 L568.25,795.9282 A1.25,1.25 0 0 1 569.5,797.1782 L569.5,1309.8096 A1.25,1.25 0 0 1 568.25,1311.0596 L247.5,1311.0596 A1.25,1.25 0 0 1 246.25,1309.8096 L246.25,780.8096 A1.25,1.25 0 0 1 247.5,779.5596 " fill="#282828" style="stroke:#33FF33;stroke-width:0.5;"/><line style="stroke:#33FF33;stroke-width:0.5;" x1="246.25" x2="395.75" y1="795.9282" y2="795.9282"/><text fill="#33FF33" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="143" x="248.25" y="791.6187">&lt;&lt;agr SharedBoard&gt;&gt;</text></g><!--MD5=[bc064d979c32666ae52f3d7624591b7b]
+class SystemUser--><g id="elem_SystemUser"><rect codeLine="8" fill="#282828" height="28.0913" id="SystemUser" rx="1.25" ry="1.25" style="stroke:#33FF33;stroke-width:0.5;" width="45.5" x="118.75" y="449.5596"/><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="25.5" x="128.75" y="458.0918">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="20" x="131.5" y="465.3838">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="7" lengthAdjust="spacing" textLength="42.5" x="120.25" y="473.6812">SystemUser</text></g><!--MD5=[9a6e98b13a389138a8ee3cd2798f9215]
+class UserName--><g id="elem_UserName"><rect codeLine="9" fill="#282828" height="20.7993" id="UserName" rx="1.25" ry="1.25" style="stroke:#33FF33;stroke-width:0.5;" width="38.5" x="259.5" y="483.0596"/><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="15" x="271.25" y="491.5918">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="7" lengthAdjust="spacing" textLength="35.5" x="261" y="499.8892">UserName</text></g><!--MD5=[88967cc527ac608118ac16caae449e3f]
+class UserPassword--><g id="elem_UserPassword"><rect codeLine="10" fill="#282828" height="20.7993" id="UserPassword" rx="1.25" ry="1.25" style="stroke:#33FF33;stroke-width:0.5;" width="52.5" x="252.5" y="387.0596"/><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="15" x="271.25" y="395.5918">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="7" lengthAdjust="spacing" textLength="49.5" x="254" y="403.8892">UserPassword</text></g><!--MD5=[b24ed8d4ae84bae9290d9aab401637c7]
+class Manager--><g id="elem_Manager"><rect codeLine="18" fill="#282828" height="28.0913" id="Manager" rx="1.25" ry="1.25" style="stroke:#33FF33;stroke-width:0.5;" width="32.5" x="125.25" y="28.5596"/><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="25.5" x="128.75" y="37.0918">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="20" x="131.5" y="44.3838">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="7" lengthAdjust="spacing" textLength="29.5" x="126.75" y="52.6812">Manager</text></g><!--MD5=[61a83f88cb8b7d3a80bc8c481f3736bf]
+class Teacher--><g id="elem_Teacher"><rect codeLine="25" fill="#282828" height="28.0913" id="Teacher" rx="1.25" ry="1.25" style="stroke:#33FF33;stroke-width:0.5;" width="30.5" x="263.5" y="614.5596"/><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="25.5" x="266" y="623.0918">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="20" x="268.75" y="630.3838">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="7" lengthAdjust="spacing" textLength="27.5" x="265" y="638.6812">Teacher</text></g><!--MD5=[739264bb8c13fd453fd6fc4eef2b32cc]
+class Acronym--><g id="elem_Acronym"><rect codeLine="26" fill="#282828" height="20.7993" id="Acronym" rx="1.25" ry="1.25" style="stroke:#33FF33;stroke-width:0.5;" width="34" x="350.75" y="738.5596"/><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="15" x="360.25" y="747.0918">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="7" lengthAdjust="spacing" textLength="31" x="352.25" y="755.3892">Acronym</text></g><!--MD5=[d92d9e883939eee4186895798e1fdba2]
+class TaxPayerNumber--><g id="elem_TaxPayerNumber"><rect codeLine="27" fill="#282828" height="20.7993" id="TaxPayerNumber" rx="1.25" ry="1.25" style="stroke:#33FF33;stroke-width:0.5;" width="62.5" x="336.5" y="642.5596"/><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="15" x="360.25" y="651.0918">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="7" lengthAdjust="spacing" textLength="59.5" x="338" y="659.3892">TaxPayerNumber</text></g><!--MD5=[3adb951617f02218a93676affdecd4f3]
+class DateOfBirth--><g id="elem_DateOfBirth"><rect codeLine="28" fill="#282828" height="20.7993" id="DateOfBirth" rx="1.25" ry="1.25" style="stroke:#33FF33;stroke-width:0.5;" width="44.5" x="345.5" y="546.5596"/><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="15" x="360.25" y="555.0918">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="7" lengthAdjust="spacing" textLength="41.5" x="347" y="563.3892">DateOfBirth</text></g><!--MD5=[d6181cb537bdc20c0a3007a98a56832d]
+class Student--><g id="elem_Student"><rect codeLine="38" fill="#282828" height="28.0913" id="Student" rx="1.25" ry="1.25" style="stroke:#33FF33;stroke-width:0.5;" width="31.5" x="13.5" y="270.5596"/><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="25.5" x="16.5" y="279.0918">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="20" x="19.25" y="286.3838">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="7" lengthAdjust="spacing" textLength="28.5" x="15" y="294.6812">Student</text></g><!--MD5=[5243e318521b02aa88a50eadb44ea622]
+class MechanographicalNumber--><g id="elem_MechanographicalNumber"><rect codeLine="39" fill="#282828" height="20.7993" id="MechanographicalNumber" rx="1.25" ry="1.25" style="stroke:#33FF33;stroke-width:0.5;" width="92" x="95.5" y="323.5596"/><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="15" x="134" y="332.0918">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="7" lengthAdjust="spacing" textLength="89" x="97" y="340.3892">MechanographicalNumber</text></g><!--MD5=[97467e26ffde9778fa457b034074f959]
+class StudentTaxPayerNumber--><g id="elem_StudentTaxPayerNumber"><rect codeLine="40" fill="#282828" height="20.7993" id="StudentTaxPayerNumber" rx="1.25" ry="1.25" style="stroke:#33FF33;stroke-width:0.5;" width="91" x="96" y="227.5596"/><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="15" x="134" y="236.0918">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="7" lengthAdjust="spacing" textLength="88" x="97.5" y="244.3892">StudentTaxPayerNumber</text></g><!--MD5=[29dbd85e324f1fec9ac2bda1d300b741]
+class StudentDateOfBirth--><g id="elem_StudentDateOfBirth"><rect codeLine="41" fill="#282828" height="20.7993" id="StudentDateOfBirth" rx="1.25" ry="1.25" style="stroke:#33FF33;stroke-width:0.5;" width="73" x="105" y="131.5596"/><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="15" x="134" y="140.0918">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="7" lengthAdjust="spacing" textLength="70" x="106.5" y="148.3892">StudentDateOfBirth</text></g><!--MD5=[3762909e135fb728396985e200594027]
+class SharedBoard--><g id="elem_SharedBoard"><rect codeLine="51" fill="#282828" height="28.0913" id="SharedBoard" rx="1.25" ry="1.25" style="stroke:#33FF33;stroke-width:0.5;" width="49" x="254.25" y="943.0596"/><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="25.5" x="266" y="951.5918">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="20" x="268.75" y="958.8838">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="7" lengthAdjust="spacing" textLength="46" x="255.75" y="967.1812">SharedBoard</text></g><!--MD5=[83e42a9f30fdc28229f8d64c3c36b66a]
+class BoardTitle--><g id="elem_BoardTitle"><rect codeLine="52" fill="#282828" height="20.7993" id="BoardTitle" rx="1.25" ry="1.25" style="stroke:#33FF33;stroke-width:0.5;" width="38.5" x="348.5" y="1042.5596"/><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="15" x="360.25" y="1051.0918">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="7" lengthAdjust="spacing" textLength="35.5" x="350" y="1059.3892">BoardTitle</text></g><!--MD5=[fea3dc74c7473bae0133d22265a91e2f]
+class Cell--><g id="elem_Cell"><rect codeLine="53" fill="#282828" height="20.7993" id="Cell" rx="1.25" ry="1.25" style="stroke:#33FF33;stroke-width:0.5;" width="26.5" x="354.5" y="946.5596"/><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="25.5" x="355" y="955.0918">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="7" lengthAdjust="spacing" textLength="12" x="361.75" y="963.3892">Cell</text></g><!--MD5=[e06ef809dd6be8ce79b58fe0a1161eb8]
+class Column--><g id="elem_Column"><rect codeLine="54" fill="#282828" height="20.7993" id="Column" rx="1.25" ry="1.25" style="stroke:#33FF33;stroke-width:0.5;" width="29.5" x="430.5" y="1186.0596"/><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="25.5" x="432.5" y="1194.5918">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="7" lengthAdjust="spacing" textLength="26.5" x="432" y="1202.8892">Column</text></g><!--MD5=[2bd289739aa8926a38c978348ac882a6]
+class ColumnTitle--><g id="elem_ColumnTitle"><rect codeLine="55" fill="#282828" height="20.7993" id="ColumnTitle" rx="1.25" ry="1.25" style="stroke:#33FF33;stroke-width:0.5;" width="44" x="504" y="1282.0596"/><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="15" x="518.5" y="1290.5918">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="7" lengthAdjust="spacing" textLength="41" x="505.5" y="1298.8892">ColumnTitle</text></g><!--MD5=[1abe8c4c2d506751d30f72533bdcc2a4]
+class ColumnNumber--><g id="elem_ColumnNumber"><rect codeLine="56" fill="#282828" height="20.7993" id="ColumnNumber" rx="1.25" ry="1.25" style="stroke:#33FF33;stroke-width:0.5;" width="57" x="497.5" y="1186.0596"/><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="15" x="518.5" y="1194.5918">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="7" lengthAdjust="spacing" textLength="54" x="499" y="1202.8892">ColumnNumber</text></g><!--MD5=[05aedcff764caeeb5d443618a4d90de7]
+class Row--><g id="elem_Row"><rect codeLine="57" fill="#282828" height="20.7993" id="Row" rx="1.25" ry="1.25" style="stroke:#33FF33;stroke-width:0.5;" width="26.5" x="432" y="994.0596"/><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="25.5" x="432.5" y="1002.5918">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="7" lengthAdjust="spacing" textLength="15" x="437.75" y="1010.8892">Row</text></g><!--MD5=[48e1d27d5bf63e6c3627f560016c0236]
+class RowTitle--><g id="elem_RowTitle"><rect codeLine="58" fill="#282828" height="20.7993" id="RowTitle" rx="1.25" ry="1.25" style="stroke:#33FF33;stroke-width:0.5;" width="32.5" x="509.75" y="1090.0596"/><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="15" x="518.5" y="1098.5918">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="7" lengthAdjust="spacing" textLength="29.5" x="511.25" y="1106.8892">RowTitle</text></g><!--MD5=[6270cae7caa10827b6ec550de9ea9827]
+class RowNumber--><g id="elem_RowNumber"><rect codeLine="59" fill="#282828" height="20.7993" id="RowNumber" rx="1.25" ry="1.25" style="stroke:#33FF33;stroke-width:0.5;" width="45.5" x="503.25" y="994.0596"/><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="15" x="518.5" y="1002.5918">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="7" lengthAdjust="spacing" textLength="42.5" x="504.75" y="1010.8892">RowNumber</text></g><!--MD5=[458552462bbdcbc92793825846cc11c0]
+class PostIt--><g id="elem_PostIt"><rect codeLine="60" fill="#282828" height="20.7993" id="PostIt" rx="1.25" ry="1.25" style="stroke:#33FF33;stroke-width:0.5;" width="26.5" x="432" y="898.0596"/><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="25.5" x="432.5" y="906.5918">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="7" lengthAdjust="spacing" textLength="21" x="434.75" y="914.8892">PostIt</text></g><!--MD5=[f2f0d05636fa2653b2cd4b8db9a3a616]
+class CreationTimestamp--><g id="elem_CreationTimestamp"><rect codeLine="61" fill="#282828" height="20.7993" id="CreationTimestamp" rx="1.25" ry="1.25" style="stroke:#33FF33;stroke-width:0.5;" width="71" x="490.5" y="898.0596"/><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="15" x="518.5" y="906.5918">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="7" lengthAdjust="spacing" textLength="68" x="492" y="914.8892">CreationTimestamp</text></g><!--MD5=[fd7366e9f96236d9aa60dcc04f2b83e5]
+class Content--><g id="elem_Content"><rect codeLine="62" fill="#282828" height="20.7993" id="Content" rx="1.25" ry="1.25" style="stroke:#33FF33;stroke-width:0.5;" width="31.5" x="510.25" y="802.0596"/><text fill="#33FF33" font-family="Verdana" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="15" x="518.5" y="810.5918">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="7" lengthAdjust="spacing" textLength="28.5" x="511.75" y="818.8892">Content</text></g><!--MD5=[ec4b41d87a035c3f1948d59ccd51dd25]
+link SystemUser to UserName--><g id="link_SystemUser_UserName"><path codeLine="12" d="M164.345,468.4796 C189.965,474.1196 231.66,483.2996 256.87,488.8496 " fill="none" id="SystemUser-to-UserName" style="stroke:#33FF33;stroke-width:0.5;"/><polygon fill="#33FF33" points="259.405,489.4096,255.4379,486.4921,256.963,488.8741,254.581,490.3992,259.405,489.4096" style="stroke:#33FF33;stroke-width:0.5;"/><text fill="#33FF33" font-family="Verdana" font-size="6.5" lengthAdjust="spacing" textLength="4" x="168.3047" y="476.4208">1</text><text fill="#33FF33" font-family="Verdana" font-size="6.5" lengthAdjust="spacing" textLength="4" x="251.4695" y="495.9261">1</text></g><!--MD5=[df920ce72f6aadcf91be3be9046ad77a]
+link SystemUser to UserPassword--><g id="link_SystemUser_UserPassword"><path codeLine="13" d="M164.345,452.7346 C189.115,440.7346 228.915,421.4596 254.31,409.1596 " fill="none" id="SystemUser-to-UserPassword" style="stroke:#33FF33;stroke-width:0.5;"/><polygon fill="#33FF33" points="256.565,408.0646,251.6434,408.2316,254.3162,409.1568,253.391,411.8297,256.565,408.0646" style="stroke:#33FF33;stroke-width:0.5;"/><text fill="#33FF33" font-family="Verdana" font-size="6.5" lengthAdjust="spacing" textLength="4" x="168.3047" y="458.1665">1</text><text fill="#33FF33" font-family="Verdana" font-size="6.5" lengthAdjust="spacing" textLength="4" x="246.3676" y="418.3292">1</text></g><!--MD5=[00f85e96e0935652bd96fe09637dfb37]
+reverse link SystemUser to Manager--><g id="link_SystemUser_Manager"><path codeLine="19" d="M126.35,447.4496 C105.48,423.8296 69.405,377.3796 60.125,329.5596 C44.63,249.7146 44.63,226.4046 60.125,146.5596 C63.55,128.9196 65.35,124.0596 75.25,109.0596 C89.165,87.9796 110.515,68.0446 125.2,55.5996 " fill="none" id="SystemUser-backto-Manager" style="stroke:#33FF33;stroke-width:0.5;"/><polygon fill="#33FF33" points="128.075,449.3896,126.5702,444.7007,126.4101,447.5246,123.5862,447.3645,128.075,449.3896" style="stroke:#33FF33;stroke-width:0.5;"/><text fill="#33FF33" font-family="Verdana" font-size="6.5" lengthAdjust="spacing" textLength="4" x="120.3152" y="444.0941">1</text></g><!--MD5=[f813d3652d12c19387be5741d6198500]
+reverse link SystemUser to Teacher--><g id="link_SystemUser_Teacher"><path codeLine="30" d="M155.325,479.6946 C181.99,511.9846 241.5,584.0546 266.665,614.5296 " fill="none" id="SystemUser-backto-Teacher" style="stroke:#33FF33;stroke-width:0.5;"/><polygon fill="#33FF33" points="153.615,477.6296,154.9386,482.3728,155.207,479.5571,158.0227,479.8256,153.615,477.6296" style="stroke:#33FF33;stroke-width:0.5;"/><text fill="#33FF33" font-family="Verdana" font-size="6.5" lengthAdjust="spacing" textLength="4" x="151.8277" y="488.0963">1</text></g><!--MD5=[11f940fd4cae057b8e7923b67496b82a]
+link Teacher to Acronym--><g id="link_Teacher_Acronym"><path codeLine="31" d="M289.515,642.6196 C306.78,666.2546 341.35,713.5946 357.945,736.3146 " fill="none" id="Teacher-to-Acronym" style="stroke:#33FF33;stroke-width:0.5;"/><polygon fill="#33FF33" points="359.49,738.4346,358.4476,733.6217,358.0141,736.4167,355.2191,735.9832,359.49,738.4346" style="stroke:#33FF33;stroke-width:0.5;"/><text fill="#33FF33" font-family="Verdana" font-size="6.5" lengthAdjust="spacing" textLength="4" x="352.3479" y="733.1591">1</text></g><!--MD5=[5ccd9a2dca12a83d1f1a9ea3e12c08ad]
+link Teacher to DateOfBirth--><g id="link_Teacher_DateOfBirth"><path codeLine="32" d="M294.18,616.4296 C310.32,603.3146 335.915,582.5196 352.135,569.3396 " fill="none" id="Teacher-to-DateOfBirth" style="stroke:#33FF33;stroke-width:0.5;"/><polygon fill="#33FF33" points="354.26,567.6146,349.5063,568.9,352.3197,569.1911,352.0287,572.0045,354.26,567.6146" style="stroke:#33FF33;stroke-width:0.5;"/><text fill="#33FF33" font-family="Verdana" font-size="6.5" lengthAdjust="spacing" textLength="4" x="346.2907" y="577.8921">1</text></g><!--MD5=[02933c490c74384cb341558a01603184]
+link Teacher to TaxPayerNumber--><g id="link_Teacher_TaxPayerNumber"><path codeLine="33" d="M294.18,632.7146 C305.025,635.7346 320.145,639.9446 333.815,643.7496 " fill="none" id="Teacher-to-TaxPayerNumber" style="stroke:#33FF33;stroke-width:0.5;"/><polygon fill="#33FF33" points="336.345,644.4546,332.5478,641.3191,333.9369,643.7829,331.4731,645.172,336.345,644.4546" style="stroke:#33FF33;stroke-width:0.5;"/><text fill="#33FF33" font-family="Verdana" font-size="6.5" lengthAdjust="spacing" textLength="4" x="328.4825" y="650.4628">1</text></g><!--MD5=[ea95752f0a529f5f12dd427409b2595a]
+link Student to MechanographicalNumber--><g id="link_Student_MechanographicalNumber"><path codeLine="43" d="M45.22,291.4446 C63.25,299.4646 93.335,312.8496 114.975,322.4796 " fill="none" id="Student-to-MechanographicalNumber" style="stroke:#33FF33;stroke-width:0.5;"/><polygon fill="#33FF33" points="117.31,323.5196,114.0123,319.8624,115.0261,322.5029,112.3856,323.5167,117.31,323.5196" style="stroke:#33FF33;stroke-width:0.5;"/><text fill="#33FF33" font-family="Verdana" font-size="6.5" lengthAdjust="spacing" textLength="4" x="105.2893" y="318.2701">1</text></g><!--MD5=[05c64b37fedf4539596262f997c2b231]
+link Student to SystemUser--><g id="link_Student_SystemUser"><path codeLine="44" d="M37.005,298.6546 C45.675,315.2646 60.82,343.5796 75.25,367.0596 C93,395.9396 115.61,428.2596 129.16,447.2046 " fill="none" id="Student-to-SystemUser" style="stroke:#33FF33;stroke-width:0.5;"/><polygon fill="#33FF33" points="130.77,449.4496,129.7883,444.624,129.3196,447.4133,126.5303,446.9446,130.77,449.4496" style="stroke:#33FF33;stroke-width:0.5;"/><text fill="#33FF33" font-family="Verdana" font-size="6.5" lengthAdjust="spacing" textLength="4" x="34.2639" y="309.1268">1</text></g><!--MD5=[8d9f94e67a7ba52540c7724bf93ea242]
+link Student to StudentDateOfBirth--><g id="link_Student_StudentDateOfBirth"><path codeLine="46" d="M34.07,270.5246 C40.615,250.9246 54.505,214.9646 75.25,190.0596 C87.615,175.2146 105.52,162.5396 119.525,153.9446 " fill="none" id="Student-to-StudentDateOfBirth" style="stroke:#33FF33;stroke-width:0.5;"/><polygon fill="#33FF33" points="121.735,152.6046,116.8512,153.2359,119.5995,153.9044,118.931,156.6527,121.735,152.6046" style="stroke:#33FF33;stroke-width:0.5;"/><text fill="#33FF33" font-family="Verdana" font-size="6.5" lengthAdjust="spacing" textLength="4" x="112.1577" y="162.8795">1</text></g><!--MD5=[bdb337b8f731444b4aa73ef9c3dc6760]
+link Student to StudentTaxPayerNumber--><g id="link_Student_StudentTaxPayerNumber"><path codeLine="47" d="M45.22,278.0946 C62.845,270.7246 91.995,258.5446 113.515,249.5496 " fill="none" id="Student-to-StudentTaxPayerNumber" style="stroke:#33FF33;stroke-width:0.5;"/><polygon fill="#33FF33" points="115.835,248.5796,110.9118,248.4696,113.5284,249.5436,112.4543,252.1602,115.835,248.5796" style="stroke:#33FF33;stroke-width:0.5;"/><text fill="#33FF33" font-family="Verdana" font-size="6.5" lengthAdjust="spacing" textLength="4" x="104.7458" y="258.8481">1</text></g><!--MD5=[a61d8b58aa1bcd141e508d3354c0fb40]
+link SharedBoard to BoardTitle--><g id="link_SharedBoard_BoardTitle"><path codeLine="64" d="M292.235,971.2246 C309.44,989.9946 339.52,1022.8096 355.875,1040.6546 " fill="none" id="SharedBoard-to-BoardTitle" style="stroke:#33FF33;stroke-width:0.5;"/><polygon fill="#33FF33" points="357.61,1042.5396,356.0485,1037.8693,355.9226,1040.6949,353.097,1040.5691,357.61,1042.5396" style="stroke:#33FF33;stroke-width:0.5;"/><text fill="#33FF33" font-family="Verdana" font-size="6.5" lengthAdjust="spacing" textLength="4" x="349.7404" y="1037.1216">1</text></g><!--MD5=[cf6099374887ae4fbefe86fb043b4b37]
+link Cell to Column--><g id="link_Cell_Column"><path codeLine="65" d="M381.01,967.7246 C390.815,976.6596 403.85,990.2946 411,1005.0596 C440.915,1066.8246 444.6,1151.2496 444.85,1183.3996 " fill="none" id="Cell-to-Column" style="stroke:#33FF33;stroke-width:0.5;"/><polygon fill="#33FF33" points="444.865,1185.9846,446.8393,1181.4732,444.8507,1183.4846,442.8393,1181.4961,444.865,1185.9846" style="stroke:#33FF33;stroke-width:0.5;"/><text fill="#33FF33" font-family="Verdana" font-size="6.5" lengthAdjust="spacing" textLength="4.5" x="379.1937" y="977.8463">*</text><text fill="#33FF33" font-family="Verdana" font-size="6.5" lengthAdjust="spacing" textLength="4" x="440.1346" y="1180.7244">1</text></g><!--MD5=[af531668c4b2523acc4c83e34301bfb0]
+link Cell to Row--><g id="link_Cell_Row"><path codeLine="66" d="M381.055,965.0096 C394.46,973.3346 415.495,986.3946 429.685,995.2046 " fill="none" id="Cell-to-Row" style="stroke:#33FF33;stroke-width:0.5;"/><polygon fill="#33FF33" points="431.905,996.5846,429.1268,992.5187,429.7778,995.2711,427.0253,995.9221,431.905,996.5846" style="stroke:#33FF33;stroke-width:0.5;"/><text fill="#33FF33" font-family="Verdana" font-size="6.5" lengthAdjust="spacing" textLength="4.5" x="385.041" y="974.6195">*</text><text fill="#33FF33" font-family="Verdana" font-size="6.5" lengthAdjust="spacing" textLength="4" x="423.9728" y="1002.1137">1</text></g><!--MD5=[d7b5bd00dc78842bc19c5ed9353a54c1]
+link SharedBoard to Cell--><g id="link_SharedBoard_Cell"><path codeLine="67" d="M303.295,957.0596 C318.755,957.0596 338.38,957.0596 351.79,957.0596 " fill="none" id="SharedBoard-to-Cell" style="stroke:#33FF33;stroke-width:0.5;"/><polygon fill="#33FF33" points="354.385,957.0596,349.885,955.0596,351.885,957.0596,349.885,959.0596,354.385,957.0596" style="stroke:#33FF33;stroke-width:0.5;"/><text fill="#33FF33" font-family="Verdana" font-size="6.5" lengthAdjust="spacing" textLength="4.5" x="346.0788" y="964.5817">*</text></g><!--MD5=[2915adadebdc1d702007ee158deb9d92]
+link Row to RowNumber--><g id="link_Row_RowNumber"><path codeLine="68" d="M458.565,1004.5596 C469.88,1004.5596 486.7,1004.5596 500.65,1004.5596 " fill="none" id="Row-to-RowNumber" style="stroke:#33FF33;stroke-width:0.5;"/><polygon fill="#33FF33" points="503.22,1004.5596,498.72,1002.5596,500.72,1004.5596,498.72,1006.5596,503.22,1004.5596" style="stroke:#33FF33;stroke-width:0.5;"/></g><!--MD5=[d0db21e7ea234173eb335171c920c0b6]
+link Row to RowTitle--><g id="link_Row_RowTitle"><path codeLine="69" d="M454.59,1015.1996 C469.42,1033.0496 499.235,1068.9446 515.07,1088.0046 " fill="none" id="Row-to-RowTitle" style="stroke:#33FF33;stroke-width:0.5;"/><polygon fill="#33FF33" points="516.745,1090.0196,515.411,1085.2793,515.1487,1088.0955,512.3325,1087.8333,516.745,1090.0196" style="stroke:#33FF33;stroke-width:0.5;"/></g><!--MD5=[5fc02342b073558faf3663735d41a666]
+link Cell to PostIt--><g id="link_Cell_PostIt"><path codeLine="70" d="M381.055,948.9396 C394.46,940.4446 415.495,927.1096 429.685,918.1096 " fill="none" id="Cell-to-PostIt" style="stroke:#33FF33;stroke-width:0.5;"/><polygon fill="#33FF33" points="431.905,916.7046,427.0335,917.4246,429.7935,918.0431,429.1751,920.803,431.905,916.7046" style="stroke:#33FF33;stroke-width:0.5;"/><text fill="#33FF33" font-family="Verdana" font-size="6.5" lengthAdjust="spacing" textLength="4" x="384.9769" y="954.4316">1</text><text fill="#33FF33" font-family="Verdana" font-size="6.5" lengthAdjust="spacing" textLength="4" x="423.9728" y="926.3645">1</text></g><!--MD5=[4b2510738061fabf0a69a8e45a611fc0]
+link Column to ColumnNumber--><g id="link_Column_ColumnNumber"><path codeLine="71" d="M460.01,1196.5596 C469.71,1196.5596 482.925,1196.5596 494.945,1196.5596 " fill="none" id="Column-to-ColumnNumber" style="stroke:#33FF33;stroke-width:0.5;"/><polygon fill="#33FF33" points="497.49,1196.5596,492.99,1194.5596,494.99,1196.5596,492.99,1198.5596,497.49,1196.5596" style="stroke:#33FF33;stroke-width:0.5;"/></g><!--MD5=[5e3ddfcb2e558516f282add12abeb45f]
+link Column to ColumnTitle--><g id="link_Column_ColumnTitle"><path codeLine="72" d="M454.59,1207.1996 C469.42,1225.0496 499.235,1260.9446 515.07,1280.0046 " fill="none" id="Column-to-ColumnTitle" style="stroke:#33FF33;stroke-width:0.5;"/><polygon fill="#33FF33" points="516.745,1282.0196,515.411,1277.2793,515.1487,1280.0955,512.3325,1279.8333,516.745,1282.0196" style="stroke:#33FF33;stroke-width:0.5;"/></g><!--MD5=[512ff2d0365a141fa9444e9be618cddf]
+link PostIt to CreationTimestamp--><g id="link_PostIt_CreationTimestamp"><path codeLine="73" d="M458.565,908.5596 C466.555,908.5596 477.285,908.5596 487.815,908.5596 " fill="none" id="PostIt-to-CreationTimestamp" style="stroke:#33FF33;stroke-width:0.5;"/><polygon fill="#33FF33" points="490.345,908.5596,485.845,906.5596,487.845,908.5596,485.845,910.5596,490.345,908.5596" style="stroke:#33FF33;stroke-width:0.5;"/></g><!--MD5=[d169426e0fc7faeee53011ef1e88d799]
+link PostIt to Content--><g id="link_PostIt_Content"><path codeLine="74" d="M454.59,897.9196 C469.42,880.0696 499.235,844.1746 515.07,825.1146 " fill="none" id="PostIt-to-Content" style="stroke:#33FF33;stroke-width:0.5;"/><polygon fill="#33FF33" points="516.745,823.0996,512.3325,825.2859,515.1487,825.0236,515.411,827.8399,516.745,823.0996" style="stroke:#33FF33;stroke-width:0.5;"/></g><!--MD5=[4a6090c8addd5b25deb6132c400e52d0]
+link SystemUser to SharedBoard--><g id="link_SystemUser_SharedBoard"><path codeLine="75" d="M145.895,477.6646 C165.42,548.3846 252.555,863.9846 273.64,940.3696 " fill="none" id="SystemUser-to-SharedBoard" style="stroke:#33FF33;stroke-width:0.5;"/><polygon fill="#33FF33" points="274.365,942.9846,275.0995,938.1152,273.7018,940.5741,271.2429,939.1764,274.365,942.9846" style="stroke:#33FF33;stroke-width:0.5;"/><text fill="#33FF33" font-family="Verdana" font-size="6.5" lengthAdjust="spacing" textLength="25" x="212" y="723.5945">creates</text></g><!--MD5=[885300e2305cc5d043e533879f365c5a]
+@startuml DDD
+
+!theme crt-green
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+package "<<agr SystemUser>>"{
+    class SystemUser<<entity>><<root>>{}
+    class UserName<<vo>>{}
+    class UserPassword<<vo>>{}
+
+    SystemUser "1" - -> "1" UserName
+    SystemUser "1" - -> "1" UserPassword
+}
+
+package "<<agr Manager>>"{
+
+    class Manager<<entity>><<root>>{}
+    SystemUser "1" <- Manager
+
+}
+
+package "<<agr Teacher>>"{
+
+    class Teacher<<entity>><<root>>{}
+    class Acronym<<vo>>{}
+    class TaxPayerNumber<<vo>>{}
+    class DateOfBirth<<vo>>{}
+
+    SystemUser "1" <- - Teacher
+    Teacher -down-> "1" Acronym
+    Teacher - -> "1" DateOfBirth
+    Teacher - -> "1" TaxPayerNumber
+}
+
+package "<<agr Student>>"{
+
+    class Student<<entity>><<root>>{}
+    class MechanographicalNumber<<vo>>{}
+    class StudentTaxPayerNumber<<vo>>{}
+    class StudentDateOfBirth<<vo>>{}
+
+    Student  - -> "1" MechanographicalNumber
+    Student "1" - -> SystemUser
+    'Student <- - "*" Lecture : participates
+    Student - -> "1" StudentDateOfBirth
+    Student - -> "1" StudentTaxPayerNumber
+}
+
+package "<<agr SharedBoard>>"{
+    class SharedBoard<<entity>><<root>>{}
+    class BoardTitle<<vo>>{}
+    class Cell<<entity>>{}
+    class Column<<entity>>{}
+    class ColumnTitle<<vo>>{}
+    class ColumnNumber<<vo>>{}
+    class Row<<entity>>{}
+    class RowTitle<<vo>>{}
+    class RowNumber<<vo>>{}
+    class PostIt<<entity>>{}
+    class CreationTimestamp<<vo>>{}
+    class Content<<vo>>{}
+
+    SharedBoard - -> "1" BoardTitle
+    Cell "*" - -> "1" Column
+    Cell "*" - -> "1" Row
+    SharedBoard - -> "*" Cell
+    Row - -> RowNumber
+    Row - -> RowTitle
+    Cell "1" - -> "1" PostIt
+    Column - -> ColumnNumber
+    Column - -> ColumnTitle
+    PostIt - -> CreationTimestamp
+    PostIt - -> Content
+    SystemUser - -> SharedBoard : creates
+
+}
+hide circles
+@enduml
+
+@startuml DDD
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor #282828
+    FontColor #33FF33
+    FontName Verdana
+    HyperLinkColor #33FF33
+    LineColor #33FF33
+    LineThickness 1
+    Margin 5
+  }
+  box {
+    LineStyle 12-18
+    LineThickness 3
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  referenceHeader {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor #33FF33
+skinparam BackgroundColor #282828
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy solid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor #33FF33
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor #282828
+  BarColor #33FF33
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor #33FF33
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor #282828
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor #282828
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Header {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color #33FF33
+}
+skinparam IconPackage {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconPrivate {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconProtected {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconPublic {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam Note {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor #33FF33
+}
+skinparam Package {
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor #282828
+  BorderColor #33FF33
+}
+skinparam StereotypeA {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeC {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeE {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeI {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeN {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam UseCaseStereoType {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+package "<<agr SystemUser>>"{
+    class SystemUser<<entity>><<root>>{}
+    class UserName<<vo>>{}
+    class UserPassword<<vo>>{}
+
+    SystemUser "1" - -> "1" UserName
+    SystemUser "1" - -> "1" UserPassword
+}
+
+package "<<agr Manager>>"{
+
+    class Manager<<entity>><<root>>{}
+    SystemUser "1" <- Manager
+
+}
+
+package "<<agr Teacher>>"{
+
+    class Teacher<<entity>><<root>>{}
+    class Acronym<<vo>>{}
+    class TaxPayerNumber<<vo>>{}
+    class DateOfBirth<<vo>>{}
+
+    SystemUser "1" <- - Teacher
+    Teacher -down-> "1" Acronym
+    Teacher - -> "1" DateOfBirth
+    Teacher - -> "1" TaxPayerNumber
+}
+
+package "<<agr Student>>"{
+
+    class Student<<entity>><<root>>{}
+    class MechanographicalNumber<<vo>>{}
+    class StudentTaxPayerNumber<<vo>>{}
+    class StudentDateOfBirth<<vo>>{}
+
+    Student  - -> "1" MechanographicalNumber
+    Student "1" - -> SystemUser
+    Student - -> "1" StudentDateOfBirth
+    Student - -> "1" StudentTaxPayerNumber
+}
+
+package "<<agr SharedBoard>>"{
+    class SharedBoard<<entity>><<root>>{}
+    class BoardTitle<<vo>>{}
+    class Cell<<entity>>{}
+    class Column<<entity>>{}
+    class ColumnTitle<<vo>>{}
+    class ColumnNumber<<vo>>{}
+    class Row<<entity>>{}
+    class RowTitle<<vo>>{}
+    class RowNumber<<vo>>{}
+    class PostIt<<entity>>{}
+    class CreationTimestamp<<vo>>{}
+    class Content<<vo>>{}
+
+    SharedBoard - -> "1" BoardTitle
+    Cell "*" - -> "1" Column
+    Cell "*" - -> "1" Row
+    SharedBoard - -> "*" Cell
+    Row - -> RowNumber
+    Row - -> RowTitle
+    Cell "1" - -> "1" PostIt
+    Column - -> ColumnNumber
+    Column - -> ColumnTitle
+    PostIt - -> CreationTimestamp
+    PostIt - -> Content
+    SystemUser - -> SharedBoard : creates
+
+}
+hide circles
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 19:12:26 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

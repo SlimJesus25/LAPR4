@@ -1,0 +1,53 @@
+@startuml
+
+autonumber
+
+actor Teacher as T
+participant "AddUpdadeQuestionUI" as UI
+participant "AddUpdadeQuestionController" as Ctr
+participant "ExamQuestionService" as EQSer
+participant "VerifyQuestionAntlrService" as VSer
+participant "EvalVisitor" as EV
+database "ExamQuestionRepository" as EQRepo
+
+T -> UI : aks to list grades
+alt Add Question
+UI -> T : asks for file path
+T -> UI : gives file path
+UI -> Ctr : validateQuestion()
+Ctr -> VSer : verifyQuestion()
+VSer -> EV : buildQuestion()
+EV -> EQSer : addQuestion()
+EQSer -> EQRepo : save()
+EQRepo -> EQSer : returns question
+EQSer -> EV : returns question
+EV -> VSer : returns messages of success or failure
+VSer -> Ctr : returns messages
+Ctr -> UI : returns messages
+UI -> T : shows messages
+else Update Question
+UI -> Ctr : listQuestions()
+Ctr -> EQSer : listQuestions()
+EQSer -> EQRepo : listQuestions()
+EQRepo -> EQSer : returns list of questions
+EQSer -> UI : returns list of questions
+UI -> T : asks for question to update
+T -> UI : chooses question
+UI -> T : asks for file path
+T -> UI : gives file path
+opt the US wasnt desenvolved past this point
+UI -> Ctr : updateQuestion()
+Ctr -> VSer : verifyQuestion()
+VSer -> EV : updateQuestion()
+EV -> EQSer : updateQuestion()
+EQSer -> EQRepo : updateQuestion()
+EQRepo -> EQSer : returns question
+EQSer -> EV : returns question
+EV -> VSer : returns messages of success or failure
+VSer -> Ctr : returns messages
+Ctr -> UI : returns messages
+UI -> T : shows messages
+end
+end
+
+@enduml

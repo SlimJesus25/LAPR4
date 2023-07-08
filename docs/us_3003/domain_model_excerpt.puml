@@ -1,0 +1,68 @@
+@startuml DDD
+!theme crt-green
+skinparam nodesep 150
+hide empty members
+left to right direction
+hide circle
+hide fields
+
+package "<<agr SystemUser>>"{
+    class SystemUser<<entity>><<root>>{}
+    class UserName<<vo>>{}
+    class UserPassword<<vo>>{}
+
+    SystemUser "1" --> "1" UserName
+    SystemUser "1" --> "1" UserPassword
+}
+
+package "<<agr SharedBoard>>"{
+    class SharedBoard<<entity>><<root>>{}
+    class BoardTitle<<vo>>{}
+    class Cell<<entity>>{}
+    class Column<<entity>>{}
+    class ColumnTitle<<vo>>{}
+    class ColumnNumber<<vo>>{}
+    class Row<<entity>>{}
+    class RowTitle<<vo>>{}
+    class RowNumber<<vo>>{}
+    class PostIt<<entity>>{}
+    class CreationTimestamp<<vo>>{}
+    class Content<<vo>>{}
+
+    SharedBoard --> "1" BoardTitle
+    Cell "*" --> "1" Column
+    Cell "*" --> "1" Row
+    SharedBoard --> "*" Cell
+    Row --> RowNumber
+    Row --> RowTitle
+    Cell "1" --> "1" PostIt
+    Column --> ColumnNumber
+    Column --> ColumnTitle
+    PostIt --> CreationTimestamp
+    PostIt --> Content
+
+
+}
+
+package "<<agr SharedBoardParticipation>>"{
+    class SharedBoardParticipation<<entity>><<root>>{}
+    class UserPermission<<vo>><<enum>>{}
+    note top: This tells what permission the user contains in a specific SharedBoard
+    class UserStatus <<vo>><<enum>>{}
+    note right: This tells if the user is a guest or a participant
+
+    SharedBoardParticipation --> UserPermission
+    SharedBoardParticipation --> UserStatus
+    SharedBoard "1" <-- SharedBoardParticipation
+    SystemUser "1" <-- SharedBoardParticipation
+}
+
+package "<<agr PostItModification>>"{
+    class PostItModification<<entity>><<root>>{}
+
+    PostIt "1" --> "*" PostItModification
+    SystemUser "1" --> "*" PostItModification
+    SharedBoardCell "1" --> "1" PostItModification
+
+}
+@enduml

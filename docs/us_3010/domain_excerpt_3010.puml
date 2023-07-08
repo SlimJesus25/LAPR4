@@ -1,0 +1,18 @@
+@startuml
+
+hide circles
+hide fields
+hide empty members
+
+package "<<agr SharedBoard>>"{
+    class SharedBoard<<entity>><<root>>{}
+    class SharedBoardTitle<<vo>>{}
+    class CreationTimestamp<<vo>>{}
+    class SharedBoardState<<vo>><<enum>>{}
+
+    SharedBoard --> "1" SharedBoardState
+    SharedBoard --> "1" SharedBoardTitle
+    SharedBoard --> "1" CreationTimestamp
+}
+
+@enduml

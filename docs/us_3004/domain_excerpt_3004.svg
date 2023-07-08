@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1362px" preserveAspectRatio="none" style="width:1369px;height:1362px;background:#282828;" version="1.1" viewBox="0 0 1369 1362" width="1369px" zoomAndPan="magnify"><defs/><g><!--MD5=[b110f5355061fb3ceca7c492aa18dd29]
+cluster <<agr SystemUser>>--><g id="cluster_&lt;&lt;agr SystemUser&gt;&gt;"><path d="M17,12.1191 L291,12.1191 A3.75,3.75 0 0 1 293.5,14.6191 L300.5,44.8564 L386.5,44.8564 A2.5,2.5 0 0 1 389,47.3564 L389,304.6191 A2.5,2.5 0 0 1 386.5,307.1191 L17,307.1191 A2.5,2.5 0 0 1 14.5,304.6191 L14.5,14.6191 A2.5,2.5 0 0 1 17,12.1191 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="14.5" x2="300.5" y1="44.8564" y2="44.8564"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="273" x="18.5" y="36.2373">&lt;&lt;agr SystemUser&gt;&gt;</text></g><!--MD5=[92bfed150496a7311125cbdbdd0ce21b]
+cluster <<agr SharedBoard>>--><g id="cluster_&lt;&lt;agr SharedBoard&gt;&gt;"><path d="M13.5,854.1191 L300.5,854.1191 A3.75,3.75 0 0 1 303,856.6191 L310,886.8564 L405,886.8564 A2.5,2.5 0 0 1 407.5,889.3564 L407.5,1352.6191 A2.5,2.5 0 0 1 405,1355.1191 L13.5,1355.1191 A2.5,2.5 0 0 1 11,1352.6191 L11,856.6191 A2.5,2.5 0 0 1 13.5,854.1191 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="11" x2="310" y1="886.8564" y2="886.8564"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="286" x="15" y="878.2373">&lt;&lt;agr SharedBoard&gt;&gt;</text></g><!--MD5=[4c8328f4ce941bfcc7f2e44cea617c34]
+cluster <<agr SharedBoardParticipation>>--><g id="cluster_&lt;&lt;agr SharedBoardParticipation&gt;&gt;"><path d="M193.5,331.1191 L640.5,331.1191 A3.75,3.75 0 0 1 643,333.6191 L650,363.8564 L1359.5,363.8564 A2.5,2.5 0 0 1 1362,366.3564 L1362,827.6191 A2.5,2.5 0 0 1 1359.5,830.1191 L193.5,830.1191 A2.5,2.5 0 0 1 191,827.6191 L191,333.6191 A2.5,2.5 0 0 1 193.5,331.1191 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="191" x2="650" y1="363.8564" y2="363.8564"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="446" x="195" y="355.2373">&lt;&lt;agr SharedBoardParticipation&gt;&gt;</text></g><!--MD5=[bc064d979c32666ae52f3d7624591b7b]
+class SystemUser--><g id="elem_SystemUser"><rect codeLine="8" fill="#282828" height="56.1826" id="SystemUser" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="113" x="30.5" y="235.1191"/><ellipse cx="43.5" cy="263.2104" fill="#282828" rx="9" ry="9" style="stroke:#33FF33;stroke-width:1.0;"/><path d="M45.5,259.7104 Q45.7031,259.2104 45.9375,258.9604 Q46.1719,258.7104 46.4375,258.7104 Q46.9063,258.7104 47.2031,258.9917 Q47.5,259.2729 47.5,259.9292 L47.5,261.4917 Q47.5,262.1479 47.2188,262.4292 Q46.9375,262.7104 46.5,262.7104 Q46.1094,262.7104 45.8594,262.5386 Q45.6094,262.3667 45.5,261.9136 Q45.4531,261.6011 45.2813,261.4292 Q44.9688,261.1011 44.4063,260.9136 Q43.8438,260.7104 43.2813,260.7104 Q42.5781,260.7104 41.9844,260.9917 Q41.4063,261.2729 40.9531,261.8979 Q40.5,262.5229 40.5,263.3823 L40.5,264.3042 Q40.5,265.3354 41.3438,266.0229 Q42.1875,266.7104 43.6875,266.7104 Q44.5781,266.7104 45.2031,266.5073 Q45.5625,266.3979 45.9688,266.0386 Q46.2344,265.8354 46.375,265.7729 Q46.5156,265.7104 46.6875,265.7104 Q47.0156,265.7104 47.25,265.9761 Q47.5,266.2261 47.5,266.5854 Q47.5,266.9292 47.1563,267.3354 Q46.6563,267.9292 45.8594,268.2573 Q44.8125,268.7104 43.5313,268.7104 Q42.0313,268.7104 40.8281,268.1167 Q39.8594,267.6479 39.1719,266.6323 Q38.5,265.6167 38.5,264.4136 L38.5,263.3198 Q38.5,262.0698 39.0938,260.9761 Q39.7031,259.8823 40.75,259.3042 Q41.8125,258.7104 43,258.7104 Q43.7188,258.7104 44.3438,258.9604 Q44.9688,259.2104 45.5,259.7104 Z " fill="#33FF33"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="72.5" y="252.1836">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="78" y="266.7676">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="85" x="55.5" y="283.3623">SystemUser</text></g><!--MD5=[9a6e98b13a389138a8ee3cd2798f9215]
+class UserName--><g id="elem_UserName"><rect codeLine="9" fill="#282828" height="41.5986" id="UserName" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="99" x="260" y="249.1191"/><ellipse cx="273" cy="269.9185" fill="#282828" rx="9" ry="9" style="stroke:#33FF33;stroke-width:1.0;"/><path d="M275,266.4185 Q275.2031,265.9185 275.4375,265.6685 Q275.6719,265.4185 275.9375,265.4185 Q276.4063,265.4185 276.7031,265.6997 Q277,265.981 277,266.6372 L277,268.1997 Q277,268.856 276.7188,269.1372 Q276.4375,269.4185 276,269.4185 Q275.6094,269.4185 275.3594,269.2466 Q275.1094,269.0747 275,268.6216 Q274.9531,268.3091 274.7813,268.1372 Q274.4688,267.8091 273.9063,267.6216 Q273.3438,267.4185 272.7813,267.4185 Q272.0781,267.4185 271.4844,267.6997 Q270.9063,267.981 270.4531,268.606 Q270,269.231 270,270.0903 L270,271.0122 Q270,272.0435 270.8438,272.731 Q271.6875,273.4185 273.1875,273.4185 Q274.0781,273.4185 274.7031,273.2153 Q275.0625,273.106 275.4688,272.7466 Q275.7344,272.5435 275.875,272.481 Q276.0156,272.4185 276.1875,272.4185 Q276.5156,272.4185 276.75,272.6841 Q277,272.9341 277,273.2935 Q277,273.6372 276.6563,274.0435 Q276.1563,274.6372 275.3594,274.9653 Q274.3125,275.4185 273.0313,275.4185 Q271.5313,275.4185 270.3281,274.8247 Q269.3594,274.356 268.6719,273.3403 Q268,272.3247 268,271.1216 L268,270.0278 Q268,268.7778 268.5938,267.6841 Q269.2031,266.5903 270.25,266.0122 Q271.3125,265.4185 272.5,265.4185 Q273.2188,265.4185 273.8438,265.6685 Q274.4688,265.9185 275,266.4185 Z " fill="#33FF33"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="305.5" y="266.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="71" x="285" y="282.7783">UserName</text></g><!--MD5=[88967cc527ac608118ac16caae449e3f]
+class UserPassword--><g id="elem_UserPassword"><rect codeLine="10" fill="#282828" height="41.5986" id="UserPassword" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="127" x="246" y="57.1191"/><ellipse cx="259" cy="77.9185" fill="#282828" rx="9" ry="9" style="stroke:#33FF33;stroke-width:1.0;"/><path d="M261,74.4185 Q261.2031,73.9185 261.4375,73.6685 Q261.6719,73.4185 261.9375,73.4185 Q262.4063,73.4185 262.7031,73.6997 Q263,73.981 263,74.6372 L263,76.1997 Q263,76.856 262.7188,77.1372 Q262.4375,77.4185 262,77.4185 Q261.6094,77.4185 261.3594,77.2466 Q261.1094,77.0747 261,76.6216 Q260.9531,76.3091 260.7813,76.1372 Q260.4688,75.8091 259.9063,75.6216 Q259.3438,75.4185 258.7813,75.4185 Q258.0781,75.4185 257.4844,75.6997 Q256.9063,75.981 256.4531,76.606 Q256,77.231 256,78.0903 L256,79.0122 Q256,80.0435 256.8438,80.731 Q257.6875,81.4185 259.1875,81.4185 Q260.0781,81.4185 260.7031,81.2153 Q261.0625,81.106 261.4688,80.7466 Q261.7344,80.5435 261.875,80.481 Q262.0156,80.4185 262.1875,80.4185 Q262.5156,80.4185 262.75,80.6841 Q263,80.9341 263,81.2935 Q263,81.6372 262.6563,82.0435 Q262.1563,82.6372 261.3594,82.9653 Q260.3125,83.4185 259.0313,83.4185 Q257.5313,83.4185 256.3281,82.8247 Q255.3594,82.356 254.6719,81.3403 Q254,80.3247 254,79.1216 L254,78.0278 Q254,76.7778 254.5938,75.6841 Q255.2031,74.5903 256.25,74.0122 Q257.3125,73.4185 258.5,73.4185 Q259.2188,73.4185 259.8438,73.6685 Q260.4688,73.9185 261,74.4185 Z " fill="#33FF33"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="305.5" y="74.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="99" x="271" y="90.7783">UserPassword</text></g><!--MD5=[3762909e135fb728396985e200594027]
+class SharedBoard--><g id="elem_SharedBoard"><rect codeLine="17" fill="#282828" height="56.1826" id="SharedBoard" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="120" x="27" y="999.1191"/><ellipse cx="40" cy="1027.2104" fill="#282828" rx="9" ry="9" style="stroke:#33FF33;stroke-width:1.0;"/><path d="M42,1023.7104 Q42.2031,1023.2104 42.4375,1022.9604 Q42.6719,1022.7104 42.9375,1022.7104 Q43.4063,1022.7104 43.7031,1022.9917 Q44,1023.2729 44,1023.9292 L44,1025.4917 Q44,1026.1479 43.7188,1026.4292 Q43.4375,1026.7104 43,1026.7104 Q42.6094,1026.7104 42.3594,1026.5386 Q42.1094,1026.3667 42,1025.9136 Q41.9531,1025.6011 41.7813,1025.4292 Q41.4688,1025.1011 40.9063,1024.9136 Q40.3438,1024.7104 39.7813,1024.7104 Q39.0781,1024.7104 38.4844,1024.9917 Q37.9063,1025.2729 37.4531,1025.8979 Q37,1026.5229 37,1027.3823 L37,1028.3042 Q37,1029.3354 37.8438,1030.0229 Q38.6875,1030.7104 40.1875,1030.7104 Q41.0781,1030.7104 41.7031,1030.5073 Q42.0625,1030.3979 42.4688,1030.0386 Q42.7344,1029.8354 42.875,1029.7729 Q43.0156,1029.7104 43.1875,1029.7104 Q43.5156,1029.7104 43.75,1029.9761 Q44,1030.2261 44,1030.5854 Q44,1030.9292 43.6563,1031.3354 Q43.1563,1031.9292 42.3594,1032.2573 Q41.3125,1032.7104 40.0313,1032.7104 Q38.5313,1032.7104 37.3281,1032.1167 Q36.3594,1031.6479 35.6719,1030.6323 Q35,1029.6167 35,1028.4136 L35,1027.3198 Q35,1026.0698 35.5938,1024.9761 Q36.2031,1023.8823 37.25,1023.3042 Q38.3125,1022.7104 39.5,1022.7104 Q40.2188,1022.7104 40.8438,1022.9604 Q41.4688,1023.2104 42,1023.7104 Z " fill="#33FF33"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="72.5" y="1016.1836">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="78" y="1030.7676">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="92" x="52" y="1047.3623">SharedBoard</text></g><!--MD5=[5bdc71683edea6adee4442f3a444c148]
+class SharedBoardTitle--><g id="elem_SharedBoardTitle"><rect codeLine="18" fill="#282828" height="41.5986" id="SharedBoardTitle" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="149" x="235" y="1297.1191"/><ellipse cx="248" cy="1317.9185" fill="#282828" rx="9" ry="9" style="stroke:#33FF33;stroke-width:1.0;"/><path d="M250,1314.4185 Q250.2031,1313.9185 250.4375,1313.6685 Q250.6719,1313.4185 250.9375,1313.4185 Q251.4063,1313.4185 251.7031,1313.6997 Q252,1313.981 252,1314.6372 L252,1316.1997 Q252,1316.856 251.7188,1317.1372 Q251.4375,1317.4185 251,1317.4185 Q250.6094,1317.4185 250.3594,1317.2466 Q250.1094,1317.0747 250,1316.6216 Q249.9531,1316.3091 249.7813,1316.1372 Q249.4688,1315.8091 248.9063,1315.6216 Q248.3438,1315.4185 247.7813,1315.4185 Q247.0781,1315.4185 246.4844,1315.6997 Q245.9063,1315.981 245.4531,1316.606 Q245,1317.231 245,1318.0903 L245,1319.0122 Q245,1320.0435 245.8438,1320.731 Q246.6875,1321.4185 248.1875,1321.4185 Q249.0781,1321.4185 249.7031,1321.2153 Q250.0625,1321.106 250.4688,1320.7466 Q250.7344,1320.5435 250.875,1320.481 Q251.0156,1320.4185 251.1875,1320.4185 Q251.5156,1320.4185 251.75,1320.6841 Q252,1320.9341 252,1321.2935 Q252,1321.6372 251.6563,1322.0435 Q251.1563,1322.6372 250.3594,1322.9653 Q249.3125,1323.4185 248.0313,1323.4185 Q246.5313,1323.4185 245.3281,1322.8247 Q244.3594,1322.356 243.6719,1321.3403 Q243,1320.3247 243,1319.1216 L243,1318.0278 Q243,1316.7778 243.5938,1315.6841 Q244.2031,1314.5903 245.25,1314.0122 Q246.3125,1313.4185 247.5,1313.4185 Q248.2188,1313.4185 248.8438,1313.6685 Q249.4688,1313.9185 250,1314.4185 Z " fill="#33FF33"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="305.5" y="1314.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="121" x="260" y="1330.7783">SharedBoardTitle</text></g><!--MD5=[f2f0d05636fa2653b2cd4b8db9a3a616]
+class CreationTimestamp--><g id="elem_CreationTimestamp"><rect codeLine="19" fill="#282828" height="41.5986" id="CreationTimestamp" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="164" x="227.5" y="1105.1191"/><ellipse cx="240.5" cy="1125.9185" fill="#282828" rx="9" ry="9" style="stroke:#33FF33;stroke-width:1.0;"/><path d="M242.5,1122.4185 Q242.7031,1121.9185 242.9375,1121.6685 Q243.1719,1121.4185 243.4375,1121.4185 Q243.9063,1121.4185 244.2031,1121.6997 Q244.5,1121.981 244.5,1122.6372 L244.5,1124.1997 Q244.5,1124.856 244.2188,1125.1372 Q243.9375,1125.4185 243.5,1125.4185 Q243.1094,1125.4185 242.8594,1125.2466 Q242.6094,1125.0747 242.5,1124.6216 Q242.4531,1124.3091 242.2813,1124.1372 Q241.9688,1123.8091 241.4063,1123.6216 Q240.8438,1123.4185 240.2813,1123.4185 Q239.5781,1123.4185 238.9844,1123.6997 Q238.4063,1123.981 237.9531,1124.606 Q237.5,1125.231 237.5,1126.0903 L237.5,1127.0122 Q237.5,1128.0435 238.3438,1128.731 Q239.1875,1129.4185 240.6875,1129.4185 Q241.5781,1129.4185 242.2031,1129.2153 Q242.5625,1129.106 242.9688,1128.7466 Q243.2344,1128.5435 243.375,1128.481 Q243.5156,1128.4185 243.6875,1128.4185 Q244.0156,1128.4185 244.25,1128.6841 Q244.5,1128.9341 244.5,1129.2935 Q244.5,1129.6372 244.1563,1130.0435 Q243.6563,1130.6372 242.8594,1130.9653 Q241.8125,1131.4185 240.5313,1131.4185 Q239.0313,1131.4185 237.8281,1130.8247 Q236.8594,1130.356 236.1719,1129.3403 Q235.5,1128.3247 235.5,1127.1216 L235.5,1126.0278 Q235.5,1124.7778 236.0938,1123.6841 Q236.7031,1122.5903 237.75,1122.0122 Q238.8125,1121.4185 240,1121.4185 Q240.7188,1121.4185 241.3438,1121.6685 Q241.9688,1121.9185 242.5,1122.4185 Z " fill="#33FF33"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="305.5" y="1122.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="136" x="252.5" y="1138.7783">CreationTimestamp</text></g><!--MD5=[5c5f3f5d6f0a3c95c9e227c12eaeba8d]
+class SharedBoardState--><g id="elem_SharedBoardState"><rect codeLine="20" fill="#282828" height="56.1826" id="SharedBoardState" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="158" x="230.5" y="899.1191"/><ellipse cx="243.5" cy="927.2104" fill="#282828" rx="9" ry="9" style="stroke:#33FF33;stroke-width:1.0;"/><path d="M245.5,923.7104 Q245.7031,923.2104 245.9375,922.9604 Q246.1719,922.7104 246.4375,922.7104 Q246.9063,922.7104 247.2031,922.9917 Q247.5,923.2729 247.5,923.9292 L247.5,925.4917 Q247.5,926.1479 247.2188,926.4292 Q246.9375,926.7104 246.5,926.7104 Q246.1094,926.7104 245.8594,926.5386 Q245.6094,926.3667 245.5,925.9136 Q245.4531,925.6011 245.2813,925.4292 Q244.9688,925.1011 244.4063,924.9136 Q243.8438,924.7104 243.2813,924.7104 Q242.5781,924.7104 241.9844,924.9917 Q241.4063,925.2729 240.9531,925.8979 Q240.5,926.5229 240.5,927.3823 L240.5,928.3042 Q240.5,929.3354 241.3438,930.0229 Q242.1875,930.7104 243.6875,930.7104 Q244.5781,930.7104 245.2031,930.5073 Q245.5625,930.3979 245.9688,930.0386 Q246.2344,929.8354 246.375,929.7729 Q246.5156,929.7104 246.6875,929.7104 Q247.0156,929.7104 247.25,929.9761 Q247.5,930.2261 247.5,930.5854 Q247.5,930.9292 247.1563,931.3354 Q246.6563,931.9292 245.8594,932.2573 Q244.8125,932.7104 243.5313,932.7104 Q242.0313,932.7104 240.8281,932.1167 Q239.8594,931.6479 239.1719,930.6323 Q238.5,929.6167 238.5,928.4136 L238.5,927.3198 Q238.5,926.0698 239.0938,924.9761 Q239.7031,923.8823 240.75,923.3042 Q241.8125,922.7104 243,922.7104 Q243.7188,922.7104 244.3438,922.9604 Q244.9688,923.2104 245.5,923.7104 Z " fill="#33FF33"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="305.5" y="916.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="295" y="930.7676">«enum»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="130" x="255.5" y="947.3623">SharedBoardState</text></g><!--MD5=[f571bf22324d4c4a7242538c26f4d98c]
+class SharedBoardParticipation--><g id="elem_SharedBoardParticipation"><rect codeLine="28" fill="#282828" height="56.1826" id="SharedBoardParticipation" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="205" x="207" y="567.1191"/><ellipse cx="220" cy="595.2104" fill="#282828" rx="9" ry="9" style="stroke:#33FF33;stroke-width:1.0;"/><path d="M222,591.7104 Q222.2031,591.2104 222.4375,590.9604 Q222.6719,590.7104 222.9375,590.7104 Q223.4063,590.7104 223.7031,590.9917 Q224,591.2729 224,591.9292 L224,593.4917 Q224,594.1479 223.7188,594.4292 Q223.4375,594.7104 223,594.7104 Q222.6094,594.7104 222.3594,594.5386 Q222.1094,594.3667 222,593.9136 Q221.9531,593.6011 221.7813,593.4292 Q221.4688,593.1011 220.9063,592.9136 Q220.3438,592.7104 219.7813,592.7104 Q219.0781,592.7104 218.4844,592.9917 Q217.9063,593.2729 217.4531,593.8979 Q217,594.5229 217,595.3823 L217,596.3042 Q217,597.3354 217.8438,598.0229 Q218.6875,598.7104 220.1875,598.7104 Q221.0781,598.7104 221.7031,598.5073 Q222.0625,598.3979 222.4688,598.0386 Q222.7344,597.8354 222.875,597.7729 Q223.0156,597.7104 223.1875,597.7104 Q223.5156,597.7104 223.75,597.9761 Q224,598.2261 224,598.5854 Q224,598.9292 223.6563,599.3354 Q223.1563,599.9292 222.3594,600.2573 Q221.3125,600.7104 220.0313,600.7104 Q218.5313,600.7104 217.3281,600.1167 Q216.3594,599.6479 215.6719,598.6323 Q215,597.6167 215,596.4136 L215,595.3198 Q215,594.0698 215.5938,592.9761 Q216.2031,591.8823 217.25,591.3042 Q218.3125,590.7104 219.5,590.7104 Q220.2188,590.7104 220.8438,590.9604 Q221.4688,591.2104 222,591.7104 Z " fill="#33FF33"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="295" y="584.1836">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="300.5" y="598.7676">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="177" x="232" y="615.3623">SharedBoardParticipation</text></g><!--MD5=[a7e0804515709e556f13ed1297f351ac]
+class UserPermission--><g id="elem_UserPermission"><rect codeLine="29" fill="#282828" height="56.1826" id="UserPermission" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="135" x="646.5" y="376.1191"/><ellipse cx="659.5" cy="404.2104" fill="#282828" rx="9" ry="9" style="stroke:#33FF33;stroke-width:1.0;"/><path d="M661.5,400.7104 Q661.7031,400.2104 661.9375,399.9604 Q662.1719,399.7104 662.4375,399.7104 Q662.9063,399.7104 663.2031,399.9917 Q663.5,400.2729 663.5,400.9292 L663.5,402.4917 Q663.5,403.1479 663.2188,403.4292 Q662.9375,403.7104 662.5,403.7104 Q662.1094,403.7104 661.8594,403.5386 Q661.6094,403.3667 661.5,402.9136 Q661.4531,402.6011 661.2813,402.4292 Q660.9688,402.1011 660.4063,401.9136 Q659.8438,401.7104 659.2813,401.7104 Q658.5781,401.7104 657.9844,401.9917 Q657.4063,402.2729 656.9531,402.8979 Q656.5,403.5229 656.5,404.3823 L656.5,405.3042 Q656.5,406.3354 657.3438,407.0229 Q658.1875,407.7104 659.6875,407.7104 Q660.5781,407.7104 661.2031,407.5073 Q661.5625,407.3979 661.9688,407.0386 Q662.2344,406.8354 662.375,406.7729 Q662.5156,406.7104 662.6875,406.7104 Q663.0156,406.7104 663.25,406.9761 Q663.5,407.2261 663.5,407.5854 Q663.5,407.9292 663.1563,408.3354 Q662.6563,408.9292 661.8594,409.2573 Q660.8125,409.7104 659.5313,409.7104 Q658.0313,409.7104 656.8281,409.1167 Q655.8594,408.6479 655.1719,407.6323 Q654.5,406.6167 654.5,405.4136 L654.5,404.3198 Q654.5,403.0698 655.0938,401.9761 Q655.7031,400.8823 656.75,400.3042 Q657.8125,399.7104 659,399.7104 Q659.7188,399.7104 660.3438,399.9604 Q660.9688,400.2104 661.5,400.7104 Z " fill="#33FF33"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="710" y="393.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="699.5" y="407.7676">«enum»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="107" x="671.5" y="424.3623">UserPermission</text></g><g id="elem_GMN19"><path d="M472,582.1191 L472,607.9185 A0,0 0 0 0 472,607.9185 L956,607.9185 A0,0 0 0 0 956,607.9185 L956,592.1191 L946,582.1191 L718,582.1191 L714,432.2691 L710,582.1191 L472,582.1191 A0,0 0 0 0 472,582.1191 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><path d="M946,582.1191 L946,592.1191 L956,592.1191 L946,582.1191 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="463" x="478" y="600.189">This tells what permission the user contains in a specific SharedBoard</text></g><!--MD5=[51fd3fce36c976f35b405d5800336138]
+class UserStatus--><g id="elem_UserStatus"><rect codeLine="31" fill="#282828" height="56.1826" id="UserStatus" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="107" x="660.5" y="758.1191"/><ellipse cx="673.5" cy="786.2104" fill="#282828" rx="9" ry="9" style="stroke:#33FF33;stroke-width:1.0;"/><path d="M675.5,782.7104 Q675.7031,782.2104 675.9375,781.9604 Q676.1719,781.7104 676.4375,781.7104 Q676.9063,781.7104 677.2031,781.9917 Q677.5,782.2729 677.5,782.9292 L677.5,784.4917 Q677.5,785.1479 677.2188,785.4292 Q676.9375,785.7104 676.5,785.7104 Q676.1094,785.7104 675.8594,785.5386 Q675.6094,785.3667 675.5,784.9136 Q675.4531,784.6011 675.2813,784.4292 Q674.9688,784.1011 674.4063,783.9136 Q673.8438,783.7104 673.2813,783.7104 Q672.5781,783.7104 671.9844,783.9917 Q671.4063,784.2729 670.9531,784.8979 Q670.5,785.5229 670.5,786.3823 L670.5,787.3042 Q670.5,788.3354 671.3438,789.0229 Q672.1875,789.7104 673.6875,789.7104 Q674.5781,789.7104 675.2031,789.5073 Q675.5625,789.3979 675.9688,789.0386 Q676.2344,788.8354 676.375,788.7729 Q676.5156,788.7104 676.6875,788.7104 Q677.0156,788.7104 677.25,788.9761 Q677.5,789.2261 677.5,789.5854 Q677.5,789.9292 677.1563,790.3354 Q676.6563,790.9292 675.8594,791.2573 Q674.8125,791.7104 673.5313,791.7104 Q672.0313,791.7104 670.8281,791.1167 Q669.8594,790.6479 669.1719,789.6323 Q668.5,788.6167 668.5,787.4136 L668.5,786.3198 Q668.5,785.0698 669.0938,783.9761 Q669.7031,782.8823 670.75,782.3042 Q671.8125,781.7104 673,781.7104 Q673.7188,781.7104 674.3438,781.9604 Q674.9688,782.2104 675.5,782.7104 Z " fill="#33FF33"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="710" y="775.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="699.5" y="789.7676">«enum»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="79" x="685.5" y="806.3623">UserStatus</text></g><g id="elem_GMN23"><path d="M1016,773.1191 L1016,782.1191 L767.89,786.1191 L1016,790.1191 L1016,798.9185 A0,0 0 0 0 1016,798.9185 L1346,798.9185 A0,0 0 0 0 1346,798.9185 L1346,783.1191 L1336,773.1191 L1016,773.1191 A0,0 0 0 0 1016,773.1191 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><path d="M1336,773.1191 L1336,783.1191 L1346,783.1191 L1336,773.1191 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="309" x="1022" y="791.189">This tells if the user is a guest or a participant</text></g><!--MD5=[ec4b41d87a035c3f1948d59ccd51dd25]
+link SystemUser to UserName--><g id="link_SystemUser_UserName"><path codeLine="12" d="M143.64,264.8891 C177.67,265.9691 220.99,267.3391 254.68,268.4091 " fill="none" id="SystemUser-to-UserName" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="260,268.5791,251.1301,264.2984,255.0025,268.4221,250.8788,272.2944,260,268.5791" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="244.1422" y="282.6125">1</text></g><!--MD5=[df920ce72f6aadcf91be3be9046ad77a]
+link SystemUser to UserPassword--><g id="link_SystemUser_UserPassword"><path codeLine="13" d="M116.42,235.0791 C134.95,217.1591 159.89,193.6991 183,174.1191 C213.3,148.4491 249.46,121.1191 275.16,102.2091 " fill="none" id="SystemUser-to-UserPassword" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="279.2,99.2491,269.5743,101.334,275.1644,102.201,274.2973,107.791,279.2,99.2491" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="262.4106" y="119.8092">1</text></g><!--MD5=[78b8b575354b14f7330c44f851538776]
+link SharedBoard to SharedBoardState--><g id="link_SharedBoard_SharedBoardState"><path codeLine="22" d="M147.09,1000.3191 C176.27,987.0891 211.6,971.0691 241.76,957.3891 " fill="none" id="SharedBoard-to-SharedBoardState" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="246.55,955.2191,236.7016,955.3136,242.0006,957.2935,240.0206,962.5926,246.55,955.2191" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="223.0678" y="976.5928">1</text></g><!--MD5=[76f41b5a429d3a028f538df6f7d64af4]
+link SharedBoard to SharedBoardTitle--><g id="link_SharedBoard_SharedBoardTitle"><path codeLine="23" d="M97.03,1055.2691 C110.88,1095.3991 140.32,1169.9391 183,1222.1191 C206.9,1251.3491 241.38,1276.8991 268.15,1294.2691 " fill="none" id="SharedBoard-to-SharedBoardTitle" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="272.38,1296.9891,266.9724,1288.7576,268.1741,1294.2854,262.6464,1295.487,272.38,1296.9891" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="251.787" y="1286.4749">1</text></g><!--MD5=[6c8f93ae20167fa250617700ff1b7913]
+link SharedBoard to CreationTimestamp--><g id="link_SharedBoard_CreationTimestamp"><path codeLine="24" d="M147.09,1053.6491 C181.26,1068.9891 223.85,1088.1091 256.7,1102.8591 " fill="none" id="SharedBoard-to-CreationTimestamp" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="261.47,1104.9991,254.9128,1097.6505,256.9128,1102.942,251.6213,1104.942,261.47,1104.9991" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="237.5358" y="1094.4879">1</text></g><!--MD5=[c144ca6af167310fbeea43b517d5046b]
+link SharedBoardParticipation to UserPermission--><g id="link_SharedBoardParticipation_UserPermission"><path codeLine="34" d="M359.34,566.9291 C391.05,549.0191 433.5,525.7791 472,507.1191 C528.12,479.9091 593.24,452.3091 641.63,432.5391 " fill="none" id="SharedBoardParticipation-to-UserPermission" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="646.26,430.6491,636.416,430.3404,641.6295,432.5356,639.4344,437.7492,646.26,430.6491" style="stroke:#33FF33;stroke-width:1.0;"/></g><!--MD5=[564c5d6510d625b3f4c0ebbaba049249]
+link SharedBoardParticipation to UserStatus--><g id="link_SharedBoardParticipation_UserStatus"><path codeLine="35" d="M359.34,623.3091 C391.05,641.2191 433.5,664.4591 472,683.1191 C533.68,713.0191 606.22,743.3991 655.48,763.3391 " fill="none" id="SharedBoardParticipation-to-UserStatus" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="660.17,765.2291,653.3256,758.1472,655.5346,763.3549,650.3268,765.5639,660.17,765.2291" style="stroke:#33FF33;stroke-width:1.0;"/></g><!--MD5=[2cd3fd2f9034458a377dbfefb16f8fd1]
+reverse link SharedBoard to SharedBoardParticipation--><g id="link_SharedBoard_SharedBoardParticipation"><path codeLine="36" d="M104.71,994.3691 C146.49,912.5291 254.9,700.1391 294.09,623.3491 " fill="none" id="SharedBoard-backto-SharedBoardParticipation" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="102.3,999.1091,109.9504,992.9066,104.5703,994.6543,102.8226,989.2742,102.3,999.1091" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="97.0544" y="988.5986">1</text></g><!--MD5=[18685700dbc4ef54633fec50ef75f1ab]
+reverse link SystemUser to SharedBoardParticipation--><g id="link_SystemUser_SharedBoardParticipation"><path codeLine="37" d="M109.62,295.6791 C152.79,360.6691 248.98,505.4991 289.71,566.8191 " fill="none" id="SystemUser-backto-SharedBoardParticipation" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="106.61,291.1391,108.251,300.8503,109.3736,295.306,114.9179,296.4286,106.61,291.1391" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="102.2198" y="312.4943">1</text></g><!--MD5=[66487ba21560426337f275cacbeae4fb]
+@startuml DDD
+
+!theme crt-green
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+package "<<agr SystemUser>>"{
+    class SystemUser<<entity>><<root>>{}
+    class UserName<<vo>>{}
+    class UserPassword<<vo>>{}
+
+    SystemUser - -> "1" UserName
+    SystemUser - -> "1" UserPassword
+}
+
+package "<<agr SharedBoard>>"{
+    class SharedBoard<<entity>><<root>>{}
+    class SharedBoardTitle<<vo>>{}
+    class CreationTimestamp<<vo>>{}
+    class SharedBoardState<<vo>><<enum>>{}
+
+    SharedBoard - -> "1" SharedBoardState
+    SharedBoard - -> "1" SharedBoardTitle
+    SharedBoard - -> "1" CreationTimestamp
+}
+
+package "<<agr SharedBoardParticipation>>"{
+    class SharedBoardParticipation<<entity>><<root>>{}
+    class UserPermission<<vo>><<enum>>{}
+    note top: This tells what permission the user contains in a specific SharedBoard
+    class UserStatus <<vo>><<enum>>{}
+    note right: This tells if the user is a guest or a participant
+
+    SharedBoardParticipation - -> UserPermission
+    SharedBoardParticipation - -> UserStatus
+    SharedBoard "1" <- - SharedBoardParticipation
+    SystemUser "1" <- - SharedBoardParticipation
+}
+
+
+@enduml
+
+@startuml DDD
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor #282828
+    FontColor #33FF33
+    FontName Verdana
+    HyperLinkColor #33FF33
+    LineColor #33FF33
+    LineThickness 1
+    Margin 5
+  }
+  box {
+    LineStyle 12-18
+    LineThickness 3
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  referenceHeader {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor #33FF33
+skinparam BackgroundColor #282828
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy solid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor #33FF33
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor #282828
+  BarColor #33FF33
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor #33FF33
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor #282828
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor #282828
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Header {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color #33FF33
+}
+skinparam IconPackage {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconPrivate {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconProtected {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconPublic {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam Note {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor #33FF33
+}
+skinparam Package {
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor #282828
+  BorderColor #33FF33
+}
+skinparam StereotypeA {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeC {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeE {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeI {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeN {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam UseCaseStereoType {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+package "<<agr SystemUser>>"{
+    class SystemUser<<entity>><<root>>{}
+    class UserName<<vo>>{}
+    class UserPassword<<vo>>{}
+
+    SystemUser - -> "1" UserName
+    SystemUser - -> "1" UserPassword
+}
+
+package "<<agr SharedBoard>>"{
+    class SharedBoard<<entity>><<root>>{}
+    class SharedBoardTitle<<vo>>{}
+    class CreationTimestamp<<vo>>{}
+    class SharedBoardState<<vo>><<enum>>{}
+
+    SharedBoard - -> "1" SharedBoardState
+    SharedBoard - -> "1" SharedBoardTitle
+    SharedBoard - -> "1" CreationTimestamp
+}
+
+package "<<agr SharedBoardParticipation>>"{
+    class SharedBoardParticipation<<entity>><<root>>{}
+    class UserPermission<<vo>><<enum>>{}
+    note top: This tells what permission the user contains in a specific SharedBoard
+    class UserStatus <<vo>><<enum>>{}
+    note right: This tells if the user is a guest or a participant
+
+    SharedBoardParticipation - -> UserPermission
+    SharedBoardParticipation - -> UserStatus
+    SharedBoard "1" <- - SharedBoardParticipation
+    SystemUser "1" <- - SharedBoardParticipation
+}
+
+
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 19:12:26 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

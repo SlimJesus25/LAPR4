@@ -1,0 +1,49 @@
+@startuml
+
+actor User as user
+participant SharedBoardHistoryUI as ui <<presentation>>
+participant ListAllSharedBoardsService as svc1 <<application>>
+participant SendRequestService as svc2 <<application>>
+database SharedBoardRepository as sbp_repo <<persistence>>
+participant Server as server <<server>>
+participant ViewSharedBoardHistoryController as ctrl <<application>>
+participant SharedBoard as board <<domain>>
+
+activate user
+user -> ui : asks to view history of a shared board
+activate ui
+ui -> svc1 : List<SharedBoardDTO> sharedBoards = listAllBoards()
+activate svc1
+
+svc1 -> sbp_repo : List<SharedBoard> sharedBoards = listAllSharedBoards()
+activate sbp_repo
+sbp_repo --> svc1 : List<SharedBoard> sharedBoards
+deactivate sbp_repo
+svc1 --> ui : List<SharedBoardDTO> sharedBoards
+deactivate svc1
+ui --> user : shows writable shared boards and asks to select one
+deactivate ui
+user -> ui : selects one shared board
+activate ui
+ui-> svc2 : sendViewHistorySharedBoardRequest()
+activate svc2
+svc2 -> server : establishes TCP connection
+activate server
+server --> svc2 : accepts the request
+deactivate server
+svc2 -> server: send shared board data
+activate server
+server -> ctrl : viewHistoryOfUpdates(sharedBoard)
+activate ctrl
+ctrl -> board : viewHistoryOfUpdates()
+deactivate ctrl
+server -> server: generate the string
+server --> svc2: information data
+deactivate server
+svc2 --> ui : information data
+deactivate svc2
+ui --> user : show the history information
+deactivate ui
+deactivate user
+
+@enduml

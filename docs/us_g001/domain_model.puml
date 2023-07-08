@@ -1,0 +1,332 @@
+@startuml DDD
+
+!theme crt-green
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+package "<<agr User>>"{
+    class User<<entity>><<root>>{
+    }
+    class UserTaxPayerNumber<<vo>>{
+    }
+    class UserName<<vo>>{
+    }
+    class UserDateOfBirth<<vo>>{
+    }
+    class UserPassword<<vo>>{
+    }
+    User "1" --> "1" UserTaxPayerNumber
+    User "1" --> "1" UserName
+    User "1" --> "1" UserDateOfBirth
+    User "1" --> "1" UserPassword
+}
+
+package "<<agr Manager>>"{
+
+    class Manager<<entity>><<root>>{}
+    User "1"-up-> "1"Manager
+
+}
+
+package "<<agr Teacher>>"{
+
+    class Teacher<<entity>><<root>>{
+    }
+    class TeacherAcronym<<vo>>{
+    }
+
+    Teacher "1" -down-> "1" TeacherAcronym
+    User "1"--> "1"Teacher
+}
+
+package "<<agr Course>>"{
+    class Course<<entity>><<root>>{
+    }
+    class CourseEnrolledStudent<<vo>>{
+    }
+    class CourseCode <<vo>>
+    class CourseDescription<<vo>>{
+    }
+    class CourseRegent<<vo>>{}
+
+    class CourseTitle<<vo>>{
+    }
+    class CourseState<<vo>>{
+    }
+    note right: this is an enum
+    Course "*" ---> "1" CourseState
+    Course "*" -down--> "1" CourseRegent
+    Course "1" -down-> "1" CourseTitle
+    Course "1" -down-> "1" CourseDescription
+    Course "1" -down-> "1" CourseCode
+    Manager "1" -> "*"  Course : manages
+    Course "1" --> "1" CourseEnrolledStudent
+    CourseRegent "1" --> "1" Teacher
+}
+
+package "<<agr TeacherSchedule>>"{
+    class TeacherSchedule <<entity>><<root>>{}
+
+    Teacher "1"  --> "1" TeacherSchedule : has
+}
+
+package "<<agr CourseEnrollment>>"{
+    class CourseEnrollment <<entity>><<root>>{
+    }
+    class CourseEnrollmentState <<vo>>{
+    }
+    class CourseEnrollmentDate <<vo>>{
+    }
+    CourseEnrollment "*" --> "1" Course : applied to
+    CourseEnrollment "1" --> "1" CourseEnrollmentState
+    CourseEnrollment "*"--left--> "1"Manager : can be approved by
+    CourseEnrollment "1" --> "1" CourseEnrollmentDate
+}
+
+package "<<agr CourseTeam>>"{
+    class CourseTeam<<entity>><<root>>{}
+    class CourseTeamCreationDate<<vo>>{}
+
+    CourseTeam "1" --> "1" CourseTeamCreationDate
+    Teacher "*" -> "1" CourseTeam : is part of
+    Course "1" --> "1" CourseTeam : instructed by
+}
+
+
+package "<<agr Exam>>"{
+    class Exam  <<entity>><<root>> {
+    }
+    class ExamTitle <<vo>>{
+    }
+    class ExamHeader <<entity>>{
+    }
+    class ExamHeaderTextualDescription <<vo>>{
+    }
+    class ExamSection <<entity>>{
+    }
+    class ExamSectionTextualDescription <<vo>>{
+    }
+    class ExamQuestion <<entity>>{
+    }
+    class ExamQuestionNumber <<vo>>{
+    }
+    class ExamQuestionValue <<vo>>{
+    }
+    Teacher --> Exam : creates
+    Exam "1" -right-> "1" ExamTitle
+    Exam "1" ---> "1" ExamHeader
+    ExamHeader --> "0..1" ExamHeaderTextualDescription
+    Exam "1" ---> "1..*" ExamSection :composed by
+    ExamSection "1" --> "0..1" ExamSectionTextualDescription
+    ExamQuestion "1" ---> "1" ExamQuestionValue
+    ExamQuestion "1" ---> "1" ExamQuestionNumber
+    ExamSection "1" ---> "*" ExamQuestion : composed by
+}
+
+package "<<agr ExamQuestionType>>"{
+
+    class ExamQuestionType <<entity>><<root>>{
+    }
+
+    class ExamMatchingQuestion <<vo>>{
+    }
+
+    class ExamMultipleChoiceQuestion <<vo>>{
+    }
+
+    class ExamShortAnswerQuestion <<vo>>{
+    }
+
+    class ExamNumericalQuestion <<vo>>{
+    }
+
+    class ExamMissingWordsQuestion <<vo>>{
+    }
+
+    class ExamVeracityQuestion <<vo>>{
+    }
+
+    ExamQuestionType <|-- ExamMatchingQuestion
+    ExamQuestionType <|-- ExamNumericalQuestion
+    ExamQuestionType <|-- ExamShortAnswerQuestion
+    ExamQuestionType <|-- ExamMissingWordsQuestion
+    ExamQuestionType <|-- ExamVeracityQuestion
+    ExamQuestionType <|-- ExamMultipleChoiceQuestion
+    ExamQuestion "*" ----> "1" ExamQuestionType : differs through
+}
+
+
+
+
+
+package "<<agr Lecture>>"{
+    class Lecture<<entity>><<root>>{
+    }
+    class LectureDuration<<vo>>{
+    }
+    class LectureDate<<vo>>{
+    }
+    class LectureTime<<vo>>{
+    }
+    class LectureType<<vo>>{
+    }
+    note right: this is an enum
+
+    Lecture"1" --> "1"LectureDuration
+    Lecture"1" --> "1"LectureDate
+    Lecture"1" --> "1"LectureTime
+    Lecture "1"--> "1"Course : is associated to
+    Lecture "*" <-- "1" TeacherSchedule : has
+    Lecture "1" --> "1" LectureType
+}
+
+package "<<agr LectureParticipant>>"{
+    class LectureParticipant<<entity>><<root>>{
+    }
+
+    LectureParticipant "*" <-- "1" Lecture
+
+}
+
+package "<<agr Meeting>>"{
+    class Meeting<<entity>><<root>>{
+    }
+    class MeetingDuration<<vo>>{
+    }
+    class MeetingParticipant<<entity>>{
+    }
+    class MeetingTime<<vo>>{
+    }
+    class MeetingDate<<vo>>{
+    }
+
+    Meeting "1" --> "1"MeetingDuration
+    Meeting"1" --> "*"MeetingParticipant : attended by
+    Meeting"1" --> "1"MeetingTime
+    Meeting "1"--> "1"MeetingDate
+    User -----> Meeting : creates
+    Course "1" ----> "*" Meeting
+}
+
+package "<<agr Student>>"{
+
+    class Student<<entity>><<root>>{
+    }
+    class MechanographicalNumber<<vo>>{
+    }
+    Student "1" --> "1" MechanographicalNumber
+    User "1"-->"1" Student
+    Student"1" --> "*"CourseEnrollment : enrolls
+    Student "1" <-- "*" LectureParticipant
+}
+
+package "<<agr SharedBoard>>"{
+    class SharedBoard<<entity>><<root>>{
+    }
+    class SharedBoardTitle<<vo>>{
+    }
+    class SharedBoardMaxCells<<vo>>{
+    }
+    class SharedBoardCell<<vo>>{
+    }
+    class SharedBoardColumn<<entity>><<root>>{
+    }
+    class SharedBoardColumnTitle<<vo>>{
+    }
+    class SharedBoardColumnNumber<<vo>>{
+    }
+    class SharedBoardParticipant<<entity>>{
+    }
+    class SharedBoardPermission<<vo>>{
+    }
+    class SharedBoardGuest<<entity>>{
+    }
+    class SharedBoardArchived<<vo>>{}
+
+    SharedBoard "1" --> "1" SharedBoardArchived
+    SharedBoardGuest "1" --> "1" User
+    SharedBoardParticipant "1" <-- "1" SharedBoardGuest
+    SharedBoardParticipant "*" --> "1" SharedBoard : "interacts with"
+    SharedBoardParticipant "1" --> "1..*" SharedBoardPermission
+    SharedBoardColumn "1" --> "0..1" SharedBoardColumnTitle : "may have"
+    SharedBoardColumn "1" --> "1" SharedBoardColumnNumber
+    SharedBoard -> SharedBoardMaxCells
+    SharedBoard "1" --> "1"SharedBoardTitle
+    SharedBoard "1"--> "*"SharedBoardCell
+    SharedBoardCell "1" --> "1" SharedBoardColumn
+    SharedBoardCell "1" --> "1" SharedBoardRow
+     class SharedBoardRow<<entity>><<root>>{
+     }
+        class SharedBoardRowTitle<<vo>>{
+        }
+        class SharedBoardRowNumber<<vo>>{
+        }
+        SharedBoardRow "1" --> "0..1" SharedBoardRowTitle : "may have"
+        SharedBoardRow "1" --> "1" SharedBoardRowNumber
+
+}
+
+package "<<agr PostIt>>"{
+    class PostIt<<entity>><<root>>{}
+    class PostItCreationTimestamp<<vo>>{}
+    'class PostItType<<vo>>{}
+    class PostItContent<<vo>>{}
+    class PostItCreator<<entity>>{}
+    class PostItChanger<<entity>>{}
+    class PostItHistory<<entity>>{}
+    PostIt --> PostItHistory
+
+    PostItHistory --> PostItCreator
+    'PostItHistory --> PostItType
+    PostItHistory --> PostItCreationTimestamp
+    PostItHistory --> PostItContent
+    PostItHistory --> PostItChanger
+
+    PostIt --> PostItCreationTimestamp
+    'PostIt --> PostItType
+    SharedBoardCell "1" --> "1..0" PostIt
+    PostIt --> PostItContent
+    PostIt --> PostItCreator
+    PostItCreator "1..*" --> "1" SharedBoard : participates
+}
+
+package "<<agr FormerExam>>"{
+    class FormerExam<<entity>><<root>>{}
+    class FormerExamGrade<<vo>>{}
+    class FormerExamTitle<<vo>>{}
+    class FormerExamSection<<entity>>{}
+
+    FormerExam "1" --> "1" FormerExamGrade
+    FormerExam "1" -right-> "1" FormerExamTitle
+    Student "*" --> "1" FormerExam : takes
+    FormerExam "1" --> "1..*" FormerExamSection : composed by
+    class FormerExamQuestion<<entity>><<root>>{}
+    class FormerExamQuestionFeedback<<vo>>{}
+    class FormerExamQuestionSolution<<vo>>{}
+    class FormerExamQuestionNumber<<vo>>{}
+    class FormerExamQuestionAnswer<<vo>>{}
+
+    FormerExamSection "1" --> "*" FormerExamQuestion : composed by
+    FormerExamQuestion "1" --> "1" FormerExamQuestionFeedback
+    FormerExamQuestion "1" --> "1" FormerExamQuestionSolution
+    FormerExamQuestion "1" --> "1" FormerExamQuestionNumber
+    FormerExamQuestion "1" -down-> "1" FormerExamQuestionAnswer
+}
+
+'               Events and Services Zone
+
+'class ExamCreated<<event>>{
+'}
+'class ExamCreatedWatchdog<<service>>{
+'}
+
+'ExamCreatedWatchdog ..> ExamCreated : consumes
+'Exam ..> ExamCreated : publishes
+'FormerExam ..> ExamCreatedWatchdog : observes
+
+hide circle
+hide fields
+
+
+@enduml

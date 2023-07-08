@@ -1,0 +1,39 @@
+@startuml
+
+actor User as user
+participant SharedBoardUI as ui <<presentation>>
+participant SharedBoardController as cntr<<application>>
+participant SendRequestService as svc2 <<application>>
+database SharedBoardRepository as sbp_repo <<persistence>>
+participant Server as server <<server>>
+participant Http as Http <<site>>
+
+activate user
+user -> ui : asks to view a shared board
+activate ui
+ui -> cntr : List<SharedBoardDTO> sharedBoards = listAllBoards()
+activate cntr
+cntr -> sbp_repo : List<SharedBoard> sharedBoards = listAllSharedBoards()
+activate sbp_repo
+sbp_repo --> cntr : List<SharedBoard> sharedBoards
+deactivate sbp_repo
+cntr --> ui : List<SharedBoardDTO> sharedBoards
+deactivate cntr
+ui --> user : shows writable shared boards and asks to select one
+deactivate ui
+user -> ui : selects one shared board
+activate ui
+ui-> svc2 : sendSharedBoard(board)
+activate svc2
+svc2 -> server : establishes TCP connection
+activate server
+server --> svc2 : accepts the request
+
+svc2 -> server: send shared board data
+server -> Http : start(sharedBoard)
+deactivate server
+deactivate svc2
+deactivate ui
+deactivate user
+
+@enduml

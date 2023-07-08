@@ -1,0 +1,143 @@
+@startuml
+title  Verifications and creation of lecture
+autonumber
+actor Student as S
+participant "CreateLectureUI" as UI <<presentation>>
+participant "FindTeacherByUsernameService" as FindTeacherSer <<application>>
+participant "ListExtraClassesOfTeacherService" as ListExtraClasses <<application>>
+participant "FindCourseByCourseCodeService" as FindCourse <<application>>
+participant "ValidateExtraClassesCallerService" as ValidateCaller <<application>>
+participant "ValidateExtraClassesService" as Validate <<domain>>
+participant "CheckMeetingCollisionService" as CheckMeetingColl <<application>>
+participant "CheckAvailabilityService" as CheckAvailability <<domain>>
+participant "LectureInDayAndHourService" as LectureInDayAndHour <<domain>>
+participant "CollisionLecturesCourseService" as CollisionLectureCaller <<application>>
+participant "CollisionLectureAndLecturesCourseService" as CollisionLecture <<domain>>
+participant "CreateLectureController" as Cntrl <<application>>
+participant "LectureFactory" as Factory <<domain>>
+participant "Lecture" as Lecture <<domain>>
+database "CourseRepository" as CourseRepo <<persistence>>
+database "MeetingParticipantRepository" as MeetingPartRepo <<persistence>>
+database "ExtraLectureRepository" as ExtraLectureRepo <<persistence>>
+database "TeacherRepository" as TeacherRepo <<persistence>>
+database "LectureRepository" as LectureRepo <<persistence>>
+
+S->UI : create lecture
+activate UI
+UI->FindTeacherSer : get logged teacher
+deactivate UI
+activate FindTeacherSer
+FindTeacherSer->TeacherRepo : find teacher by username
+deactivate FindTeacherSer
+activate TeacherRepo
+TeacherRepo-->FindTeacherSer : teacher
+deactivate TeacherRepo
+activate FindTeacherSer
+FindTeacherSer-->UI : teacher
+deactivate FindTeacherSer
+activate UI
+UI->ListExtraClasses : get extra lectures of teacher
+deactivate UI
+activate ListExtraClasses
+ListExtraClasses->ExtraLectureRepo : get extra lectures of teacher
+deactivate ListExtraClasses
+activate ExtraLectureRepo
+ExtraLectureRepo-->ListExtraClasses : return extra lectures of teacher
+deactivate ExtraLectureRepo
+activate ListExtraClasses
+ListExtraClasses-->UI : return extra lectures of teacher
+deactivate ListExtraClasses
+activate UI
+UI->FindCourse : get course by course code
+deactivate UI
+activate FindCourse
+FindCourse->CourseRepo : find course by course code
+deactivate FindCourse
+activate CourseRepo
+CourseRepo-->FindCourse : return course
+deactivate CourseRepo
+activate FindCourse
+FindCourse-->UI : course
+deactivate FindCourse
+activate UI
+UI->ValidateCaller : validate if extra classes won't collide with lecture
+deactivate UI
+activate ValidateCaller
+ValidateCaller->Validate : validate if extra classes won't collide with lecture
+deactivate ValidateCaller
+activate Validate
+Validate-->ValidateCaller : return true if extra classes won't collide with lecture
+deactivate Validate
+activate ValidateCaller
+ValidateCaller-->UI : return true if extra classes won't collide with lecture
+deactivate ValidateCaller
+activate UI
+UI->CheckMeetingColl : validate if meetings won't collide with lecture
+deactivate UI
+activate CheckMeetingColl
+CheckMeetingColl->CheckAvailability : validate if meetings won't collide with lecture
+deactivate CheckMeetingColl
+activate CheckAvailability
+CheckAvailability-->MeetingPartRepo : get meetings of teacher
+deactivate CheckAvailability
+activate MeetingPartRepo
+MeetingPartRepo-->CheckAvailability : return meetings of teacher
+deactivate MeetingPartRepo
+activate CheckAvailability
+CheckAvailability-->LectureInDayAndHour : checks if meetings won't collide with lecture
+deactivate CheckAvailability
+activate LectureInDayAndHour
+LectureInDayAndHour-->CheckAvailability : return true if meetings won't collide with lecture
+deactivate LectureInDayAndHour
+activate CheckAvailability
+CheckAvailability-->CheckMeetingColl : return true if meetings won't collide with lecture
+deactivate CheckAvailability
+activate CheckMeetingColl
+CheckMeetingColl-->UI : return true if meetings won't collide with lecture
+deactivate CheckMeetingColl
+activate UI
+UI->CollisionLectureCaller : validate if other lectures of course won't collide with lecture
+deactivate UI
+activate CollisionLectureCaller
+CollisionLectureCaller->FindCourse : get course by course code
+deactivate CollisionLectureCaller
+activate FindCourse
+FindCourse->CollisionLectureCaller : return course
+deactivate FindCourse
+activate CollisionLectureCaller
+CollisionLectureCaller->CollisionLecture : validate if other lectures of course won't collide with lecture
+deactivate CollisionLectureCaller
+activate CollisionLecture
+CollisionLecture-->CollisionLectureCaller : return true if other lectures of course won't collide with lecture
+deactivate CollisionLecture
+activate CollisionLectureCaller
+CollisionLectureCaller-->UI : return true if other lectures of course won't collide with lecture
+deactivate CollisionLectureCaller
+activate UI
+UI->Cntrl : create lecture
+deactivate UI
+activate Cntrl
+Cntrl->Factory : create lecture
+deactivate Cntrl
+activate Factory
+Factory->Lecture : create lecture
+deactivate Factory
+activate Lecture
+Lecture-->Factory : return the lecture
+deactivate Lecture
+activate Factory
+Factory-->Cntrl : return the lecture
+deactivate Factory
+activate Cntrl
+Cntrl->LectureRepo : save lecture
+deactivate Cntrl
+activate LectureRepo
+LectureRepo-->Cntrl : return saved lecture
+deactivate LectureRepo
+activate Cntrl
+Cntrl->UI : return saved lecture
+deactivate Cntrl
+activate UI
+UI->S : shows message of success or failure creation of lecture
+deactivate UI
+@enduml

@@ -1,0 +1,73 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor Administrator as admin
+participant SetEnrollmentStateUI as ui <<presentation>>
+participant ListCoursesController as lc_ctrl <<application>>
+participant SetCourseEnrollmentState as sce_ctrl <<application>>
+participant AuthorizationService as authz <<service>>
+participant SetCourseEnrollmentStateService as svc <<service>>
+'participant JpaCourseRepository as jpa <<persistence>>
+database CourseRepository as repo <<persistence>>
+participant Course as course <<domain>>
+
+activate admin
+
+admin -> ui : asks to open/close a course enrollment
+
+ui -> lc_ctrl : creates
+activate lc_ctrl
+lc_ctrl -> repo : repositories()
+lc_ctrl -> authz : authorizationService()
+deactivate lc_ctrl
+ui -> lc_ctrl : allCourses()
+activate lc_ctrl
+lc_ctrl -> authz : ensureAuthenticatedUserHasAnyOf(ADMINISTRATOR, POWER_USER)
+alt user has insufficient privileges
+    authz -> lc_ctrl : Insufficient Privileges
+    lc_ctrl --> ui : Insufficient Privileges
+    ui --> admin : Insufficient Privileges
+else user has sufficient privileges
+    authz -> lc_ctrl : Sufficient Privileges
+end
+    lc_ctrl -> repo : findAllCourses()
+    lc_ctrl -> ui : List<CourseDTO>
+deactivate lc_ctrl
+
+
+activate ui
+ui --> admin : shows course list and requests to select one course
+deactivate ui
+
+admin -> ui : selects a course
+activate ui
+ui --> admin : requests to select a course enrollment state
+deactivate ui
+
+admin -> ui : selects a course enrollment state
+activate ui
+
+ui -> sce_ctrl : setCourseEnrollmentStateTo(selectedCourse, selectedState)
+activate sce_ctrl
+
+sce_ctrl -> repo : findCourseByCode(courseCode)
+activate repo
+repo -> sce_ctrl : theCourse
+deactivate repo
+sce_ctrl -> svc : setCourseEnrollmentState(theCourse, state)
+activate svc
+svc -> repo : setCourseEnrollmentState(theCourse, state)
+activate repo
+repo -> course : updateCourseEnrollmentStateTo(state)
+
+deactivate repo
+deactivate svc
+deactivate sce_ctrl
+
+ui --> admin : presents the course with the changed state
+deactivate ui
+
+deactivate admin
+@enduml

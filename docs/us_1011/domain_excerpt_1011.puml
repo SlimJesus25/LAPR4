@@ -1,0 +1,94 @@
+@startuml DDD
+
+!theme crt-green
+skinparam nodesep 150
+hide empty members
+left to right direction
+package "<<agr Teacher>>"{
+
+    class Teacher<<entity>><<root>>{}
+    class Acronym<<vo>>{}
+    class TaxPayerNumber<<vo>>{}
+    class DateOfBirth<<vo>>{}
+
+
+    Teacher -down-> "1" Acronym
+    Teacher --> "1" DateOfBirth
+    Teacher --> "1" TaxPayerNumber
+}
+package "<<agr Student>>"{
+
+    class Student<<entity>><<root>>{}
+    class MechanographicalNumber<<vo>>{}
+    class StudentTaxPayerNumber<<vo>>{}
+    class StudentDateOfBirth<<vo>>{}
+
+    Student --> "1" MechanographicalNumber
+
+    'Student <-- "*" Lecture : participates
+    Student --> "1" StudentDateOfBirth
+    Student --> "1" StudentTaxPayerNumber
+}
+package "<<agr Course>>"{
+    class Course<<entity>><<root>>{}
+    class Code <<vo>>
+    class Description<<vo>>{}
+    class Title<<vo>>{}
+    class State<<vo>><<enum>>{}
+
+    Course  --> "1" State
+    Course  -down-> "1" Title
+    Course  -down-> "1" Description
+    Course  -down-> "1" Code
+    Course --> "*" Teacher : is ruled by
+}
+package "<<agr ExtraLecture>>"{
+    class ExtraLecture<<entity>><<root>>{}
+    class ExtraLectureDayNTime<<vo>>{}
+    class ExtraLectureType<<vo>><<enum>>{}
+
+    ExtraLecture --> "1" ExtraLectureDayNTime
+    ExtraLecture --> "1" Teacher : instructed by
+    ExtraLecture --> "1" Course : is associated to
+    ExtraLecture --> "1" ExtraLectureType
+}
+
+
+
+
+package "<<agr CourseEnrollment>>"{
+    class CourseEnrollment <<entity>><<root>>{}
+    class StudentEnrollmentState <<vo>><<enum>>{}
+    class CourseEnrollmentDate <<vo>>{}
+    CourseEnrollment --> "1" Course : applied to
+    CourseEnrollment --> "1" StudentEnrollmentState
+    CourseEnrollment --> "1" CourseEnrollmentDate
+    Student "1" <-- CourseEnrollment: applies to
+}
+
+package "<<agr TeamElement>>"{
+    class TeamElement <<entity>><<root>>{}
+    class AdhesionDate <<vo>>{}
+    TeamElement --> "1" AdhesionDate
+    TeamElement --> "1" Course
+    TeamElement --> "1" Teacher
+}
+package "<<agr Lecture>>"{
+    class Lecture<<entity>><<root>>{}
+    class InitalDate<<vo>>{}
+    class FinalDate<<vo>>{}
+    class WeekDay<<vo>>{}
+    class InitalTime<<vo>>{}
+    class FinalTime<<vo>>{}
+    class LectureType<<vo>><<enum>>{}
+
+    Lecture --> "1" InitalDate
+    Lecture --> "1" FinalDate
+    Lecture --> "1" WeekDay
+    Lecture --> "1" InitalTime
+    Lecture --> "1" FinalTime
+    Lecture --> "1" Course : is associated to
+    Lecture --> "1" Teacher: instructed by
+    Lecture --> "1" LectureType
+}
+@enduml

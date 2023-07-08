@@ -1,0 +1,44 @@
+@startuml
+
+!theme crt-green
+class UndoLastChangePostItUI {
+  <<presentation>>
+}
+
+class ListWritableSharedBoardsService {
+  <<application>>
+}
+
+class SendRequestService {
+  <<application>>
+}
+
+class Server {
+  <<server>>
+}
+
+class UndoChangeController {
+  <<application>>
+}
+
+class SharedBoard {
+  <<domain>>
+}
+
+class SharedBoardParticipationRepository {
+  <<database>>
+}
+
+UndoLastChangePostItUI --> ListWritableSharedBoardsService : uses
+ListWritableSharedBoardsService --> SharedBoardParticipationRepository : uses
+UndoLastChangePostItUI --> SendRequestService : uses
+SendRequestService --> Server : uses
+Server --> UndoChangeController : uses
+UndoChangeController --> SharedBoard : uses
+UndoChangeController --> SharedBoard : calls
+UndoChangeController --> Server : returns
+SendRequestService --> UndoLastChangePostItUI : returns
+ListWritableSharedBoardsService --> UndoLastChangePostItUI : returns
+SharedBoardParticipationRepository --> ListWritableSharedBoardsService : returns
+
+@enduml

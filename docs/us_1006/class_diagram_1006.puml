@@ -1,0 +1,20 @@
+@startuml
+
+
+package "<<agr Course>>"{
+    class Course<<entity>><<root>>{}
+    class CourseCode <<vo>>
+    class CourseDescription<<vo>>{}
+    class CourseTitle<<vo>>{}
+    enum CourseState<<vo>>{
+       OPEN
+       CLOSE
+    }
+
+    Course --> "1" CourseState
+    Course -down-> "1" CourseTitle
+    Course -down-> "1" CourseDescription
+    Course -down-> "1" CourseCode
+}
+
+@enduml

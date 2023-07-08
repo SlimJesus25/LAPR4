@@ -1,0 +1,61 @@
+@startuml
+
+title  Get and Show Teacher Schedule
+autonumber
+
+actor Student as S
+participant "CreateExtraLectureUI" as UI <<presentation>>
+participant "ListTeacherAppliedCoursesService" as ListTeacherCourses <<application>>
+participant "GetTeacherScheduleService" as GetSchedule <<application>>
+database "TeacherRepository" as TeacherRepo <<persistence>>
+database "TeamElementRepository" as TeamElemRepo <<persistence>>
+database "LectureRepository" as LectureRepo <<persistence>>
+
+S -> UI : wishes to create lecture
+activate UI
+UI -> ListTeacherCourses : get teacher's courses
+deactivate UI
+activate ListTeacherCourses
+ListTeacherCourses -> TeacherRepo : get logged teacher
+deactivate ListTeacherCourses
+activate TeacherRepo
+TeacherRepo -> ListTeacherCourses : return teacher
+deactivate TeacherRepo
+activate ListTeacherCourses
+ListTeacherCourses -> TeamElemRepo : get logged teacher's courses
+deactivate ListTeacherCourses
+activate TeamElemRepo
+TeamElemRepo -> ListTeacherCourses : return teacher's courses
+deactivate TeamElemRepo
+activate ListTeacherCourses
+ListTeacherCourses -> UI : return teacher's courses
+deactivate ListTeacherCourses
+activate UI
+UI-> S : asks for course of lecture
+deactivate UI
+activate S
+S -> UI : selects course
+deactivate S
+activate UI
+UI -> GetSchedule : get teacher's lectures
+deactivate UI
+activate GetSchedule
+GetSchedule -> TeacherRepo : get logged teacher
+deactivate GetSchedule
+activate TeacherRepo
+TeacherRepo -> GetSchedule : return teacher
+deactivate TeacherRepo
+activate GetSchedule
+GetSchedule -> LectureRepo : get logged teacher's lectures
+deactivate GetSchedule
+activate LectureRepo
+LectureRepo -> GetSchedule : return teacher's lectures
+deactivate LectureRepo
+activate GetSchedule
+GetSchedule -> UI : return teacher's lectures
+deactivate GetSchedule
+activate UI
+UI->S : shows schedule
+deactivate UI
+
+@enduml

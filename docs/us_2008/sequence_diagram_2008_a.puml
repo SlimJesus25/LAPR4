@@ -1,0 +1,115 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+participant Teacher as teacher
+participant CreateUpdateAutomaticFormativeExamUI as ui <<presentation>>
+
+participant CreateUpdateAutomaticFormativeExamController as ctrl <<application>>
+participant ListTeacherCoursesService as listsvc <<application>>
+participant FormativeExamParserService as antlr <<domain>>
+participant UpdateFormativeExamParserService as antlr2 <<domain>>
+participant CreateAutomaticFormativeExamService as svc <<service>>
+database ExamRepository as repo <<persistence>>
+participant SectionFactory as section_fac <<factory>>
+participant ExamSection as section <<domain>>
+participant ExamFactory as exam_fac <<factory>>
+participant Exam as exam <<domain>>
+database SectionRepository as sec_repo <<persistence>>
+database TeamElement as ter_repo <<persistence>>
+activate teacher
+alt user decides to create the formative exam
+    teacher -> ui : asks to create a formative exam
+    activate ui
+    ui -> ctrl : listTeacherCourses()
+    activate ctrl
+    note right
+    The user is obtained through session.
+    end note
+    ctrl -> listsvc : listTeacherCourses(user)
+    activate listsvc
+    listsvc -> ter_repo : listTeacherCourses(user)
+    activate ter_repo
+    ter_repo --> listsvc
+    deactivate ter_repo
+    listsvc --> ctrl
+    deactivate listsvc
+    ctrl --> ui
+
+    deactivate ctrl
+    ui --> teacher : asks to select a course
+    deactivate ui
+    teacher -> ui : selects a course
+    activate ui
+
+end
+
+ui --> teacher : asks for path to the file
+deactivate ui
+teacher -> ui : inserts path to the exam
+activate ui
+alt user wants to create
+ui -> ctrl : ExamDTO exam = createFormativeExam(path, course)
+activate ctrl
+ctrl -> antlr : acceeds to an external module (ANTLR) to evaluate the exam structure and retrieve the relevant information about the exam
+activate antlr
+antlr --> ctrl : shows the success of the analysis and return values
+deactivate antlr
+else user wants to update
+ui -> ctrl : ExamDTO exam = updateFormativeExam(path, course)
+ctrl -> antlr2 : acceeds to an external module (ANTLR) to evaluate the file structure
+activate antlr2
+antlr2 -> repo : Exam exam = findExamByTitle(examTitle) or else throws IllegalArgumentException
+activate repo
+repo --> antlr2
+deactivate repo
+antlr2 --> ctrl
+deactivate antlr2
+end alt
+ctrl -> svc : Exam theExam = createAutomaticFormativeExam(path, course)
+activate svc
+svc -> repo : List<ExamQuestion> questions = listQuestionsByTypeAndCourse(String courseCode, HashSet<ExamQuestionType> questionType)
+activate repo
+repo --> svc : List<ExamQuestion> questions
+deactivate repo
+loop each item of sectionNQuestionTypes
+loop each item of sectionNquestionTypes.values()
+svc -> svc : question = questions.findAny().filter(e -> e.questionType() == iterationQuestionType())
+alt there isn't any question with the required type of question
+svc --> svc : throws IllegalArgumentException
+end
+end loop
+svc -> section_fac : ExamSection section = SectionFactory.createSection(String section, Set<ExamQuestion> questionTypes)
+activate section_fac
+section_fac -> section : Section(section, questionTypes)
+activate section
+section --> section_fac : ExamSection section
+deactivate section
+section_fac --> svc : ExamSection section
+deactivate section_fac
+end loop
+loop for each section
+svc -> sec_repo : save(section)
+end loop
+svc -> exam_fac : createExam(title, header, sections, course)
+activate exam_fac
+exam_fac -> exam : Exam(title, header, sections, course)
+activate exam
+exam --> exam_fac :
+deactivate exam
+exam_fac --> svc :
+deactivate exam_fac
+svc -> repo : save(exam)
+activate repo
+repo --> svc :
+deactivate repo
+svc --> ctrl :
+deactivate svc
+ctrl --> ui : ExamDTO exam
+deactivate ctrl
+ui --> teacher : presents the success of the operation and shows the final aspect of the formative exam generated
+deactivate ui
+deactivate teacher
+
+@enduml

@@ -1,0 +1,60 @@
+@startuml
+
+class AddCourseUI {
+  +requestInputData()
+  +showTeacherList()
+  +selectTeacher()
+  +presentOperationResult()
+}
+
+class ListTeacherService {
+  +listTeachers()
+}
+
+class CreateCourseController {
+  +createCourse()
+}
+
+class FindTeacherByAcronymService {
+  +findTeacherByAcronym()
+}
+
+class AuthorizationService {
+  +ensureAuthenticatedUserHasAnyOf()
+}
+
+class Course {
+  -code
+  -title
+  -description
+  -regent
+  +create()
+}
+
+class CourseRepository {
+  +repositories()
+  +save(course)
+}
+
+class TeacherRepository {
+  +repositories()
+  +findAll()
+  +findTeacherByAcronym(acronym)
+}
+
+AddCourseUI ..> ListTeacherService : Uses
+AddCourseUI ..> CreateCourseController : Uses
+AddCourseUI ..> FindTeacherByAcronymService : Uses
+CreateCourseController --> FindTeacherByAcronymService : Finds teacher by acronym
+CreateCourseController --> Course : Creates course
+CreateCourseController --> CourseRepository : Saves course
+CreateCourseController --> AddCourseUI : Returns new course
+ListTeacherService ..> AuthorizationService : Uses
+ListTeacherService --> TeacherRepository : Retrieves teacher list
+ListTeacherService --> AddCourseUI : Returns teacher list
+FindTeacherByAcronymService ..> AuthorizationService : Uses
+FindTeacherByAcronymService --> TeacherRepository : Retrieves teacher by acronym
+FindTeacherByAcronymService --> CreateCourseController : Returns teacher
+Course --> CourseRepository : Persists course
+
+@enduml
